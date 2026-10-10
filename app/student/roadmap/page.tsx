@@ -302,10 +302,10 @@ export default function RoadmapPage() {
   const futureCount = result.futureCurriculumCoverage.length;
 
   return (
-    <div className="flex gap-0 min-h-screen">
-      {/* ── Main Stage: S-Curve Path ── */}
-      <div className="flex-1 overflow-y-auto px-6 py-8 max-w-2xl">
-        <div className="mb-6">
+    <div className="flex w-full min-h-[calc(100vh-105px)]">
+      {/* ── Main Stage: S-Curve Path (Expands across available screen width) ── */}
+      <div className="flex-1 overflow-y-auto px-6 lg:px-12 py-8 flex flex-col items-center">
+        <div className="w-full max-w-2xl mb-6">
           <h1 className="text-2xl font-extrabold text-[#0F172A] mb-1">Your Learning Roadmap</h1>
           <p className="text-[#64748B] text-sm">
             Tap any milestone to inspect skill details and curated learning resources.
@@ -326,7 +326,7 @@ export default function RoadmapPage() {
         </div>
 
         {/* S-Curve Nodes */}
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 w-full max-w-2xl">
           {result.roadmapNodes.map((node, idx) => {
             if (!node.skill) return null;
             return (
@@ -369,8 +369,8 @@ export default function RoadmapPage() {
         </div>
       </div>
 
-      {/* ── Right Sticky Rail: Alignment KPIs ── */}
-      <div className="hidden lg:flex flex-col w-72 border-l-2 border-[#E2E8F0] bg-white sticky top-0 h-screen overflow-y-auto p-5 gap-5">
+      {/* ── Right Sticky Rail: Alignment KPIs (Anchored to right edge, full width on right) ── */}
+      <div className="w-80 xl:w-96 shrink-0 border-l-2 border-[#E2E8F0] bg-white sticky top-0 h-[calc(100vh-105px)] overflow-y-auto p-6 flex flex-col gap-5">
         {/* Role title */}
         <div>
           <p className="text-xs text-[#64748B] font-semibold uppercase tracking-wide mb-1">Career Target</p>

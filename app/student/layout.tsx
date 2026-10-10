@@ -24,18 +24,10 @@ export default function StudentLayout({ children }: { children: React.ReactNode 
 
   return (
     <div className="min-h-screen bg-surface-bg flex flex-col">
-      {/* Disclaimer */}
-      <div className="w-full bg-amber-50 border-b border-amber-200 px-4 py-1.5 no-print">
-        <div className="max-w-6xl mx-auto flex items-center gap-2 text-amber-800 text-xs font-medium">
-          <FlaskConical size={12} />
-          <span><strong>Illustrative Prototype</strong> — Mock data only. No live backend.</span>
-          <AlertTriangle size={12} className="ml-auto" />
-        </div>
-      </div>
 
       {/* Header */}
       <header className="bg-white border-b-2 border-[#E2E8F0] px-6 py-3 no-print">
-        <div className="max-w-6xl mx-auto flex items-center gap-4">
+        <div className="max-w-7xl mx-auto flex items-center gap-4">
           {/* Back to home */}
           <Link
             href="/"
@@ -87,7 +79,7 @@ export default function StudentLayout({ children }: { children: React.ReactNode 
         </div>
 
         {/* Step progress bar */}
-        <div className="max-w-6xl mx-auto mt-3 flex items-center gap-2">
+        <div className="max-w-7xl mx-auto mt-3 flex items-center gap-2">
           {steps.map((step, idx) => {
             const isActive = pathname === step.href;
             const isPast = steps.findIndex(s => s.href === pathname) > idx;

@@ -20,17 +20,6 @@ export default function FacultyLayout({ children }: { children: React.ReactNode 
 
   return (
     <div className="min-h-screen bg-surface-bg flex flex-col">
-      {/* Disclaimer */}
-      <div className="w-full bg-amber-50 border-b border-amber-200 px-4 py-1.5 no-print">
-        <div className="max-w-7xl mx-auto flex items-center gap-2 text-amber-800 text-xs font-medium">
-          <FlaskConical size={12} />
-          <span>
-            <strong>Illustrative Prototype / Mock Data</strong> — Curriculum alignment metrics are
-            computed from curated fixture data. Not connected to any live job posting database or ML pipeline.
-          </span>
-          <AlertTriangle size={12} className="ml-auto shrink-0" />
-        </div>
-      </div>
 
       {/* Top Navigation */}
       <header className="bg-white border-b-2 border-[#E2E8F0] px-6 py-0 no-print">

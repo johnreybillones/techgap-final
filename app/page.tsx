@@ -39,17 +39,6 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-surface-bg flex flex-col">
-      {/* Disclaimer Banner */}
-      <div className="w-full bg-amber-50 border-b border-amber-200 px-4 py-2">
-        <div className="max-w-5xl mx-auto flex items-center gap-2 text-amber-800 text-xs font-medium">
-          <FlaskConical size={13} className="shrink-0" />
-          <span>
-            <strong>Illustrative Prototype / Mock Data</strong> — Curated fixture data (Q3 2026 snapshot, N=182).
-            For demonstration and academic review purposes only. No live database or ML model connected.
-          </span>
-          <AlertTriangle size={13} className="shrink-0 ml-auto text-amber-600" />
-        </div>
-      </div>
 
       {/* Header */}
       <header className="bg-white border-b-2 border-[#E2E8F0] px-6 py-4">
