@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Plus Jakarta Sans loaded via next/font/google in layout.tsx ── */
+
+/* ── Global resets ─────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── 3D Push Button ─────────────────────────────────────────────── */
+.btn-3d {
+  @apply inline-flex items-center justify-center gap-2 font-bold rounded-xl
+         transition-all duration-150 cursor-pointer select-none;
+  box-shadow: 0 4px 0 #00502E;
+}
+
+.btn-3d:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #00502E;
+}
+
+.btn-3d-primary {
+  @apply btn-3d bg-[#007041] text-white hover:bg-[#006438];
+}
+
+.btn-3d-outline {
+  @apply btn-3d bg-white text-[#007041] border-2 border-[#007041];
+  box-shadow: 0 4px 0 #007041;
+}
+
+.btn-3d-outline:active {
+  box-shadow: 0 1px 0 #007041;
+}
+
+.btn-3d-blue {
+  @apply btn-3d bg-[#0284C7] text-white hover:bg-[#0369A1];
+  box-shadow: 0 4px 0 #075985;
+}
+
+.btn-3d-blue:active {
+  box-shadow: 0 1px 0 #075985;
+}
+
+.btn-3d-amber {
+  @apply btn-3d bg-[#D97706] text-white hover:bg-[#B45309];
+  box-shadow: 0 4px 0 #92400E;
+}
+
+.btn-3d-amber:active {
+  box-shadow: 0 1px 0 #92400E;
+}
+
+.btn-sm { @apply px-4 py-2 text-sm; }
+.btn-md { @apply px-6 py-3 text-base; }
+.btn-lg { @apply px-8 py-4 text-lg; }
+
+/* ── Card ───────────────────────────────────────────────────────── */
+.card {
+  @apply bg-white border-2 border-[#E2E8F0] rounded-2xl;
+}
+
+.card-hover {
+  @apply card transition-all duration-200 hover:border-[#007041] hover:shadow-md cursor-pointer;
+}
+
+/* ── Disclaimer / Status Badges ─────────────────────────────────── */
+.badge-mock {
+  @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold
+         bg-amber-50 text-amber-800 border border-amber-200;
+}
+
+.badge-green {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold
+         bg-[#F0FDF4] text-[#007041] border border-[#A7F3D0];
+}
+
+.badge-blue {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold
+         bg-sky-50 text-[#0284C7] border border-sky-200;
+}
+
+.badge-amber {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold
+         bg-amber-50 text-amber-700 border border-amber-200;
+}
+
+.badge-slate {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold
+         bg-slate-100 text-slate-600 border border-slate-200;
+}
+
+.badge-red {
+  @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold
+         bg-red-50 text-red-700 border border-red-200;
+}
+
+/* ── Skill Drawer ────────────────────────────────────────────────── */
+.skill-drawer {
+  @apply fixed right-0 top-0 h-full w-full max-w-md bg-white shadow-2xl z-50
+         border-l-2 border-[#E2E8F0] overflow-y-auto;
+  animation: slide-in-right 0.3s ease-out forwards;
+}
+
+.skill-drawer-overlay {
+  @apply fixed inset-0 bg-black/30 z-40;
+}
+
+/* ── Milestone Node ─────────────────────────────────────────────── */
+.milestone-node {
+  @apply relative flex items-center justify-center rounded-full
+         font-bold text-center transition-all duration-200 cursor-pointer select-none;
+}
+
+.milestone-node-completed {
+  @apply milestone-node bg-[#007041] text-white;
+  box-shadow: 0 6px 0 #00502E, 0 8px 12px rgba(0, 112, 65, 0.3);
+}
+
+.milestone-node-completed:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #00502E, 0 2px 6px rgba(0, 112, 65, 0.2);
+}
+
+.milestone-node-current {
+  @apply milestone-node bg-[#0284C7] text-white;
+  box-shadow: 0 6px 0 #075985, 0 8px 20px rgba(2, 132, 199, 0.35);
+}
+
+.milestone-node-current:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 #075985;
+}
+
+.milestone-node-gap {
+  @apply milestone-node bg-slate-200 text-slate-500 border-2 border-slate-300;
+  box-shadow: 0 4px 0 #CBD5E1;
+}
+
+.milestone-node-gap:active {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 #CBD5E1;
+}
+
+/* Radar pulse ring for current node */
+.radar-ring {
+  @apply absolute rounded-full border-2 border-sky-300 opacity-0;
+  animation: radar-pulse 2s ease-in-out infinite;
+}
+
+/* ── Progress Bar ────────────────────────────────────────────────── */
+.progress-track {
+  @apply h-3 bg-slate-100 rounded-full overflow-hidden border border-slate-200;
+}
+
+.progress-fill {
+  @apply h-full rounded-full transition-all duration-700 ease-out;
+  background: linear-gradient(90deg, #007041, #34D399);
+}
+
+/* ── Shimmer Loading ─────────────────────────────────────────────── */
+.shimmer {
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}
+
+/* ── Print Styles ────────────────────────────────────────────────── */
+@media print {
+  nav,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    font-size: 11pt;
+    color: #000 !important;
+  }
+
+  .print-card {
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  h1, h2, h3 {
+    color: #000 !important;
+  }
+}
+
+/* ── Focus ring (accessibility) ──────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid #007041;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
