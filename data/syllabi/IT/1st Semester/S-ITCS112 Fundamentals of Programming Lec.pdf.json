@@ -1,0 +1,153 @@
+{
+  "source": {
+    "filename": "S-ITCS112 Fundamentals of Programming Lec.pdf",
+    "sha256": "79a29a2e9b8eb918b2c40bdfb52cff0dba31467b085e69f7df85c942215b7574",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-ITCS112",
+  "course_title": "Fundamentals of Programming",
+  "course_type": "Lecture",
+  "course_credit": "2 units",
+  "prerequisites": "none",
+  "corequisites": "S-ITCS112LA Fundamentals of Programming Lab",
+  "course_description": "Introduces programming with emphasis on algorithmic and fundamentals programming of concepts. This also includes software development methodology, data types, control structures, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy. The course will look at solving problems using structured- programming approach. This class shall be delivered in both online and offline/module-based approach. This course is also 1 compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand software methodology, algorithms, and flowchart."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create algorithms and flowcharts for solving a given problem"
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand common computer programming concepts."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Discuss software methodology, algorithms, and flowchart"
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss flowcharting symbols and their uses"
+        },
+        {
+          "id": "TLO3",
+          "text": "Draw and simulate flowcharts"
+        },
+        {
+          "id": "TLO4",
+          "text": "Translate algorithms to flowcharts"
+        },
+        {
+          "id": "TLO5",
+          "text": "Write algorithms for solving given problems as part of software development process."
+        },
+        {
+          "id": "TLO6",
+          "text": "Learn syntax and semantics of Java programming language."
+        },
+        {
+          "id": "TLO7",
+          "text": "Understand identifiers, keywords, and operators in Java."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain I/O Statements"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Analyze and evaluate prewritten programs"
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop programs to solve varieties of programming problems."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Debug and modify programs"
+        },
+        {
+          "id": "TLO11",
+          "text": "Trace the output of the program"
+        },
+        {
+          "id": "TLO12",
+          "text": "Write Java programs using the different Selection Structures."
+        },
+        {
+          "id": "TLO13",
+          "text": "Write programs using Java’s Repetition Structure."
+        },
+        {
+          "id": "TLO14",
+          "text": "Perform basic manipulation with arrays Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Final: learning-plan CLO not found in main CLO list"
+  ]
+}

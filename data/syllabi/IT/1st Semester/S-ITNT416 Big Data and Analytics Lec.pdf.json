@@ -1,0 +1,195 @@
+{
+  "source": {
+    "filename": "S-ITNT416 Big Data and Analytics Lec.pdf",
+    "sha256": "52e8672a409c5be9cc0b0d0be57eabf8652de12b9e54e4fb9b4ea311a90caf14",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITNT416",
+  "course_title": "Big Data And Analytics",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "S-ITNT344LC",
+  "corequisites": "S-ITNT416LA",
+  "course_description": "Provides students with an overview of the current trends in information technology that drives today’s business. The course provides understanding on data management techniques that can help an organization achieve its business goals and address operational challenges. This also introduces different tools and methods used in business analytics to provide the students with opportunities to apply these techniques in simulations in a computer laboratory.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Explain the characteristics of Big Data."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the role and importance of each type of analytics in deriving insights from Big Data. 1"
+    },
+    {
+      "id": "CLO3",
+      "text": "Create data visualizations and dashboards to communicate analytical results effectively."
+    },
+    {
+      "id": "CLO4",
+      "text": "Analyze datasets using machine learning algorithms and tools to extract meaningful insights."
+    },
+    {
+      "id": "CLO5",
+      "text": "Explain the purpose and activities involved in each stage of the life cycle."
+    },
+    {
+      "id": "CLO6",
+      "text": "Assess the impact of data governance and ethical considerations on Big Data projects."
+    },
+    {
+      "id": "CLO7",
+      "text": "Explain how the trends are shaping the future of Big Data and analytics."
+    },
+    {
+      "id": "CLO8",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the characteristics of Big Data."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the role and importance of each type of analytics in deriving insights from Big Data."
+        },
+        {
+          "id": "CLO3",
+          "text": "Create data visualizations and dashboards to communicate analytical results effectively."
+        },
+        {
+          "id": "CLO4",
+          "text": "Analyze datasets using machine learning algorithms and tools to extract meaningful insights."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define Big Data and its characteristics."
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss how the characteristics impact the processing of Big Data."
+        },
+        {
+          "id": "TLO3",
+          "text": "Define and differentiate descriptive, diagnostic, predictive, and prescriptive analytics."
+        },
+        {
+          "id": "TLO4",
+          "text": "Understand the role of each type of analytics."
+        },
+        {
+          "id": "TLO5",
+          "text": "Demonstrate proficiency in using data visualization tools."
+        },
+        {
+          "id": "TLO6",
+          "text": "Design clear and informative visualizations that accurately represent data insights."
+        },
+        {
+          "id": "TLO7",
+          "text": "Preprocess datasets by cleaning, normalizing, and transforming data to be suitable for machine learning models."
+        },
+        {
+          "id": "TLO8",
+          "text": "Demonstrate the practical application of machine learning models to derive actionable insights from various datasets."
+        },
+        {
+          "id": "TLO13",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Explain the purpose and activities involved in each stage of the life cycle."
+        },
+        {
+          "id": "CLO6",
+          "text": "Assess the impact of data governance and ethical considerations on Big Data projects."
+        },
+        {
+          "id": "CLO7",
+          "text": "Explain how the trends are shaping the future of Big Data and analytics."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Describe the stages of the Big Data analytics life cycle, including data collection, processing, analysis, and visualization."
+        },
+        {
+          "id": "TLO10",
+          "text": "Define ethical issues related to Big Data, including data privacy, consent, transparency, and bias."
+        },
+        {
+          "id": "TLO11",
+          "text": "Analyze how data governance and ethical practices influence the success and reliability of Big Data projects."
+        },
+        {
+          "id": "TLO12",
+          "text": "Identify the challenges and potential risks associated with adopting new trends in Big Data and analytics."
+        },
+        {
+          "id": "TLO13",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

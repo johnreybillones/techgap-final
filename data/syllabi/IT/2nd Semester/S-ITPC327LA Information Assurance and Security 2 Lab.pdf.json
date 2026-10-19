@@ -1,0 +1,164 @@
+{
+  "source": {
+    "filename": "S-ITPC327LA Information Assurance and Security 2 Lab.pdf",
+    "sha256": "bdbf5b576741f1597a2e20024b93e368295d14dba0ac9b898b7476ba17151a44",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC327LC",
+  "course_title": "Information Assurance and Security 2",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": "S-ITCS318, S-ITCS318LA",
+  "corequisites": "S-ITPC327 Lab",
+  "course_description": "This course Covers the integration of confidentiality, integrity and availability into an organization’s security program through the use of physical and logical security controls. Topics include data protection, telecommunications systems, application and emerging technologies. Moreover, this course will introduce you to enterprise systems and show how organizations use enterprise systems to run their operations more efficiently and effectively. The course will inspect typical Enterprise Systems modules: materials management (MM), sales and delivery, and financial accounting. Real-time enterprise system will be utilized to integrate business transactions along and between processes, leading to benefits such as efficient and error-free workflows plus accounting, management reporting and improved decision- making. By using exercises at the end of each module, students can put their knowledge into practice and gain a sustainable understanding of the underlying processes.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the use of Enterprise software, and its role in integrating business functions CLO2. explain the scope of common Enterprise Systems (e.g., MM, SCM, CRM, HRM, procurement);"
+    },
+    {
+      "id": "CLO3",
+      "text": "understand and gain insight into process views of organizations and tools and techniques used to model both as-is and to-be models;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply key technical terminology in enterprise information systems as they apply in different ERP products and development methods;"
+    },
+    {
+      "id": "CLO5",
+      "text": "use one of the popular ERP packages to support business operations and decision-making,"
+    },
+    {
+      "id": "CLO6",
+      "text": "examine the basic issues in Enterprise Systems; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "create master records to be used in different modules of the Enterprise system including sales and deliver, materials management and finance."
+    },
+    {
+      "id": "CLO8",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the use of Enterprise software, and its role in integrating business functions"
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the scope of common Enterprise Systems (e.g., MM, SCM, CRM, HRM, procurement),"
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand and gain insight into process views of organizations and tools and techniques used to model both as-is and to-be models"
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply key technical terminology in enterprise information systems as they apply in different ERP products and development methods"
+        },
+        {
+          "id": "CLO5",
+          "text": "Use one of the popular ERP packages to support business operations and decision making,"
+        },
+        {
+          "id": "CLO6",
+          "text": "Create master records to be used in different modules of the Enterprise system including sales and deliver, materials management and finance."
+        },
+        {
+          "id": "CLO7",
+          "text": "Use one of the popular ERP packages to support business operations and decision- making,"
+        },
+        {
+          "id": "CLO8",
+          "text": "Create master records to be used in different modules of the Enterprise system including sales and deliver, materials management and finance."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe the SAP vision of the Intelligent Enterprise."
+        },
+        {
+          "id": "TLO2",
+          "text": "Be able explain the basic concepts of an Enterprise Resource Planning solution based on the SAP S/4HANA system."
+        },
+        {
+          "id": "TLO3",
+          "text": "List the business processes of the Global Bike Group."
+        },
+        {
+          "id": "TLO4",
+          "text": "Understand an integrated order-to-cash cycle"
+        },
+        {
+          "id": "TLO5",
+          "text": "Define the central organizational structures of the FI module."
+        },
+        {
+          "id": "TLO6",
+          "text": "Summarize the master data which is most important for the FI module."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain a standard financial accounting process."
+        },
+        {
+          "id": "TLO5",
+          "text": "Describe the purchase-to-pay business process"
+        },
+        {
+          "id": "TLO6",
+          "text": "Identify the organizational levels that support the purchase-to-pay business process."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain the integration points of the purchase-to-pay business process"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2,
+        3
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Duplicate outcome identifiers: Midterm.topic_learning_outcomes",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

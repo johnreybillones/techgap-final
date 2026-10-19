@@ -1,0 +1,214 @@
+{
+  "source": {
+    "filename": "S-ITCS329 Social Issues and Professional Practice.pdf",
+    "sha256": "d6fe4a4feb377a535dac9eb2d6bd7e56b12993c1bb3e43a809ca811dee2d4bfc",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS329",
+  "course_title": "Social Issues and Professional Practice",
+  "course_type": "Lecture",
+  "course_credit": "Three Units",
+  "prerequisites": "S-ITCS318LA",
+  "corequisites": "None",
+  "course_description": "This course, social issues, and professional practice, studies the social impact, implications, and effects of computers, and the responsibilities of computer professionals in directing the emerging technology. Its specific topic includes an overview of the history of computing, computer applications and their impact, the computing profession, the legal and ethical responsibilities of professionals and careers in computing.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the basic cultural, social, legal, and ethical issues inherent in the discipline of computing;"
+    },
+    {
+      "id": "CLO2",
+      "text": "develop the ability to ask serious questions about the social impact of computing and to evaluate proposed answers to those questions;"
+    },
+    {
+      "id": "CLO3",
+      "text": "evaluate the basic legal rights of software and hardware vendors and users, and to also appreciate the ethical values which are the basis of those rights;"
+    },
+    {
+      "id": "CLO4",
+      "text": "facilitate the acquisition of knowledge concerning the pertinent social, ethical, legal, and professional issues in the realm of computing by immersing individuals in the broader societal context;"
+    },
+    {
+      "id": "CLO5",
+      "text": "comprehend the responsibilities anticipated as future practitioners, and grasp the potential consequences of failure, acknowledging both personal limitations and the limitations of the tools employed;"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate a commitment to staying abreast in their chosen specialization and broader discipline of computing over the long term and;"
+    },
+    {
+      "id": "CLO7",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "To understand the basic cultural, social, legal, and ethical issues inherent in the discipline of computing."
+        },
+        {
+          "id": "CLO2",
+          "text": "To develop the ability to ask serious questions about the social impact of computing and to evaluate proposed answers to those questions."
+        },
+        {
+          "id": "CLO3",
+          "text": "To evaluate the basic legal rights of software and hardware vendors and users, and to also appreciate the ethical values which are the basis of those rights."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "To discuss motivating scenarios to establish reasons why it is relevant to investigate social issues and professional practice (SIPP)."
+        },
+        {
+          "id": "TLO2",
+          "text": "To explore relevant SIPP issues."
+        },
+        {
+          "id": "TLO3",
+          "text": "Describe positive and negative ways in which computer technology (networks, mobile computing, cloud computing) alters modes of social interaction at the personal level."
+        },
+        {
+          "id": "TLO4",
+          "text": "Identify developers’ assumptions and values embedded in hardware and software design, especially as they pertain to usability for diverse populations including under-represented populations and the disabled."
+        },
+        {
+          "id": "TLO5",
+          "text": "Interpret the social context of a given design and its implementation."
+        },
+        {
+          "id": "TLO6",
+          "text": "Evaluate stakeholder positions in each situation."
+        },
+        {
+          "id": "TLO7",
+          "text": "Analyze an argument to identify premises and conclusion."
+        },
+        {
+          "id": "TLO8",
+          "text": "Evaluate ethical/social tradeoffs in technical decisions."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "To facilitate the acquisition of knowledge concerning the pertinent social, ethical, legal, and professional issues in the realm of computing by immersing individuals in the broader societal context."
+        },
+        {
+          "id": "CLO5",
+          "text": "To comprehend the responsibilities anticipated as future practitioners, and grasp the potential consequences of failure, acknowledging both personal limitations and the limitations of the tools employed."
+        },
+        {
+          "id": "CLO6",
+          "text": "To demonstrate a commitment to staying abreast in their chosen specialization and broader discipline of computing over the long-term and."
+        },
+        {
+          "id": "CLO5",
+          "text": "To comprehend the responsibilities anticipated as future practitioners, and grasp the potential consequences of failure, acknowledging both personal limitations and the limitations of the tools employed."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Identify ethical issues that arise in software development and determine how to address them technically and ethically."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain the ethical responsibility of ensuring software correctness, reliability, and safety."
+        },
+        {
+          "id": "TLO11",
+          "text": "Describe the mechanisms that typically exist for a professional to keep up to date."
+        },
+        {
+          "id": "TLO13",
+          "text": "Discuss the philosophical bases of intellectual property."
+        },
+        {
+          "id": "TLO14",
+          "text": "Discuss the rationale for the legal protection of intellectual property."
+        },
+        {
+          "id": "TLO15",
+          "text": "Discuss the rationale for the legal protection of intellectual property."
+        },
+        {
+          "id": "TLO16",
+          "text": "Discuss the philosophical basis for the legal protection of personal privacy."
+        },
+        {
+          "id": "TLO17",
+          "text": "Describe the ramifications of differential privacy."
+        },
+        {
+          "id": "TLO18",
+          "text": "Identify strategies to enable appropriate freedom of expression."
+        },
+        {
+          "id": "TLO13",
+          "text": "Discuss the philosophical bases of intellectual property."
+        },
+        {
+          "id": "TLO14",
+          "text": "Discuss the rationale for the legal protection of intellectual property."
+        },
+        {
+          "id": "TLO15",
+          "text": "Discuss the rationale for the legal protection of intellectual property."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5,
+        6
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Duplicate outcome identifiers: Final.course_learning_outcomes",
+    "Duplicate outcome identifiers: Final.topic_learning_outcomes"
+  ]
+}

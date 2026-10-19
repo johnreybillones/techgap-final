@@ -1,0 +1,83 @@
+{
+  "source": {
+    "filename": "S-ITCS123LA Intermediate Programming Lab.pdf",
+    "sha256": "6ee348cc5e8816f2e77ae9f814eff30f8cce9a0187c0b184888c1c58d1132e94",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS123LA",
+  "course_title": "Intermediate Programming",
+  "course_type": "Laboratory",
+  "course_credit": "one unit",
+  "prerequisites": "S-ITCS112/S-ITCS112LA",
+  "corequisites": "S-ITCS123",
+  "course_description": "Includes review of control structures and data types with emphasis on structured data types. Application of object-oriented programming paradigm, focusing on the definition and use of classes along with the fundamentals of object-oriented design is also part of the discussion as well as basic analysis of algorithms, searching and sorting techniques.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand programming concepts;"
+    },
+    {
+      "id": "CLO2",
+      "text": "implement file processing;"
+    },
+    {
+      "id": "CLO3",
+      "text": "examine program functionality;"
+    },
+    {
+      "id": "CLO4",
+      "text": "develop cleaner, more efficient and more manageable programs in solving problems;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop graphical user interfaces (GUI) for Java programs;"
+    },
+    {
+      "id": "CLO6",
+      "text": "evaluate searching and sorting algorithms; Page | 1"
+    },
+    {
+      "id": "CLO7",
+      "text": "apply Java’s object oriented programming concepts in the writing and editing of various levels of applications; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: learning_plan",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

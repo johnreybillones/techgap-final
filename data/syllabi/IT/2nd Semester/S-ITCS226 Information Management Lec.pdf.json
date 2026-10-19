@@ -1,0 +1,73 @@
+{
+  "source": {
+    "filename": "S-ITCS226 Information Management Lec.pdf",
+    "sha256": "aea60ffbcc3a5fb23a89077aa988eed62710ec07ebd00d0c07ed4accf48f27b6",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1
+      ]
+    }
+  },
+  "course_code": "S-ITCS226",
+  "course_title": "I nformation Management Lecture",
+  "course_type": "Lecture",
+  "course_credit": "2 units",
+  "prerequisites": "S-ITCS123/L",
+  "corequisites": "S-ITCS226LA",
+  "course_description": "This course focuses on data organization and architecture as well as managing the database. Topics include the basic functions of a data administrator, including database planning, analysis, design, implementation, maintenance and protection.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "analyze business domains and identify appropriate database architecture and data model;"
+    },
+    {
+      "id": "CLO2",
+      "text": "select suitable schema in designing and developing database solution architecture for an organization;"
+    },
+    {
+      "id": "CLO3",
+      "text": "simulate the functions of database administrators throughout the information lifecycle;"
+    },
+    {
+      "id": "CLO4",
+      "text": "administer data capture, management, storage and retrieval method;"
+    },
+    {
+      "id": "CLO5",
+      "text": "design and implement appropriate database solution for an organization/company/department/unit; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: learning_plan"
+  ]
+}

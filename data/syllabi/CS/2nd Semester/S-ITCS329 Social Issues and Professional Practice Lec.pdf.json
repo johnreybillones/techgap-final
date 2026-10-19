@@ -1,0 +1,141 @@
+{
+  "source": {
+    "filename": "S-ITCS329 Social Issues and Professional Practice Lec.pdf",
+    "sha256": "bf93d83dcad281a6c4d59c5afcd0246b2bd85dcff236ec9636356d61c7ccc0da",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS329",
+  "course_title": "Social Issues and Professional Practice",
+  "course_type": "Lecture",
+  "course_credit": "Three Units",
+  "prerequisites": "S-ITCS318LA",
+  "corequisites": "None",
+  "course_description": "This course, social issues and professional practice, studies the social impact, implications, and effects of computers, and the responsibilities of computer professionals in directing the emerging technology. Its specific topic includes an overview of the history of computing, computer applications and their impact, the computing profession, the legal and ethical responsibilities of professionals and careers in computing.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the basic cultural, social, legal and ethical issues inherent in the discipline of computing;"
+    },
+    {
+      "id": "CLO2",
+      "text": "develop the ability to ask serious questions about the social impact of computing and to evaluate proposed answers to those questions;"
+    },
+    {
+      "id": "CLO3",
+      "text": "determine the basic legal rights of software and hardware vendors and users, and to appreciate also the ethical values which are the basis of those rights;"
+    },
+    {
+      "id": "CLO4",
+      "text": "develop an understanding of the relevant social, ethical, legal and professional issues by exposing them to the larger societal context of computing;"
+    },
+    {
+      "id": "CLO5",
+      "text": "justify the responsibilities that they will bear, as future practitioners, and the possible consequences of failure, understanding their own limitations as well as the limitations of their tools;"
+    },
+    {
+      "id": "CLO6",
+      "text": "evaluate long-term commitment to remaining current in their chosen specialization and in the discipline of computing as a whole; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "Relate the 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "To understand the basic cultural, social, legal and ethical issues inherent in the discipline of computing."
+        },
+        {
+          "id": "CLO2",
+          "text": "To develop the ability to ask serious questions about the social impact of computing and to evaluate proposed answers to those questions."
+        },
+        {
+          "id": "CLO3",
+          "text": "To be aware of the basic legal rights of software and hardware vendors and users, and to appreciate also the ethical values which are the basis of those rights."
+        },
+        {
+          "id": "CLO7",
+          "text": "Relate the 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO1. To discuss motivating scenarios in order to establish reasons why it is relevant to look into social issues and professional practice (SIPP).",
+        "TLO2. To explore relevant SIPP issues.",
+        "TLO3. Describe positive and negative ways in which computer technology (networks, mobile computing, cloud computing) alters modes of social interaction at the personal level.",
+        "TLO4. Identify developers’ assumptions and values embedded in hardware and software design, especially as they pertain to usability for diverse populations including under-represented populations and the disabled.",
+        "TLO5. Interpret the social context of a given design and its implementation.",
+        "TLO6. Evaluate stakeholder positions in a given situation.",
+        "TLO7. Analyze an argument to identify premises and conclusion.",
+        "TLO8. Evaluate ethical/social tradeoffs in technical decisions.",
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "To develop an understanding of the relevant social, ethical, legal and professional issues by exposing them to the larger societal context of computing."
+        },
+        {
+          "id": "CLO5",
+          "text": "To understand the responsibilities that they will bear, as future practitioners, and the possible consequences of failure, understanding their own limitations as well as the limitations of their tools."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO9. Identify ethical issues that arise in software development and determine how to address them technically and ethically.",
+        "TLO10. Explain the ethical responsibility of ensuring software correctness, reliability and safety.",
+        "TLO11. Describe the mechanisms that typically exist for a professional to keep up-to-date.",
+        "TLO12. Describe the strengths and weaknesses of relevant professional codes as expressions of professionalism and guides to decision-making.",
+        "TLO13. Discuss the philosophical bases of intellectual property.",
+        "TLO14. Discuss the rationale for the legal protection of intellectual property.",
+        "TLO15. Discuss the issues involved in securing software patents."
+      ],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Missing or unrecognized: Final.topic_learning_outcomes"
+  ]
+}

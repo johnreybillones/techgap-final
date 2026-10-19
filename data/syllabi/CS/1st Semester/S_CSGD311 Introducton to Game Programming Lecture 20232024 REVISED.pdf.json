@@ -1,0 +1,191 @@
+{
+  "source": {
+    "filename": "S_CSGD311 Introducton to Game Programming Lecture 20232024 REVISED.pdf",
+    "sha256": "26c2ea40764e54fe6d6306ea7675c491e59ee98323ba70fafa1ce3032302ed82",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 16,
+    "field_pages": {
+      "course_code": [
+        4,
+        13
+      ],
+      "course_title": [
+        4,
+        13
+      ],
+      "course_type": [
+        4,
+        13
+      ],
+      "course_credit": [
+        4,
+        13
+      ],
+      "prerequisites": [
+        4,
+        13
+      ],
+      "corequisites": [
+        4,
+        13
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-CSGD311",
+  "course_title": "Introduction to Game Programming",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "rd",
+  "corequisites": null,
+  "course_description": "This course teaches students effective and structured procedures used to design and develop game software. The purpose of this course is to provide students with the foundation in game design and development necessary for use in the workforce or for further study in the field of game development and creation. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication, and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disasters and pandemics. Hence, this class shall be delivered in both an online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Demonstrate the appropriate technical skills by applying basic and advanced program codes in designing a game."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply the fundamentals of game development by developing a mobile game application."
+        },
+        {
+          "id": "CLO3",
+          "text": "Develop an appreciation"
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the game to a real-world problem."
+        },
+        {
+          "id": "CLO5",
+          "text": "Formulate the optimize designed learned and report on the expected accuracy that can be achieved by developing game."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the basic programming in a nutshell."
+        },
+        {
+          "id": "TLO2",
+          "text": "Demonstrate and apply a ariety of tools in developing game."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with frameworks."
+        },
+        {
+          "id": "TLO4",
+          "text": "Determine and generate game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support to observation to programming."
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify domain areas of game programming"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrating games."
+        },
+        {
+          "id": "TLO8",
+          "text": "Generate and develop game using JavaScript."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration and individual assessment to design and create a game research paper."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "period": "Finals",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Demonstrate the appropriate technical skills by applying basic and advanced program codes in designing a game."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply the fundamentals of game development by developing a mobile game application."
+        },
+        {
+          "id": "CLO3",
+          "text": "Develop an appreciation in designing game."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the game to a real-world problem."
+        },
+        {
+          "id": "CLO5",
+          "text": "Formulate the optimize designed learned and report on the expected accuracy that can be achieved by developing game."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the basic programming in a nutshell."
+        },
+        {
+          "id": "TLO2",
+          "text": "Demonstrate and apply a ariety of tools in developing game."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with frameworks."
+        },
+        {
+          "id": "TLO4",
+          "text": "Determine and generate game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support to observation to programming."
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify domain areas of game programming"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrating games."
+        },
+        {
+          "id": "TLO8",
+          "text": "Generate and develop game using JavaScript."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration and individual assessment to design and create a game research paper."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: corequisites",
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Finals: learning-plan CLO not found in main CLO list"
+  ]
+}

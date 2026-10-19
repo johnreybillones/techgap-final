@@ -1,0 +1,99 @@
+{
+  "source": {
+    "filename": "S-ITNT415La CISCO Networking Semester 4 Lab.pdf",
+    "sha256": "9b3baf72870d71e51973185aa2f6d01144a6f012db6c5ecfbfd3640e07104f64",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITNT415L",
+  "course_title": "S-ITNT415L – Cisco Networking Semester 4 (DevNet)",
+  "course_type": "Laboratory",
+  "course_credit": "One (1) units",
+  "prerequisites": "S-ITNT344LC",
+  "corequisites": "S-ITNT415L",
+  "course_description": null,
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Develop basic Python programming and Linux skills."
+        },
+        {
+          "id": "CLO2",
+          "text": "Investigate a development environment using DevNet resources."
+        },
+        {
+          "id": "CLO3",
+          "text": "Use software development and design best practices."
+        },
+        {
+          "id": "CLO4",
+          "text": "Create a secure REST API"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Manage the Linux file systems and permissions"
+        },
+        {
+          "id": "TLO2",
+          "text": "Use basic programming"
+        },
+        {
+          "id": "TLO3",
+          "text": "Investigate DevNet online resources"
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe the benefits of various software design patterns"
+        },
+        {
+          "id": "TLO5",
+          "text": "Compare synchronous and asynchronous API design styles."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_description",
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

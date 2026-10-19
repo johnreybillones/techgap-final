@@ -1,0 +1,109 @@
+{
+  "source": {
+    "filename": "S-CSIS414_Machine-Learning-2-Laboratory.pdf",
+    "sha256": "76c2c295df8e0f2cbf2f4c98e380471cb60eeec162537e211dde5486082fa8dc",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 15,
+    "field_pages": {
+      "course_code": [
+        3,
+        10,
+        12
+      ],
+      "course_title": [
+        3,
+        10,
+        12
+      ],
+      "course_type": [
+        3,
+        10,
+        12
+      ],
+      "course_credit": [
+        3,
+        10,
+        12
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3,
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSIS414",
+  "course_title": "Machine Learning 2",
+  "course_type": "Laboratory",
+  "course_credit": "1 unit",
+  "prerequisites": "S-CSIS311",
+  "corequisites": "None",
+  "course_description": "This course deals with advanced study on how to build computer systems that learn from experience. It is a subfield of Artificial Intelligence and intersects with statistics, cognitive science, information theory, and probability theory, among others. The course explains on how to build systems that learn and adapt using real-world applications from industry and scientific study.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the intuition behind neural network;"
+    },
+    {
+      "id": "CLO2",
+      "text": "demonstrate how to assess data-driven models and how to visualize the outcomes of algorithms;"
+    },
+    {
+      "id": "CLO3",
+      "text": "build a powerful Machine Learning models and understand how to combine them to resolve the problem;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the machine learning classification and clustering algorithms; and 3"
+    },
+    {
+      "id": "CLO5",
+      "text": "formulate optimal models and use TensorFlow coding methods to address real- world issues;"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the intuition behind neural network"
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO1. Explain the artificial intelligence and machine learning.",
+        "TLO2. Distinguish artificial intelligence learning methods.",
+        "TLO3. Demonstrate and apply data",
+        "preprocessing tools."
+      ],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Missing or unrecognized: Final.course_learning_outcomes",
+    "Missing or unrecognized: Final.topic_learning_outcomes"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "source": {
+    "filename": "S-ITWB323LA Multimedia Systems Lab.pdf",
+    "sha256": "c16768cfec010e4c204aa7389a0cb2f160e41a12797b72835791eb8544a1f39e",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITWB323LA",
+  "course_title": "Multimedia Systems",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": "S-ITPC311LC",
+  "corequisites": "S-ITWB323",
+  "course_description": "This course deals with familiarization of the concept of Multimedia System, which broadens the knowledge and understanding of multimedia technologies and applications. This also guides them to acquire confidence in their ability to expand their knowledge of multimedia in order to aid professional development. Covers the areas of multimedia analysis, design and delivery, history, images, graphics/drawing, sound and animation that will enable to use diagnostic techniques and solutions. Page | 1",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Explain the elements and purpose of Multimedia Systems;"
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the nature of Multimedia Systems;"
+    },
+    {
+      "id": "CLO3",
+      "text": "Evaluate the Multimedia Systems to enhance creativity and design skills;"
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate the appropriate technical skills by applying basic and advance Multimedia Systems softwares;"
+    },
+    {
+      "id": "CLO5",
+      "text": "Analyzing the fundamentals of multimedia Systems by developing multimedia projects;"
+    },
+    {
+      "id": "CLO6",
+      "text": "Develop an appreciation of Multimedia Systems;"
+    },
+    {
+      "id": "CLO7",
+      "text": "Acquire Lasallian values and sensitivity in applying Multimedia Systems to a real-world scenario; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "Formulate the optimize design learned and report on the expected output that can be achieved by developing Multimedia System Projects."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the elements and purpose of Multimedia Systems."
+        },
+        {
+          "id": "CLO2",
+          "text": "Implement the nature of Multimedia Systems."
+        },
+        {
+          "id": "CLO3",
+          "text": "Create Multimedia Systems Projects to enhance creativity and design skills."
+        },
+        {
+          "id": "CLO4",
+          "text": "Demonstrate the appropriate technical skills by applying basic and advance Multimedia Systems softwares."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Discuss the basic concepts and elements of Multimedia Systems."
+        },
+        {
+          "id": "TLO2",
+          "text": "Apply various forms of Multimedia for graphic design."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with Multimedia System Projects"
+        },
+        {
+          "id": "TLO4",
+          "text": "Determine and create appropriate Multimedia System Projects using Adobe Software Products."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Final.course_learning_outcomes",
+    "Missing or unrecognized: Final.topic_learning_outcomes"
+  ]
+}

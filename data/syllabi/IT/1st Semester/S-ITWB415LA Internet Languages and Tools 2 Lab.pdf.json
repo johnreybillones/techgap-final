@@ -1,0 +1,105 @@
+{
+  "source": {
+    "filename": "S-ITWB415LA Internet Languages and Tools 2 Lab.pdf",
+    "sha256": "e330b831cc5f7b9ef107ef0c5ae963f810a39cef0321bd8c075418bfebc89118",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 7,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-ITWB415LA",
+  "course_title": "Internet Languages and Tools 2",
+  "course_type": "Lab",
+  "course_credit": "1 unit",
+  "prerequisites": "S-ITPC323 & S-ITPC323LA",
+  "corequisites": "S-ITWB415",
+  "course_description": "Provides introduction to mobile application development for android platform. In this course, students learn both the practical and conceptual skills that enable them to develop robust android/IOS applications. Students learn skills for creating and deploying Android/IOS applications, with particular emphasis on software development, including software architecture, software design, usability, and deployment.",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "FINAL",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Design a mobile / web application using Flutter."
+        },
+        {
+          "id": "CLO4",
+          "text": "Develop a mobile web application to solve real life problems."
+        },
+        {
+          "id": "CLO5",
+          "text": "Evaluate the functionality and usability of the applications."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Create GUI interface using IDE."
+        },
+        {
+          "id": "TLO8",
+          "text": "Design the application using various widgets."
+        },
+        {
+          "id": "TLO9",
+          "text": "Build the application using layouts."
+        },
+        {
+          "id": "TLO10",
+          "text": "Design application using forms, dialog boxes and menu."
+        },
+        {
+          "id": "TLO11",
+          "text": "Develop a useful and helpful mobile / web application."
+        },
+        {
+          "id": "TLO12",
+          "text": "Present the mobile / web application project."
+        },
+        {
+          "id": "TLO13",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        3,
+        4
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "FINAL: learning-plan CLO not found in main CLO list",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

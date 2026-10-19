@@ -1,0 +1,150 @@
+{
+  "source": {
+    "filename": "S-ITPC121LA Fundamentals of Database Systems Lab.pdf",
+    "sha256": "2b773a1f6371ac1d3d81e7332f08696a8181d18e16f67753b74791d8b198a165",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC 121LA",
+  "course_title": "Fundamentals of Database Systems",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": "None",
+  "corequisites": "S-ITPC121",
+  "course_description": "This course prepares the students to acquire the skills on creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modelling and design, the languages and facilities provided by the database management systems and system implementation techniques.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "develop the importance of database approach by employing analytical skills in designing database systems;"
+    },
+    {
+      "id": "CLO2",
+      "text": "identify database components and functions;"
+    },
+    {
+      "id": "CLO3",
+      "text": "organize a database for efficiency and performance, and to maintain data integrity;"
+    },
+    {
+      "id": "CLO4",
+      "text": "understand the vital role of database management systems in different organizations or companies;"
+    },
+    {
+      "id": "CLO5",
+      "text": "create database reports using MS Access; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the importance of database approach by employing analytical skills in designing Database systems."
+        },
+        {
+          "id": "CLO2",
+          "text": "Develop databases by creating tables and adding records."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain how Access is used and how to navigate around it."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify the different database access objects."
+        },
+        {
+          "id": "TLO3",
+          "text": "Identify database components and functions."
+        },
+        {
+          "id": "TLO4",
+          "text": "Design tables using the blank database option and MS Access template;"
+        },
+        {
+          "id": "TLO5",
+          "text": "Use queries to manipulate data stored in the table."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Organize a database for efficiency and performance, and to maintain data integrity."
+        },
+        {
+          "id": "CLO4",
+          "text": "Design a DBMS suitable for different organizations or companies."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Join tables to retrieve data from related tables."
+        },
+        {
+          "id": "TLO7",
+          "text": "Query a database using different methods."
+        },
+        {
+          "id": "TLO8",
+          "text": "Use tables and queries to produce output like reports."
+        },
+        {
+          "id": "TLO9",
+          "text": "Transform databases into forms where users can interact."
+        },
+        {
+          "id": "TLO10",
+          "text": "Enhance forms using OLE fields, hyperlinks, and sub- forms."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,0 +1,117 @@
+{
+  "source": {
+    "filename": "S-CSIS311_Introduction-to-Machine-Learning-Lecture.pdf",
+    "sha256": "f48ba9628224eaf3edd6792ef036e0ae8d5087bc269214593aa0d1d4be0f9ed0",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 14,
+    "field_pages": {
+      "course_code": [
+        3,
+        10,
+        11
+      ],
+      "course_title": [
+        3,
+        10,
+        11
+      ],
+      "course_type": [
+        3,
+        10,
+        11
+      ],
+      "course_credit": [
+        3,
+        10,
+        11
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3,
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSIS311",
+  "course_title": "Introduction to Machine Learning",
+  "course_type": "Lecture",
+  "course_credit": "2 units",
+  "prerequisites": "Should be 3rd year Level",
+  "corequisites": "None",
+  "course_description": "This course deals with the fundamentals machine learning techniques, as well as hands-on experience applying these techniques and developing new techniques for solving problems from the real world; topics include regression (least square regression, lasso), classification (naive Bayes, nearest support vector machines, logistic regression), kernel methods, unsupervised methods (k-means clustering, dimensionality reduction), stochastic optimization, deep learning and recent advances in big data analytics. Student can attend seminars, workshops, and training in relevant disciplines onsite or online.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "determine a wide variety of learning algorithms;"
+    },
+    {
+      "id": "CLO2",
+      "text": "demonstrate how to evaluate models generated from data;"
+    },
+    {
+      "id": "CLO3",
+      "text": "develop an appreciation for what is involved in learning models from data; 3"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the algorithm to a real-world problem; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "formulate the optimize models learned and report on the expected accuracy that can be achieved by applying the models."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Describe the principles of machine learning in various domains using applied learning algorithms."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO1. Explain the machine learning in a nutshell.",
+        "TLO2. Demonstrate your knowledge of various algorithms; and",
+        "TLO3. Show your appreciation for the algorithms used in machine learning"
+      ],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Develop an appreciation for what is involved in learning models from data. CL04. Apply the algorithm to a real-world problem and other domain areas."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TL06. Support observation to best fitting the data TLO7. Classify domain areas of machine",
+        "learning",
+        "TL08. Exhibits and demonstrate data observation. TLO9. Generate and evaluate data",
+        "observation using python."
+      ],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Missing or unrecognized: Final.topic_learning_outcomes"
+  ]
+}

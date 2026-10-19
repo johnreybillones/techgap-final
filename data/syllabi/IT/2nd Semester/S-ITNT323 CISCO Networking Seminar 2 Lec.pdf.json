@@ -1,0 +1,166 @@
+{
+  "source": {
+    "filename": "S-ITNT323 CISCO Networking Seminar 2 Lec.pdf",
+    "sha256": "553d882e74f4de5273c3815d4d7d08b5b65e6dc97ce5eb039bb1e808f53daa3a",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITNT323",
+  "course_title": "Cisco Networking Semester 2 - SRWE",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITNT312 Lec and Lab",
+  "corequisites": "S-ITNT323Lab",
+  "course_description": "This course focuses on the fundamental networking concepts and technologies. Cisco Certified Networking Associate (CCNA) course incorporates theoretical aspects and practical application while providing students the skills and hands-on experience needed to design, install, operate and maintain networks. The course covers a complete range of networking concepts, and features many hands-on projects where students have access to the building blocks of Local and Wide Area Networks (LANs and WANs), such as wireless access points, switches and routers.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Configure VLANs and Inter-VLAN routing applying security best practices."
+    },
+    {
+      "id": "CLO2",
+      "text": "Troubleshoot inter-VLAN routing on Layer 3 devices."
+    },
+    {
+      "id": "CLO3",
+      "text": "Configure redundancy on a switched network using STP and EtherChannel."
+    },
+    {
+      "id": "CLO4",
+      "text": "Troubleshoot EtherChannel on switched networks."
+    },
+    {
+      "id": "CLO5",
+      "text": "Explain how to support available and reliable networks using dynamic addressing and first- hop redundancy protocols."
+    },
+    {
+      "id": "CLO6",
+      "text": "Configure dynamic address allocation in IPv6 networks."
+    },
+    {
+      "id": "CLO7",
+      "text": "Configure WLANs using a WLC and L2 security best practices."
+    },
+    {
+      "id": "CLO8",
+      "text": "Configure switch security to mitigate LAN attacks."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Configure VLANs and Inter-VLAN routing applying security best practices."
+        },
+        {
+          "id": "CLO2",
+          "text": "Troubleshoot inter-VLAN routing on Layer 3 devices."
+        },
+        {
+          "id": "CLO3",
+          "text": "Configure redundancy on a switched network using STP and EtherChannel."
+        },
+        {
+          "id": "CLO4",
+          "text": "Troubleshoot EtherChannel on switched networks."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Configure initial settings on a Cisco switch"
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain how frames are forwarded in a switched network."
+        },
+        {
+          "id": "TLO3",
+          "text": "Explain how STP operates in a simple, switched network."
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe Ethernet technology."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Explain how to support available and reliable networks using dynamic addressing and first-hop redundancy protocols."
+        },
+        {
+          "id": "CLO6",
+          "text": "Configure dynamic address allocation in IPv6 networks."
+        },
+        {
+          "id": "CLO7",
+          "text": "Configure WLANs using a WLC and L2 security best practices."
+        },
+        {
+          "id": "CLO8",
+          "text": "Configure switch security to mitigate LAN attacks."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Configure a router as DHCPv4 server or client."
+        },
+        {
+          "id": "TLO6",
+          "text": "E/plain the operation of SLAAC."
+        },
+        {
+          "id": "TLO7",
+          "text": "Implement port security to mitigate MAC address table attacks"
+        },
+        {
+          "id": "TLO8",
+          "text": "Describe WLAN technology and standards"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

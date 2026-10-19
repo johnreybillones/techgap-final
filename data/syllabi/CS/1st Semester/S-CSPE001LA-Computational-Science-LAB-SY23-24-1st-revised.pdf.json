@@ -1,0 +1,120 @@
+{
+  "source": {
+    "filename": "S-CSPE001LA-Computational-Science-LAB-SY23-24-1st-revised.pdf",
+    "sha256": "8dfca8666d830bee9b70f5572a5abbca1dbdbd807ffd1690975c3031a4f420fc",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        3,
+        8,
+        9
+      ],
+      "course_title": [
+        3,
+        8,
+        9
+      ],
+      "course_type": [
+        3,
+        8,
+        9
+      ],
+      "course_credit": [
+        3,
+        8,
+        9
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-CSPE001LC",
+  "course_title": "COMPUTATIONAL SCIENCE LAB",
+  "course_type": "Laboratory",
+  "course_credit": "1 Unit (3 hours)",
+  "prerequisites": "should be 3rd year level",
+  "corequisites": "None",
+  "course_description": "This course deals with scientific investigation of problems through modeling, simulation, and analysis of physical processes on a computer. This also focuses on simple and intuitive computational models and methods. It further discusses the relevance of computational science for the students to gain better understanding of a system’s behavior through the development of simulated models. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the relevance of computational science and some of its real-life applications."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the basic steps in the modeling process and the different modeling and simulation terminologies."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze the various mathematical models such as Deterministic Linear Models, Nonlinear and Dynamic Models and Stochastic Models."
+        },
+        {
+          "id": "CLO5",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO1. Define computational science, modeling, and simulation.",
+        "TLO2. Discuss key milestones, and some of contemporary examples.",
+        "TLO3. Identify the steps in the modeling process.",
+        "TLO4. Understand several terminologies which are necessary for modeling and simulation.",
+        "TLO5. Select the appropriate mathematical representation for a model.",
+        "TLO6. Examine the features, strengths, and limitations of the different mathematical models.",
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Analyze the various mathematical models such as Deterministic Linear Models, Nonlinear and Dynamic Models and Stochastic Models."
+        },
+        {
+          "id": "CLO4",
+          "text": "Create a final project to demonstrate the modeling and simulation skills learned from this course."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO5. Select the appropriate mathematical representation for a model",
+        "TLO6. Examine the features, strengths, and limitations of the different mathematical models",
+        "TLO7. Create a Python program for the modeling and simulation assigned project.",
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Missing or unrecognized: Final.topic_learning_outcomes",
+    "Final: learning-plan CLO not found in main CLO list"
+  ]
+}

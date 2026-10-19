@@ -1,0 +1,81 @@
+{
+  "source": {
+    "filename": "S-ITPC224LA Netwroking 1 Lab.pdf",
+    "sha256": "d907eece872569fe99329c6937bf68b9303396d3fd14cc432920f386596a9be8",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC224LA",
+  "course_title": "Networking 1",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": null,
+  "corequisites": null,
+  "course_description": "Focuses on the fundamental networking concepts and technologies. Cisco Certified Networking Associate (CCNA) course incorporates theoretical aspects and practical application while providing students the skills and hands-on experience needed to design, install, operate and maintain networks. The course covers a complete range of networking concepts, and features many hands-on projects where students have access to the building blocks of Local and Wide Area Networks (LANs and WANs), such as wireless access points, switches, and routers.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Explain the concept of network communication;"
+    },
+    {
+      "id": "CLO2",
+      "text": "create a simulated network using Packet Tracer;"
+    },
+    {
+      "id": "CLO3",
+      "text": "build a functioning network;"
+    },
+    {
+      "id": "CLO4",
+      "text": "explain the principles of IPv4 and IPv6 address management;"
+    },
+    {
+      "id": "CLO5",
+      "text": "configure initial settings on a network device;"
+    },
+    {
+      "id": "CLO6",
+      "text": "configure basic network security;"
+    },
+    {
+      "id": "CLO7",
+      "text": "describe data communications and network models, topologies, protocols, standards and architectures; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "explain how to use security best practices to mitigate attacks."
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: prerequisites",
+    "Missing or unrecognized: corequisites",
+    "Missing or unrecognized: learning_plan",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

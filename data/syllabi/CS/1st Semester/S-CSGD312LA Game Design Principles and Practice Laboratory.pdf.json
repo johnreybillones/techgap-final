@@ -1,0 +1,157 @@
+{
+  "source": {
+    "filename": "S-CSGD312LA Game Design Principles and Practice Laboratory.pdf",
+    "sha256": "af29d460af68fd9c3749c754e6ddb990b0e83b923e86f09c6d8a21538a90f63c",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 16,
+    "field_pages": {
+      "course_code": [
+        4,
+        13
+      ],
+      "course_title": [
+        4,
+        13
+      ],
+      "course_type": [
+        4,
+        13
+      ],
+      "course_credit": [
+        4,
+        13
+      ],
+      "prerequisites": [
+        4,
+        13
+      ],
+      "corequisites": [
+        4,
+        13
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-CSGD312LA",
+  "course_title": "Game Design Principles and Practice",
+  "course_type": "Laboratory",
+  "course_credit": "2 Units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "course_description": "This course gives an overview of the game development process from ideas to creation. It discourses the history of game development process, exposure to the position and job responsibilities that each member of a game development team has along with the industry requirements ideas in Game Design Document (GDD).",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the structure of mobile game programming."
+        },
+        {
+          "id": "CLO2",
+          "text": "Remember the basic framework for mobile game development."
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand how physics affects in development of the game."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the design learned and report the expected effectiveness of the mobile game."
+        },
+        {
+          "id": "CLO5",
+          "text": "Demonstrate game programming capability."
+        },
+        {
+          "id": "CLO6",
+          "text": "Interpret efficient game loop."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain basic mobile game in a nutshell."
+        },
+        {
+          "id": "TLO2",
+          "text": "Apply key concepts of game processes, principles and ethics."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with frameworks."
+        },
+        {
+          "id": "TLO4",
+          "text": "Detemine and generate mobile game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support observation to mobile game programming."
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify the domain areas of mobile game programming."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO7",
+          "text": "Evaluate mobile game application."
+        },
+        {
+          "id": "CLO8",
+          "text": "Design the needs of game programming in the industry."
+        },
+        {
+          "id": "CLO9",
+          "text": "Develop an appreciation in virtual simulation technology."
+        },
+        {
+          "id": "CLO10",
+          "text": "Value the Lasallian values and sensitivity in developing a game to real-world problems."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Exhibit and demonstrate mobile game programming."
+        },
+        {
+          "id": "TLO8",
+          "text": "Develop games in Android mobile platform."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration, individual assessment to design and develop group project."
+        },
+        {
+          "id": "TLO10",
+          "text": "Collaboration and presentation of group project."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Final: learning-plan CLO not found in main CLO list"
+  ]
+}
