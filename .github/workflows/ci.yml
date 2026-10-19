@@ -24,6 +24,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           cache: 'pip'
+          cache-dependency-path: 'scripts/requirements-collection.txt'
 
       - name: Install build tooling & linters
         run: |
