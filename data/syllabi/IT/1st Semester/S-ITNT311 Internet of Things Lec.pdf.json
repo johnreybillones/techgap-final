@@ -1,0 +1,117 @@
+{
+  "source": {
+    "filename": "S-ITNT311 Internet of Things Lec.pdf",
+    "sha256": "3892c0a6c95957dc97b25da7ff6fa8603c42189709337339e550ed9b6e71eda6",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 7,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-ITNT311",
+  "course_title": "Internet of Things",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": null,
+  "corequisites": "S-ITNT311LA",
+  "course_description": null,
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the meaning and impact of digital transformation."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply basic programming to support IoT devices."
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine how data provides value to digital business and society."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO1. Understand the concept of digital transformation.",
+        "TLO2. Identify devices that connect to the IoT",
+        "TLO3. Apply basic programming to support IoT devices.",
+        "TLO4. Transforming ideas into prototypes",
+        "TLO5. Understanding everything about big data.",
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Explore the benefits of automation in the digitized world."
+        },
+        {
+          "id": "CLO5",
+          "text": "Distinguish the need for security in the digitized world."
+        },
+        {
+          "id": "CLO6",
+          "text": "Evaluate opportunities provided by digital transformation."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [
+        "TLO6. Identify everything that can be automated.",
+        "TLO7. Recognize and understand the importance of security in the digitized world",
+        "TLO8. Recognize educational and business opportunities.",
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        3
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: prerequisites",
+    "Missing or unrecognized: course_description",
+    "Missing or unrecognized: course_learning_outcomes",
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Missing or unrecognized: Final.topic_learning_outcomes",
+    "Final: learning-plan CLO not found in main CLO list"
+  ]
+}

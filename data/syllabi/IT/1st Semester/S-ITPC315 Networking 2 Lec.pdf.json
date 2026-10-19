@@ -1,0 +1,175 @@
+{
+  "source": {
+    "filename": "S-ITPC315 Networking 2 Lec.pdf",
+    "sha256": "2e46864a24871aa1815bed15a2674aa658827bdcb425be074815e0103c39c8b1",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC315",
+  "course_title": "Networking 2",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITCS214 and S-ITCS214/LA",
+  "corequisites": "S-ITPC315LA",
+  "course_description": "Deals with both static routing and dynamic routing protocols. By examining multiple routing protocols, you will gain a better understanding of each of the individual routing protocols and a better perspective of routing in general. Learning the configuration of routing protocols is fairly simple. Developing an understanding of the routing concepts themselves is more difficult, yet is critical for implementing, verifying, and troubleshooting routing operations",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Create a fully connected LAN"
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the principles of IPv4 and IPv6 address management."
+    },
+    {
+      "id": "CLO3",
+      "text": "Configure basic network security."
+    },
+    {
+      "id": "CLO4",
+      "text": "Explain how to use security best practices to mitigate attacks."
+    },
+    {
+      "id": "CLO5",
+      "text": "Analyse routing algorithms protocols, process routing tables and configure routers for proper orientation of an efficient network."
+    },
+    {
+      "id": "CLO6",
+      "text": "Create and implement static routes IPv4 and IPv6."
+    },
+    {
+      "id": "CLO7",
+      "text": "Create and implement dynamic routing protocols."
+    },
+    {
+      "id": "CLO8",
+      "text": "Test for common configuration issues."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Create a fully connected LAN."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the principles of IPv4 and IPv6 address management."
+        },
+        {
+          "id": "CLO3",
+          "text": "Configure basic network security."
+        },
+        {
+          "id": "CLO4",
+          "text": "Explain how to use security best practices to mitigate attacks."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the need for routing."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the principles of IPv4 and IPv6 address management."
+        },
+        {
+          "id": "TLO3",
+          "text": "Configure devices for secure remote management."
+        },
+        {
+          "id": "TLO4",
+          "text": "Explain how security tools and software updates mitigate network security threats."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain how antimalware software mitigates data loss and service disruptions."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Analyze routing algorithms protocols, process routing tables and configure routers for proper orientation of an efficient network."
+        },
+        {
+          "id": "CLO6",
+          "text": "Create and implement static routes IPv4 and IPv6."
+        },
+        {
+          "id": "CLO7",
+          "text": "Create and implement dynamic routing protocols."
+        },
+        {
+          "id": "CLO8",
+          "text": "Test for common static and default route configuration issues."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Explain how a router learns about remote networks when operating in a small to medium-sized business network"
+        },
+        {
+          "id": "TLO7",
+          "text": "Configure static routes to enable connectivity in a small to medium-sized business network."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain the function of dynamic routing protocols."
+        },
+        {
+          "id": "TLO9",
+          "text": "Describe some of the approaches used to troubleshoot networks ."
+        },
+        {
+          "id": "TLO10",
+          "text": "Test for static and default route configurations."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5,
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

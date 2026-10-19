@@ -1,0 +1,54 @@
+{
+  "source": {
+    "filename": "S-ITCS214LA-Data-Structures-and-Algorithms-Syllabus.pdf",
+    "sha256": "3124e7382f5a9e38266c62bdd9f65877d1535776a2cfe4b57b255c4acfe7474e",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 16,
+    "field_pages": {
+      "course_code": [
+        4,
+        12
+      ],
+      "course_title": [
+        4,
+        12
+      ],
+      "course_type": [
+        4,
+        12
+      ],
+      "course_credit": [
+        4,
+        12
+      ],
+      "prerequisites": [
+        4,
+        12
+      ],
+      "corequisites": [
+        4,
+        12
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-ITCS214 (CS)",
+  "course_title": "Data Structures and Algorithms",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "S-ITCS123 / S-ITCS123LA",
+  "corequisites": "S-ITCS123LA",
+  "course_description": "This course provides the concepts of abstract data types of common data structures such as lists, linked lists, stacks, queues, trees and graphs used in solving computer problems. This course also includes the study of time and space complexities of algorithms and the choice of appropriate data structures. The course covers several data structures as tools for programming, best practices in using those data structures with estimated running time and space efficiency, hands-on exercises to develop practical skills in creating impactful programs",
+  "course_learning_outcomes": [],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "Missing or unrecognized: learning_plan",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

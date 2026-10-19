@@ -1,0 +1,75 @@
+{
+  "source": {
+    "filename": "S-ITPC227 Application Development and Emerging Technologies Lec.pdf",
+    "sha256": "a528b341bc80a529678e924bf25e4561e8abe9c66e4766453c227a2d4cb2376b",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC227",
+  "course_title": "Application Development and Emerging Technologies",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "None",
+  "corequisites": "S-ITPC227LA Application Development and Emerging",
+  "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "interpret the difference of front-end and back-development in web application;"
+    },
+    {
+      "id": "CLO2",
+      "text": "design and identify web Development concept by dealing with client-based case study. ;"
+    },
+    {
+      "id": "CLO3",
+      "text": "implement Object Oriented way of programming; 1"
+    },
+    {
+      "id": "CLO4",
+      "text": "Understand how to manage website using Model, View and Control;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop and deploy complete Web Application in live server for pilot testing; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: learning_plan",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "source": {
+    "filename": "WCL-S-CSPE003LC-(Lab)Parallel and Distributed Computing (1).pdf",
+    "sha256": "c0f250dd283f47f9ff19d538a50f3d30e614c88130d1140c95e3f0e1319c4f20",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 14,
+    "field_pages": {
+      "course_code": [
+        4,
+        11
+      ],
+      "course_title": [
+        4,
+        11
+      ],
+      "course_type": [
+        4,
+        11
+      ],
+      "course_credit": [
+        4,
+        11
+      ],
+      "prerequisites": [
+        4,
+        11
+      ],
+      "corequisites": [
+        4
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSPE003LC",
+  "course_title": "Parallel and Distributed Computing",
+  "course_type": "Laboratory",
+  "course_credit": "1 Unit (3 hours)",
+  "prerequisites": "Should be 3rd year level",
+  "corequisites": "None",
+  "course_description": "Covers widely used parallel and distributed computing methods, including threaded applications, GPU parallel programming, and datacenter-scale distributed methods such as MapReduce and distributed graph algorithms. Different types of algorithms are discussed which work well with these techniques, and have the opportunity to implement some of these algorithms. Hardware architectures which have been developed along with these computing methods are be included.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "know that parallel computation is a natural means to model the real world, and have a basic understanding of programming and coordinating multiple processes to execute simultaneously to accomplish some task;"
+    },
+    {
+      "id": "CLO2",
+      "text": "apply the demonstrated techniques to new computational problems, and generally be able to maintain intelligent conversation on parallel computing;"
+    },
+    {
+      "id": "CLO3",
+      "text": "use common thread libraries for new problems and also have a working knowledge of some basic concepts of parallel programming;"
+    },
+    {
+      "id": "CLO4",
+      "text": "provide a framework for introducing PDC topics while teaching digital logic;"
+    },
+    {
+      "id": "CLO5",
+      "text": "assess the concept of collective communication and the need for unique identifiers for each computational process; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Know that parallel computation is a natural means to model the real world, and have a basic understanding of programming and coordinating multiple processes to execute simultaneously to accomplish some task."
+        },
+        {
+          "id": "CLO3",
+          "text": "Use common thread libraries for new problems and also have a working knowledge of some basic concepts of parallel programming."
+        },
+        {
+          "id": "CLO4",
+          "text": "Provide a framework for introducing PDC topics while teaching digital logic."
+        },
+        {
+          "id": "CLO5",
+          "text": "Assess the concept of collective communication and the need for unique identifiers for each computational process."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Know that parallel computation is a natural means to model the real world, and have a basic understanding of programming and coordinating multiple processes to execute simultaneously to accomplish some task."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply the demonstrated techniques to new computational problems, and generally be able to maintain intelligent conversation on parallel computing."
+        },
+        {
+          "id": "CLO5",
+          "text": "Assess the concept of collective communication and the need for unique identifiers for each computational process."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Understand basic concepts in parallel programming: data/vector/loop-based parallelism, as well as the basics of distributed memory programming and task scheduling.  TLO6. Use locks to implement critical sections correctly.  TLO7. Follow basic guidelines for easier concurrent programming, such as avoiding mutable thread-shared state where possible and following consistent protocols for what locks protect what data.  TLO8. Break down a complex computation (quicksort) into individual parallel operations.  TLO9. Assess costs of parallel operations in a shared- memory environment"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Midterm.topic_learning_outcomes"
+  ]
+}

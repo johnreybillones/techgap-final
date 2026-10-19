@@ -1,0 +1,200 @@
+{
+  "source": {
+    "filename": "S-CSPC224 DISCRETE STRUCTURES 2 Lec.pdf",
+    "sha256": "85d1eb8c711c904752e2d1773f72bee606882756d1a92ede04b359d9335c8514",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 7,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPC224",
+  "course_title": "DISCRETE STRUCTURES 2",
+  "course_type": "Lecture",
+  "course_credit": "Three Units",
+  "prerequisites": "S-CSPC212",
+  "corequisites": "None",
+  "course_description": "This course provides fundamental mathematical structure and logical principles that are important to computer science and develops a deeper understanding of the computing problems that require mapping to permutations, combinations of a set, modular arithmetic reasoning, and counting techniques. The course explains a set theory and advanced counting techniques, graphs, and complex applications to solve challenging problems related to the subject with real-world applications.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "demonstrate the application of discrete structures in different fields of computer science;"
+    },
+    {
+      "id": "CLO2",
+      "text": "evaluate Boolean functions and simplify expressions using properties of Boolean algebra;"
+    },
+    {
+      "id": "CLO3",
+      "text": "explain some of the concepts of number theory;"
+    },
+    {
+      "id": "CLO4",
+      "text": "analyze the fundamentals theorem of arithmetic;"
+    },
+    {
+      "id": "CLO5",
+      "text": "apply counting techniques in solving arithmetic and counting problems;"
+    },
+    {
+      "id": "CLO6",
+      "text": "understand graphs, trees, and their applications;"
+    },
+    {
+      "id": "CLO7",
+      "text": "apply mathematical arguments and reasoning in proving mathematical statements; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "demonstrate 21st-century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Demonstrate the application of discrete structures in different fields of computer science."
+        },
+        {
+          "id": "CLO2",
+          "text": "Evaluate Boolean functions and simplify expressions using properties of Boolean algebra."
+        },
+        {
+          "id": "CLO3",
+          "text": "Explain some of the concepts of number theory."
+        },
+        {
+          "id": "CLO4",
+          "text": "Analyze the fundamentals theorem of arithmetic."
+        },
+        {
+          "id": "CLO5",
+          "text": "Apply counting techniques in solving arithmetic and counting problems."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Simplify and prove Boolean expressions."
+        },
+        {
+          "id": "TLO2",
+          "text": "Convert Boolean expressions to logic gates and vice versa."
+        },
+        {
+          "id": "TLO3",
+          "text": "Construct a logic circuit."
+        },
+        {
+          "id": "TLO4",
+          "text": "Understand number theory."
+        },
+        {
+          "id": "TLO5",
+          "text": "Know the number systems/integer representations."
+        },
+        {
+          "id": "TLO6",
+          "text": "Understand modular arithmetic."
+        },
+        {
+          "id": "TLO7",
+          "text": "Solve problems in primes and divisibility."
+        },
+        {
+          "id": "TLO8",
+          "text": "Find the LCM and GCD."
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss the basics of counting."
+        },
+        {
+          "id": "TLO10",
+          "text": "Understand permutation and Combinations as well as the Pigeon Principle."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Demonstrate the application of discrete structures in different fields of computer science."
+        },
+        {
+          "id": "CLO6",
+          "text": "Understand graphs, trees, and their applications."
+        },
+        {
+          "id": "CLO7",
+          "text": "Apply mathematical arguments and reasoning in proving mathematical statements."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st-century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO11",
+          "text": "Understand basic terminologies in graphs and trees."
+        },
+        {
+          "id": "TLO12",
+          "text": "Know directed and undirected graphs."
+        },
+        {
+          "id": "TLO13",
+          "text": "Understand the applications of trees."
+        },
+        {
+          "id": "TLO14",
+          "text": "Define the two-step process for mathematical induction."
+        },
+        {
+          "id": "TLO15",
+          "text": "Used mathematical induction to prove statements."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        3,
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,0 +1,86 @@
+{
+  "source": {
+    "filename": "S-ITNT312 CISCO Networking Semester 1 Lec.pdf",
+    "sha256": "3e28a1694ba74ebc2092f975600ee8569e3f54e9593947b5b80525a1d5b0a652",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC312Lc",
+  "course_title": "Cisco Networking Semester 1",
+  "course_type": "Lecture",
+  "course_credit": "Two (2) units",
+  "prerequisites": "S-ITCS214/LA",
+  "corequisites": "S-ITPC312L",
+  "course_description": null,
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Configure switches and end devices to provide access to local and remote network resources."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain how physical and data link layer protocols support the operation of Ethernet in a switched network."
+        },
+        {
+          "id": "CLO3",
+          "text": "Configure routers to enable end-to-end connectivity between remote devices."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the advances in modern network technologies."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain how physical layer protocols, services, and network media support communications across data networks."
+        },
+        {
+          "id": "TLO3",
+          "text": "Explain how routers use network layer protocols and services to enable end-to-end connectivity."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_description",
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list"
+  ]
+}

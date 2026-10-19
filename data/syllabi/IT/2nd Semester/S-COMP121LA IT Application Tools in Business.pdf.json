@@ -1,0 +1,203 @@
+{
+  "source": {
+    "filename": "S-COMP121LA IT Application Tools in Business.pdf",
+    "sha256": "fdeeef2125666e19a4924d43d735eadfb5f93c739cda98b5753808e902812492",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-COMP121LA",
+  "course_title": "IT APPLICATION TOOLS IN BUSINESS",
+  "course_type": "Lecture with Laboratory Component",
+  "course_credit": "Three (3) Units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "course_description": "This course provides a solid foundation in building a strong and useful knowledge of Information Technology which focuses on business productivity software applications and professional behavior in computing, including word processing, spreadsheet, presentation graphics and responsible utilization of the internet. Students will acquire skills and proficiency in Microsoft productivity software that enables them to pass the Microsoft Certified Application Specialist Examination.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "comprehend the impact and real-world use of information technology in daily life;"
+    },
+    {
+      "id": "CLO2",
+      "text": "describe how Microsoft 365 empowers workers for hybrid and flexible work."
+    },
+    {
+      "id": "CLO3",
+      "text": "realize the Microsoft 365 Fundamentals;"
+    },
+    {
+      "id": "CLO4",
+      "text": "collaborate using OneDrive, MS Teams and Sway;"
+    },
+    {
+      "id": "CLO5",
+      "text": "make creative documents in Microsoft Word;"
+    },
+    {
+      "id": "CLO6",
+      "text": "perform basic calculations and write and formulate functions for financial documents using Microsoft Excel;"
+    },
+    {
+      "id": "CLO7",
+      "text": "work with Productivity Software online;"
+    },
+    {
+      "id": "CLO8",
+      "text": "create visually appealing and interactive presentations using Microsoft PowerPoint;"
+    },
+    {
+      "id": "CLO9",
+      "text": "pass the Microsoft Office Specialist Certification Exam. ; and"
+    },
+    {
+      "id": "CLO10",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Comprehend the impact and the real world use of information technology in daily life."
+        },
+        {
+          "id": "CLO2",
+          "text": "Describe how Microsoft 365 empowers workers for hybrid and flexible work."
+        },
+        {
+          "id": "CLO3",
+          "text": "Realize the Microsoft 365 Fundamentals."
+        },
+        {
+          "id": "CLO4",
+          "text": "Collaborate using OneDrive, MS Teams and Sway."
+        },
+        {
+          "id": "CLO5",
+          "text": "Make creative documents in Microsoft Word."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Discuss the latest software applications and its impact on the way raw data is processed and presented."
+        },
+        {
+          "id": "TLO2",
+          "text": "Demonstrate and apply application software."
+        },
+        {
+          "id": "TLO3",
+          "text": "Use Microsoft 365 to improve productivity, facilitate collaboration, and optimize communications"
+        },
+        {
+          "id": "TLO4",
+          "text": "Connect all your files across Microsoft 365"
+        },
+        {
+          "id": "TLO5",
+          "text": "Move between locations, knowing you can create, view, edit, and share files from anywhere, on any device"
+        },
+        {
+          "id": "TLO6",
+          "text": "Make professional business letters, apply proofreading tools, format letters and reports properly and referencing information."
+        },
+        {
+          "id": "TLO7",
+          "text": "Learn to insert tables, columns and generate certificates using mail merge."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO6",
+          "text": "Perform basic calculations and write and formulate functions for financial documents using Microsoft Excel."
+        },
+        {
+          "id": "CLO7",
+          "text": "Work with Productivity Software online."
+        },
+        {
+          "id": "CLO8",
+          "text": "Create visually appealing and interactive presentations using Microsoft PowerPoint."
+        },
+        {
+          "id": "CLO9",
+          "text": "Pass the Microsoft Office Specialist Certification Exam."
+        },
+        {
+          "id": "CLO10",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Discuss how Microsoft Excel helps productivity."
+        },
+        {
+          "id": "TLO9",
+          "text": "Demonstrate how formatting is done in Microsoft Excel including discussions on cells, tabs, worksheets, creating and modifying formulas and charts."
+        },
+        {
+          "id": "TLO10",
+          "text": "Turn ideas into the most powerful productivity tool on the planet."
+        },
+        {
+          "id": "TLO12",
+          "text": "Create presentations from a Word outline and apply document theme, transition effects and hyperlinks."
+        },
+        {
+          "id": "TLO13",
+          "text": "Use pictures, sounds and other multimedia elements to create presentation."
+        },
+        {
+          "id": "TLO14",
+          "text": "Demonstrates you have the skills needed to get the most out of Office Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

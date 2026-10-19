@@ -1,0 +1,157 @@
+{
+  "source": {
+    "filename": "S-ITCS111LA Introduction to Computing Lab.pdf",
+    "sha256": "ad8a9f0b8bac095a2382f0c9365a954e8a1753b292d9491502ba6702bffe0cdf",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S – ITCS111LA",
+  "course_title": "INTRODUCTION TO COMPUTING",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": "None",
+  "corequisites": "S – ITCS111",
+  "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "select the appropriate computer components to build, repair, or upgrade personal computers; CLO2. explain basic host, data, and network security;"
+    },
+    {
+      "id": "CLO2",
+      "text": "explain the roles and responsibilities of the IT professional;"
+    },
+    {
+      "id": "CLO3",
+      "text": "study the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct;"
+    },
+    {
+      "id": "CLO5",
+      "text": "understand and apply the concepts involving framework for website development;"
+    },
+    {
+      "id": "CLO6",
+      "text": "utilize design standards in planning the layout, design, and development of a complete website; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "Demonstrate 21st-century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Select the appropriate computer components to build, repair, or upgrade personal computers"
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain basic host, data, and network security."
+        },
+        {
+          "id": "CLO3",
+          "text": "Explain the roles and responsibilities of the IT professional."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain how to keep personal computer components safe."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the features and functions of computer components. TLO3 Describe different types of malware."
+        },
+        {
+          "id": "TLO4",
+          "text": "Explain physical security measures."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain the six steps of the troubleshooting process for security."
+        },
+        {
+          "id": "TLO6",
+          "text": "Understand the necessary skills to become a successful IT professional Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- solving"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Study the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct."
+        },
+        {
+          "id": "CLO5",
+          "text": "Understand and apply the concepts involving framework for website development."
+        },
+        {
+          "id": "CLO6",
+          "text": "Utilize design standards in planning the layout, design, and development of a complete website."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Understand the ACM Code of Ethics and Professional Conduct to guide the ethical conduct of all computing professionals."
+        },
+        {
+          "id": "TLO8",
+          "text": "Study the basic concepts of HTML."
+        },
+        {
+          "id": "TLO9",
+          "text": "Use HTML elements and attributes in designing Web pages."
+        },
+        {
+          "id": "TLO10",
+          "text": "Apply the various standards in the planning and design of websites using CSS. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of the topic, but integrated into assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Final: learning-plan CLO not found in main CLO list",
+    "Duplicate outcome identifiers: course_learning_outcomes"
+  ]
+}

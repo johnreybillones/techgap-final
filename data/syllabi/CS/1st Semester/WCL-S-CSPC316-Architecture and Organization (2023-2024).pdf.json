@@ -1,0 +1,124 @@
+{
+  "source": {
+    "filename": "WCL-S-CSPC316-Architecture and Organization (2023-2024).pdf",
+    "sha256": "94e7dc2fd364e040dded381a8b485896cc7ea5fce0ee2ebc8643f67d320651c8",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 14,
+    "field_pages": {
+      "course_code": [
+        4,
+        11
+      ],
+      "course_title": [
+        4,
+        11
+      ],
+      "course_type": [
+        4,
+        11
+      ],
+      "course_credit": [
+        4,
+        11
+      ],
+      "prerequisites": [
+        4,
+        11
+      ],
+      "corequisites": [
+        4
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSPC316",
+  "course_title": "Architecture and Organization",
+  "course_type": "Lecture",
+  "course_credit": "3 Units",
+  "prerequisites": "S-ITCS214LA (Data Structures and Algorithm)",
+  "corequisites": "None",
+  "course_description": "This course deals with the introduction to digital hardware design. Combinational and sequential logic circuits are treated. Designing circuits using encoders, decoders, multiplexers, and different types of flip- flops is done for the first part of the course; and then algorithmic state machines are discussed. It also includes concepts relating to computer organization and architecture; instruction set and assembly language; hardware system, central processing unit, and its control; and input-output system and system memory.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "distinguish the building blocks that forms computer organization and have knowledge of how to instruct a computer;"
+    },
+    {
+      "id": "CLO2",
+      "text": "identify the fundamental circuit components and techniques for optimizing circuits;"
+    },
+    {
+      "id": "CLO3",
+      "text": "use Boolean algebra as related to designing computer logic, including solving Karnaugh maps;"
+    },
+    {
+      "id": "CLO4",
+      "text": "evaluate the importance of various theories and principles in solving real-life problems by inculcating the usefulness of computer organization;"
+    },
+    {
+      "id": "CLO5",
+      "text": "assess computer organization, structure, characteristics, basic theories of the CPU, memory, and I/O peripherals, the operation of modern day computer systems and the fundamental principles that drive computer designer in designing new architectures; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Distinguish the building blocks that forms computer organization and have knowledge of how to instruct a computer."
+        },
+        {
+          "id": "CLO2",
+          "text": "Identify the fundamental circuit components and techniques for optimizing circuits."
+        },
+        {
+          "id": "CLO3",
+          "text": "Use Boolean algebra as related to designing computer logic, including solving Karnaugh maps."
+        },
+        {
+          "id": "CLO4",
+          "text": "Evaluate the importance of various theories and principles in solving real-life problems by inculcating the usefulness of computer organization."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Distinguish the building blocks that forms computer organization and have knowledge of how to instruct a computer."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Midterm.topic_learning_outcomes",
+    "Missing or unrecognized: Final.topic_learning_outcomes"
+  ]
+}

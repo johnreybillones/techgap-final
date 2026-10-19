@@ -1,0 +1,149 @@
+{
+  "source": {
+    "filename": "S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf",
+    "sha256": "e0d239591d1afec5b7ae8caba1187de421c7069e2e29fb144a78ef00df6a95ee",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 12,
+    "field_pages": {
+      "course_code": [
+        3,
+        10
+      ],
+      "course_title": [
+        3,
+        10
+      ],
+      "course_type": [
+        3,
+        10
+      ],
+      "course_credit": [
+        3,
+        10
+      ],
+      "prerequisites": [
+        3,
+        10
+      ],
+      "corequisites": [
+        3,
+        10
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-CSPC212",
+  "course_title": "DISCRETE STRUCTURES",
+  "course_type": "Lecture",
+  "course_credit": "3 Units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "course_description": "This course covers fundamentals of logic and sets, fundamental principles of counting, algorithms, and some concepts in graph theory.",
+  "course_learning_outcomes": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Evaluate different approaches in addressing different real-world problems using the mathematical concepts learned."
+        },
+        {
+          "id": "CLO2",
+          "text": "Assess the significance and impact of the concepts learned and how these concepts can solve mathematical problems that we encounter in our everyday lives."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Understand the concept of propositions."
+        },
+        {
+          "id": "TLO2",
+          "text": "Determine the truth value of a proposition or compound proposition."
+        },
+        {
+          "id": "TLO3",
+          "text": "Learn to write a mathematical proof."
+        },
+        {
+          "id": "TLO4",
+          "text": "Learn to read, comprehend, and construct mathematical arguments."
+        },
+        {
+          "id": "TLO5",
+          "text": "Exhibit knowledge of how to work with discrete structures."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        3
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Apply mathematically correct terminology and notation."
+        },
+        {
+          "id": "CLO5",
+          "text": "Understand the basics of algorithm analysis, including big-O notation."
+        },
+        {
+          "id": "CLO6",
+          "text": "Remember how to work with discrete structures such as sets, graphs, and trees, which are abstract mathematical structures used to represent discrete objects and the relationships between these objects."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st-century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Exhibit knowledge of how to work with discrete structures."
+        },
+        {
+          "id": "TLO7",
+          "text": "Develop representation of discrete objects and relationships between these objects."
+        },
+        {
+          "id": "TLO8",
+          "text": "Develop your own mathematical models."
+        },
+        {
+          "id": "TLO11",
+          "text": "Know the growth of a function."
+        },
+        {
+          "id": "TLO12",
+          "text": "Know the complexity of an algorithm."
+        },
+        {
+          "id": "TLO13",
+          "text": "Learn the importance of sets and how it is used to build discrete structures such as sets, graphs, and trees."
+        },
+        {
+          "id": "TLO14",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of the topic, but integrated with assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: course_learning_outcomes",
+    "Midterm: learning-plan CLO not found in main CLO list",
+    "Final: learning-plan CLO not found in main CLO list"
+  ]
+}

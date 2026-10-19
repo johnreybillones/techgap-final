@@ -1,0 +1,97 @@
+{
+  "source": {
+    "filename": "S-CSPC223 Programming Languages Lec.pdf",
+    "sha256": "ddc6c6f8c87fc991502e5ecd773a4b90a40186f135bf4defde0bdf99223601cb",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPC223",
+  "course_title": "Programming Languages",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-CSGD323LC",
+  "corequisites": "None",
+  "course_description": "The purpose of this course is to study fundamentals concept in programming languages and major tools and techniques to implement them. This programming languages are based in declarative and imperative that includes syntax specifications, structured, object-based, parameter passing and functions. The implementation language will be JavaScript that will provide students with deeper understanding in programming concepts and ability to learn the foundation language in Web development like Angular, React JS, Node.JS and lot more.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explain the language features and paradigms of programming languages;"
+    },
+    {
+      "id": "CLO2",
+      "text": "apply knowledge of programming language and its approach;"
+    },
+    {
+      "id": "CLO3",
+      "text": "describe the control, data types and execution of programming languages;"
+    },
+    {
+      "id": "CLO4",
+      "text": "determine the appropriate ways for given application;"
+    },
+    {
+      "id": "CLO5",
+      "text": "apply the programming languages effectively; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "engage lifelong learning with new paradigms and updates with programming language."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Determine the appropriate ways for given applications."
+        },
+        {
+          "id": "CLO5",
+          "text": "Apply the programming languages effectively."
+        },
+        {
+          "id": "CLO6",
+          "text": "Engage lifelong learning with new paradigms and updates with programming language."
+        }
+      ],
+      "topic_learning_outcomes": [],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: Final.topic_learning_outcomes",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

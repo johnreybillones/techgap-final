@@ -1,0 +1,81 @@
+{
+  "source": {
+    "filename": "S-ITPC224 Networking 1 Lec.pdf",
+    "sha256": "77095affb80de73be89bdbe3cfd067ca5a01a6426adea2e59d182e2c22312be5",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [],
+      "corequisites": [],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC224",
+  "course_title": "Networking 1",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": null,
+  "corequisites": null,
+  "course_description": "Deals with computer network principles covering different layers, topologies and models of computer networks (explore Open System Interconnection), network programming, and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration and maintenance) and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explain the concept of network communication;"
+    },
+    {
+      "id": "CLO2",
+      "text": "create a simulated network using Packet Tracer;"
+    },
+    {
+      "id": "CLO3",
+      "text": "build a functioning network;"
+    },
+    {
+      "id": "CLO4",
+      "text": "explain the principles of IPv4 and IPv6 address management;"
+    },
+    {
+      "id": "CLO5",
+      "text": "configure initial settings on a network device;"
+    },
+    {
+      "id": "CLO6",
+      "text": "configure basic network security;"
+    },
+    {
+      "id": "CLO7",
+      "text": "describe data communications and network models, topologies, protocols, standards and architectures; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "explain how to use security best practices to mitigate attacks."
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: prerequisites",
+    "Missing or unrecognized: corequisites",
+    "Missing or unrecognized: learning_plan",
+    "Some period headings do not have a recognized learning-plan table"
+  ]
+}

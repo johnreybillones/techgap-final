@@ -1,0 +1,190 @@
+{
+  "source": {
+    "filename": "Syllabus-S-CSP315-Algorithm&ComplexitySY23-24 1st w-PLO revised.pdf",
+    "sha256": "f846bfc61b7d6892b6cdb93394c81d3fd82f5c100995eef80476a925f3646b8d",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 12,
+    "field_pages": {
+      "course_code": [
+        3,
+        9,
+        10
+      ],
+      "course_title": [
+        3,
+        9,
+        10
+      ],
+      "course_type": [
+        3,
+        9,
+        10
+      ],
+      "course_credit": [
+        3,
+        9,
+        10
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3
+      ]
+    }
+  },
+  "course_code": "S-CSPC315",
+  "course_title": "ALGORITHMS AND COMPLEXITY",
+  "course_type": "Lecture",
+  "course_credit": "3 Units",
+  "prerequisites": "S-ITCS214, S-ITCS214LA",
+  "corequisites": "None",
+  "course_description": "This course covers the design and analysis of different algorithms under various design principles and techniques making use of different data structures. It presents the relevance of algorithm in everyday lives and in computing science. Through algorithmic complexity measures, different range of behaviors of algorithms will be understood. It includes several analysis and design techniques such as divide-and-conquer, dynamic programming, greedy algorithms, and others. This course aims to enable students, who will be future computer scientist, to create correct and efficient algorithms and programs. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "exhibit the knowledge of relevance of algorithm in computing science;"
+    },
+    {
+      "id": "CLO2",
+      "text": "understand the different algorithm design principles and techniques;"
+    },
+    {
+      "id": "CLO3",
+      "text": "analyze the design of algorithms and their complexities;"
+    },
+    {
+      "id": "CLO4",
+      "text": "construct effective and efficient algorithms for different problems and scenarios using various principles and techniques;"
+    },
+    {
+      "id": "CLO5",
+      "text": "apply advanced algorithm techniques using any programming language to a software development project; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities. 3"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Exhibit the knowledge of relevance of algorithm in computing science."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand the different algorithm design principles and techniques."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze the design of algorithms and their complexities."
+        },
+        {
+          "id": "CLO4",
+          "text": "Construct effective and efficient algorithms for different problems and scenarios using various principles and techniques."
+        },
+        {
+          "id": "CLO5",
+          "text": "Apply advanced algorithm techniques using any programming language to a software development project."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Identify the criteria of an algorithm."
+        },
+        {
+          "id": "TLO2",
+          "text": "Understand the importance of algorithm analysis"
+        },
+        {
+          "id": "TLO3",
+          "text": "Be familiar with the different algorithm design and analysis."
+        },
+        {
+          "id": "TLO4",
+          "text": "techniques Analyze the efficiency of the algorithm."
+        },
+        {
+          "id": "TLO5",
+          "text": "Compute the running time complexity of a given program segment."
+        },
+        {
+          "id": "TLO6",
+          "text": "Compare the performance of different algorithms solving similar tasks."
+        },
+        {
+          "id": "TLO7",
+          "text": "Convert algorithm into a running computer program. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Analyze the design of algorithms and their complexities."
+        },
+        {
+          "id": "CLO4",
+          "text": "Construct effective and efficient algorithms and programs for different problems and scenarios using various principles and techniques."
+        },
+        {
+          "id": "CLO5",
+          "text": "Apply advanced algorithm techniques using any programming language to a software development project."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO4",
+          "text": "techniques Analyze the efficiency of the algorithm."
+        },
+        {
+          "id": "TLO5",
+          "text": "Compute the running time complexity of a given program segment."
+        },
+        {
+          "id": "TLO6",
+          "text": "Compare the performance of different algorithms solving similar tasks."
+        },
+        {
+          "id": "TLO7",
+          "text": "Convert algorithm into a running computer program."
+        },
+        {
+          "id": "TLO8",
+          "text": "Create a document about the advanced algorithm techniques used, description, features and the programming codes. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

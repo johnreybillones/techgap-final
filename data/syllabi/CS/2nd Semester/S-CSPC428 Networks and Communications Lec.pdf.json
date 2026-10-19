@@ -1,0 +1,85 @@
+{
+  "source": {
+    "filename": "S-CSPC428 Networks and Communications Lec.pdf",
+    "sha256": "ae14ebba844e2828ca654110b563bfda68b71baea667e1ce19b68f29e61a6bff",
+    "extractor_version": "dlsud-cics-v1",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPC428",
+  "course_title": "Networks and Communications",
+  "course_type": "Lecture",
+  "course_credit": "Three Units",
+  "prerequisites": "at least 3rd level",
+  "corequisites": "None",
+  "course_description": "This course deals with computer networks principles covering different layers, topologies, and models of computer networks (explore Open System Interconnection), network programming and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration, and maintenance), and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and managing network servers. Students are also expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues. This course utilizes the online curriculum of Networking Basics of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module- based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks. 1",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explain important concepts in network communication;"
+    },
+    {
+      "id": "CLO2",
+      "text": "explain network types, components, and connections;"
+    },
+    {
+      "id": "CLO3",
+      "text": "explain how communication occurs on Ethernet networks;"
+    },
+    {
+      "id": "CLO4",
+      "text": "explain the features of an IP address;"
+    },
+    {
+      "id": "CLO5",
+      "text": "explain how routers connect networks together;"
+    },
+    {
+      "id": "CLO6",
+      "text": "explain the function of transport and application layer services;"
+    },
+    {
+      "id": "CLO7",
+      "text": "use various tools to test and troubleshoot network connectivity;"
+    },
+    {
+      "id": "CLO8",
+      "text": "configure mobile devices for wireless access; and"
+    },
+    {
+      "id": "CLO9",
+      "text": "create a fully connected LAN"
+    }
+  ],
+  "learning_plan": [],
+  "status": "needs_review",
+  "issues": [
+    "Missing or unrecognized: learning_plan"
+  ]
+}

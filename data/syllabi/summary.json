@@ -1,0 +1,604 @@
+{
+  "counts": {
+    "ok": 30,
+    "needs_review": 89,
+    "failed": 0
+  },
+  "files": [
+    {
+      "input": "CS/1st Semester/G-COMP001LA .pdf",
+      "output": "CS/1st Semester/G-COMP001LA .pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-COMP121LA IT APPLICATION TOOLS IN BUSINESS REVISED.pdf",
+      "output": "CS/1st Semester/S-COMP121LA IT APPLICATION TOOLS IN BUSINESS REVISED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSGD312 Game Design Principles and Practice Lecture.pdf",
+      "output": "CS/1st Semester/S-CSGD312 Game Design Principles and Practice Lecture.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSGD312LA Game Design Principles and Practice Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSGD312LA Game Design Principles and Practice Laboratory.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Laboratory.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Lecture.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Laboratory (1).pdf",
+      "output": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Laboratory (1).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Laboratory.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Lecture.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf",
+      "output": "CS/1st Semester/S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSPE001LA-Computational-Science-LAB-SY23-24-1st-revised.pdf",
+      "output": "CS/1st Semester/S-CSPE001LA-Computational-Science-LAB-SY23-24-1st-revised.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSPE001LC-Computational Science LEC SY23-24 1st PLO revised.pdf",
+      "output": "CS/1st Semester/S-CSPE001LC-Computational Science LEC SY23-24 1st PLO revised.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSSE321_Software_Engineering-1-LECTURE 2023 2024 with PLO - EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE321_Software_Engineering-1-LECTURE 2023 2024 with PLO - EDITED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSSE321LC_Software_Engineering-1-LABORATORY-2023-2024-with-PLO-EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE321LC_Software_Engineering-1-LABORATORY-2023-2024-with-PLO-EDITED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSSE412LC_Software_Engineering 2 - LECTURE 2023 2024 with PLO - EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE412LC_Software_Engineering 2 - LECTURE 2023 2024 with PLO - EDITED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSSE412LC_Software_Engineering-2-LABORATORY-2023-2024-with-PLO-EDITED (1).pdf",
+      "output": "CS/1st Semester/S-CSSE412LC_Software_Engineering-2-LABORATORY-2023-2024-with-PLO-EDITED (1).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-CSTH412 THESIS 2.pdf",
+      "output": "CS/1st Semester/S-CSTH412 THESIS 2.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS111LAB_Intro2Computing_Syllabus2023-2024 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS111LAB_Intro2Computing_Syllabus2023-2024 (1).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS111LEC-IntroToComp_Syllabus2023-2023_A.pdf",
+      "output": "CS/1st Semester/S-ITCS111LEC-IntroToComp_Syllabus2023-2023_A.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS111LEC_Intro2Computing_Syllabus2023-2024 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS111LEC_Intro2Computing_Syllabus2023-2024 (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Laboratory.pdf",
+      "output": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Laboratory.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Lecture.pdf",
+      "output": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Lecture.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS125_-_Human_Computer_Interaction_Lec.pdf",
+      "output": "CS/1st Semester/S-ITCS125_-_Human_Computer_Interaction_Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS125LA_-_Human_Computer_Interaction_Lab_SIGNED.pdf",
+      "output": "CS/1st Semester/S-ITCS125LA_-_Human_Computer_Interaction_Lab_SIGNED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS214-CS-Data-Structures-and-Algorithms-LEC-Syllabus.pdf",
+      "output": "CS/1st Semester/S-ITCS214-CS-Data-Structures-and-Algorithms-LEC-Syllabus.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS214LA-Data-Structures-and-Algorithms-Syllabus.pdf",
+      "output": "CS/1st Semester/S-ITCS214LA-Data-Structures-and-Algorithms-Syllabus.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS318-Information-Assurance-and-Security-LEC-SY-23-241st-2.pdf",
+      "output": "CS/1st Semester/S-ITCS318-Information-Assurance-and-Security-LEC-SY-23-241st-2.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-ITCS318LC-Information-Assurance-and-Security-LEC-SY-23-241st.pdf",
+      "output": "CS/1st Semester/S-ITCS318LC-Information-Assurance-and-Security-LEC-SY-23-241st.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S-Math_200_Number_Theory_1st_Sem_SY2024-2025(2).pdf",
+      "output": "CS/1st Semester/S-Math_200_Number_Theory_1st_Sem_SY2024-2025(2).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S_CSGD311 Introducton to Game Programming LABORATORY 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD311 Introducton to Game Programming LABORATORY 20232024 REVISED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S_CSGD311 Introducton to Game Programming Lecture 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD311 Introducton to Game Programming Lecture 20232024 REVISED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/S_CSGD415LAB_AdvancedGameProgramming_Lab_2022_2023 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD415LAB_AdvancedGameProgramming_Lab_2022_2023 REVISED.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/Syllabus-S-CSP315-Algorithm&ComplexitySY23-24 1st w-PLO revised.pdf",
+      "output": "CS/1st Semester/Syllabus-S-CSP315-Algorithm&ComplexitySY23-24 1st w-PLO revised.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/1st Semester/WCL-S-CSPC316-Architecture and Organization (2023-2024).pdf",
+      "output": "CS/1st Semester/WCL-S-CSPC316-Architecture and Organization (2023-2024).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/1st Semester/WCL-S-CSPE003LC-(Lab)Parallel and Distributed Computing (1).pdf",
+      "output": "CS/1st Semester/WCL-S-CSPE003LC-(Lab)Parallel and Distributed Computing (1).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSGD323 Computer Animation and Simulation Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD323 Computer Animation and Simulation Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSGD324 Immersive Game Development Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD324 Immersive Game Development Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSGD324LA Immersive Game Development Lab.pdf",
+      "output": "CS/2nd Semester/S-CSGD324LA Immersive Game Development Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSGD426 Graphics and Animation Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD426 Graphics and Animation Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSGD426LA Graphics and Animation Lab.pdf",
+      "output": "CS/2nd Semester/S-CSGD426LA Graphics and Animation Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSIS426 Special Topics in Artificial Intelligence Lec.pdf",
+      "output": "CS/2nd Semester/S-CSIS426 Special Topics in Artificial Intelligence Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC223 Programming Languages Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC223 Programming Languages Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC224 DISCRETE STRUCTURES 2 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC224 DISCRETE STRUCTURES 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC327 Automata Theory and Formal Languages Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC327 Automata Theory and Formal Languages Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC428 Networks and Communications Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC428 Networks and Communications Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPC429 Operating System Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC429 Operating System Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec (2).pdf",
+      "output": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec (2).pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-CSTH321 THESIS 1 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSTH321 THESIS 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "CS/2nd Semester/S-ITCS 123 Intermediate Programming Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS 123 Intermediate Programming Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-ITCS226 Information Management Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS226 Information Management Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec (2).pdf",
+      "output": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec (2).pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "CS/2nd Semester/S-ITCS329 Social Issues and Professional Practice Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS329 Social Issues and Professional Practice Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCP412 Capstone Project 2.pdf",
+      "output": "IT/1st Semester/S-ITCP412 Capstone Project 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS111 Introduction to Computing Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS111 Introduction to Computing Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS111LA Introduction to Computing Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS111LA Introduction to Computing Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS112 Fundamentals of Programming Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS112 Fundamentals of Programming Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS112LA Fundamentals of Programming Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS112LA Fundamentals of Programming Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS125 Human Computer Interaction Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS125 Human Computer Interaction Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS125LA Human Computer Interaction Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS125LA Human Computer Interaction Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS214 Data Structures and Algorithms Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS214 Data Structures and Algorithms Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS214LA Data Structures and Algorithms Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS214LA Data Structures and Algorithms Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS318 Information Assurance and Security Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS318 Information Assurance and Security Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITCS318LA Information Assurance and Security Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS318LA Information Assurance and Security Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT311 Internet of Things Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT311 Internet of Things Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT311LA Internet of Things Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT311LA Internet of Things Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT312 CISCO Networking Semester 1 Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT312 CISCO Networking Semester 1 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT312La CISCO Networking Semester 1.pdf",
+      "output": "IT/1st Semester/S-ITNT312La CISCO Networking Semester 1.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT415 CISCO Networking Semester 4 Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT415 CISCO Networking Semester 4 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT415La CISCO Networking Semester 4 Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT415La CISCO Networking Semester 4 Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT416 Big Data and Analytics Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT416 Big Data and Analytics Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITNT416LA Big Data and Analytics Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT416LA Big Data and Analytics Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC315 Networking 2 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC315 Networking 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC315 Networking 2 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC315 Networking 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC316 Integrative Programming Technologies Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC316 Integrative Programming Technologies Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC316LA  Integrative Programming Technologies Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC316LA  Integrative Programming Technologies Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC419 System Administration and Maintenance Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC419 System Administration and Maintenance Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPC419LA System Administration and Maintenance Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC419LA System Administration and Maintenance Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE001 IT Professional Elective 1 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE001 IT Professional Elective 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE001LA IT Professional Elective 1 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPE001LA IT Professional Elective 1 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE002 IT Professional Elective Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE002 IT Professional Elective Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE002LA IT Professional Elective 2.pdf",
+      "output": "IT/1st Semester/S-ITPE002LA IT Professional Elective 2.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE004 IT Professional Elective  4 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE004 IT Professional Elective  4 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITPE004LA  IT Professional Elective 4 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPE004LA  IT Professional Elective 4 Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB311 Web Development Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB311 Web Development Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB311LA Web Development Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB311LA Web Development Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB312 Mobile Enterprise System Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB312 Mobile Enterprise System Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB312LA Mobile Enterprise System Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB312LA Mobile Enterprise System Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB415 Internet Languages and Tools 2 Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB415 Internet Languages and Tools 2 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB415LA Internet Languages and Tools 2 Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB415LA Internet Languages and Tools 2 Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB416 Graphics Design Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB416 Graphics Design Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/1st Semester/S-ITWB416LA Graphics Design Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB416LA Graphics Design Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-COMP121LA IT Application Tools in Business.pdf",
+      "output": "IT/2nd Semester/S-COMP121LA IT Application Tools in Business.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCP322 Capstone Project 1.pdf",
+      "output": "IT/2nd Semester/S-ITCP322 Capstone Project 1.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCP412 Capstone Project 2.pdf",
+      "output": "IT/2nd Semester/S-ITCP412 Capstone Project 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCS123 Intermediate Programming Lec.pdf",
+      "output": "IT/2nd Semester/S-ITCS123 Intermediate Programming Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCS123LA Intermediate Programming Lab.pdf",
+      "output": "IT/2nd Semester/S-ITCS123LA Intermediate Programming Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCS226 Information Management Lec.pdf",
+      "output": "IT/2nd Semester/S-ITCS226 Information Management Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCS226LA Information Management Lab.pdf",
+      "output": "IT/2nd Semester/S-ITCS226LA Information Management Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITCS329 Social Issues and Professional Practice.pdf",
+      "output": "IT/2nd Semester/S-ITCS329 Social Issues and Professional Practice.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITNT323 CISCO Networking Seminar 2 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITNT323 CISCO Networking Seminar 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITNT323LA CISCO Networking Semester 2 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITNT323LA CISCO Networking Semester 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC121 Fundamentals of Database Systems Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC121 Fundamentals of Database Systems Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC121LA Fundamentals of Database Systems Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC121LA Fundamentals of Database Systems Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC224 Networking 1 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC224 Networking 1 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC224LA Netwroking 1 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC224LA Netwroking 1 Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC227 Application Development and Emerging Technologies Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC227 Application Development and Emerging Technologies Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC227LA Application Develipment and Emerging Technologies Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC227LA Application Develipment and Emerging Technologies Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC327 Information Assurance and Security 2 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC327 Information Assurance and Security 2 Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC327LA Information Assurance and Security 2 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC327LA Information Assurance and Security 2 Lab.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC328 System Integration and Architecture Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC328 System Integration and Architecture Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITPC328LA System Integration and Architecture Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC328LA System Integration and Architecture Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITWB323 Multimedia Systems Lec.pdf",
+      "output": "IT/2nd Semester/S-ITWB323 Multimedia Systems Lec.pdf.json",
+      "status": "needs_review"
+    },
+    {
+      "input": "IT/2nd Semester/S-ITWB323LA Multimedia Systems Lab.pdf",
+      "output": "IT/2nd Semester/S-ITWB323LA Multimedia Systems Lab.pdf.json",
+      "status": "needs_review"
+    }
+  ]
+}
