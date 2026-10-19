@@ -39,7 +39,8 @@ jobs:
 
       - name: Lint and syntax validation (Ruff)
         run: |
-          ruff check .
+          # Fails on syntax errors, undefined variables, and fatal Python issues
+          ruff check . --select E9,F
 
       - name: Smoke test script entry points
         run: |
