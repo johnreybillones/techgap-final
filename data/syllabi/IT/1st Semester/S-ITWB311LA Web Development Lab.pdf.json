@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB311LA Web Development Lab.pdf",
     "sha256": "57b81f77fd07ea25f833ebe38dfef376f6e02cd2932d9cc0e17ab6dc2c9f08d2",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One (1) Unit",
   "prerequisites": "None",
   "corequisites": "S-ITWB311",
+  "track": "IT - Web Development",
   "course_description": "Deals with a practical hands-on introduction in Web Development with the help of the latest version of Notepad++ editor/NetBeans IDE2008, Microsoft Internet Explorer browser, and Microsoft Visual Web Developer Express Edition Integrated Development Environment necessary to implement web-based application; and introduces program server-side web pages using PHP and MySQL.",
   "course_learning_outcomes": [
     {
@@ -97,7 +98,7 @@
         },
         {
           "id": "TLO3",
-          "text": "Learn about Decision-Making Statements in PHP and its implementation on developing web pages."
+          "text": "Learn about Decision-Making Statements in PHP and its implementation on developing web pages. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving."
         }
       ],
       "additional_text": [

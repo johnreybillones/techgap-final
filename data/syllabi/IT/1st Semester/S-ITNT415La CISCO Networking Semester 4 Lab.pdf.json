@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITNT415La CISCO Networking Semester 4 Lab.pdf",
     "sha256": "9b3baf72870d71e51973185aa2f6d01144a6f012db6c5ecfbfd3640e07104f64",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,8 +38,26 @@
   "course_credit": "One (1) units",
   "prerequisites": "S-ITNT344LC",
   "corequisites": "S-ITNT415L",
-  "course_description": null,
-  "course_learning_outcomes": [],
+  "track": "IT - Network Technology",
+  "course_description": "Discusses the WAN technologies and network services required by converged applications in a complex network. The course enables students to understand the selection criteria of network devices and WAN technologies to meet network requirements. Students learn how to configure and troubleshoot network devices and resolve common issues with data link protocols. Students also develop the knowledge and skills needed to implement virtual private network (VPN) operations in a complex network. The course gears towards DevNet Associate certification exam. In addition to this, DevNet Associate course teaches students the best practices of DevOps, COURSE LEARNING OUTCOME By the end of this course, students can: CLO1. develop basic Python programming and Linux skills. CLO2. investigate development environment using DevNet resources. CLO3. use software development and design best practices. CLO4. create a secure REST API. CLO5. explain the processes and devices that support network connectivity. CLO6. use current technologies to deploy and secure applications and data in a cloud environment. CLO7. analyze software testing and deployment methods in automation and simulation environments. CLO8. analyze Cisco platforms used for collaboration, infrastructure management, and automation. LEARNING PLAN: Learning Outcomes for Midterm Period",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Develop basic Python programming and TLO1. Manage the Linux file systems and Linux skills. permissions TLO2. Use basic programming"
+    },
+    {
+      "id": "CLO2",
+      "text": "Investigate a development environment TLO3. Investigate DevNet online resources using DevNet resources."
+    },
+    {
+      "id": "CLO3",
+      "text": "Use software development and design best TLO4. Describe the benefits of various software practices. design patterns"
+    },
+    {
+      "id": "CLO4",
+      "text": "Create a secure REST API TLO5. Compare synchronous and asynchronous API design styles. Module Number Teaching-Learning Activities / Assessment Alloted Technology and Strategy Hours Enabler Learning Outcome(s) Module 1 1 Gospel Reading, Reflection and Prayer MS Teams 3 AMzaerniai tGh lMoroiaji cDae l Rosario CLO 1 Aug 19-24 Presentation on the Fully online learning model Sc22h00o2244o--l00b88o--00o55k 11 14::0097::0000 TLO 1 LMS: Ne----t--A----c----a--d---- -------------------------------------------------------------------- 1. Schoolbook enlistment 3h ihhiohui.r.s.t hlaabn ks po mam aze 2. MS Teams channel for every synch meeting 3. Netacad Course Experience – Enrollment, Interface, Submission, Getting Used to the Cisco Networking Academy LMS Module 1: Setup Your Lab Environment Objective: Manage the Linux file system and permissions Demonstration: Enabling Assessment 1: Install the Virtual Machine Lab Hands-on Setup Download Packet Tracer version 8.2.2 DevNetASC LAB VM https://static-course- assets.s3.amazonaws.com/DEVNET/DEVASC_VM.ov a DevNetASC LAB VM https://www.netacad.com/portal/content/devnethttps:// www.netacad.com/portal/content/devnet-associate- virtual-machines-vmsassociate-virtual-machines-vms Module 1 2 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 1 Aug 26 -31 Review of Linux Commands NetAcad TLO 2 Module 1: Setup Your Lab Environment Objective: Use basic Python programming Enabling Activity 2: Linux Review Module 2 3 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 2 Sep 2-7 Module 2: The DevNet DeveloperEnvironment NetAcad TLO 3 Objective: Explain how DevNet encourages communities of network programmers. Visit the DevNet Home page at developer.cisco.com Enabling Activity 3: Python Programming Activity Module 2 4 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 2 Sep 9-14 Module 2: The DevNet Developer Environment NetAcad TLO 3 Objective: Implement a development environment using DevNet resources Enabling Activity 4: Create a DevNet Account Module 3 5 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 3 Sep Module 2: The DevNet Developer Environment NetAcad TLO 4 16-21 Objective: Explain how DevNet encourages communities of network programmers. Set up a development environment Lab-Investigate DevNet online resources Module 3 6 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 3 Sep Module 3: Software Development and Design NetAcad TLO 4 23-28 Objective: Use software development and design best practices Lab: Parse Different Date Types with Python Enabling Activity 5: Lab: Explore Python Classes Module 3 7 Gospel Reading, Reflection and Prayer MS Teams 3 CLO 3 Sep 30 Module 3: Software Development and Design NetAcad TLO 4 – Oct 5 Objective: Use software development and design best practices Review notes on Git and GitHub Explore Python Development Tools Enabling Activity 6: Lab: Create a Python Unit Test Module 8 Summative Assessment baed on Module 1-3 MS Teams 3 1,2,3 Oct 7-12 NetAcad TOTAL 24"
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -91,9 +109,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_description",
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSGD426 Graphics and Animation Lec.pdf",
     "sha256": "fb8eb015179dc9715d5697875d5fe724062f1c7f6330480d4c05a7c6f9df2746",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-CSGD311",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course covers the main animation algorithms and techniques used in the implementation of interactive 3D Graphics such as in computer games, modelling tools, robotics simulations and virtual reality. Topics covered are physically based simulation, key frame animation, articulated figures, direct and inverse kinematics, path planning, behavior-based animation, scripting behaviors and other topics.",
   "course_learning_outcomes": [
     {

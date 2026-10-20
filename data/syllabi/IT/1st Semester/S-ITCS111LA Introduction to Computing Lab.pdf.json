@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS111LA Introduction to Computing Lab.pdf",
     "sha256": "ad8a9f0b8bac095a2382f0c9365a954e8a1753b292d9491502ba6702bffe0cdf",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "None",
   "corequisites": "S – ITCS111",
+  "track": "Common (IT & CS)",
   "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
   "course_learning_outcomes": [
     {

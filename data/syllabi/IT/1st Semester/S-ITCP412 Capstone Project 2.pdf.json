@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCP412 Capstone Project 2.pdf",
     "sha256": "7702825c1ce6c1c0a339ae2a948089d5b9f7041e599717717dd907afafc41358",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "3 Units",
   "prerequisites": "ITCP322 – Capstone Project 1",
   "corequisites": "None",
+  "track": "IT Core & Electives",
   "course_description": "This course requires the fulfillment of the complete documentation, software, and oral defense before a set of panelists.",
   "course_learning_outcomes": [
     {

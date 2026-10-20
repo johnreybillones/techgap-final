@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-COMP121LA IT APPLICATION TOOLS IN BUSINESS REVISED.pdf",
     "sha256": "44f074432c3147feb8344fc33036098dfb5131057588e3a259a68168c24d6b0f",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 14,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4
+      ]
     }
   },
   "course_code": "G-COMP001LA",
@@ -36,8 +38,30 @@
   "course_credit": "3 Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "General & Foundational",
   "course_description": "This course provides a solid foundation in building a strong and useful knowledge of Information Technology which focuses on business productivity software applications and professional behavior in computing, including word processing, spreadsheet, presentation graphics and responsible utilization of the Internet. Students will acquire skills and proficiency in Microsoft productivity software that enables them to pass the Microsoft Certified Application Specialist Examination.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "discuss the impact and real-world use of information technology in daily life;"
+    },
+    {
+      "id": "CLO2",
+      "text": "create creative documents content in Microsoft Word;"
+    },
+    {
+      "id": "CLO3",
+      "text": "perform basic calculations and write and formulate functions for financial documents using Microsoft Excel;"
+    },
+    {
+      "id": "CLO4",
+      "text": "create visually appealing and interactive presentations using Microsoft PowerPoint;"
+    },
+    {
+      "id": "CLO5",
+      "text": "pass the Microsoft Office Specialist Certification Exam."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -85,79 +109,10 @@
       "source_pages": [
         5
       ]
-    },
-    {
-      "period": "Finals",
-      "course_learning_outcomes": [
-        {
-          "id": "CLO1",
-          "text": "Discuss the impact and the real-world use of information technology in daily life."
-        },
-        {
-          "id": "CLO2",
-          "text": "Create content creative documents in Microsoft Word."
-        },
-        {
-          "id": "CLO3",
-          "text": "Perform basic calculations and write and formulate functions for financial documents using Microsoft Excel."
-        },
-        {
-          "id": "CLO4",
-          "text": "Create visually appealing and interactive presentations using Microsoft PowerPoint."
-        },
-        {
-          "id": "CLO5",
-          "text": "Pass the Microsoft Office Specialist Certification Exam"
-        }
-      ],
-      "topic_learning_outcomes": [
-        {
-          "id": "TLO1",
-          "text": "Discuss the latest software applications and its impact on the way raw data is processed and presented."
-        },
-        {
-          "id": "TLO2",
-          "text": "Demonstrate and apply application softwares."
-        },
-        {
-          "id": "TLO3",
-          "text": "Make professional business letters, apply proofreading tools, format letters and reports properly and referencing information."
-        },
-        {
-          "id": "TLO4",
-          "text": "Learn to insert tables, columns and generate certificates using mail merge."
-        },
-        {
-          "id": "TLO5",
-          "text": "Discuss how Microsoft Excel helps productivity."
-        },
-        {
-          "id": "TLO6",
-          "text": "Demonstrate how formatting is done in Microsoft Excel including discussions on cells, tabs, worksheets, creating and modifying formulas and charts."
-        },
-        {
-          "id": "TLO7",
-          "text": "Create presentations from a Word outline and apply document theme, transition effects and hyperlinks."
-        },
-        {
-          "id": "TLO8",
-          "text": "Use pictures, sounds and other multimedia elements to create presentation."
-        },
-        {
-          "id": "TLO9",
-          "text": "MOS Exam"
-        }
-      ],
-      "additional_text": [],
-      "source_pages": [
-        7
-      ]
     }
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Finals: learning-plan CLO not found in main CLO list"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB415LA Internet Languages and Tools 2 Lab.pdf",
     "sha256": "e330b831cc5f7b9ef107ef0c5ae963f810a39cef0321bd8c075418bfebc89118",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 7,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        1
+      ]
     }
   },
   "course_code": "S-ITWB415LA",
@@ -36,11 +38,88 @@
   "course_credit": "1 unit",
   "prerequisites": "S-ITPC323 & S-ITPC323LA",
   "corequisites": "S-ITWB415",
+  "track": "IT - Web Development",
   "course_description": "Provides introduction to mobile application development for android platform. In this course, students learn both the practical and conceptual skills that enable them to develop robust android/IOS applications. Students learn skills for creating and deploying Android/IOS applications, with particular emphasis on software development, including software architecture, software design, usability, and deployment.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Discuss the fundamental concepts of Flutter;"
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the Dart programming basics;"
+    },
+    {
+      "id": "CLO3",
+      "text": "Design a mobile / web application with various layouts and widget;"
+    },
+    {
+      "id": "CLO4",
+      "text": "Develop a mobile web application to solve real life problems."
+    },
+    {
+      "id": "CLO5",
+      "text": "Evaluate the functionality and usability of the applications."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
-      "period": "FINAL",
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Discuss the fundamental concepts of TL Dart and Flutter. TL"
+        },
+        {
+          "id": "CLO2",
+          "text": "Demonstrate the Dart Programming TL basics. TL TL T"
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the fundamental concepts of Flutter."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the flutter architecture."
+        },
+        {
+          "id": "TLO3",
+          "text": "Discuss the mathematical, logical and conditional operators."
+        },
+        {
+          "id": "TLO4",
+          "text": "Differentiate list and map."
+        },
+        {
+          "id": "TLO5",
+          "text": "Demonstrate programming using functions."
+        },
+        {
+          "id": "TLO6",
+          "text": "Create programs using class and constructors."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in as s essment )"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
       "course_learning_outcomes": [
         {
           "id": "CLO3",
@@ -96,10 +175,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "FINAL: learning-plan CLO not found in main CLO list",
-    "Some period headings do not have a recognized learning-plan table"
-  ]
+  "status": "ok",
+  "issues": []
 }

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB323LA Multimedia Systems Lab.pdf",
     "sha256": "c16768cfec010e4c204aa7389a0cb2f160e41a12797b72835791eb8544a1f39e",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 11,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "S-ITPC311LC",
   "corequisites": "S-ITWB323",
+  "track": "IT - Web Development",
   "course_description": "This course deals with familiarization of the concept of Multimedia System, which broadens the knowledge and understanding of multimedia technologies and applications. This also guides them to acquire confidence in their ability to expand their knowledge of multimedia in order to aid professional development. Covers the areas of multimedia analysis, design and delivery, history, images, graphics/drawing, sound and animation that will enable to use diagnostic techniques and solutions. Page | 1",
   "course_learning_outcomes": [
     {

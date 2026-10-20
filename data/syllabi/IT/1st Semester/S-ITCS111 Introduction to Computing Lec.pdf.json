@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS111 Introduction to Computing Lec.pdf",
     "sha256": "7397403a6987dabb1c8a557cd3bb84e711899863f648fcccb2d08732d6f1cd93",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "None",
   "corequisites": "S – ITCS111LA",
+  "track": "Common (IT & CS)",
   "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
   "course_learning_outcomes": [
     {
@@ -114,6 +115,6 @@
   "issues": [
     "Midterm: learning-plan CLO not found in main CLO list",
     "Duplicate outcome identifiers: course_learning_outcomes",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

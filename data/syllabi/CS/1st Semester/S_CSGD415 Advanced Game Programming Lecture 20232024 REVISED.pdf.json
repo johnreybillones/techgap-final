@@ -2,7 +2,7 @@
   "source": {
     "filename": "S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf",
     "sha256": "fc8b60587058e217fe86edfc9385602c36853611c9e8c9e7042a39c3238e08b1",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 16,
     "field_pages": {
@@ -33,7 +33,9 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4
+      ]
     }
   },
   "course_code": "S-CSGD415",
@@ -42,8 +44,46 @@
   "course_credit": "2 Units",
   "prerequisites": "S-CSGD323",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course deals with advanced game programming with a strong focus on developing good programming skills, design patterns, and practical problem-solving. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication, and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disasters and pandemics. Hence, this class shall be delivered in both an online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the structure of mobile game programming; C LO2. remember the basic framework for mobile game development;"
+    },
+    {
+      "id": "CLO3",
+      "text": "understand how physics affects in development of the game;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the design learned and report the expected effectiveness of the mobile game;"
+    },
+    {
+      "id": "CLO5",
+      "text": "demonstrate game programming capability;"
+    },
+    {
+      "id": "CLO6",
+      "text": "interpret efficient game loop;"
+    },
+    {
+      "id": "CLO7",
+      "text": "evaluate mobile game application;"
+    },
+    {
+      "id": "CLO8",
+      "text": "design the needs of game programming in the industry;"
+    },
+    {
+      "id": "CLO9",
+      "text": "develop an appreciation in virtual simulation technology; and"
+    },
+    {
+      "id": "CLO10",
+      "text": "value the Lasallian values and sensitivity in developing a game to real-world problems."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -150,8 +190,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
+    "Midterm: learning-plan CLO not found in main CLO list"
   ]
 }

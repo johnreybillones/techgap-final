@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-COMP121LA IT Application Tools in Business.pdf",
     "sha256": "fdeeef2125666e19a4924d43d735eadfb5f93c739cda98b5753808e902812492",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "Three (3) Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "General & Foundational",
   "course_description": "This course provides a solid foundation in building a strong and useful knowledge of Information Technology which focuses on business productivity software applications and professional behavior in computing, including word processing, spreadsheet, presentation graphics and responsible utilization of the internet. Students will acquire skills and proficiency in Microsoft productivity software that enables them to pass the Microsoft Certified Application Specialist Examination.",
   "course_learning_outcomes": [
     {

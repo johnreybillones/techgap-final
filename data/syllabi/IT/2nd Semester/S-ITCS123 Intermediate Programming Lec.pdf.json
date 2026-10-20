@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS123 Intermediate Programming Lec.pdf",
     "sha256": "35b463a91e9a68135b799ddb25f7ddfbd89d3be65c9e52bed2b3b97ee6aa51b5",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "Two units",
   "prerequisites": "S-ITCS112/S-ITCS112LA",
   "corequisites": "S-ITCS123LA Intermediate Programming Lab",
+  "track": "Common (IT & CS)",
   "course_description": "Includes review of control structures and data types with emphasis on structured data types. Application of object-oriented programming paradigm, focusing on the definition and use of classes along with the fundamentals of object-oriented design is also part of the discussion as well as basic analysis of algorithms, searching and sorting techniques.",
   "course_learning_outcomes": [
     {
@@ -78,6 +79,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final, Midterm"
   ]
 }

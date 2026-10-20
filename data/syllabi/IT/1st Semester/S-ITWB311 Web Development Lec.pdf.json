@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB311 Web Development Lec.pdf",
     "sha256": "d505bb2e9f3ac85cad84263fe4c5a4c44e4d55379a760c865a3e6eaf58abebe9",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 11,
     "field_pages": {
@@ -25,7 +25,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        2
+      ]
     }
   },
   "course_code": "S-ITWB311",
@@ -34,8 +36,34 @@
   "course_credit": "Two (2) units",
   "prerequisites": "Should be 3rd year level",
   "corequisites": "S-ITWB311LA",
+  "track": "IT - Web Development",
   "course_description": "Deals with a practical hands-on introduction in Web Development with the help of the latest version of Notepad++ editor/NetBeans IDE2008, Microsoft Internet Explorer browser, and Microsoft Visual Web Developer Express Edition Integrated Development Environment necessary to implement web-based application; and introduces program server-side web pages using PHP and MySQL.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand and apply the concepts involving frameworks for website development."
+    },
+    {
+      "id": "CLO2",
+      "text": "Create codes written in PHP and various web site development tools."
+    },
+    {
+      "id": "CLO3",
+      "text": "Analyze different structures and designs in creating website."
+    },
+    {
+      "id": "CLO4",
+      "text": "Evaluate design standards in planning layout, design and development of a complete website."
+    },
+    {
+      "id": "CLO5",
+      "text": "Develop and apply web development concepts that are competitive in technological areas."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -68,7 +96,7 @@
         },
         {
           "id": "TLO3",
-          "text": "Learn about Decision-Making Statements in PHP and its implementation on developing web pages."
+          "text": "Learn about Decision-Making Statements in PHP and its implementation on developing web pages. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving."
         }
       ],
       "additional_text": [
@@ -125,9 +153,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_title",
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
+    "Missing or unrecognized: course_title"
   ]
 }

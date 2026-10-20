@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC316LA  Integrative Programming Technologies Lab.pdf",
     "sha256": "c51526e358afe8ce5687786fcf873f500ffaeaec2b77fd1bd4293988d6ad88af",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -36,6 +36,7 @@
   "course_credit": "One unit",
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC316",
+  "track": "IT Core & Electives",
   "course_description": null,
   "course_learning_outcomes": [
     {

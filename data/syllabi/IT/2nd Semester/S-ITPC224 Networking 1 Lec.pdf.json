@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC224 Networking 1 Lec.pdf",
     "sha256": "77095affb80de73be89bdbe3cfd067ca5a01a6426adea2e59d182e2c22312be5",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -35,6 +35,7 @@
   "course_credit": "Two Units",
   "prerequisites": null,
   "corequisites": null,
+  "track": "IT Core & Electives",
   "course_description": "Deals with computer network principles covering different layers, topologies and models of computer networks (explore Open System Interconnection), network programming, and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration and maintenance) and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues.",
   "course_learning_outcomes": [
     {
@@ -70,12 +71,97 @@
       "text": "explain how to use security best practices to mitigate attacks."
     }
   ],
-  "learning_plan": [],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the concept of network communication."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create a simulated network using Packet Tracer."
+        },
+        {
+          "id": "CLO3",
+          "text": "Build a functioning network."
+        },
+        {
+          "id": "CLO4",
+          "text": "Explain the principles of IPv4 and IPv6 address management."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the concept of network communication."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the requirements for getting online."
+        },
+        {
+          "id": "TLO3",
+          "text": "Explain the importance of standards and protocols in network communications."
+        },
+        {
+          "id": "TLO4",
+          "text": "Explain the features of an IP address."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Configure initial settings on a network device."
+        },
+        {
+          "id": "CLO6",
+          "text": "Configure basic network security."
+        },
+        {
+          "id": "CLO7",
+          "text": "Describe data communications and network models, topologies, protocols, standards and architectures."
+        },
+        {
+          "id": "CLO8",
+          "text": "Explain how to use security best practices to mitigate attacks."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Explain how to use the Cisco IOS."
+        },
+        {
+          "id": "TLO6",
+          "text": "Compare different types of network connections."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain how software tools can mitigate network security threats."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain how software tools can mitigate network security threats"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: prerequisites",
-    "Missing or unrecognized: corequisites",
-    "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing or unrecognized: corequisites"
   ]
 }

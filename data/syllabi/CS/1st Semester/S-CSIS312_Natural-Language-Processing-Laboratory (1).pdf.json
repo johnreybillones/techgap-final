@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSIS312_Natural-Language-Processing-Laboratory (1).pdf",
     "sha256": "9d4cf5e666b89183f058caaec4034e3d5c6bd00cd726a371490969eed44d0baf",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 15,
     "field_pages": {
@@ -46,6 +46,7 @@
   "course_credit": "1 unit",
   "prerequisites": "Should be 3rd year Level",
   "corequisites": "None",
+  "track": "CS - Intelligent Systems",
   "course_description": "This course is intended to present a fairly broad introduction to Natural Language Processing (NLP), the study of computing systems that can process, understand, or communicate in human language, The primary focus of the course is on understanding various NLP tasks, algorithm for effectively solving these problems, and method for evaluating their performance. There is also a focus on statistical and neural network learning algorithms that train on (annotated) text corpora to automatically acquire the knowledge needed to perform the task. Student can attend seminars, workshops, and training in relevant disciplines onsite or online. 3",
   "course_learning_outcomes": [
     {

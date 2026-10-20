@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS125 Human Computer Interaction Lec.pdf",
     "sha256": "0e55c2aa619a83e99f6c648b7ab14e2da766b96ff21f987a653fa7740c500760",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 12,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "2.0 Units",
   "prerequisites": "S-ITCS123 and S-ITCS123LA",
   "corequisites": "ITCS125Lab",
+  "track": "Common (IT & CS)",
   "course_description": "1 The course is about understanding what it means to be a user of a computer and, therefore, how to create related products and services that work seamlessly. This course provides a comprehensive introduction and deep dive into HCI, so students can create designs that provide outstanding user experiences. This course provides a deep understanding of what it means to be a user and how to implement user-centered design for the best possible results.",
   "course_learning_outcomes": [
     {

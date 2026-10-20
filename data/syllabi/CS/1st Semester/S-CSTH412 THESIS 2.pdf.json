@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSTH412 THESIS 2.pdf",
     "sha256": "c88690d8d06fc93d889221c20bfdd1bceebd06560db234db6d7bd932666535ce",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 20,
     "field_pages": {
@@ -33,7 +33,9 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4
+      ]
     }
   },
   "course_code": "S-CSTH412",
@@ -42,8 +44,38 @@
   "course_credit": "3 Units",
   "prerequisites": "S-CSTH321",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "Deals with the actual research presented in the proposal. The course output is the completed research to be defended before a panel. This course also includes the practical applications of God’s way of character building through proper handling and presentation of research data.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "cultivate a clear and effective field appropriate undergraduate research, using algorithms to explore complex and/or ambiguous ideas and issues;"
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze the requirements needed to improve the current algorithm used in the study;"
+    },
+    {
+      "id": "CLO3",
+      "text": "evaluate data to identify problems;"
+    },
+    {
+      "id": "CLO4",
+      "text": "interpret theories and give recommendations where appropriate;"
+    },
+    {
+      "id": "CLO5",
+      "text": "design and develop a model of the actual study;"
+    },
+    {
+      "id": "CLO6",
+      "text": "recommend a solution to existing problem; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "acquire Lasallian values on the chosen topic and apply the knowledge, experience and skills learned in computer science."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -107,8 +139,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

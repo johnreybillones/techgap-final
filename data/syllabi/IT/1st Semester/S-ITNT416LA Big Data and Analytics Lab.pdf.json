@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITNT416LA Big Data and Analytics Lab.pdf",
     "sha256": "4e152bb221d6f09210204d0e70abc3aeeee8a06fa370a02dc8335b07e33c8fec",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "1 Unit",
   "prerequisites": "S-ITNT344LC",
   "corequisites": "S-ITNT416LC",
+  "track": "IT - Network Technology",
   "course_description": "Provides students with an overview of the current trends in information technology that drives today’s business. The course provides understanding on data management techniques that can help an organization achieve its business goals and address operational challenges. This also introduces different tools and methods used in business analytics to provide the students with opportunities to apply these techniques in simulations in a computer laboratory.",
   "course_learning_outcomes": [
     {

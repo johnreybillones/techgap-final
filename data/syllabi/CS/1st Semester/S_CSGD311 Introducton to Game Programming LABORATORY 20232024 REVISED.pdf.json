@@ -2,7 +2,7 @@
   "source": {
     "filename": "S_CSGD311 Introducton to Game Programming LABORATORY 20232024 REVISED.pdf",
     "sha256": "932a10d82335be1333a25eeab412597e02ab9b0430da1594074819df74b47f2b",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 16,
     "field_pages": {
@@ -33,7 +33,9 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4
+      ]
     }
   },
   "course_code": "S-CSGD311LA",
@@ -42,8 +44,30 @@
   "course_credit": "1 Unit",
   "prerequisites": "At least 3rd year level",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course teaches students effective and structured procedures used to design and develop game software. The purpose of this course is to provide students with the foundation in game design and development necessary for use in the workforce or for further study in the field of game development and creation. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication, and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disasters and pandemics. Hence, this class shall be delivered in both an online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "demonstrate the appropriate technical skills by applying basic and advance program codes in designing a game;"
+    },
+    {
+      "id": "CLO2",
+      "text": "apply the fundamentals of game development by developing a mobile game application;"
+    },
+    {
+      "id": "CLO3",
+      "text": "develop an appreciation in designing game;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the game to a real-world problem; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "formulate the optimize design learned and report on the expected accuracy that can be achieved by developing game."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -58,7 +82,11 @@
         },
         {
           "id": "CLO3",
-          "text": "Develop an appreciation in designing game. CL04. Apply the game to a real-world problem."
+          "text": "Develop an appreciation in designing game."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the game to a real-world problem."
         },
         {
           "id": "CLO5",
@@ -80,11 +108,19 @@
         },
         {
           "id": "TLO4",
-          "text": "Determine and generate game programming. TL05. Support observation to programming."
+          "text": "Determine and generate game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support observation to programming."
         },
         {
           "id": "TLO6",
-          "text": "Classify domain areas of game programming. TL07. Exhibits and demonstrate game."
+          "text": "Classify domain areas of game programming."
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate game."
         },
         {
           "id": "TLO8",
@@ -113,7 +149,11 @@
         },
         {
           "id": "CLO3",
-          "text": "Develop an appreciation in designing game. CL04. Apply the game to a real-world problem."
+          "text": "Develop an appreciation in designing game."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the game to a real-world problem."
         },
         {
           "id": "CLO5",
@@ -135,11 +175,19 @@
         },
         {
           "id": "TLO4",
-          "text": "Determine and generate game programming. TL05. Support observation to programming."
+          "text": "Determine and generate game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support observation to programming."
         },
         {
           "id": "TLO6",
-          "text": "Classify domain areas of game programming. TL07. Exhibits and demonstrate game."
+          "text": "Classify domain areas of game programming."
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate game."
         },
         {
           "id": "TLO8",
@@ -156,10 +204,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

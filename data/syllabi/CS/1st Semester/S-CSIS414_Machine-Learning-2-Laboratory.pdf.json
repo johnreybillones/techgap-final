@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSIS414_Machine-Learning-2-Laboratory.pdf",
     "sha256": "76c2c295df8e0f2cbf2f4c98e380471cb60eeec162537e211dde5486082fa8dc",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 15,
     "field_pages": {
@@ -47,6 +47,7 @@
   "course_credit": "1 unit",
   "prerequisites": "S-CSIS311",
   "corequisites": "None",
+  "track": "CS - Intelligent Systems",
   "course_description": "This course deals with advanced study on how to build computer systems that learn from experience. It is a subfield of Artificial Intelligence and intersects with statistics, cognitive science, information theory, and probability theory, among others. The course explains on how to build systems that learn and adapt using real-world applications from industry and scientific study.",
   "course_learning_outcomes": [
     {
@@ -79,11 +80,21 @@
           "text": "Understand the intuition behind neural network"
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the artificial intelligence and machine learning."
+        },
+        {
+          "id": "TLO2",
+          "text": "Distinguish artificial intelligence learning methods."
+        },
+        {
+          "id": "TLO3",
+          "text": "Demonstrate and apply data • preprocessing tools."
+        }
+      ],
       "additional_text": [
-        "TLO1. Explain the artificial intelligence and machine learning.",
-        "TLO2. Distinguish artificial intelligence learning methods.",
-        "TLO3. Demonstrate and apply data",
         "preprocessing tools."
       ],
       "source_pages": [
@@ -102,7 +113,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: Midterm.topic_learning_outcomes",
     "Missing or unrecognized: Final.course_learning_outcomes",
     "Missing or unrecognized: Final.topic_learning_outcomes"
   ]

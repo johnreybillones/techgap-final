@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSGD324LA Immersive Game Development Lab.pdf",
     "sha256": "fc2bb7254e36fccc65035a3ea31532235e8128e257da38ff2e432f91bbde2db6",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course provides an in-depth exploration of game development using Unity, equipping students with the skills to design, prototype, and build interactive experiences. Students will learn industry-standard software design principles, apply the software development lifecycle in a game development context, and develop structured Game Design Documents (GDDs). Through hands-on projects, they will implement game mechanics, optimize performance, and create engaging 2D and 3D prototypes. The course emphasizes iteration, teamwork, and problem-solving, preparing students to design immersive worlds while upholding ethical and professional standards. By the end of the semester, students will have developed a working game prototype that showcases their creativity and technical expertise.",
   "course_learning_outcomes": [
     {

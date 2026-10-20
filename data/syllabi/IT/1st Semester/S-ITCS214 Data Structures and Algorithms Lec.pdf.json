@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS214 Data Structures and Algorithms Lec.pdf",
     "sha256": "04c317b3dc1cdc28aafc6e80126cf81229a137d9460b5d7099b70650e76651f1",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        1
+      ]
     }
   },
   "course_code": "S-ITCS214",
@@ -36,13 +38,142 @@
   "course_credit": "2 Units",
   "prerequisites": "S-ITCS123 / S-ITCS123LA",
   "corequisites": "S-ITCS214LA",
+  "track": "Common (IT & CS)",
   "course_description": "This course provides the concepts of abstract data types of common data structures such as lists, linked lists, stacks, queues, trees and graphs used in solving computer problems. This course also includes the study of time and space complexities of algorithms and the choice of appropriate data structures. The course covers several data structures as tools for programming, best practices in using those data structures with estimated running time and space efficiency, hands-on exercises to develop practical skills in creating impactful programs",
-  "course_learning_outcomes": [],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
-  ]
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand the importance of data structures and algorithms in application of daily living."
+    },
+    {
+      "id": "CLO2",
+      "text": "Evaluate the running time of algorithms and data structures using big-oh notations."
+    },
+    {
+      "id": "CLO3",
+      "text": "Analyze the features of each data structure and its operations and use it to design algorithms to solve real-world problems."
+    },
+    {
+      "id": "CLO4",
+      "text": "Apply the most appropriate data structures given a specified real - world problem."
+    },
+    {
+      "id": "CLO5",
+      "text": "Create codes written in Java for various algorithms and data structures."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand data structures & algorithms in application of daily living."
+        },
+        {
+          "id": "CLO2",
+          "text": "Evaluate the running time of algorithms and data structures using big-oh notations."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze the features of each data structure and its operations and use it to design algorithms to solve real-world problems."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Distinguish the differences between algorithms and data structures."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify the criteria for efficient algorithms."
+        },
+        {
+          "id": "TLO3",
+          "text": "Calculate the running time of codes following specific rules."
+        },
+        {
+          "id": "TLO4",
+          "text": "Construct pseudo-language implementations of lists and its operations."
+        },
+        {
+          "id": "TLO5",
+          "text": "Write algorithms for linked list and its variations."
+        },
+        {
+          "id": "TLO6",
+          "text": "Understand the concept of a stacks and its operations."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Apply the most appropriate data structures given a specified real world problem."
+        },
+        {
+          "id": "CLO5",
+          "text": "Create codes written in Java for various algorithms and data structures."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Apply various applications of queue operations to real life scenarios."
+        },
+        {
+          "id": "TLO9",
+          "text": "Identify the different terminologies used in trees."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explore different applications of binary trees."
+        },
+        {
+          "id": "TLO11",
+          "text": "Discover the varied ways of graph representations and applications."
+        },
+        {
+          "id": "TLO12",
+          "text": "Determine the steps in creating recursive routines."
+        },
+        {
+          "id": "TLO13",
+          "text": "Use and apply Java structure and elements to implement the algorithms and data structures covered in this course."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

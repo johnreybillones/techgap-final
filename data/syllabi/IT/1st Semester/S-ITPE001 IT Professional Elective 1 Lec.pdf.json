@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPE001 IT Professional Elective 1 Lec.pdf",
     "sha256": "7ef9d89bf6849832990e440dee5d6761ca3cdc9321714a4ec2cf1be3033a5d78",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "None",
   "corequisites": "S-ITPE 001LA",
+  "track": "IT Core & Electives",
   "course_description": "This course covers the fundamentals of object-oriented programming and applications using Python programming language. Covers a range of topics in object-oriented including information hiding, polymorphism, method overriding, method overloading, class inheritance, static and dynamic binding, and generic programming. Emphasis is also placed on object-oriented design approaches. This course provides hands-on experience using Python programming language through both individual assignment and group programming projects.",
   "course_learning_outcomes": [
     {

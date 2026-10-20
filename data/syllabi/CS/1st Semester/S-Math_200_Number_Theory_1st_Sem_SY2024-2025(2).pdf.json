@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-Math_200_Number_Theory_1st_Sem_SY2024-2025(2).pdf",
     "sha256": "3fb8d83b6db78775347b77638f8165c450dcc5554d2cf6e59078ed13ab65b327",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 11,
     "field_pages": {
@@ -34,6 +34,7 @@
   "course_credit": "T hree units",
   "prerequisites": null,
   "corequisites": null,
+  "track": "General & Foundational",
   "course_description": "This course gives importance to the development of basic concepts in arithmetic and algebra as well as the application of relevant concepts and techniques to learn in class with the use of technology. It then proceeds to discuss reading and writing proofs to be creative and innovative in applying theorems effectively and efficiently. It includes topics on fundamental properties of integers, methods of proof, divisibility, primes and non- primes, greatest common divisor, least common multiple, Euclidean algorithm, Diophantine equations, theorems on modulo and congruences, the Chinese remainder theorem. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in an online module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {
@@ -86,15 +87,37 @@
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define the theory operations and properties"
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the basic properties of integers, well- ordering principle."
+        },
+        {
+          "id": "TLO3",
+          "text": "Prove the given statements using the 4 methods of proof."
+        },
+        {
+          "id": "TLO4",
+          "text": "Identify the basic properties of divisibility, division in the set of integers"
+        },
+        {
+          "id": "TLO5",
+          "text": "Construct proofs using the theorems of divisibility."
+        },
+        {
+          "id": "TLO6",
+          "text": "Construct proofs using the theorems of GCD, relatively prime integers and LCM"
+        },
+        {
+          "id": "TLO7",
+          "text": "Apply / prove the theorem/ definition of Euclidean Algorithm GCD , LCM, and relatively prime integers. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
       "additional_text": [
-        "TLO1. Define the theory operations and properties",
-        "TLO2. Explain the basic properties of integers, well- ordering principle.",
-        "TLO3. Prove the given statements using the 4 methods of proof.",
-        "TLO4. Identify the basic properties of divisibility, division in the set of integers",
-        "TLO5. Construct proofs using the theorems of divisibility.",
-        "TLO6. Construct proofs using the theorems of GCD, relatively prime integers and LCM",
-        "TLO7. Apply / prove the theorem/ definition of Euclidean Algorithm GCD , LCM, and relatively prime integers.",
         "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
       ],
       "source_pages": [
@@ -117,14 +140,33 @@
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Define and prove the Euclidean algorithm."
+        },
+        {
+          "id": "TLO9",
+          "text": "Prove and apply the Diophantine equations."
+        },
+        {
+          "id": "TLO10",
+          "text": "Apply the fundamental theorem of arithmetic."
+        },
+        {
+          "id": "TLO11",
+          "text": "Define and prove the basic properties/ theorems of congruences."
+        },
+        {
+          "id": "TLO12",
+          "text": "Apply the theorem of linear congruences to find the solutions."
+        },
+        {
+          "id": "TLO13",
+          "text": "Define and apply the formula of Chinese Remainder Theorem. • Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
       "additional_text": [
-        "TLO8. Define and prove the Euclidean algorithm.",
-        "TLO9. Prove and apply the Diophantine equations.",
-        "TLO10. Apply the fundamental theorem of arithmetic.",
-        "TLO11. Define and prove the basic properties/ theorems of congruences.",
-        "TLO12. Apply the theorem of linear congruences to find the solutions.",
-        "TLO13. Define and apply the formula of Chinese Remainder Theorem.",
         "Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
       ],
       "source_pages": [
@@ -135,8 +177,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: prerequisites",
-    "Missing or unrecognized: corequisites",
-    "Missing or unrecognized: Midterm.topic_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes"
+    "Missing or unrecognized: corequisites"
   ]
 }

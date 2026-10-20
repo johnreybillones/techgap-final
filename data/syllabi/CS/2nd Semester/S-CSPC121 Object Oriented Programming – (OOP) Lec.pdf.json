@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf",
     "sha256": "83c07c8ba686c9fe838e911f41e2dda73cb901f64f3f3811e002af90024acbb8",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITCS 112 and S-ITCS 112LA",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "This course covers a range of topics in object-oriented programming, including information hiding, polymorphism, method overriding and overloading, class inheritance, static and dynamic binding and generic programming. The course provides hands-on experience using a modern object oriented programming language through both individual assignments and group programming projects.",
   "course_learning_outcomes": [
     {
@@ -66,6 +67,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final, Midterm"
   ]
 }

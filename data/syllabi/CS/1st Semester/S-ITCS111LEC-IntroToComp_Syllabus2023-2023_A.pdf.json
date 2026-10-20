@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS111LEC-IntroToComp_Syllabus2023-2023_A.pdf",
     "sha256": "2b03699b4e6fe5f68dacd7785e1d9327051673b1ad6f0a28a674bdf1a3b38cac",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        1
+      ]
     }
   },
   "course_code": "S-ITCS111",
@@ -36,8 +38,38 @@
   "course_credit": "2 Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "Common (IT & CS)",
   "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Select the appropriate computer components to build, repair, or upgrade personal computers"
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain basic host, data, and network security."
+    },
+    {
+      "id": "CLO3",
+      "text": "Explain the roles and responsibilities of the IT professional."
+    },
+    {
+      "id": "CLO4",
+      "text": "Study the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct."
+    },
+    {
+      "id": "CLO5",
+      "text": "Understand and apply the concepts involving framework for website development."
+    },
+    {
+      "id": "CLO6",
+      "text": "Utilize design standards in planning the layout, design, and development of a complete website."
+    },
+    {
+      "id": "CLO5",
+      "text": "Demonstrate 21st-century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -104,8 +136,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
+    "Duplicate outcome identifiers: course_learning_outcomes"
   ]
 }

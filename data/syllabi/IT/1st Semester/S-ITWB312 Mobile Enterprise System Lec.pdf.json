@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB312 Mobile Enterprise System Lec.pdf",
     "sha256": "8801de99fdd52aae9b6dcf2bfcb064fe5f3ca1a55bd8466f345eb16ca74a6f5c",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "Should be at least 3rd year standing",
   "corequisites": "S-ITWB312LA Mobile Enterprise System Lab",
+  "track": "IT - Web Development",
   "course_description": "This course provides an introduction to mobile application development for Android Platform. Android is a mobile operating system based on a modified version of the Linux kernel and other open- source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. It also explains mobile enterprise and involves many different things, but the key feature is the use of a mobile device such as a smartphone or a tablet in performing tasks. Moreover, students will also learn about designing User Interface, user experience and deploying to actual device. Lastly, students will understand the increased importance of mobile application development and includes discussions on principles, themes methodologies, and development techniques 1 of information systems. Also discussed are security, privacy, ethical issues, tools and toolsets of information system.",
   "course_learning_outcomes": [
     {
@@ -69,6 +70,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final, Midterm"
   ]
 }

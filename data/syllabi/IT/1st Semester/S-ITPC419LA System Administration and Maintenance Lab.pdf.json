@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC419LA System Administration and Maintenance Lab.pdf",
     "sha256": "518b88d3bb0c353d5b9570c7c15647c9b1cb9e9d30a16bc4e25d8f99e8951280",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITPC328 & S-ITPC328LA",
   "corequisites": "S-ITPC419",
+  "track": "IT Core & Electives",
   "course_description": "Focuses on administration of operating systems in a client-server technology (Windows and Linux on Virtual Machine), installation and maintenance. It prepares students to installation of Windows Server, NTFS file system and folder permissions, Domain Name System, Active Director, local and domain Group Policy, Windows Terminal Services, Internet Security and Acceleration Server, Internet Information Services, communications and networking.",
   "course_learning_outcomes": [
     {
@@ -88,6 +89,10 @@
       ],
       "topic_learning_outcomes": [
         {
+          "id": "TLO1",
+          "text": "Define System Administration and maintenance"
+        },
+        {
           "id": "TLO2",
           "text": "Describe Windows Server 2019"
         },
@@ -105,7 +110,11 @@
         },
         {
           "id": "TLO6",
-          "text": "Describe the purpose of Domain Controller TL07. Describe the purpose of ADDS"
+          "text": "Describe the purpose of Domain Controller"
+        },
+        {
+          "id": "TLO7",
+          "text": "Describe the purpose of ADDS"
         },
         {
           "id": "TLO8",

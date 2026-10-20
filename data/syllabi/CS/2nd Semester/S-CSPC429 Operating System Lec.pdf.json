@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC429 Operating System Lec.pdf",
     "sha256": "0ee9622df01a9f9af6a2e51b9bd6b4d5fbed586411c3a4797d7212d0139dcfaf",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 6,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        1
+      ]
     }
   },
   "course_code": "S-CSPC429",
@@ -36,8 +38,34 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITCS14LA",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "This course introduces a clear description of the concepts that underlie operating systems which focus on basic concepts, architectures, components, and theories that serve as bases for the design of classical and modern operating systems. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand operating system concepts by identifying how a computer system is organized;"
+    },
+    {
+      "id": "CLO2",
+      "text": "explain how operating system accomplishes its tasks in different computing environments;"
+    },
+    {
+      "id": "CLO3",
+      "text": "evaluate different aspects of operating systems, the various services the operating system provides and describe how operating systems are created;"
+    },
+    {
+      "id": "CLO4",
+      "text": "analyze all vital concepts about processes;"
+    },
+    {
+      "id": "CLO5",
+      "text": "examine the different scheduling algorithms utilized by different operating systems; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -59,16 +87,45 @@
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe the general organization of a computer system and the role of interrupts."
+        },
+        {
+          "id": "TLO2",
+          "text": "Describe the components in a modern, multiprocessor computer system."
+        },
+        {
+          "id": "TLO3",
+          "text": "Illustrate the transition from user mode to kernel mode."
+        },
+        {
+          "id": "TLO4",
+          "text": "Discuss how operating systems are used in various computing environments."
+        },
+        {
+          "id": "TLO5",
+          "text": "Provide examples of free and open-source operating systems."
+        },
+        {
+          "id": "TLO6",
+          "text": "Identify services provided by an operating system."
+        },
+        {
+          "id": "TLO7",
+          "text": "Illustrate how system calls are used to provide operating system services."
+        },
+        {
+          "id": "TLO8",
+          "text": "Compare and contrast monolithic, layered, microkernel, modular, and hybrid strategies for designing operating systems."
+        },
+        {
+          "id": "TLO9",
+          "text": "Illustrate the process for booting an operating system. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
       "additional_text": [
-        "TLO 1. Describe the general organization of a computer system and the role of interrupts.",
-        "TLO 2. Describe the components in a modern, multiprocessor computer system.",
-        "TLO 3. Illustrate the transition from user mode to kernel mode.",
-        "TLO 4. Discuss how operating systems are used in various computing environments.",
-        "TLO 5. Provide examples of free and open-source operating systems.",
-        "TLO 6. Identify services provided by an operating system.",
-        "TLO 7. Illustrate how system calls are used to provide operating system services.",
-        "TLO 8. Compare and contrast monolithic, layered, microkernel, modular, and hybrid strategies for designing operating systems. TLO 9. Illustrate the process for booting an operating system.",
         "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
       ],
       "source_pages": [
@@ -91,14 +148,37 @@
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Identify the separate components of a process."
+        },
+        {
+          "id": "TLO11",
+          "text": "Illustrate how they are represented and scheduled in an operating system."
+        },
+        {
+          "id": "TLO12",
+          "text": "Describe how processes are created and terminated in an operating system, including developing programs using the appropriate system calls that perform these operations."
+        },
+        {
+          "id": "TLO13",
+          "text": "Describe client-server communication using sockets and remote procedure calls."
+        },
+        {
+          "id": "TLO14",
+          "text": "Describe various CPU scheduling algorithms."
+        },
+        {
+          "id": "TLO15",
+          "text": "Assess CPU scheduling algorithms based on scheduling criteria."
+        },
+        {
+          "id": "TLO16",
+          "text": "Apply modeling and simulations to evaluate CPU scheduling algorithms. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
       "additional_text": [
-        "TLO 10. Identify the separate components of a process.",
-        "TLO 11. Illustrate how they are represented and scheduled in an operating system.",
-        "TLO 12. Describe how processes are created and terminated in an operating system, including developing programs using the appropriate system calls that perform these operations.",
-        "TLO 13. Describe client-server communication using sockets and remote procedure calls.",
-        "TLO 14. Describe various CPU scheduling algorithms.",
-        "TLO 15. Assess CPU scheduling algorithms based on scheduling criteria. TLO 16. Apply modeling and simulations to evaluate CPU scheduling algorithms.",
         "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
       ],
       "source_pages": [
@@ -106,12 +186,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Missing or unrecognized: Midterm.topic_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Missing or unrecognized: Final.topic_learning_outcomes",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

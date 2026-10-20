@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS112-Fundamentals-of-Programming-Laboratory.pdf",
     "sha256": "524df31ff76f03fb505cfd9921142ce319e9b741dbea2a0bbb4669537b222d0a",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 16,
     "field_pages": {
@@ -42,6 +42,7 @@
   "course_credit": "1 units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "Common (IT & CS)",
   "course_description": "Introduces programming with emphasis on algorithmic and fundamentals programming concepts. This also includes software development methodology, data types, control structures, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy. The course will look at solving problems using structured- programming approach. This class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {
