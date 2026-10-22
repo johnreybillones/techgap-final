@@ -1,2 +1,7 @@
 docs/handoff
 docs/_archive/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
