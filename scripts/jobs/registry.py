@@ -1,6 +1,8 @@
 """Append-only local registry; imports never perform network requests."""
 import json
+import os
 import re
+import uuid
 import unicodedata
 from pathlib import Path
 
@@ -32,6 +34,11 @@ class Registry:
         with (self.root / name).open("a", encoding="utf-8", newline="\n") as stream:
             stream.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
 
+    def _append_once(self, name, key, value, row):
+        if any(existing.get(key) == value for existing in self.read_jsonl(name)):
+            return
+        self._append(name, row)
+
     def import_item(self, item, *, run_id, dataset_item_id, query_id):
         check = validate_item(item)
         if not check["valid"]:
@@ -47,9 +54,11 @@ class Registry:
         absolute = self.root / raw_path
         absolute.parent.mkdir(parents=True, exist_ok=True)
         if not absolute.exists():
-            absolute.write_text(json.dumps(item, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        self._append(str(Path("raw") / run_id / "items.jsonl"), {"observation_id": observation_id,
-            "dataset_item_id": str(dataset_item_id), "raw_hash": raw_hash, "item": item})
+            temp = absolute.with_name(absolute.name + ".tmp-" + uuid.uuid4().hex)
+            temp.write_text(json.dumps(item, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            os.replace(str(temp), str(absolute))
+        self._append_once(str(Path("raw") / run_id / "items.jsonl"), "observation_id", observation_id,
+            {"observation_id": observation_id, "dataset_item_id": str(dataset_item_id), "raw_hash": raw_hash, "item": item})
         description_hash = _description_hash(item)
         semantic_fields = {key: item.get(key, {"__missing__": True}) for key in (
             "description_text", "description_html", "title", "company", "location", "salary",

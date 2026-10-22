@@ -37,12 +37,25 @@ def freeze_release(root, *, release_id, phase, requested_target, window_start, w
     rows = _jsonl(frame)
     terminal_counts = {state: sum(row.get("state") == state for row in latest.values())
                        for state in ("eligible", "excluded", "unresolved")}
+    source_runs = _jsonl(root / "source_runs.jsonl")
+    has_live_evidence = any(row.get("actor_id") or row.get("provider_status") or row.get("status") in
+                            {"SUCCEEDED", "FAILED", "TIMED-OUT", "ABORTED"} for row in source_runs)
+    unknown_billing = any(row.get("provider_charge_usd") is None or row.get("billing_status") == "unknown"
+                          for row in source_runs) if has_live_evidence else False
+    limitations = []
+    if not has_live_evidence:
+        limitations.append("No verified live acquisition evidence is present; imported payload provenance may be incomplete.")
+    if unknown_billing:
+        limitations.append("At least one live run has unknown billing; financial reconciliation is incomplete.")
+    limitations.extend(["Coverage and representativeness are not established.",
+                        "Admission rules and source descriptions have not been validated for collection-wide accuracy."])
     audit = {"raw_unique_source_keys": len(latest), "terminal_counts": terminal_counts,
         "eligible_count_units": len(rows), "equation_reconciles": len(latest) == sum(terminal_counts.values()),
         "run_count": len(_jsonl(root / "runs.jsonl")), "observation_count": len(_jsonl(root / "observations.jsonl")),
         "version_count": len(versions), "invalid_item_count": len(_jsonl(root / "invalid_items.jsonl")),
         "query_ids": sorted({row.get("query_id") for row in _jsonl(root / "observations.jsonl")}),
-        "limitations": ["No live collection was executed.", "Coverage and representativeness are not established."]}
+        "has_live_evidence": has_live_evidence, "financially_reconciled": not unknown_billing,
+        "limitations": limitations}
     (root / "collection_audit.json").write_text(json.dumps(audit, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     artifacts = {}
     for path in sorted(p for p in root.rglob("*") if p.is_file() and p.name != "manifest.json"):
@@ -53,8 +66,11 @@ def freeze_release(root, *, release_id, phase, requested_target, window_start, w
         "count_unit_policy_version": "source-id-with-evidenced-repost-groups-v1",
         "admission_policy_version": "explicit-entry-junior-v1", "membership_file": "eligible_frame.jsonl",
         "membership_sha256": _sha(frame), "artifact_hashes": artifacts,
-        "reported_charge_usd": reported_charge_usd,
-        "release_status": "complete_target" if len(rows) >= requested_target else "development_only_shortfall",
+        "reported_charge_usd": (sum(float(row["provider_charge_usd"]) for row in source_runs
+                                     if row.get("provider_charge_usd") is not None) if has_live_evidence else reported_charge_usd),
+        "financially_reconciled": audit["financially_reconciled"],
+        "release_status": ("financial_reconciliation_pending" if unknown_billing else
+                           "complete_target" if len(rows) >= requested_target else "development_only_shortfall"),
         "limitations": audit["limitations"]}
     (root / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return manifest
