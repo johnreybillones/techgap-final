@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITNT312La CISCO Networking Semester 1.pdf",
     "sha256": "5781a49664583aa0066159b0189088e7a99b347d99df4e5e074d92a6244fbfd9",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,8 +38,22 @@
   "course_credit": "One (1) unit",
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITNT213LC",
-  "course_description": null,
-  "course_learning_outcomes": [],
+  "track": "IT Core & Electives",
+  "course_description": "Introduction to Networks (ITN) covers the architecture, structure, functions and components of the Internet and other computer networks. Students achieve a basic understanding of how networks operate and how to build simple local area networks (LAN), perform basic configurations for routers and switches, and implement Internet Protocol (IP). COURSE LEARNING OUTCOME By the end of this course, students can: CLO1. configure switches and end devices to provide access to local and remote network resources; CLO2. explain how physical and data link layer protocols support the operation of Ethernet in a switched network; CLO3. configure routers to enable end-to-end connectivity between remote devices; CLO4. create IPv4 and IPv6 addressing schemes and verify network connectivity between devices; CLO5. explain how the upper layers of the OSI model support network applications; CLO6. use security best practices to configure a small network; and CLO7. troubleshoot connectivity in a small network. LEARNING PLAN: Learning Outcomes for Midterm Period",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Configure switches and end devices to TLO1. Explain the advances in modern provide access to local and remote network network technologies. resources."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain how physical and data link TLO2. Explain how physical layer protocols, layer protocols support the operation of services, and network media support Ethernet in a switched network. communications across data networks."
+    },
+    {
+      "id": "CLO3",
+      "text": "Configure routers to enable end-to-end TLO3. Explain how routers use network layer connectivity between remote devices. protocols and services to enable end-to-end connectivity. Module Title and Week Teaching-Learning Activities / Assessment Allotted Learning Strategies Technology Hours Outcome(s) Enabler Module 0 1 Gospel Reading, Reflection and Prayer MS Teams 3 CLO1 Aug 19-24 Presentation on the Fully online Schoolbook TLO1 learning model LMS: NetAcad 1. Schoolbook enlistment 2. MS Teams channel for the course Netacad Course Experience – Enrollment, Interface, Submission, Getting Used to the Cisco Networking Academy LMS 3. ICT213 Laboratory Orientation. Learn Packet Tracer GUI Navigate the IOS Configure Initial Switch Settings Implement Basic Connectivity Module 1 2 Module 1: Networking Today MS Teams 3 CLO1 Aug 26 Gospel Reading, Reflection and Prayer Schoolbook TLO1 -31 Lab Setup: Basic Switch and End Device NetAcad Configuration Implement initial settings including passwords, IP addressing, and default gateway parameters on a network switch and end devices. Enabling Activity 1: PT Network Representation Module 1 3 Gospel Reading, Reflection and Prayer MS Teams 3 CLO1 Sep 2-7 Module 1: Networking Today Schoolbook TLO1 Objective: Explain the advances in modern NetAcad network technologies Test the Interface Assignment Test End-to-End Connectivity Enabling Activity 2: Basic Switch and End Device Conf Module 2 4 Gospel Reading, Reflection and Prayer MS Teams 3 CLO2 Sep 9-14 Module 2: Protocols and Models Schoolbook TLO2 Objective: Explain how network protocols NetAcad enable devices to access local and remote network resources Download Wireshark Enabling Activity 3: Use Wireshark to View Network Traffic Module 3 5 Gospel Reading, Reflection and Prayer MS Teams 3 CLO2 Sep 16- Module 3: Number Systems Schoolbook TLO2 21 Objective: Calculate numbers between NetAcad decimal, binary and hexadecimal systems Investigate the TCP-IP and OSI Models in Action Enabling Activity 4: Connect to the Physical Layer Module 4 6 Gospel Reading, Reflection and Prayer MS Teams 3 CLO2 Sep 23- Module 4: Data Link Layer Schoolbook TLO2 28 Objective: Explain how media access NetAcad control in the data link layer supports communication across networks Enabling Activity 5: View Wired and Wireless NIC Info Module 5 7 Gospel Reading, Reflection and Prayer MS Teams 3 CLO2 Sep 30 Module 5: Network Layer Schoolbook TLO2 – Oct 5 Objective: Explain how routers use network NetAcad layer protocols and services to enable endto- end connectivity Enabling Activity 6: Use Wireshark to Examine Ethernet Frames Module 8 Summative Assessment based on Module 1-5 MS Teams 3 1,2,3,4,5 Oct 7-12 Schoolbook NetAcad TOTAL 24"
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -77,10 +91,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_description",
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

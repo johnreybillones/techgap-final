@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC315 Networking 2 Lab.pdf",
     "sha256": "7234aa9aa5a894a0d9aa31464145a2b7f0bbde534d2059a0f9bdc21ba7bf4ff7",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC315",
+  "track": "IT Core & Electives",
   "course_description": "Deals with both static routing and dynamic routing protocols. By examining multiple routing protocols, you will gain a better understanding of each of the individual routing protocols and a better perspective of routing in general. Learning the configuration of routing protocols is fairly simple. Developing an understanding of the routing concepts themselves is more difficult, yet is critical for implementing, verifying, and troubleshooting routing operations.",
   "course_learning_outcomes": [
     {

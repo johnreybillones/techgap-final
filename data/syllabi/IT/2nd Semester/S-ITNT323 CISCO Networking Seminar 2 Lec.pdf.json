@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITNT323 CISCO Networking Seminar 2 Lec.pdf",
     "sha256": "553d882e74f4de5273c3815d4d7d08b5b65e6dc97ce5eb039bb1e808f53daa3a",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITNT312 Lec and Lab",
   "corequisites": "S-ITNT323Lab",
+  "track": "IT - Network Technology",
   "course_description": "This course focuses on the fundamental networking concepts and technologies. Cisco Certified Networking Associate (CCNA) course incorporates theoretical aspects and practical application while providing students the skills and hands-on experience needed to design, install, operate and maintain networks. The course covers a complete range of networking concepts, and features many hands-on projects where students have access to the building blocks of Local and Wide Area Networks (LANs and WANs), such as wireless access points, switches and routers.",
   "course_learning_outcomes": [
     {

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPE002 IT Professional Elective Lec.pdf",
     "sha256": "37ae957ea64f93d607ae13027eec98fc569be401ec8f7844ecbaee5ad173525d",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "2 units",
   "prerequisites": "None",
   "corequisites": "S-ITPE002LA",
+  "track": "IT Core & Electives",
   "course_description": "This course introduces the basic concepts and core principles used to formation of modern computer operating systems. The course aims to cover the skills and explain those concepts and principles that are prospective to endure for future years. , The course introduces the concepts of processes, concurrency, synchronization, scheduling, memory management, and file systems.",
   "course_learning_outcomes": [
     {
@@ -65,6 +66,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: learning_plan",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final, Midterm"
   ]
 }

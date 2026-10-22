@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSGD312 Game Design Principles and Practice Lecture.pdf",
     "sha256": "ac36bca1619937a220f6f684ed42ea132c0c19c758daf6088d69741fc4400730",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 16,
     "field_pages": {
@@ -33,7 +33,9 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4
+      ]
     }
   },
   "course_code": "S-CSGD312",
@@ -42,8 +44,30 @@
   "course_credit": "2 Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course gives an overview of the game development process from ideas to creation. It discourses the history of game development process, exposure to the position and job responsibilities that each member of a game development team has along with the industry requirements ideas in Game Design Document (GDD).",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "demonstrate knowledge in concepts of game and game development;"
+    },
+    {
+      "id": "CLO2",
+      "text": "demonstrate skills in creating assets using Game Engine and tools;"
+    },
+    {
+      "id": "CLO3",
+      "text": "develop a simple game with proper game design documentation that follows the game standard"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the game to a real-world problem; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "formulate the optimize design learned and present the expected output that can be achieved by developing game."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -134,8 +158,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
     "Final: learning-plan CLO not found in main CLO list"
   ]
 }

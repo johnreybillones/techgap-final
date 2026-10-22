@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITNT312 CISCO Networking Semester 1 Lec.pdf",
     "sha256": "3e28a1694ba74ebc2092f975600ee8569e3f54e9593947b5b80525a1d5b0a652",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,8 +38,22 @@
   "course_credit": "Two (2) units",
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC312L",
-  "course_description": null,
-  "course_learning_outcomes": [],
+  "track": "IT Core & Electives",
+  "course_description": "Introduction to Networks (ITN) covers the architecture, structure, functions and components of the Internet and other computer networks. Students achieve a basic understanding of how networks operate and how to build simple local area networks (LAN), perform basic configurations for routers and switches, and implement Internet Protocol (IP). COURSE LEARNING OUTCOME By the end of this course, students can: CLO1. configure switches and end devices to provide access to local and remote network resources. CLO2. explain how physical and data link layer protocols support the operation of Ethernet in a switched network. CLO3. configure routers to enable end-to-end connectivity between remote devices. CLO4. create IPv4 and IPv6 addressing schemes and verify network connectivity between devices. CLO5. explain how the upper layers of the OSI model support network applications. CLO6. use security best practices to configure a small network. CLO7. Troubleshoot connectivity in a small network. LEARNING PLAN: Learning Outcomes for Midterm Period",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Configure switches and end devices to TLO1. Explain the advances in modern network provide access to local and remote network technologies. resources."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain how physical and data link layer TLO2. Explain how physical layer protocols, protocols support the operation of Ethernet in a services, and network media support switched network. communications across data networks."
+    },
+    {
+      "id": "CLO3",
+      "text": "Configure routers to enable end-to-end TLO3. Explain how routers use network layer connectivity between remote devices. protocols and services to enable end-to-end connectivity. SGhueersrty U Nsaezr 22002244--0088--0055 0194::4099::0000 ---------------------------- -------------------- -------------------- -------------------- r a ne n op d tela P dc r ep a o y w. e tiht r h a nGkoss mp eal mR esahde ibn g, Reflection Module Title and Week Teaching-Learning Activities / Assessment Technology Synchronou s Learning Strategy Enabler Outcome(s) A synchrono us Allot ed Tim e Module 1 1 Gospel Reading, Reflection and Prayer MS Teams / 2 CLO1 Aug 19-24 Presentation on the Fully online learning Schoolbook TLO1 model LMS: NetAcad 1. Schoolbook enlistment 2. MS Teams channel for every synch meeting 3. Netacad Course Experience – Enrollment, Interface, Submission, Getting Used to the Cisco Networking Academy LMS Class Participation 1: Key Terms and Concepts Part 1 Module 1 2 Gospel Reading, Reflection and Prayer MS Teams / 2 CLO1 Aug 26 -31 Module 1: Networking Today Schoolbook TLO1 Objective: Explain the advances in modern NetAcad network technologies Enabling Activity 1: Research IT and Networking Job Opportunities Module 2 3 Gospel Reading, Reflection and Prayer MS Teams / 2 CLO2 Sep 2-7 Module 2: Protocols and Models Schoolbook TLO2 Objective: Explain how network protocols NetAcad enable devices to access local and remote network resources Enabling Activity 2: Research Networking Standards Module 3 4 Gospel Reading, Reflection and Prayer MS Teams / 2 CLO2 Sep 9-14 Module 3: Number Systems Schoolbook TLO2 Objective: Calculate numbers between decimal, NetAcad binary and hexadecimal systems Enabling Activity 3: Modules Group 1 Exam Module 3 5 Gospel Reading, Reflection and Prayer / 2 CLO2 Sep Module 3: Number Systems TLO2 16-21 Objective: Calculate numbers between decimal, binary and hexadecimal systems Class Participation 2: Key Terms and Concepts Part 2 SGhueersrty U Nsaezr Module 4 6 Gospel Reading, Reflection and Prayer MS 22T00e22a44m--0088s-- 0055 01 94::4180::0000 / 2 CLO2 Sep Module 4: Data Link Layer Scho ---- o -- l -- b ---- o -- o ---- k ---- ------------------------------------------------------------------ Ionkc pluod en oMteOdd puole s covered sa first column TLO2 23-28 Objective: Explain how media access NetAcad control in the data link layer supports communication across networks Enabling Activity 4: Modules Group 2 Exam Module 5 7 Gospel Reading, Reflection and Prayer MS Teams / 2 CLO3 Sep 30 Module 5: Network Layer Schoolbook TLO3 – Oct 5 Objective: Explain how routers use network NetAcad layer protocols and services to enable endto- end connectivity Enabling Activity 5: Modules Group 3 Exam Module 4 8 Gospel Reading, Reflection and Prayer / 2 CLO 4 Oct 7-12 Module 5: Network Layer TLO 2 Objective: Explain how routers use network layer protocols and services to enable endto- end connectivity Class Participation 3: Key Terms and Concepts Part 3 Module 1,2,3,4 9 Summative Assessment based on Modules 1-4 MS Teams / 2 Oct Schoolbook 14-19 NetAcad TOTAL 8 10 18"
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -77,10 +91,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_description",
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

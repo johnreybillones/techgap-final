@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS318LA Information Assurance and Security Lab.pdf",
     "sha256": "cd3aa8d792d512e40aa6f224a399fe385eb0f0f1f131ebd73a4dec2b94e64b35",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "1 Unit",
   "prerequisites": "S-ITCS123, S-ITCS123LA",
   "corequisites": "S-ITPC318",
+  "track": "Common (IT & CS)",
   "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the two courses included in the online curriculum of Junior Cybersecurity Analyst Path of the Cisco Networking Academy including Introduction to Cybersecurity and Endpoint Security. 1",
   "course_learning_outcomes": [
     {
@@ -113,7 +114,7 @@
         },
         {
           "id": "TLO7",
-          "text": "Explain the concept of high availability."
+          "text": "Explain the concept of high availability. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [
@@ -158,7 +159,7 @@
         },
         {
           "id": "TLO10",
-          "text": "Document the security measure plan for the different Cybersecurity domains."
+          "text": "Document the security measure plan for the different Cybersecurity domains. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [

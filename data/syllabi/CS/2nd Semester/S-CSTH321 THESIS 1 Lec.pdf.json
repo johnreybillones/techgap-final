@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSTH321 THESIS 1 Lec.pdf",
     "sha256": "801d772314570ff13a4c1b9e199b463b90f0606cf22f22fa5cd2c71000acd1e7",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "Should be 3rd year level",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "This course improves your understanding of the various methods of research, some basic statistical designs and procedures, and the different parts of a thesis, including field and laboratory performance. The course output is an undergraduate thesis consisting of the defended proposal, results and discussions, and conclusion. This course includes the practical applications of Godly stewardship of nature through proper handling of different test organisms and research settings. It also includes character-building through proper experimentation and scientific paper oral presentation.",
   "course_learning_outcomes": [
     {

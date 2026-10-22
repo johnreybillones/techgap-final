@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC428 Networks and Communications Lec.pdf",
     "sha256": "ae14ebba844e2828ca654110b563bfda68b71baea667e1ce19b68f29e61a6bff",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Three Units",
   "prerequisites": "at least 3rd level",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "This course deals with computer networks principles covering different layers, topologies, and models of computer networks (explore Open System Interconnection), network programming and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration, and maintenance), and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and managing network servers. Students are also expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues. This course utilizes the online curriculum of Networking Basics of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module- based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks. 1",
   "course_learning_outcomes": [
     {
@@ -77,9 +78,138 @@
       "text": "create a fully connected LAN"
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain important concepts in network communication."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain network types, components, and connections."
+        },
+        {
+          "id": "CLO3",
+          "text": "Explain how communication occurs on Ethernet networks"
+        },
+        {
+          "id": "CLO4",
+          "text": "Explain the features of IP address"
+        },
+        {
+          "id": "CLO8",
+          "text": "Configure mobile devices for wireless access."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the concept of network"
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain network transmission speed and capacity. ."
+        },
+        {
+          "id": "TLO3",
+          "text": "Explain the roles of network infrastructure devices."
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe ISP connectivity options."
+        },
+        {
+          "id": "TLO5",
+          "text": "Describe network communication protocols and standards."
+        },
+        {
+          "id": "TLO6",
+          "text": "Explain the process of encapsulation and Ethernet framing."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain how IPv4 and IPV6 addresses are used in network communication and segmentation."
+        },
+        {
+          "id": "TLO8",
+          "text": "Configure a DHCP server."
+        },
+        {
+          "id": "TLO9",
+          "text": "Describe the different types of networks used by cell phones and mobile devices."
+        },
+        {
+          "id": "TLO10",
+          "text": "Describe the components required to build a home network."
+        },
+        {
+          "id": "TLO11",
+          "text": "Describe wired and wireless network technologies."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Explain how routers connect networks together."
+        },
+        {
+          "id": "CLO6",
+          "text": "Explain the function of transport and application layers."
+        },
+        {
+          "id": "CLO7",
+          "text": "Use various tools to test and troubleshoot network connectivity."
+        },
+        {
+          "id": "CLO9",
+          "text": "Create a fully connected LAN."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO12",
+          "text": "Describe network boundaries."
+        },
+        {
+          "id": "TLO13",
+          "text": "Explain the purpose of Network Address Translation in small networks."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explain how clients access internet services."
+        },
+        {
+          "id": "TLO15",
+          "text": "Describe common network applications."
+        },
+        {
+          "id": "TLO16",
+          "text": "Troubleshoot using network utilities."
+        },
+        {
+          "id": "TLO17",
+          "text": "Explain the need for routing."
+        },
+        {
+          "id": "TLO18",
+          "text": "Explain how routers use tables."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

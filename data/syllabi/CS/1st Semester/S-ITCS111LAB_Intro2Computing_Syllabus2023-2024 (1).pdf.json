@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS111LAB_Intro2Computing_Syllabus2023-2024 (1).pdf",
     "sha256": "b43116e8000040a11626c39b671c03a0f60dca80656a2d4ca7db7ca252da2a8e",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 12,
     "field_pages": {
@@ -44,6 +44,7 @@
   "course_credit": "1 Unit",
   "prerequisites": "None",
   "corequisites": "S-ITCS111",
+  "track": "Common (IT & CS)",
   "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
   "course_learning_outcomes": [
     {

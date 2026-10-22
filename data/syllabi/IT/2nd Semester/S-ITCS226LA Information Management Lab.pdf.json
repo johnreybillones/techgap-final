@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS226LA Information Management Lab.pdf",
     "sha256": "88d770a5ca1962dd6966c518ebc452f53b6d1a5b5abaca6c95b8bca71d72e331",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "1 unit",
   "prerequisites": "S-ITCS123/L",
   "corequisites": "S-ITCS226LA",
+  "track": "Common (IT & CS)",
   "course_description": "This course focuses on data organization and architecture as well as managing the database. Topics include the basic functions of a data administrator, including database planning, analysis, design, implementation, maintenance and protection.",
   "course_learning_outcomes": [
     {
@@ -65,9 +66,114 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Analyze business domains and identify appropriate database architecture and data model"
+        },
+        {
+          "id": "CLO2",
+          "text": "Select suitable schema in designing and developing database solution architecture for an organization."
+        },
+        {
+          "id": "CLO3",
+          "text": "Simulate the functions of database administrators throughout the information lifecycle."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Identify and visualize different database characteristics"
+        },
+        {
+          "id": "TLO2",
+          "text": "Recognize and understand the basic concepts and constructs of a data model."
+        },
+        {
+          "id": "TLO3",
+          "text": "Understand strategies and parameters for different design phase"
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe a useful tool for mapping data requirements to business operating locations"
+        },
+        {
+          "id": "TLO5",
+          "text": "Select phases of database design process"
+        },
+        {
+          "id": "TLO6",
+          "text": "Analyze and implement appropriate data model."
+        },
+        {
+          "id": "TLO7",
+          "text": "Correlate logical database to physical database"
+        },
+        {
+          "id": "TLO8",
+          "text": "Apply and manipulate SQL Commands"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Simulate the functions of database administrators throughout the information lifecycle"
+        },
+        {
+          "id": "CLO4",
+          "text": "Administer data capture, management, storage and retrieval method."
+        },
+        {
+          "id": "CLO5",
+          "text": "Implement appropriate database solution for an organization / company / department/unit."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Distinguish different user roles in database."
+        },
+        {
+          "id": "TLO10",
+          "text": "Determine the applicable security measure in different applications."
+        },
+        {
+          "id": "TLO8",
+          "text": "Apply and manipulate SQL Commands"
+        },
+        {
+          "id": "TLO6",
+          "text": "Analyze and implement appropriate data model."
+        },
+        {
+          "id": "TLO7",
+          "text": "Correlate logical database to physical database TOL8. Apply and manipulate SQL commands Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

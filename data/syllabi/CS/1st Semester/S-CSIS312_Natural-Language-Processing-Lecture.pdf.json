@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSIS312_Natural-Language-Processing-Lecture.pdf",
     "sha256": "315b8eecdd6ee462468b18162fcfb99aed29aab2fe44ccabbd225c9081f69f91",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 15,
     "field_pages": {
@@ -47,6 +47,7 @@
   "course_credit": "2 units",
   "prerequisites": "Should be 3rd year Level",
   "corequisites": "None",
+  "track": "CS - Intelligent Systems",
   "course_description": "This course is intended to present a fairly broad introduction to Natural Language Processing (NLP), the study of computing systems that can process, understand, or communicate in human language, The primary focus of the course is on understanding various NLP tasks, algorithm for effectively solving these problems, and method for evaluating their performance. There is also a focus on statistical and neural network learning algorithms that train on (annotated) text corpora to automatically acquire the knowledge needed to perform the task. Student can attend seminars, workshops, and training in relevant disciplines onsite or online.",
   "course_learning_outcomes": [
     {
@@ -108,8 +109,16 @@
       ],
       "topic_learning_outcomes": [
         {
+          "id": "TLO5",
+          "text": "Support observation to best fitting the data"
+        },
+        {
           "id": "TLO6",
-          "text": "Classify domain areas of machine learning TL07. Exhibits and demonstrate data observation."
+          "text": "Classify domain areas of machine learning"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate data observation."
         },
         {
           "id": "TLO8",

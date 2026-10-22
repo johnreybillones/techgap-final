@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCP322 Capstone Project 1.pdf",
     "sha256": "d6ee47d7dbbb1016201455330e393787ebdf277ee9f43fa1a89527b724980528",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -39,6 +39,7 @@
   "course_credit": "Three Units",
   "prerequisites": "Should be 3rd year level",
   "corequisites": "None",
+  "track": "IT Core & Electives",
   "course_description": "A project focusing on the information system plan brought about in the practicum / on-the-job training / independent research course. This course requires the fulfillment of the complete documentation and oral defense before a set of panelists.",
   "course_learning_outcomes": [
     {

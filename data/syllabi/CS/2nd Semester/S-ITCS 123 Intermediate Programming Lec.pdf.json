@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS 123 Intermediate Programming Lec.pdf",
     "sha256": "6814d6cc53055558a46482970fc2f91582155b973f01a4f4f814c002af252cd8",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,11 +38,16 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITCS 112 and S-ITCS 112LA",
   "corequisites": "S-ITCS 123LA",
+  "track": "Common (IT & CS)",
   "course_description": "Includes review of control structures and data types with emphasis on structured data types. Application of object-oriented programming paradigm, focusing on the definition and use of classes along with the fundamentals of object-oriented design is also part of the discussion as well as basic analysis of algorithms, searching and sorting techniques.",
   "course_learning_outcomes": [
     {
       "id": "CLO1",
-      "text": "understand programming concepts; CL02. describe structured data types;"
+      "text": "understand programming concepts;"
+    },
+    {
+      "id": "CLO2",
+      "text": "describe structured data types;"
     },
     {
       "id": "CLO3",
@@ -54,13 +59,21 @@
     },
     {
       "id": "CLO5",
-      "text": "develop a cleaner, more efficient, and more manageable java programs; and CL06. demonstrate 21st century skills in all learning activities"
+      "text": "develop a cleaner, more efficient, and more manageable java programs; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities"
     }
   ],
   "learning_plan": [
     {
       "period": "Final",
       "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Evaluate searching and sorting algorithms"
+        },
         {
           "id": "CLO5",
           "text": "Develop cleaner, more efficient, and manageable Java programs."
@@ -104,7 +117,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Final: learning-plan CLO not found in main CLO list",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Midterm"
   ]
 }

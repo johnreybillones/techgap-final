@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS112 Fundamentals of Programming Lec.pdf",
     "sha256": "79a29a2e9b8eb918b2c40bdfb52cff0dba31467b085e69f7df85c942215b7574",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        2
+      ]
     }
   },
   "course_code": "S-ITCS112",
@@ -36,8 +38,34 @@
   "course_credit": "2 units",
   "prerequisites": "none",
   "corequisites": "S-ITCS112LA Fundamentals of Programming Lab",
+  "track": "Common (IT & CS)",
   "course_description": "Introduces programming with emphasis on algorithmic and fundamentals programming of concepts. This also includes software development methodology, data types, control structures, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy. The course will look at solving problems using structured- programming approach. This class shall be delivered in both online and offline/module-based approach. This course is also 1 compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand software methodology, algorithms, and flowchart."
+    },
+    {
+      "id": "CLO2",
+      "text": "Create algorithms and flowcharts for solving a given problem."
+    },
+    {
+      "id": "CLO3",
+      "text": "Understand common computer programming concepts."
+    },
+    {
+      "id": "CLO4",
+      "text": "Analyze and evaluate pre-written programs."
+    },
+    {
+      "id": "CLO5",
+      "text": "Develop programs to solve varieties of programming problems."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -90,7 +118,7 @@
         },
         {
           "id": "TLO8",
-          "text": "Explain I/O Statements"
+          "text": "Explain I/O Statements •Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [
@@ -144,10 +172,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

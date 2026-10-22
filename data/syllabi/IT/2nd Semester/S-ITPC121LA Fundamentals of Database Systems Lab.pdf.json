@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC121LA Fundamentals of Database Systems Lab.pdf",
     "sha256": "2b773a1f6371ac1d3d81e7332f08696a8181d18e16f67753b74791d8b198a165",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "None",
   "corequisites": "S-ITPC121",
+  "track": "IT Core & Electives",
   "course_description": "This course prepares the students to acquire the skills on creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modelling and design, the languages and facilities provided by the database management systems and system implementation techniques.",
   "course_learning_outcomes": [
     {

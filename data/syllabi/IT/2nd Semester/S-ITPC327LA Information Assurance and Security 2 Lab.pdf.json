@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC327LA Information Assurance and Security 2 Lab.pdf",
     "sha256": "bdbf5b576741f1597a2e20024b93e368295d14dba0ac9b898b7476ba17151a44",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "S-ITCS318, S-ITCS318LA",
   "corequisites": "S-ITPC327 Lab",
+  "track": "IT Core & Electives",
   "course_description": "This course Covers the integration of confidentiality, integrity and availability into an organization’s security program through the use of physical and logical security controls. Topics include data protection, telecommunications systems, application and emerging technologies. Moreover, this course will introduce you to enterprise systems and show how organizations use enterprise systems to run their operations more efficiently and effectively. The course will inspect typical Enterprise Systems modules: materials management (MM), sales and delivery, and financial accounting. Real-time enterprise system will be utilized to integrate business transactions along and between processes, leading to benefits such as efficient and error-free workflows plus accounting, management reporting and improved decision- making. By using exercises at the end of each module, students can put their knowledge into practice and gain a sustainable understanding of the underlying processes.",
   "course_learning_outcomes": [
     {
@@ -159,6 +160,6 @@
   "issues": [
     "Midterm: learning-plan CLO not found in main CLO list",
     "Duplicate outcome identifiers: Midterm.topic_learning_outcomes",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

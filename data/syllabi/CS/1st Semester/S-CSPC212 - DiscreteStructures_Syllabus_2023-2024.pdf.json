@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf",
     "sha256": "e0d239591d1afec5b7ae8caba1187de421c7069e2e29fb144a78ef00df6a95ee",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 12,
     "field_pages": {
@@ -33,7 +33,9 @@
       "course_description": [
         3
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        3
+      ]
     }
   },
   "course_code": "S-CSPC212",
@@ -42,8 +44,38 @@
   "course_credit": "3 Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "This course covers fundamentals of logic and sets, fundamental principles of counting, algorithms, and some concepts in graph theory.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "evaluate different approaches in addressing different real-world problems using the mathematical concepts."
+    },
+    {
+      "id": "CLO2",
+      "text": "assessthesignificanceand impactoftheconceptslearned and how theseconceptscan solvemathematicalproblems that we encounter in our everyday lives."
+    },
+    {
+      "id": "CLO3",
+      "text": "apply mathematically correct terminology and notation."
+    },
+    {
+      "id": "CLO4",
+      "text": "evaluate the validity of an argument."
+    },
+    {
+      "id": "CLO5",
+      "text": "understand the basics of algorithm analysis, including big-O notation."
+    },
+    {
+      "id": "CLO6",
+      "text": "remember how to work with discrete structures such as sets, graphs, and trees, which are abstract mathematical structures used to represent discrete objects and the relationships between these objects."
+    },
+    {
+      "id": "CLO7",
+      "text": "demonstrate 21st-century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -140,10 +172,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

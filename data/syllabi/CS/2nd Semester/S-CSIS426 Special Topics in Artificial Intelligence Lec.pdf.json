@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSIS426 Special Topics in Artificial Intelligence Lec.pdf",
     "sha256": "802656f8b5e9e608d5ca9c2b2551247b109387d7351c15fc920573f3588b5686",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -22,8 +22,12 @@
         1
       ],
       "corequisites": [],
-      "course_description": [],
-      "course_learning_outcomes": []
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1
+      ]
     }
   },
   "course_code": "S-CSIS426",
@@ -32,8 +36,34 @@
   "course_credit": "Two units",
   "prerequisites": "None",
   "corequisites": null,
-  "course_description": null,
-  "course_learning_outcomes": [],
+  "track": "CS - Intelligent Systems",
+  "course_description": "Deals with topics on specialized or current interest which may change. It includes expert systems, natural language processing, neural network models, machine learning, and AI applications in remote sensing.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "relate a deeper understanding of the history of artificial intelligence (AI) and its foundations;"
+    },
+    {
+      "id": "CLO2",
+      "text": "understand intelligent agents and their operational contexts;"
+    },
+    {
+      "id": "CLO3",
+      "text": "apply basic principles of AI in solutions that require problem solving, inference, perception, knowledge representation, and learning;"
+    },
+    {
+      "id": "CLO4",
+      "text": "recognize the concepts of artificial intelligence in different fields;"
+    },
+    {
+      "id": "CLO5",
+      "text": "discover the importance of technology by creating different applications; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "relate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -51,18 +81,45 @@
           "text": "Apply basic principles of AI in solutions that require problem solving, inference, perception, knowledge representation, and learning."
         }
       ],
-      "topic_learning_outcomes": [],
-      "additional_text": [
-        "TLO1. Distinguish the history of AI and its foundations.",
-        "TLO2. Classify the structures of agents and its environments.",
-        "TLO3. Differentiate between various types of intelligent agents (e.g., simple reflex agents, model- based agents, goal-based agents, utility-based agents).",
-        "TLO4. Describe different types of environments in which intelligent agents operate (e.g., fully observable vs. partially observable, deterministic vs. stochastic, episodic vs. sequential).",
-        "TLO5. Explain the architecture of intelligent agents, including the perception, reasoning, and action components.",
-        "TLO6. Define problem solving in the context of artificial intelligence.",
-        "TLO7. Differentiate between various types of problems (e.g., deterministic vs. stochastic, single- agent vs. multi-agent).",
-        "TLO8. Describe different search strategies used in AI, including uninformed (blind) search and informed (heuristic) search.",
-        "TLO9. Compare and contrast various search algorithms such as breadth-first search, depth-first search, uniform-cost search, and A* search."
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Distinguish the history of AI and its foundations."
+        },
+        {
+          "id": "TLO2",
+          "text": "Classify the structures of agents and its environments."
+        },
+        {
+          "id": "TLO3",
+          "text": "Differentiate between various types of intelligent agents (e.g., simple reflex agents, model- based agents, goal-based agents, utility-based agents)."
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe different types of environments in which intelligent agents operate (e.g., fully observable vs. partially observable, deterministic vs. stochastic, episodic vs. sequential)."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain the architecture of intelligent agents, including the perception, reasoning, and action components."
+        },
+        {
+          "id": "TLO6",
+          "text": "Define problem solving in the context of artificial intelligence."
+        },
+        {
+          "id": "TLO7",
+          "text": "Differentiate between various types of problems (e.g., deterministic vs. stochastic, single- agent vs. multi-agent)."
+        },
+        {
+          "id": "TLO8",
+          "text": "Describe different search strategies used in AI, including uninformed (blind) search and informed (heuristic) search."
+        },
+        {
+          "id": "TLO9",
+          "text": "Compare and contrast various search algorithms such as breadth-first search, depth-first search, uniform-cost search, and A* search."
+        }
       ],
+      "additional_text": [],
       "source_pages": [
         2
       ]
@@ -83,15 +140,33 @@
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
-      "topic_learning_outcomes": [],
-      "additional_text": [
-        "TLO10. Apply different techniques to create games and applications.",
-        "TLO11. Classify learning from examples, knowledge in learning and reinforcement learning.",
-        "TLO12. Apply genetic algorithm to solve optimization problems.",
-        "TLO13. Discover robotic software architectures.",
-        "TLO14. Apply the different topics you learned in AI to come up with a new innovation.",
-        "TLO15. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World ProblemSolving, Use of ICT (not part of topic, but integrated in assessments)"
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Apply different techniques to create games and applications."
+        },
+        {
+          "id": "TLO11",
+          "text": "Classify learning from examples, knowledge in learning and reinforcement learning."
+        },
+        {
+          "id": "TLO12",
+          "text": "Apply genetic algorithm to solve optimization problems."
+        },
+        {
+          "id": "TLO13",
+          "text": "Discover robotic software architectures."
+        },
+        {
+          "id": "TLO14",
+          "text": "Apply the different topics you learned in AI to come up with a new innovation."
+        },
+        {
+          "id": "TLO15",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World ProblemSolving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
       ],
+      "additional_text": [],
       "source_pages": [
         4
       ]
@@ -99,12 +174,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: corequisites",
-    "Missing or unrecognized: course_description",
-    "Missing or unrecognized: course_learning_outcomes",
-    "Missing or unrecognized: Midterm.topic_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Missing or unrecognized: Final.topic_learning_outcomes",
-    "Final: learning-plan CLO not found in main CLO list"
+    "Missing or unrecognized: corequisites"
   ]
 }

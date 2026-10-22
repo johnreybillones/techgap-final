@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC328LA System Integration and Architecture Lab.pdf",
     "sha256": "30b92d7b054c87f2640f7b7e91b10efc007d465147908decaae2725039e798f6",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 8,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "One Unit",
   "prerequisites": "S-ITPC316 and ITPC316LA",
   "corequisites": "S-ITPC328Le",
+  "track": "IT Core & Electives",
   "course_description": "This course provides an in-depth exploration of system integration and architecture. Students will learn about the concepts and best practices for designing and integrating complex systems, including topics such as system architecture, design patterns, microservices, API design, event-driven architecture, and more. Through hands-on exercises and real-world case studies, students will have the opportunity to apply their knowledge and develop their skills in this area.",
   "course_learning_outcomes": [
     {

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS318 Information Assurance and Security Lec.pdf",
     "sha256": "bdbf18d92a64892b41dfb8425f3a9204e83c16953974cf06000b46af36a57ede",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        2
+      ]
     }
   },
   "course_code": "S-ITCS318",
@@ -36,8 +38,34 @@
   "course_credit": "2 Units",
   "prerequisites": "S-ITCS123, S-ITCS123LA",
   "corequisites": "S-ITCS318LA",
+  "track": "Common (IT & CS)",
   "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the three courses included in the online curriculum of Junior Cybersecurity Analyst Path of the Cisco 1 Networking Academy including Introduction to Cybersecurity, Cybersecurity Threat Management and Endpoint Security.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Articulate the players in the cybersecurity world and the motivation of cyber criminals and cybersecurity specialists."
+    },
+    {
+      "id": "CLO2",
+      "text": "Analyze security attacks, symptoms, processes, and countermeasures."
+    },
+    {
+      "id": "CLO3",
+      "text": "Apply skills in security management, controls, protection, and mitigation technologies."
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate how cybersecurity professionals use technologies, processes and procedures to defend all components of the network."
+    },
+    {
+      "id": "CLO5",
+      "text": "Create a security measure plan for the different Cybersecurity domains."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -86,7 +114,7 @@
         },
         {
           "id": "TLO7",
-          "text": "Explain the concept of high availability."
+          "text": "Explain the concept of high availability. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [
@@ -128,10 +156,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

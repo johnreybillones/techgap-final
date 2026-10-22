@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB416 Graphics Design Lec.pdf",
     "sha256": "8a45d004b19ee27407209e31c2f71e572e7b79efbf45356702a40ccc83574d72",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -27,7 +27,10 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
     }
   },
   "course_code": "S-ITWB416LC",
@@ -36,8 +39,42 @@
   "course_credit": "2 .0",
   "prerequisites": "S-ITWB344Lec and S-ITWB344Lab",
   "corequisites": "S-ITWB416LA",
+  "track": "IT - Web Development",
   "course_description": "Discusses the solid and comprehensive teaching about Graphic Design. The application concepts methods, hands-on practices give students a firsthand experience with the toolsets.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Analyze the elements and purpose of Graphic Design."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the nature of graphic design."
+    },
+    {
+      "id": "CLO3",
+      "text": "Evaluate the graphic design to enhance creativity and design skills."
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate the appropriate technical skills by applying basic and advance graphic design. 1"
+    },
+    {
+      "id": "CLO5",
+      "text": "Analyzing the fundamentals of graphic design by developing graphic objects."
+    },
+    {
+      "id": "CLO6",
+      "text": "Develop an appreciation in designing graphics."
+    },
+    {
+      "id": "CLO7",
+      "text": "Acquire Lasallian values and sensitivity in creating graphics to a real-world scenario."
+    },
+    {
+      "id": "CLO8",
+      "text": "Formulate the optimize design learned and report on the expected graphic design that can be achieved by developing graphic object."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -74,7 +111,7 @@
         },
         {
           "id": "TLO4",
-          "text": "Determine and create appropriate design models."
+          "text": "Determine and create appropriate design models. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [
@@ -110,8 +147,16 @@
       ],
       "topic_learning_outcomes": [
         {
+          "id": "TLO5",
+          "text": "Support observation to graphic objects."
+        },
+        {
           "id": "TLO6",
-          "text": "Classify domain areas of graphic design, TL07. Exhibits and demonstrate graphic objects."
+          "text": "Classify domain areas of graphic design,"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate graphic objects."
         },
         {
           "id": "TLO8",
@@ -130,7 +175,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
     "Midterm: learning-plan CLO not found in main CLO list",
     "Final: learning-plan CLO not found in main CLO list"
   ]

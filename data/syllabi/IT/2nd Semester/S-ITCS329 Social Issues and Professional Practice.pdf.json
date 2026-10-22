@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS329 Social Issues and Professional Practice.pdf",
     "sha256": "d6fe4a4feb377a535dac9eb2d6bd7e56b12993c1bb3e43a809ca811dee2d4bfc",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Three Units",
   "prerequisites": "S-ITCS318LA",
   "corequisites": "None",
+  "track": "Common (IT & CS)",
   "course_description": "This course, social issues, and professional practice, studies the social impact, implications, and effects of computers, and the responsibilities of computer professionals in directing the emerging technology. Its specific topic includes an overview of the history of computing, computer applications and their impact, the computing profession, the legal and ethical responsibilities of professionals and careers in computing.",
   "course_learning_outcomes": [
     {

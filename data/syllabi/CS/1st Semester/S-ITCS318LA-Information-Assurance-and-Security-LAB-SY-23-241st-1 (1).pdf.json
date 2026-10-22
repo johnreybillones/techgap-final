@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf",
     "sha256": "b18ec234a47ce495df1706fcbc1d0eceab3b5f0ece03e809cabb998769e77f42",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 15,
     "field_pages": {
@@ -30,7 +30,10 @@
       "course_description": [
         4
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        4,
+        5
+      ]
     }
   },
   "course_code": "S-ITCS318LA (CS)",
@@ -39,8 +42,34 @@
   "course_credit": "1 Unit",
   "prerequisites": "S-ITCS123, S-ITCS123LA",
   "corequisites": "None",
+  "track": "Common (IT & CS)",
   "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the online curriculum of Cybersecurity Essentials of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the players in the cybersecurity world and the motivation of cyber criminals and cybersecurity specialists."
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze security attacks, symptoms, processes, and countermeasures."
+    },
+    {
+      "id": "CLO3",
+      "text": "apply skills in security management, controls, protection, and mitigation technologies. 1"
+    },
+    {
+      "id": "CLO4",
+      "text": "explain how cybersecurity professionals use technologies, processes and procedures to defend all components of the network."
+    },
+    {
+      "id": "CLO5",
+      "text": "create a security measure plan for the different Cybersecurity domains."
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -141,10 +170,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

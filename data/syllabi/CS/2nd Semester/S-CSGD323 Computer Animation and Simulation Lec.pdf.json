@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSGD323 Computer Animation and Simulation Lec.pdf",
     "sha256": "df8cfc732a3935334218492603952ee7c4314a3ef1fa6250f260d313e1a96ba4",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-CSGD311",
   "corequisites": "None",
+  "track": "CS - Game Development",
   "course_description": "This course introduces the essential workflows and techniques for creating 3D computer graphics, focusing on applications in architecture, product design, robotics simulations, and computer games. At the end of the course, students will identify key 3D components and workflows and gain proficiency in creating and animating 3D graphics using Autodesk Maya.",
   "course_learning_outcomes": [
     {
@@ -112,6 +113,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Final"
   ]
 }

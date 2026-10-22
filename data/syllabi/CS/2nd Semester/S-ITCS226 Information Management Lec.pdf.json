@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITCS226 Information Management Lec.pdf",
     "sha256": "c9400dd41f45e4032da278195089355816c9df52befe24164f646a5640ca5c9b",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "None",
   "corequisites": "None",
+  "track": "Common (IT & CS)",
   "course_description": "This course prepares the students to acquire the skills of creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modeling and design, the languages and facilities provided by the database management systems, and system implementation techniques.",
   "course_learning_outcomes": [
     {

@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITWB416LA Graphics Design Lab.pdf",
     "sha256": "fa3b28d260adcb7371667413e5e3879c5f4de5736b8c1629ef6424b4f8619eae",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -27,7 +27,9 @@
       "course_description": [
         1
       ],
-      "course_learning_outcomes": []
+      "course_learning_outcomes": [
+        2
+      ]
     }
   },
   "course_code": "S-ITWB416LC",
@@ -36,8 +38,42 @@
   "course_credit": "3 Units (3 Hours)",
   "prerequisites": "S-ITWB344LC",
   "corequisites": "S-ITWB244L Lab",
+  "track": "IT - Web Development",
   "course_description": "Discusses the solid and comprehensive teaching about Graphic Design. The application concepts methods, hands-on practices give students a firsthand experience with the toolsets.",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Analyze the elements and purpose of Graphic Design."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the nature of graphic design."
+    },
+    {
+      "id": "CLO3",
+      "text": "Evaluate the graphic design to enhance creativity and design skills."
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate the appropriate technical skills by applying basic and advance graphic design."
+    },
+    {
+      "id": "CLO5",
+      "text": "Analyzing the fundamentals of graphic design by developing graphic objects."
+    },
+    {
+      "id": "CLO6",
+      "text": "Develop an appreciation in designing graphics."
+    },
+    {
+      "id": "CLO7",
+      "text": "Acquire Lasallian values and sensitivity in creating graphics to a real-world scenario."
+    },
+    {
+      "id": "CLO8",
+      "text": "Formulate the optimize design learned and report on the expected graphic design that can be achieved by developing graphic object."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -112,8 +148,16 @@
       ],
       "topic_learning_outcomes": [
         {
+          "id": "TLO5",
+          "text": "Support observation to graphic objects."
+        },
+        {
           "id": "TLO6",
-          "text": "Classify domain areas of graphic design, TL07. Exhibits and demonstrate graphic objects."
+          "text": "Classify domain areas of graphic design,"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate graphic objects."
         },
         {
           "id": "TLO8",
@@ -132,7 +176,6 @@
   ],
   "status": "needs_review",
   "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
     "Midterm: learning-plan CLO not found in main CLO list",
     "Final: learning-plan CLO not found in main CLO list"
   ]

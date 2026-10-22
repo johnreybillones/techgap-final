@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-ITPC327 Information Assurance and Security 2 Lec.pdf",
     "sha256": "c8aa2d93ca5c171c718ab35eb0e77ac25974e7ee8c84d51c2ddf5393a5df623a",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 10,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-ITCS318, S-ITCS318LA",
   "corequisites": "S-ITPC327 Lab",
+  "track": "IT Core & Electives",
   "course_description": "This course covers the integration of confidentiality, integrity and availability into an organization’s security program through the use of physical and logical security controls. Topics include data protection, telecommunications systems, application and emerging technologies. Moreover, this course will introduce you to enterprise systems and show how organizations use enterprise systems to run their operations more efficiently and effectively. The course will inspect typical Enterprise Systems modules: materials management (MM), sales and delivery, and financial accounting. Real-time enterprise system will be utilized to integrate business transactions along and between processes, leading to benefits such as efficient and error-free workflows plus accounting, management reporting and improved decision-making. By using exercises at the end of each module, students can put their knowledge into practice and gain a sustainable understanding of the underlying processes.",
   "course_learning_outcomes": [
     {

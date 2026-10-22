@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC327 Automata Theory and Formal Languages Lec.pdf",
     "sha256": "990171db6b3ab512c33bb5627a14d12e00a5231ec6e8e3a1a526c4c32fc9d9f5",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -37,6 +37,7 @@
   "course_credit": "Three units",
   "prerequisites": "S-CSPC315 - Algorithm and Complexity",
   "corequisites": null,
+  "track": "CS Core & Electives",
   "course_description": "Analyzes formal models in computer science, including regular expressions, finite automata, contextfree grammars, pushdown automata and Turing machine.",
   "course_learning_outcomes": [
     {
@@ -85,16 +86,37 @@
           "text": "Classify the different computing machines by discussing the different formal models."
         }
       ],
-      "topic_learning_outcomes": [],
-      "additional_text": [
-        "TLO1. Demonstrate understanding of automata theory and apply its concepts to solve computational problems, including recognition of regular and context-free languages.",
-        "TLO2. Understand the concepts of regular expressions and apply them to define regular languages and solve string- matching problems.",
-        "TLO3. Describe in plain English the language of regular expressions with straightforward descriptions.",
-        "TLO4. Write regular expressions of given regular languages.",
-        "TLO 5. Recognize and describe the components of a Deterministic Finite Automaton (DFA), including states, alphabet, transitions, start state, and accepting states.",
-        "TLO 6. Identify the languages of given DFAs.",
-        "TLO 7. Construct DFAs based from the given language."
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Demonstrate understanding of automata theory and apply its concepts to solve computational problems, including recognition of regular and context-free languages."
+        },
+        {
+          "id": "TLO2",
+          "text": "Understand the concepts of regular expressions and apply them to define regular languages and solve string- matching problems."
+        },
+        {
+          "id": "TLO3",
+          "text": "Describe in plain English the language of regular expressions with straightforward descriptions."
+        },
+        {
+          "id": "TLO4",
+          "text": "Write regular expressions of given regular languages."
+        },
+        {
+          "id": "TLO5",
+          "text": "Recognize and describe the components of a Deterministic Finite Automaton (DFA), including states, alphabet, transitions, start state, and accepting states."
+        },
+        {
+          "id": "TLO6",
+          "text": "Identify the languages of given DFAs."
+        },
+        {
+          "id": "TLO7",
+          "text": "Construct DFAs based from the given language."
+        }
       ],
+      "additional_text": [],
       "source_pages": [
         2
       ]
@@ -112,7 +134,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: corequisites",
-    "Missing or unrecognized: Midterm.topic_learning_outcomes",
     "Missing or unrecognized: Final.course_learning_outcomes",
     "Missing or unrecognized: Final.topic_learning_outcomes",
     "Duplicate outcome identifiers: course_learning_outcomes"

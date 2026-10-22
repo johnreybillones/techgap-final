@@ -2,7 +2,7 @@
   "source": {
     "filename": "S-CSPC223 Programming Languages Lec.pdf",
     "sha256": "ddc6c6f8c87fc991502e5ecd773a4b90a40186f135bf4defde0bdf99223601cb",
-    "extractor_version": "dlsud-cics-v1",
+    "extractor_version": "dlsud-cics-v2",
     "pdfplumber_version": "0.11.10",
     "page_count": 9,
     "field_pages": {
@@ -38,6 +38,7 @@
   "course_credit": "Two Units",
   "prerequisites": "S-CSGD323LC",
   "corequisites": "None",
+  "track": "CS Core & Electives",
   "course_description": "The purpose of this course is to study fundamentals concept in programming languages and major tools and techniques to implement them. This programming languages are based in declarative and imperative that includes syntax specifications, structured, object-based, parameter passing and functions. The implementation language will be JavaScript that will provide students with deeper understanding in programming concepts and ability to learn the foundation language in Web development like Angular, React JS, Node.JS and lot more.",
   "course_learning_outcomes": [
     {
@@ -92,6 +93,6 @@
   "status": "needs_review",
   "issues": [
     "Missing or unrecognized: Final.topic_learning_outcomes",
-    "Some period headings do not have a recognized learning-plan table"
+    "Missing recognized learning-plan table for period(s): Midterm"
   ]
 }
