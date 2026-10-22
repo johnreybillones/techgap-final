@@ -1,0 +1,73 @@
+{
+  "actor": "shahidirfan/JobStreet-Scraper",
+  "actor_id": "f7ggUvGaOrrUuPkZQ",
+  "run_id": "5Ie8oVyO2W9EQ8aWI",
+  "dataset_id": "IA9jjL6ESB2SOQnWg",
+  "build_id": "wcMB0BeF4w9asSke8",
+  "build_number": "0.0.36",
+  "status": "SUCCEEDED",
+  "started_at": "2026-10-18T21:24:47.240Z",
+  "finished_at": "2026-10-18T21:24:51.396Z",
+  "input": {
+    "keyword": "web developer",
+    "location": "",
+    "country": "ph",
+    "posted_date": "30d",
+    "results_wanted": 10,
+    "proxyConfiguration": {
+      "useApifyProxy": false
+    }
+  },
+  "requested_limits": {
+    "maxTotalChargeUsd": 0.1,
+    "timeout": 300
+  },
+  "actual_run_options": {
+    "build": "latest",
+    "timeoutSecs": 300,
+    "memoryMbytes": 1024,
+    "maxTotalChargeUsd": 0.1,
+    "maxItems": 101,
+    "isMaxTotalChargeUsdSetByUser": true,
+    "diskMbytes": 2048
+  },
+  "reported_run_charge_usd": 0.0104,
+  "charged_event_counts": {
+    "apify-default-dataset-item": 10,
+    "apify-actor-start": 1
+  },
+  "pricing_info": {
+    "minimalMaxTotalChargeUsd": null,
+    "pricingModel": "PAY_PER_EVENT",
+    "isPriceChangeNotificationSuppressed": false,
+    "startedAt": "2026-10-07T10:24:23.620Z",
+    "createdAt": "2026-10-07T10:24:25.110Z",
+    "apifyMarginPercentage": 0.2,
+    "notifiedAboutChangeAt": "2026-10-07T10:30:24.929Z",
+    "pricingPerEvent": {
+      "actorChargeEvents": {
+        "apify-default-dataset-item": {
+          "eventTitle": "result",
+          "eventDescription": "Single result in the default dataset.",
+          "isOneTimeEvent": false,
+          "isPrimaryEvent": true,
+          "eventPriceUsd": 0.00099
+        },
+        "apify-actor-start": {
+          "eventTitle": "Actor Start",
+          "eventDescription": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+          "isOneTimeEvent": true,
+          "eventPriceUsd": 0.0005
+        }
+      }
+    }
+  },
+  "run_stats": {
+    "runTimeSecs": 4.029,
+    "computeUnits": 0.0011191666666666667,
+    "memMaxBytes": 63418368
+  },
+  "collection_method": "Apify MCP call-actor; unprojected get-dataset-items with clean=false",
+  "returned_record_count": 10,
+  "raw_file": "raw-jobs.json"
+}

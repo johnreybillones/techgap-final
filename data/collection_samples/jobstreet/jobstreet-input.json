@@ -1,0 +1,10 @@
+{
+  "keyword": "web developer",
+  "location": "",
+  "country": "ph",
+  "posted_date": "30d",
+  "results_wanted": 10,
+  "proxyConfiguration": {
+    "useApifyProxy": false
+  }
+}

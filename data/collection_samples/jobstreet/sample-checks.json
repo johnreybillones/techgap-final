@@ -1,0 +1,83 @@
+{
+  "record_count": 10,
+  "top_level_field_count": 32,
+  "unique_posting_ids": 10,
+  "unique_posting_urls": 10,
+  "unique_description_hashes": 10,
+  "nonempty_descriptions": 10,
+  "description_characters_min": 774,
+  "description_characters_max": 7379,
+  "detail_status_counts": {
+    "Active": 10
+  },
+  "expired_true_count": 0,
+  "work_type_counts": {
+    "Full time": 9,
+    "Contract/Temp": 1
+  },
+  "work_arrangement_counts": {
+    "On-site": 6,
+    "Remote": 3,
+    "Hybrid": 1
+  },
+  "posted_date_min": "2026-10-07T05:39:04.000Z",
+  "posted_date_max": "2026-10-16T15:38:11.000Z",
+  "all_posting_dates_within_30_days_of_collection": true,
+  "search_urls": [
+    "https://ph.jobstreet.com/web-developer-jobs?timeRange=30d"
+  ],
+  "raw_json_sha256": "5b8442af93a810625c85cea581dc188ebe4f42b313ab87c1c39da61e44f2bc8d",
+  "reported_run_charge_usd": 0.0104,
+  "requested_charge_cap_usd": 0.1,
+  "actual_charge_cap_usd": 0.1,
+  "html_plain_text_consistency": [
+    {
+      "posting_id": "95302417",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95112318",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95316845",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95312761",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95289179",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95306355",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95324832",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95118509",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95318265",
+      "normalized_html_text_matches": true
+    },
+    {
+      "posting_id": "95255515",
+      "normalized_html_text_matches": true
+    }
+  ],
+  "source_pages_manually_compared": [
+    "95302417",
+    "95324832",
+    "95118509"
+  ],
+  "description_completeness_limit": "All 10 actor descriptions inspected; 3 source pages compared. HTML/plain-text consistency alone cannot prove source completeness.",
+  "geography_limit": "All returned location labels identify Metro Manila or Cebu; no separate posting-country field was returned.",
+  "duplicate_limit": "No exact ID, URL or description duplicates in this sample. Reposts with different identifiers were not exhaustively tested."
+}
