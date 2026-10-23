@@ -47,6 +47,8 @@
   "prerequisites": "Should be 3rd year Level",
   "corequisites": "None",
   "track": "CS - Intelligent Systems",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course is intended to present a fairly broad introduction to Natural Language Processing (NLP), the study of computing systems that can process, understand, or communicate in human language, The primary focus of the course is on understanding various NLP tasks, algorithm for effectively solving these problems, and method for evaluating their performance. There is also a focus on statistical and neural network learning algorithms that train on (annotated) text corpora to automatically acquire the knowledge needed to perform the task. Student can attend seminars, workshops, and training in relevant disciplines onsite or online. 3",
   "course_learning_outcomes": [
     {

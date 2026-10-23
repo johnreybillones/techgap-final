@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITPC121",
   "track": "IT Core & Electives",
+  "year_level": "1st Year",
+  "semester": "2nd Semester",
   "course_description": "This course prepares the students to acquire the skills on creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modelling and design, the languages and facilities provided by the database management systems and system implementation techniques.",
   "course_learning_outcomes": [
     {

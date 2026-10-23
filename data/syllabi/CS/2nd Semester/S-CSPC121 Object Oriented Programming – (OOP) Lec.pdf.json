@@ -40,6 +40,8 @@
   "prerequisites": "S-ITCS 112 and S-ITCS 112LA",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "1st Year",
+  "semester": "2nd Semester",
   "course_description": "This course covers a range of topics in object-oriented programming, including information hiding, polymorphism, method overriding and overloading, class inheritance, static and dynamic binding and generic programming. The course provides hands-on experience using a modern object oriented programming language through both individual assignments and group programming projects.",
   "course_learning_outcomes": [
     {

@@ -39,6 +39,8 @@
   "prerequisites": "S-CSGD323LC",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "The purpose of this course is to study fundamentals concept in programming languages and major tools and techniques to implement them. This programming languages are based in declarative and imperative that includes syntax specifications, structured, object-based, parameter passing and functions. The implementation language will be JavaScript that will provide students with deeper understanding in programming concepts and ability to learn the foundation language in Web development like Angular, React JS, Node.JS and lot more.",
   "course_learning_outcomes": [
     {

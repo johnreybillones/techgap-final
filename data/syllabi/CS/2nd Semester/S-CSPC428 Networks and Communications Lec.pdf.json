@@ -39,6 +39,8 @@
   "prerequisites": "at least 3rd level",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
   "course_description": "This course deals with computer networks principles covering different layers, topologies, and models of computer networks (explore Open System Interconnection), network programming and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration, and maintenance), and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and managing network servers. Students are also expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues. This course utilizes the online curriculum of Networking Basics of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module- based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks. 1",
   "course_learning_outcomes": [
     {

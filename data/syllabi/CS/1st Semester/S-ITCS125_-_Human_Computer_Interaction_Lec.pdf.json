@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS123 and S-ITCS123LA",
   "corequisites": "ITCS125Lab",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
   "course_description": "1 The course is about understanding what it means to be a user of a computer and, therefore, how to create related products and services that work seamlessly. This course provides a comprehensive introduction and deep dive into HCI, so students can create designs that provide outstanding user experiences. This course provides a deep understanding of what it means to be a user and how to implement user-centered design for the best possible results.",
   "course_learning_outcomes": [
     {

@@ -47,6 +47,8 @@
   "prerequisites": "should be 3rd year level",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with scientific investigation of problems through modeling, simulation, and analysis of physical processes on a computer. This also focuses on simple and intuitive computational models and methods. It further discusses the relevance of computational science for the students to gain better understanding of a system’s behavior through the development of simulated models. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

@@ -39,6 +39,8 @@
   "prerequisites": "S-CSGD311",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course introduces the essential workflows and techniques for creating 3D computer graphics, focusing on applications in architecture, product design, robotics simulations, and computer games. At the end of the course, students will identify key 3D components and workflows and gain proficiency in creating and animating 3D graphics using Autodesk Maya.",
   "course_learning_outcomes": [
     {

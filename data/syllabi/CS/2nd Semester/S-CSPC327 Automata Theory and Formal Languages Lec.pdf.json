@@ -38,6 +38,8 @@
   "prerequisites": "S-CSPC315 - Algorithm and Complexity",
   "corequisites": null,
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "Analyzes formal models in computer science, including regular expressions, finite automata, contextfree grammars, pushdown automata and Turing machine.",
   "course_learning_outcomes": [
     {

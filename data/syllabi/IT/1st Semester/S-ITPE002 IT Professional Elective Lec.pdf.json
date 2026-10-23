@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITPE002LA",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course introduces the basic concepts and core principles used to formation of modern computer operating systems. The course aims to cover the skills and explain those concepts and principles that are prospective to endure for future years. , The course introduces the concepts of processes, concurrency, synchronization, scheduling, memory management, and file systems.",
   "course_learning_outcomes": [
     {

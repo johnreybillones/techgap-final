@@ -45,6 +45,8 @@
   "prerequisites": "S-CSGD323LA",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with advanced game programming with a strong focus on developing good programming skills, design patterns, and practical problem-solving. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

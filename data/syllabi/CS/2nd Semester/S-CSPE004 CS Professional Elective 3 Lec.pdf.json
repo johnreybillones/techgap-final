@@ -39,6 +39,8 @@
   "prerequisites": "CS Professional Elective 1, 2",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
   "course_description": "This course provides an introduction to the field of Artificial Intelligence (AI), focusing on its application to solve real-world problems that are challenging to address using traditional algorithmic approaches. Students will explore key AI methodologies, including techniques for handling uncertainty, learning from experience, and applying nature-inspired problem-solving strategies. The course covers both the theoretical foundations and practical aspects of developing intelligent systems. Additionally, it addresses the ethical considerations in AI development, preparing students for careers in AI, data science, and related fields.",
   "course_learning_outcomes": [
     {

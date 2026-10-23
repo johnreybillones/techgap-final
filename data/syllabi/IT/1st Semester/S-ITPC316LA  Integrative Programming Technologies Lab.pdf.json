@@ -37,6 +37,8 @@
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC316",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": null,
   "course_learning_outcomes": [
     {

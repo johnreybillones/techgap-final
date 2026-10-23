@@ -45,6 +45,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "1st Semester",
   "course_description": "This course covers fundamentals of logic and sets, fundamental principles of counting, algorithms, and some concepts in graph theory.",
   "course_learning_outcomes": [
     {

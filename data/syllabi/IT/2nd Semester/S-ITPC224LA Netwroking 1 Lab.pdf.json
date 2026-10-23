@@ -36,6 +36,8 @@
   "prerequisites": null,
   "corequisites": null,
   "track": "IT Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "Focuses on the fundamental networking concepts and technologies. Cisco Certified Networking Associate (CCNA) course incorporates theoretical aspects and practical application while providing students the skills and hands-on experience needed to design, install, operate and maintain networks. The course covers a complete range of networking concepts, and features many hands-on projects where students have access to the building blocks of Local and Wide Area Networks (LANs and WANs), such as wireless access points, switches, and routers.",
   "course_learning_outcomes": [
     {

@@ -43,6 +43,8 @@
   "prerequisites": "S-ITCS123, S-ITCS123LA",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the online curriculum of Cybersecurity Essentials of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

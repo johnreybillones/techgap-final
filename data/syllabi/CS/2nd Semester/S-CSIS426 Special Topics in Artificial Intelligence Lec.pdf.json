@@ -37,6 +37,8 @@
   "prerequisites": "None",
   "corequisites": null,
   "track": "CS - Intelligent Systems",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
   "course_description": "Deals with topics on specialized or current interest which may change. It includes expert systems, natural language processing, neural network models, machine learning, and AI applications in remote sensing.",
   "course_learning_outcomes": [
     {

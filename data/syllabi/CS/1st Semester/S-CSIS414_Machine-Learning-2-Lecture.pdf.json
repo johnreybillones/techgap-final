@@ -47,6 +47,8 @@
   "prerequisites": "S-CSIS311",
   "corequisites": "None",
   "track": "CS - Intelligent Systems",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with advanced study on how to build computer systems that learn from experience. It is a subfield of Artificial Intelligence and intersects with statistics, cognitive science, information theory, and probability theory, among others. The course explains on how to build systems that learn and adapt using real-world applications from industry and scientific study.",
   "course_learning_outcomes": [
     {

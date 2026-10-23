@@ -45,6 +45,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course gives an overview of the game development process from ideas to creation. It discourses the history of game development process, exposure to the position and job responsibilities that each member of a game development team has along with the industry requirements ideas in Game Design Document (GDD).",
   "course_learning_outcomes": [
     {

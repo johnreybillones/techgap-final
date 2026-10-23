@@ -37,6 +37,8 @@
   "prerequisites": "Should be 3rd year level",
   "corequisites": "S-ITWB311LA",
   "track": "IT - Web Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "Deals with a practical hands-on introduction in Web Development with the help of the latest version of Notepad++ editor/NetBeans IDE2008, Microsoft Internet Explorer browser, and Microsoft Visual Web Developer Express Edition Integrated Development Environment necessary to implement web-based application; and introduces program server-side web pages using PHP and MySQL.",
   "course_learning_outcomes": [
     {

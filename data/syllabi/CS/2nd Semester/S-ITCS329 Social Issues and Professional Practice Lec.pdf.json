@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS318LA",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course, social issues and professional practice, studies the social impact, implications, and effects of computers, and the responsibilities of computer professionals in directing the emerging technology. Its specific topic includes an overview of the history of computing, computer applications and their impact, the computing profession, the legal and ethical responsibilities of professionals and careers in computing.",
   "course_learning_outcomes": [
     {

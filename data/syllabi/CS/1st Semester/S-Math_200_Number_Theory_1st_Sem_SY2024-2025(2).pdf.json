@@ -35,6 +35,8 @@
   "prerequisites": null,
   "corequisites": null,
   "track": "General & Foundational",
+  "year_level": "2nd Year",
+  "semester": "1st Semester",
   "course_description": "This course gives importance to the development of basic concepts in arithmetic and algebra as well as the application of relevant concepts and techniques to learn in class with the use of technology. It then proceeds to discuss reading and writing proofs to be creative and innovative in applying theorems effectively and efficiently. It includes topics on fundamental properties of integers, methods of proof, divisibility, primes and non- primes, greatest common divisor, least common multiple, Euclidean algorithm, Diophantine equations, theorems on modulo and congruences, the Chinese remainder theorem. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in an online module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

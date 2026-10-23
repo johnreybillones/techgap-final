@@ -45,6 +45,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITCS111LA",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
   "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
   "course_learning_outcomes": [
     {

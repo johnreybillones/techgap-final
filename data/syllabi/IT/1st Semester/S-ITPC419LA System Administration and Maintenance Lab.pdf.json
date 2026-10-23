@@ -39,6 +39,8 @@
   "prerequisites": "S-ITPC328 & S-ITPC328LA",
   "corequisites": "S-ITPC419",
   "track": "IT Core & Electives",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Focuses on administration of operating systems in a client-server technology (Windows and Linux on Virtual Machine), installation and maintenance. It prepares students to installation of Windows Server, NTFS file system and folder permissions, Domain Name System, Active Director, local and domain Group Policy, Windows Terminal Services, Internet Security and Acceleration Server, Internet Information Services, communications and networking.",
   "course_learning_outcomes": [
     {

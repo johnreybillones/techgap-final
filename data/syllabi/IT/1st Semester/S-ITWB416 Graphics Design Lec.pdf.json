@@ -40,6 +40,8 @@
   "prerequisites": "S-ITWB344Lec and S-ITWB344Lab",
   "corequisites": "S-ITWB416LA",
   "track": "IT - Web Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Discusses the solid and comprehensive teaching about Graphic Design. The application concepts methods, hands-on practices give students a firsthand experience with the toolsets.",
   "course_learning_outcomes": [
     {

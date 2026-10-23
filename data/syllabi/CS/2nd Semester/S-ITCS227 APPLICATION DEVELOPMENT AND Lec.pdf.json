@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations.",
   "course_learning_outcomes": [
     {

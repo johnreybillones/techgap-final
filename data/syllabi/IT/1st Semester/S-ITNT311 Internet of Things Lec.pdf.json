@@ -37,6 +37,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITNT311LA",
   "track": "IT - Network Technology",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course, the Internet of Things, IoT, describes a growing industry of digital technology being harnessed to the Internet in ways that will improve the lives of every person on this planet. It provides an overview of key concepts and challenges related to digital transformation. The course examines the evolution of the Internet and how the interconnection of people, processes, data and things is transforming every industry. The introduction to the Internet of Things course explains what the IoT is, what it does, how it is part of digital transformation, and how students can become part of this. Moreover, students will also learn about the exponential increase of intelligent devices connected to the Internet and will learn to program one of these intelligent devices. The course explains artificial intelligence and the impact of automation on our future. Lastly, students will understand the increased importance of privacy and security. 1 LEARNING PLAN: Learning Outcomes for Midterm Period",
   "course_learning_outcomes": [],
   "learning_plan": [

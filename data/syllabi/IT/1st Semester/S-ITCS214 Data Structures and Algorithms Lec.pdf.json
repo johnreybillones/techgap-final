@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS123 / S-ITCS123LA",
   "corequisites": "S-ITCS214LA",
   "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "1st Semester",
   "course_description": "This course provides the concepts of abstract data types of common data structures such as lists, linked lists, stacks, queues, trees and graphs used in solving computer problems. This course also includes the study of time and space complexities of algorithms and the choice of appropriate data structures. The course covers several data structures as tools for programming, best practices in using those data structures with estimated running time and space efficiency, hands-on exercises to develop practical skills in creating impactful programs",
   "course_learning_outcomes": [
     {

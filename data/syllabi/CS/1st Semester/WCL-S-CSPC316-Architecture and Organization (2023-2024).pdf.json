@@ -44,6 +44,8 @@
   "prerequisites": "S-ITCS214LA (Data Structures and Algorithm)",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with the introduction to digital hardware design. Combinational and sequential logic circuits are treated. Designing circuits using encoders, decoders, multiplexers, and different types of flip- flops is done for the first part of the course; and then algorithmic state machines are discussed. It also includes concepts relating to computer organization and architecture; instruction set and assembly language; hardware system, central processing unit, and its control; and input-output system and system memory.",
   "course_learning_outcomes": [
     {

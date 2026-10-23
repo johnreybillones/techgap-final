@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS318, S-ITCS318LA",
   "corequisites": "S-ITPC327 Lab",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course Covers the integration of confidentiality, integrity and availability into an organization’s security program through the use of physical and logical security controls. Topics include data protection, telecommunications systems, application and emerging technologies. Moreover, this course will introduce you to enterprise systems and show how organizations use enterprise systems to run their operations more efficiently and effectively. The course will inspect typical Enterprise Systems modules: materials management (MM), sales and delivery, and financial accounting. Real-time enterprise system will be utilized to integrate business transactions along and between processes, leading to benefits such as efficient and error-free workflows plus accounting, management reporting and improved decision- making. By using exercises at the end of each module, students can put their knowledge into practice and gain a sustainable understanding of the underlying processes.",
   "course_learning_outcomes": [
     {

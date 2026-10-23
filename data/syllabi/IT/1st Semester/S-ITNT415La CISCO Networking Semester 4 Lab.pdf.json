@@ -39,6 +39,8 @@
   "prerequisites": "S-ITNT344LC",
   "corequisites": "S-ITNT415L",
   "track": "IT - Network Technology",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Discusses the WAN technologies and network services required by converged applications in a complex network. The course enables students to understand the selection criteria of network devices and WAN technologies to meet network requirements. Students learn how to configure and troubleshoot network devices and resolve common issues with data link protocols. Students also develop the knowledge and skills needed to implement virtual private network (VPN) operations in a complex network. The course gears towards DevNet Associate certification exam. In addition to this, DevNet Associate course teaches students the best practices of DevOps, COURSE LEARNING OUTCOME By the end of this course, students can: CLO1. develop basic Python programming and Linux skills. CLO2. investigate development environment using DevNet resources. CLO3. use software development and design best practices. CLO4. create a secure REST API. CLO5. explain the processes and devices that support network connectivity. CLO6. use current technologies to deploy and secure applications and data in a cloud environment. CLO7. analyze software testing and deployment methods in automation and simulation environments. CLO8. analyze Cisco platforms used for collaboration, infrastructure management, and automation. LEARNING PLAN: Learning Outcomes for Midterm Period",
   "course_learning_outcomes": [
     {

@@ -39,6 +39,8 @@
   "prerequisites": "S-CSGD311",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
   "course_description": "This course covers the main animation algorithms and techniques used in the implementation of interactive 3D Graphics such as in computer games, modelling tools, robotics simulations and virtual reality. Topics covered are physically based simulation, key frame animation, articulated figures, direct and inverse kinematics, path planning, behavior-based animation, scripting behaviors and other topics.",
   "course_learning_outcomes": [
     {

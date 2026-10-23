@@ -48,6 +48,8 @@
   "prerequisites": "Should be 3rd year Level",
   "corequisites": "None",
   "track": "CS - Intelligent Systems",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with the fundamentals machine learning techniques, as well as hands-on experience applying these techniques and developing new techniques for solving problems from the real world; topics include regression (least square regression, lasso), classification (naive Bayes, nearest support vector machines, logistic regression), kernel methods, unsupervised methods (k-means clustering, dimensionality reduction), stochastic optimization, deep learning and recent advances in big data analytics. Student can attend seminars, workshops, and training in relevant disciplines onsite or online.",
   "course_learning_outcomes": [
     {

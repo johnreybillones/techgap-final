@@ -47,6 +47,8 @@
   "prerequisites": "S-ITCS214, S-ITCS214LA",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course covers the design and analysis of different algorithms under various design principles and techniques making use of different data structures. It presents the relevance of algorithm in everyday lives and in computing science. Through algorithmic complexity measures, different range of behaviors of algorithms will be understood. It includes several analysis and design techniques such as divide-and-conquer, dynamic programming, greedy algorithms, and others. This course aims to enable students, who will be future computer scientist, to create correct and efficient algorithms and programs. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

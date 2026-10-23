@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "General & Foundational",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
   "course_description": "This course provides a solid foundation in building a strong and useful knowledge of Information Technology which focuses on business productivity software applications and professional behavior in computing, including word processing, spreadsheet, presentation graphics and responsible utilization of the Internet. Students will acquire skills and proficiency in Microsoft productivity software that enables them to pass the Microsoft Certified Application Specialist Examination.",
   "course_learning_outcomes": [
     {

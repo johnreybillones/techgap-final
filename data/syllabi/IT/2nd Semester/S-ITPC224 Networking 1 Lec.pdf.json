@@ -36,6 +36,8 @@
   "prerequisites": null,
   "corequisites": null,
   "track": "IT Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "Deals with computer network principles covering different layers, topologies and models of computer networks (explore Open System Interconnection), network programming, and network applications. This course also focuses on the TCP/IP protocol, network architecture (including implementation, administration and maintenance) and infrastructure design. Students also gain “hands-on” networking experience by installing and setting up a network operating system, building a small LAN, and expected to do systems/network programming and make use of simulation and measurement tools to gain an appreciation of current network design and performance issues.",
   "course_learning_outcomes": [
     {

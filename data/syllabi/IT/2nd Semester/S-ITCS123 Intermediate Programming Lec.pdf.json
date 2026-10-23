@@ -40,6 +40,8 @@
   "prerequisites": "S-ITCS112/S-ITCS112LA",
   "corequisites": "S-ITCS123LA Intermediate Programming Lab",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "2nd Semester",
   "course_description": "Includes review of control structures and data types with emphasis on structured data types. Application of object-oriented programming paradigm, focusing on the definition and use of classes along with the fundamentals of object-oriented design is also part of the discussion as well as basic analysis of algorithms, searching and sorting techniques.",
   "course_learning_outcomes": [
     {
