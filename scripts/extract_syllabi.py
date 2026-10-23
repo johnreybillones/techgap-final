@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import re
 
+# pyrefly: ignore[missing-import]
 import pdfplumber
 
 
@@ -130,40 +131,6 @@ def classify_track(code: str) -> str:
     return "Unassigned"
 
 
-def determine_year_and_semester(code: str, path_str: str = "") -> tuple[str, str]:
-    code_clean = re.sub(r"[^A-Z0-9]", "", (code or "").upper())
-
-    # Detect semester from folder path if present
-    semester = "1st Semester" if "1st Semester" in path_str else ("2nd Semester" if "2nd Semester" in path_str else None)
-
-    # Standard DLSU-D CICS 3-digit course codes (e.g., S-ITCS111, S-ITCS214, S-CSGD312, S-CSGD415)
-    m = re.search(r"([1-4])([1-2])\d", code_clean)
-    if m:
-        year_num = int(m.group(1))
-        sem_num = int(m.group(2))
-        year_str = {1: "1st Year", 2: "2nd Year", 3: "3rd Year", 4: "4th Year"}[year_num]
-        if not semester:
-            semester = "1st Semester" if sem_num == 1 else "2nd Semester"
-        return year_str, semester
-
-    # Curriculum-specific courses: Electives, Thesis, Capstone, Math, GenEd
-    if any(k in code_clean for k in ("TH412", "CP412", "NT416", "PE004", "PE003")):
-        year_str = "4th Year"
-    elif any(k in code_clean for k in ("TH321", "CP322", "CSP315", "CSPC316", "PE001", "PE002")):
-        year_str = "3rd Year"
-    elif "MATH200" in code_clean:
-        year_str = "2nd Year"
-    elif any(k in code_clean for k in ("COMP121", "COMP001", "COMP")):
-        year_str = "1st Year"
-    else:
-        year_str = "Unassigned"
-
-    if not semester:
-        semester = "1st Semester"
-
-    return year_str, semester
-
-
 def extract_syllabus(path):
     record = {"source": {
         "filename": path.name,
@@ -185,9 +152,6 @@ def extract_syllabus(path):
             else:
                 record[field] = None
         record["track"] = classify_track(record.get("course_code"))
-        year_level, semester = determine_year_and_semester(record.get("course_code"), path.as_posix())
-        record["year_level"] = year_level
-        record["semester"] = semester
         record["course_description"] = clean(section(text, r"COURSE\s+DESCRIPTION", r"COURSE\s+LEARNING\s+OUTCOMES")) or None
         clo_text = section(text, r"COURSE\s+LEARNING\s+OUTCOMES", r"LEARNING\s+PLAN")
         record["course_learning_outcomes"] = outcomes(clo_text, "CLO")
@@ -257,7 +221,6 @@ def main():
         parser.error("No PDF files found")
     counts = {"ok": 0, "needs_review": 0, "failed": 0}
     by_track = {}
-    by_year = {}
     summary = []
     # Appending .json also keeps a source named summary.pdf away from summary.json.
     for path in files:
@@ -272,14 +235,7 @@ def main():
                       "error": f"{type(error).__name__}: {error}"}
         write_json(destination, record)
         counts[record["status"]] += 1
-
         track = record.get("track", "Unassigned")
-        year_level = record.get("year_level", "Unassigned")
-        semester = record.get("semester", "Unassigned")
-        prereqs = record.get("prerequisites")
-        coreqs = record.get("corequisites")
-
-        # Track Grouping
         if track not in by_track:
             by_track[track] = {"total": 0, "ok": 0, "needs_review": 0, "failed": 0, "files": []}
         by_track[track]["total"] += 1
@@ -287,50 +243,13 @@ def main():
         by_track[track]["files"].append({
             "course_code": record.get("course_code"),
             "course_title": record.get("course_title"),
-            "year_level": year_level,
-            "semester": semester,
-            "prerequisites": prereqs,
-            "corequisites": coreqs,
             "status": record["status"],
             "output": output_relative.as_posix(),
         })
-
-        # Year Level Grouping
-        if year_level not in by_year:
-            by_year[year_level] = {"total": 0, "ok": 0, "needs_review": 0, "failed": 0, "files": []}
-        by_year[year_level]["total"] += 1
-        by_year[year_level][record["status"]] += 1
-        by_year[year_level]["files"].append({
-            "course_code": record.get("course_code"),
-            "course_title": record.get("course_title"),
-            "track": track,
-            "semester": semester,
-            "prerequisites": prereqs,
-            "corequisites": coreqs,
-            "status": record["status"],
-            "output": output_relative.as_posix(),
-        })
-
-        summary.append({
-            "input": relative.as_posix(),
-            "output": output_relative.as_posix(),
-            "course_code": record.get("course_code"),
-            "course_title": record.get("course_title"),
-            "track": track,
-            "year_level": year_level,
-            "semester": semester,
-            "prerequisites": prereqs,
-            "corequisites": coreqs,
-            "status": record["status"],
-        })
-        print(f"{record['status']} [{track} | {year_level} - {semester}]: {relative.as_posix()}")
-
-    write_json(args.output / "summary.json", {
-        "counts": counts,
-        "by_year": by_year,
-        "by_track": by_track,
-        "files": summary,
-    })
+        summary.append({"input": relative.as_posix(), "output": output_relative.as_posix(),
+                        "track": track, "status": record["status"]})
+        print(f"{record['status']} [{track}]: {relative.as_posix()}")
+    write_json(args.output / "summary.json", {"counts": counts, "by_track": by_track, "files": summary})
     print(json.dumps(counts))
     return 1 if counts["needs_review"] or counts["failed"] else 0
 

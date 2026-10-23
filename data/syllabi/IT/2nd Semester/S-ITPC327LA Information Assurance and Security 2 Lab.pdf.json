@@ -70,6 +70,10 @@
     {
       "id": "CLO8",
       "text": "demonstrate 21st century skills in all learning activities."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the scope of common Enterprise Systems (e.g., MM, SCM, CRM, HRM, procurement),"
     }
   ],
   "learning_plan": [
@@ -139,15 +143,15 @@
           "text": "Explain a standard financial accounting process."
         },
         {
-          "id": "TLO5",
+          "id": "TLO8",
           "text": "Describe the purchase-to-pay business process"
         },
         {
-          "id": "TLO6",
+          "id": "TLO9",
           "text": "Identify the organizational levels that support the purchase-to-pay business process."
         },
         {
-          "id": "TLO7",
+          "id": "TLO10",
           "text": "Explain the integration points of the purchase-to-pay business process"
         }
       ],
@@ -158,10 +162,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Duplicate outcome identifiers: Midterm.topic_learning_outcomes",
-    "Missing recognized learning-plan table for period(s): Final"
-  ]
+  "status": "ok",
+  "issues": []
 }

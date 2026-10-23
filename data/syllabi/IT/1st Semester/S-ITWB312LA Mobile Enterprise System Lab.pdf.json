@@ -68,10 +68,102 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explore native Android mobile application environment using latest android studio."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand mobile application concept by dealing client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Install and explore the features of Android Studio."
+        },
+        {
+          "id": "TLO2",
+          "text": "Obtain tools in developing mobile application Project."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply basic android controls."
+        },
+        {
+          "id": "TLO4",
+          "text": "Review the basic controls structures."
+        },
+        {
+          "id": "TLO5",
+          "text": "Design and deploy mobile application using emulator."
+        },
+        {
+          "id": "TLO6",
+          "text": "Test correctness of the mobile application."
+        },
+        {
+          "id": "TLO7",
+          "text": "Evaluate User Interface and User experience (UI/UX)."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Design and manage mobile applications using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete mobile application using both emulator and real android devices for pilot testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Discuss the principle of Model, View and Control in mobile application"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss advance android controls."
+        },
+        {
+          "id": "TLO10",
+          "text": "Introduction to SQLite"
+        },
+        {
+          "id": "TLO11",
+          "text": "Implementing SQL commands."
+        },
+        {
+          "id": "TLO12",
+          "text": "Implementing Online database in mobile application. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

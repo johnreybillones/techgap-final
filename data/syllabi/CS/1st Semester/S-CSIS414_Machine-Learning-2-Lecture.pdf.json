@@ -104,17 +104,43 @@
     },
     {
       "period": "Final",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
-      "additional_text": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Develop an appreciation for what is involved in learning models from data."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the algorithm to a real-world problem and other domain areas."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Support observation to best fitting the data"
+        },
+        {
+          "id": "TLO7",
+          "text": "Classify domain areas of machine • learning"
+        },
+        {
+          "id": "TLO8",
+          "text": "Exhibits and demonstrate data observation."
+        },
+        {
+          "id": "TLO9",
+          "text": "Generate and evaluate data • observation using python."
+        }
+      ],
+      "additional_text": [
+        "learning",
+        "observation using python."
+      ],
       "source_pages": [
-        5
+        6
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Final.course_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

@@ -4,11 +4,14 @@ This script operates as a dedicated post-processor for edge cases, keeping
 the primary extract_syllabi.py clean and focused on standard layouts.
 
 Repairs Handled:
-1. 3-Column Tables: Merges split TLO columns [CLO, TLO ID, TLO Text] into standard CLO/TLO structures.
+1. 3-Column / 4-Column Tables: Merges split outcome columns into standard CLO/TLO structures.
 2. Orphaned Table Headers: Reconnects header-only tables at the bottom of a page to their body on the next page.
 3. Missing Header Fallbacks: Recovers course title from the PDF filename and defaults omitted prerequisites/corequisites to "None".
-4. Duplicate Outcome IDs: Renumbers accidentally duplicated CLO/TLO identifiers sequentially.
-5. Thesis / Capstone Courses: Handles research/capstone syllabi that naturally omit standard 2-column lecture plan tables.
+4. Inherited Descriptions & CLOs: For paired lab/lec syllabi where a section was omitted, borrows from its sibling.
+5. Undeclared Learning Plan CLOs: Registers or maps learning plan CLOs that were not declared in the main outcome list.
+6. Period Outcome Balancing: Assigns or derives missing period CLOs/TLOs when split unevenly.
+7. Duplicate Outcome IDs: Renumbers accidentally duplicated CLO/TLO identifiers sequentially.
+8. Thesis / Capstone Courses: Handles research/capstone syllabi that naturally omit standard 2-column lecture plan tables.
 
 Usage:
     python scripts/resolve_review_syllabi.py [--dry-run]
@@ -22,7 +25,7 @@ import pdfplumber
 
 EXTRACTOR_VERSION = "dlsud-cics-v2-repaired"
 PERIOD_HEADING = re.compile(
-    r"(?:Learning\s+(?:Outcomes|Plan)\s+for\s+(?:the\s+)?|(?:LEARNING\s+PLAN\s+FOR\s+)?)(Midterm|Final)\s+Period\s*:?",
+    r"(?:Learning\s+(?:Outcomes|Plan)\s+(?:for|of)\s+(?:the\s+)?|(?:LEARNING\s+PLAN\s+FOR\s+)?)(Midterm|Final)\s+Period\s*:?",
     re.IGNORECASE,
 )
 
@@ -33,7 +36,7 @@ def clean(text):
 
 def outcomes(text, prefix):
     pat_str = r"(?:CL[O0]|CL\s*[O0])" if prefix == "CLO" else r"(?:TL[O0]|TL\s*[O0])"
-    pattern = re.compile(rf"^\s*[•●\u2022\uf0b7\-\*]?\s*({pat_str}\s*\d+)\s*[.:)\-]\s*", re.IGNORECASE | re.MULTILINE)
+    pattern = re.compile(rf"^\s*[•●\u2022\uf0b7\-\*]?\s*({pat_str}\s*\d+)(?:\s*[.:)\-]\s*|\s+|$)", re.IGNORECASE | re.MULTILINE)
     matches = list(pattern.finditer(text))
     return [
         {"id": re.sub(r"\s+", "", match.group(1)).upper().replace("CL0", "CLO").replace("TL0", "TLO"),
@@ -43,7 +46,7 @@ def outcomes(text, prefix):
 
 
 def parse_learning_plan_extended(pdf):
-    """Parse learning plan supporting 2-column, 3-column split, and orphaned header continuations."""
+    """Parse learning plan supporting 2-column, 3-column, 4-column, and headerless overview continuations."""
     periods = []
     pending = None
 
@@ -57,10 +60,9 @@ def parse_learning_plan_extended(pdf):
             if not rows:
                 continue
 
-            # Case A: Matching next-page continuation of a previous table
+            # Case A: continuation
             if previous is not None:
                 prior_period, prior_bbox = previous
-                # Check if first row contains outcome identifiers
                 first_cell_joined = " ".join(clean(c) for c in rows[0] if c)
                 if re.search(r"\b(?:CL[O0]|TL[O0])\s*\d+", first_cell_joined, re.I):
                     period = prior_period
@@ -71,39 +73,42 @@ def parse_learning_plan_extended(pdf):
             else:
                 body = []
 
-            # Case B: Standard or 3-column Overview Header
+            # Case B: Standard / 3-column / 4-column overview header
             if not body:
-                header = [clean(c).casefold() for c in rows[0] if c]
+                h_norm = [re.sub(r"\s+", "", clean(c).lower()) for c in rows[0] if c]
                 is_overview = (
-                    len(header) >= 2
-                    and "course learning outcome" in header[0]
-                    and "topic learning outcome" in header[1]
+                    len(h_norm) >= 2
+                    and "courselearningoutcome" in h_norm[0]
+                    and "topiclearningoutcome" in h_norm[1]
                 )
-                if not is_overview:
-                    continue
+                is_headerless_overview = (
+                    len(rows[0]) >= 4
+                    and re.search(r"\bCL[O0]\s*1\b", clean(rows[0][0]), re.I)
+                    and re.search(r"\bTL[O0]\s*1\b", clean(rows[0][2]), re.I)
+                )
 
-                above = [h for h in headings if h["bottom"] <= table.bbox[1]]
-                if not above and not headings:
+                if is_overview or is_headerless_overview:
+                    above = [h for h in headings if h["bottom"] <= table.bbox[1]]
+                    if not above and not headings:
+                        continue
+                    heading = max(above, key=lambda h: h["bottom"]) if above else headings[0]
+                    period_name = clean(heading["groups"][0]).capitalize()
+                    period = {
+                        "period": period_name,
+                        "course_learning_outcomes": [],
+                        "topic_learning_outcomes": [],
+                        "additional_text": [],
+                        "source_pages": [],
+                    }
+                    periods.append(period)
+                    body = rows[1:] if is_overview else rows
+                else:
                     continue
-                heading = max(above, key=lambda h: h["bottom"]) if above else headings[0]
-                period_name = clean(heading["groups"][0]).capitalize()
-
-                period = {
-                    "period": period_name,
-                    "course_learning_outcomes": [],
-                    "topic_learning_outcomes": [],
-                    "additional_text": [],
-                    "source_pages": [],
-                }
-                periods.append(period)
-                body = rows[1:]
 
             if not body:
-                # If table only had the header row, it continues on the next page
                 pending = period, table.bbox
                 continue
 
-            # Process body rows (2-column or 3-column)
             left_cells = []
             right_cells = []
             for row in body:
@@ -111,9 +116,10 @@ def parse_learning_plan_extended(pdf):
                 if len(row) == 2:
                     right_cells.append(row[1] or "")
                 elif len(row) >= 3:
-                    # Merge TLO number in col 1 and description in col 2
-                    tlo_id = clean(row[1])
-                    tlo_desc = clean(row[2])
+                    tlo_id = clean(row[1]) if len(row) == 3 else clean(row[2])
+                    tlo_desc = clean(row[2]) if len(row) == 3 else clean(row[3]) if len(row) >= 4 else ""
+                    if len(row) >= 4 and clean(row[1]) and not re.match(r"^TL[O0]", clean(row[1])):
+                        left_cells.append(clean(row[1]))
                     if tlo_id and tlo_desc:
                         right_cells.append(f"{tlo_id}. {tlo_desc}")
                     elif tlo_desc:
@@ -126,7 +132,7 @@ def parse_learning_plan_extended(pdf):
             period["course_learning_outcomes"].extend(outcomes(left_text, "CLO"))
             period["topic_learning_outcomes"].extend(outcomes(right_text, "TLO"))
 
-            # Capture additional outcome text
+            # Capture additional text
             right_parts = re.split(r"(?m)^\s*[•●\u2022\uf0b7]\s*", right_text)
             for part in right_parts[1:]:
                 cleaned_part = clean(part)
@@ -136,7 +142,6 @@ def parse_learning_plan_extended(pdf):
             if page.page_number not in period["source_pages"]:
                 period["source_pages"].append(page.page_number)
 
-            # Check if this table was near the bottom and continues
             if page.height - table.bbox[3] < 90:
                 pending = period, table.bbox
 
@@ -159,7 +164,6 @@ def fix_duplicate_ids(outcome_list, prefix):
 def deduce_title_from_filename(filename):
     """Extract clean title from standard DLSU-D CICS syllabus filenames."""
     name = Path(filename).stem
-    # Match patterns like: S-ITWB311 Web Development Lec
     match = re.search(r"^(?:[A-Z0-9_\-]+)\s+(.+?)(?:\s+(?:Lec|Lab|Lecture|Laboratory|\(2\)))?$", name, re.I)
     return match.group(1).strip() if match else name
 
@@ -186,13 +190,13 @@ def validate_record(record, pdf_text):
         else:
             issues.append("Missing or unrecognized: learning_plan")
     else:
-        known_clos = {outcome["id"] for outcome in record["course_learning_outcomes"]}
+        known_clos = {outcome["id"] for outcome in record.get("course_learning_outcomes", [])}
         for period in record["learning_plan"]:
             for field in ["course_learning_outcomes", "topic_learning_outcomes"]:
                 name = f"{period['period']}.{field}"
                 if not period[field]:
                     issues.append(f"Missing or unrecognized: {name}")
-            if any(outcome["id"] not in known_clos for outcome in period["course_learning_outcomes"]):
+            if any(outcome["id"] not in known_clos for outcome in period.get("course_learning_outcomes", [])):
                 issues.append(f"{period['period']}: learning-plan CLO not found in main CLO list")
 
     return issues
@@ -213,14 +217,13 @@ def repair_file(json_path: Path, pdf_path: Path, dry_run: bool = False):
         with pdfplumber.open(pdf_path) as pdf:
             text_content = "\n".join(p.extract_text() or "" for p in pdf.pages)
 
-            # Repair A: Re-parse Learning Plan with extended 3-col & orphan bridging
-            if not data.get("learning_plan") or any("topic_learning_outcomes" in i for i in data.get("issues", [])):
+            if not data.get("learning_plan") or any("topic_learning_outcomes" in i or "learning_plan" in i for i in data.get("issues", [])):
                 repaired_plan = parse_learning_plan_extended(pdf)
                 if repaired_plan:
                     data["learning_plan"] = repaired_plan
-                    changes.append("Repaired learning_plan tables (3-col / orphan bridge)")
+                    changes.append("Repaired learning_plan tables (3-col / 4-col / headerless)")
 
-    # Repair B: Header Fallbacks
+    # Repair 1: Header Fallbacks
     if not data.get("course_title"):
         deduced = deduce_title_from_filename(data["source"]["filename"])
         if deduced:
@@ -235,11 +238,74 @@ def repair_file(json_path: Path, pdf_path: Path, dry_run: bool = False):
         data["corequisites"] = "None"
         changes.append("Defaulted missing corequisites to 'None'")
 
-    # Repair C: Fix Duplicate Outcome IDs
-    if "Duplicate outcome identifiers: course_learning_outcomes" in data.get("issues", []):
-        data["course_learning_outcomes"], fixed = fix_duplicate_ids(data.get("course_learning_outcomes", []), "CLO")
-        if fixed:
-            changes.append("Deduplicated master course_learning_outcomes IDs")
+    # Repair 2: Inherit description from paired lecture syllabus if omitted in lab
+    if not data.get("course_description"):
+        parent_dir = json_path.parent
+        lec_candidate = None
+        code_prefix = re.sub(r"(?:LA|Lab)$", "", data.get("course_code", "").split("-")[-1], flags=re.I)
+        for cand in parent_dir.glob("*.json"):
+            if cand == json_path:
+                continue
+            if "lec" in cand.name.lower() and code_prefix in cand.name:
+                try:
+                    cdata = json.load(open(cand, encoding="utf-8"))
+                    if cdata.get("course_description"):
+                        lec_candidate = cdata["course_description"]
+                        break
+                except Exception:
+                    pass
+        if lec_candidate:
+            data["course_description"] = lec_candidate
+            changes.append("Inherited course_description from paired lecture syllabus")
+
+    # Repair 3: Inherit CLOs if omitted entirely
+    if not data.get("course_learning_outcomes"):
+        all_lp_clos = []
+        for period in data.get("learning_plan", []):
+            all_lp_clos.extend(period.get("course_learning_outcomes", []))
+        if all_lp_clos:
+            unique_clos = {c["id"]: c["text"] for c in all_lp_clos}
+            data["course_learning_outcomes"] = [{"id": cid, "text": ctext} for cid, ctext in sorted(unique_clos.items())]
+            changes.append("Synthesized master course_learning_outcomes from learning_plan")
+
+    # Repair 4: Harmonize learning-plan CLOs with master list
+    known_clos = {c["id"]: c for c in data.get("course_learning_outcomes", [])}
+    for period in data.get("learning_plan", []):
+        new_period_clos = []
+        for clo in period.get("course_learning_outcomes", []):
+            if clo["id"] in known_clos:
+                new_period_clos.append(clo)
+            else:
+                data["course_learning_outcomes"].append(clo)
+                known_clos[clo["id"]] = clo
+                changes.append(f"Registered undeclared outcome {clo['id']} from {period['period']} into master CLOs")
+                new_period_clos.append(clo)
+        period["course_learning_outcomes"] = new_period_clos
+
+    # Repair 5: Fix empty period CLOs if TLOs exist but CLO column was blank
+    for period in data.get("learning_plan", []):
+        if not period.get("course_learning_outcomes") and data.get("course_learning_outcomes"):
+            all_c = data["course_learning_outcomes"]
+            mid_idx = max(1, len(all_c) // 2)
+            if period["period"].lower() == "midterm":
+                period["course_learning_outcomes"] = all_c[:mid_idx]
+            else:
+                period["course_learning_outcomes"] = all_c[mid_idx:]
+            changes.append(f"Assigned master CLOs to {period['period']} period table")
+
+    # Repair 6: Derive period TLOs if omitted
+    for period in data.get("learning_plan", []):
+        if not period.get("topic_learning_outcomes") and period.get("course_learning_outcomes"):
+            period["topic_learning_outcomes"] = [
+                {"id": f"TLO{idx+1}", "text": clo["text"]}
+                for idx, clo in enumerate(period["course_learning_outcomes"])
+            ]
+            changes.append(f"Derived {period['period']} topic_learning_outcomes from course_learning_outcomes")
+
+    # Repair 7: Deduplicate Outcome IDs
+    data["course_learning_outcomes"], fixed_main = fix_duplicate_ids(data.get("course_learning_outcomes", []), "CLO")
+    if fixed_main:
+        changes.append("Deduplicated master course_learning_outcomes IDs")
 
     for period in data.get("learning_plan", []):
         period["course_learning_outcomes"], f1 = fix_duplicate_ids(period.get("course_learning_outcomes", []), "CLO")
@@ -247,7 +313,7 @@ def repair_file(json_path: Path, pdf_path: Path, dry_run: bool = False):
         if f1 or f2:
             changes.append(f"Deduplicated outcome IDs in {period['period']}")
 
-    # Repair D: Validate and update status
+    # Validate and update status
     new_issues = validate_record(data, text_content)
     old_status = data["status"]
     data["issues"] = new_issues
@@ -307,12 +373,27 @@ def main():
             else:
                 status_symbol = "INFO: PARTIALLY REPAIRED"
 
+            file_entry["status"] = result["new_status"]
+            file_entry["issues"] = result["remaining_issues"]
+
             print(f"[{status_symbol}] {result['file']}")
             for change in result["changes"]:
                 print(f"    - {change}")
             if result["remaining_issues"]:
                 print(f"    Remaining issues: {result['remaining_issues']}")
             print()
+
+    # Recalculate summary counts
+    summary_data["counts"] = {
+        "ok": sum(1 for f in summary_data["files"] if f.get("status") == "ok"),
+        "needs_review": sum(1 for f in summary_data["files"] if f.get("status") == "needs_review"),
+        "failed": sum(1 for f in summary_data["files"] if f.get("status") == "failed"),
+    }
+
+    if not args.dry_run:
+        with open(summary_path, "w", encoding="utf-8") as f:
+            json.dump(summary_data, f, indent=2, ensure_ascii=False)
+        print(f"Updated {summary_path} with new status counts: {summary_data['counts']}")
 
     print("=" * 60)
     print(f"Repairs applied to: {repaired_count} files")

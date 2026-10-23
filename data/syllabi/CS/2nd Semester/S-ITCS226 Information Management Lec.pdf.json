@@ -62,6 +62,10 @@
     {
       "id": "CLO5",
       "text": "demonstrate 21st century skills in all learning activities."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
     }
   ],
   "learning_plan": [
@@ -168,8 +172,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

@@ -75,6 +75,10 @@
     {
       "id": "CLO8",
       "text": "Formulate the optimize design learned and report on the expected graphic design that can be achieved by developing graphic object."
+    },
+    {
+      "id": "CLO9",
+      "text": "Demonstrate 21st century skills in all learning activities."
     }
   ],
   "learning_plan": [
@@ -175,9 +179,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

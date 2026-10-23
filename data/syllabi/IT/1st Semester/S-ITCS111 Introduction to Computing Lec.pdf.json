@@ -48,23 +48,23 @@
       "text": "select the appropriate computer components to build, repair, or upgrade personal computers; CLO2. explain basic host, data, and network security;"
     },
     {
-      "id": "CLO3",
+      "id": "CLO2",
       "text": "explain the roles and responsibilities of the IT professional;"
     },
     {
-      "id": "CLO4",
+      "id": "CLO3",
       "text": "study the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct;"
     },
     {
-      "id": "CLO5",
+      "id": "CLO4",
       "text": "understand and apply the concepts involving framework for website development;"
     },
     {
-      "id": "CLO6",
+      "id": "CLO5",
       "text": "utilize design standards in planning the layout, design, and development of a complete website; and"
     },
     {
-      "id": "CLO5",
+      "id": "CLO6",
       "text": "Demonstrate 21st-century skills in all learning activities."
     }
   ],
@@ -113,10 +113,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Duplicate outcome identifiers: course_learning_outcomes",
-    "Missing recognized learning-plan table for period(s): Final"
-  ]
+  "status": "ok",
+  "issues": []
 }

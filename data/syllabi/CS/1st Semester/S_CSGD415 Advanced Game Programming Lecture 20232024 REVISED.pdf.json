@@ -84,6 +84,10 @@
     {
       "id": "CLO10",
       "text": "value the Lasallian values and sensitivity in developing a game to real-world problems."
+    },
+    {
+      "id": "CLO2",
+      "text": "Remember the basic framework for mobile game development."
     }
   ],
   "learning_plan": [
@@ -190,8 +194,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

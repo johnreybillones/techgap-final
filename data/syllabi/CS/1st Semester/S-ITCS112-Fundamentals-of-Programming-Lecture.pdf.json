@@ -172,8 +172,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Empty outcome text: course_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

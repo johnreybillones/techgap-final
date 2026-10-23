@@ -31,7 +31,7 @@
     }
   },
   "course_code": "S-ITWB311",
-  "course_title": null,
+  "course_title": "Web Development",
   "course_type": "Lecture",
   "course_credit": "Two (2) units",
   "prerequisites": "Should be 3rd year level",
@@ -153,8 +153,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_title"
-  ]
+  "status": "ok",
+  "issues": []
 }

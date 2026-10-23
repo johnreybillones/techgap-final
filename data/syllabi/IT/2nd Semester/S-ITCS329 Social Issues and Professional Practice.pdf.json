@@ -87,6 +87,10 @@
         {
           "id": "CLO3",
           "text": "To evaluate the basic legal rights of software and hardware vendors and users, and to also appreciate the ethical values which are the basis of those rights."
+        },
+        {
+          "id": "CLO7",
+          "text": "To exhibit 21st century skills in all learning activities showing proficiency and application at the highest level."
         }
       ],
       "topic_learning_outcomes": [
@@ -121,84 +125,89 @@
         {
           "id": "TLO8",
           "text": "Evaluate ethical/social tradeoffs in technical decisions."
+        },
+        {
+          "id": "TLO19",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
         }
       ],
       "additional_text": [],
       "source_pages": [
-        2
+        2,
+        3
       ]
     },
     {
       "period": "Final",
       "course_learning_outcomes": [
         {
-          "id": "CLO4",
+          "id": "CLO1",
           "text": "To facilitate the acquisition of knowledge concerning the pertinent social, ethical, legal, and professional issues in the realm of computing by immersing individuals in the broader societal context."
         },
         {
-          "id": "CLO5",
+          "id": "CLO2",
           "text": "To comprehend the responsibilities anticipated as future practitioners, and grasp the potential consequences of failure, acknowledging both personal limitations and the limitations of the tools employed."
         },
         {
-          "id": "CLO6",
+          "id": "CLO3",
           "text": "To demonstrate a commitment to staying abreast in their chosen specialization and broader discipline of computing over the long-term and."
         },
         {
-          "id": "CLO5",
+          "id": "CLO4",
           "text": "To comprehend the responsibilities anticipated as future practitioners, and grasp the potential consequences of failure, acknowledging both personal limitations and the limitations of the tools employed."
         },
         {
-          "id": "CLO7",
+          "id": "CLO5",
           "text": "Demonstrate 21st century skills in all learning activities."
         }
       ],
       "topic_learning_outcomes": [
         {
-          "id": "TLO9",
+          "id": "TLO1",
           "text": "Identify ethical issues that arise in software development and determine how to address them technically and ethically."
         },
         {
-          "id": "TLO10",
+          "id": "TLO2",
           "text": "Explain the ethical responsibility of ensuring software correctness, reliability, and safety."
         },
         {
-          "id": "TLO11",
+          "id": "TLO3",
           "text": "Describe the mechanisms that typically exist for a professional to keep up to date."
         },
         {
-          "id": "TLO13",
+          "id": "TLO4",
           "text": "Discuss the philosophical bases of intellectual property."
         },
         {
-          "id": "TLO14",
+          "id": "TLO5",
           "text": "Discuss the rationale for the legal protection of intellectual property."
         },
         {
-          "id": "TLO15",
+          "id": "TLO6",
           "text": "Discuss the rationale for the legal protection of intellectual property."
         },
         {
-          "id": "TLO16",
+          "id": "TLO7",
           "text": "Discuss the philosophical basis for the legal protection of personal privacy."
         },
         {
-          "id": "TLO17",
+          "id": "TLO8",
           "text": "Describe the ramifications of differential privacy."
         },
         {
-          "id": "TLO18",
+          "id": "TLO9",
           "text": "Identify strategies to enable appropriate freedom of expression."
         },
         {
-          "id": "TLO13",
+          "id": "TLO10",
           "text": "Discuss the philosophical bases of intellectual property."
         },
         {
-          "id": "TLO14",
+          "id": "TLO11",
           "text": "Discuss the rationale for the legal protection of intellectual property."
         },
         {
-          "id": "TLO15",
+          "id": "TLO12",
           "text": "Discuss the rationale for the legal protection of intellectual property."
         }
       ],
@@ -209,9 +218,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Duplicate outcome identifiers: Final.course_learning_outcomes",
-    "Duplicate outcome identifiers: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

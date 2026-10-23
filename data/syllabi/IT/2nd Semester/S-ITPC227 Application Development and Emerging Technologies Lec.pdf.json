@@ -69,10 +69,82 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Interpret the difference of front-end and back-development in web application."
+        },
+        {
+          "id": "CLO2",
+          "text": "Design and identify web Development concept by dealing with client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Demonstrate different web development software and its features."
+        },
+        {
+          "id": "TLO2",
+          "text": "Comprehend different tools in developing Web Application Project."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design web application both front- end and back-end. Students can know and use different OOP programming techniques."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Understand how to manage website using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete Web Application in live server for pilot testing."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Explain the principle of Model, View and Control in mobile application"
+        },
+        {
+          "id": "TLO9",
+          "text": "Demonstrate advance asp.net controls."
+        },
+        {
+          "id": "TLO10",
+          "text": "Identity different types of report module"
+        },
+        {
+          "id": "TLO11",
+          "text": "Implementing Report data visualization commands."
+        },
+        {
+          "id": "TLO12",
+          "text": "Deploying website to a live server."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

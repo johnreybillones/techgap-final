@@ -74,7 +74,7 @@
       "text": "utilize design standards in planning the layout, design, and development of a complete website; and"
     },
     {
-      "id": "CLO5",
+      "id": "CLO7",
       "text": "Demonstrate 21st-century skills in all learning activities."
     }
   ],
@@ -163,8 +163,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Duplicate outcome identifiers: course_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

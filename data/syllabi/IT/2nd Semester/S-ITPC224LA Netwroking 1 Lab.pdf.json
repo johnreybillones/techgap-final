@@ -33,8 +33,8 @@
   "course_title": "Networking 1",
   "course_type": "Laboratory",
   "course_credit": "One Unit",
-  "prerequisites": null,
-  "corequisites": null,
+  "prerequisites": "None",
+  "corequisites": "None",
   "track": "IT Core & Electives",
   "year_level": "2nd Year",
   "semester": "2nd Semester",
@@ -161,9 +161,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: prerequisites",
-    "Missing or unrecognized: corequisites"
-  ]
+  "status": "ok",
+  "issues": []
 }

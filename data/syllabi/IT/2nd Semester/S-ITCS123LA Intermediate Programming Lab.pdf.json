@@ -77,10 +77,262 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand programming concepts"
+        },
+        {
+          "id": "CLO2",
+          "text": "Implement file processing"
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine program functionality"
+        },
+        {
+          "id": "CLO4",
+          "text": "Develop cleaner, more efficient and more manageable programs in solving problems"
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop graphical user interfaces (GUI) for Java programs."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Review basic control structures"
+        },
+        {
+          "id": "TLO2",
+          "text": ""
+        },
+        {
+          "id": "TLO3",
+          "text": "Differentiate structured and unstructured data"
+        },
+        {
+          "id": "TLO4",
+          "text": ""
+        },
+        {
+          "id": "TLO5",
+          "text": ""
+        },
+        {
+          "id": "TLO6",
+          "text": ""
+        },
+        {
+          "id": "TLO7",
+          "text": "Read data from a file"
+        },
+        {
+          "id": "TLO8",
+          "text": "Write data to a file"
+        },
+        {
+          "id": "TLO9",
+          "text": "Perform operations on a file"
+        },
+        {
+          "id": "TLO10",
+          "text": ""
+        },
+        {
+          "id": "TLO11",
+          "text": ""
+        },
+        {
+          "id": "TLO12",
+          "text": ""
+        },
+        {
+          "id": "TLO13",
+          "text": ""
+        },
+        {
+          "id": "TLO14",
+          "text": ""
+        },
+        {
+          "id": "TLO15",
+          "text": ""
+        },
+        {
+          "id": "TLO16",
+          "text": ""
+        },
+        {
+          "id": "TLO17",
+          "text": ""
+        },
+        {
+          "id": "TLO18",
+          "text": ""
+        },
+        {
+          "id": "TLO19",
+          "text": ""
+        },
+        {
+          "id": "TLO29",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand programming concepts"
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine program functionality"
+        },
+        {
+          "id": "CLO4",
+          "text": "Develop cleaner, more efficient and more manageable programs in solving problems"
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop graphical user interfaces (GUI) for Java programs."
+        },
+        {
+          "id": "CLO6",
+          "text": "Evaluate searching and sorting algorithms"
+        },
+        {
+          "id": "CLO7",
+          "text": "Apply Java’s object oriented programming concepts in the writing and editing of various levels of applications."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Review basic control structures"
+        },
+        {
+          "id": "TLO2",
+          "text": ""
+        },
+        {
+          "id": "TLO3",
+          "text": "Differentiate structured and unstructured data"
+        },
+        {
+          "id": "TLO4",
+          "text": ""
+        },
+        {
+          "id": "TLO5",
+          "text": ""
+        },
+        {
+          "id": "TLO6",
+          "text": ""
+        },
+        {
+          "id": "TLO10",
+          "text": ""
+        },
+        {
+          "id": "TLO11",
+          "text": ""
+        },
+        {
+          "id": "TLO12",
+          "text": ""
+        },
+        {
+          "id": "TLO13",
+          "text": ""
+        },
+        {
+          "id": "TLO14",
+          "text": ""
+        },
+        {
+          "id": "TLO15",
+          "text": ""
+        },
+        {
+          "id": "TLO16",
+          "text": ""
+        },
+        {
+          "id": "TLO17",
+          "text": ""
+        },
+        {
+          "id": "TLO18",
+          "text": ""
+        },
+        {
+          "id": "TLO19",
+          "text": ""
+        },
+        {
+          "id": "TLO20",
+          "text": ""
+        },
+        {
+          "id": "TLO21",
+          "text": ""
+        },
+        {
+          "id": "TLO22",
+          "text": ""
+        },
+        {
+          "id": "TLO23",
+          "text": ""
+        },
+        {
+          "id": "TLO24",
+          "text": ""
+        },
+        {
+          "id": "TLO25",
+          "text": ""
+        },
+        {
+          "id": "TLO26",
+          "text": ""
+        },
+        {
+          "id": "TLO27",
+          "text": ""
+        },
+        {
+          "id": "TLO29",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem- Solving, Use of ICT"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

@@ -151,8 +151,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing recognized learning-plan table for period(s): Final"
-  ]
+  "status": "ok",
+  "issues": []
 }

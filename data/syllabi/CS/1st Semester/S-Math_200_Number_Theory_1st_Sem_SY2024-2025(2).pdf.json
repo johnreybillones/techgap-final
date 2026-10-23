@@ -32,8 +32,8 @@
   "course_title": "N umber Theory",
   "course_type": "L ecture",
   "course_credit": "T hree units",
-  "prerequisites": null,
-  "corequisites": null,
+  "prerequisites": "None",
+  "corequisites": "None",
   "track": "General & Foundational",
   "year_level": "2nd Year",
   "semester": "1st Semester",
@@ -176,9 +176,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: prerequisites",
-    "Missing or unrecognized: corequisites"
-  ]
+  "status": "ok",
+  "issues": []
 }
