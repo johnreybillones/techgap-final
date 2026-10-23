@@ -44,6 +44,8 @@
   "prerequisites": "Should be 3rd year level",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Covers widely used parallel and distributed computing methods, including threaded applications, GPU parallel programming, and datacenter-scale distributed methods such as MapReduce and distributed graph algorithms. Different types of algorithms are discussed which work well with these techniques, and have the opportunity to implement some of these algorithms. Hardware architectures which have been developed along with these computing methods are be included.",
   "course_learning_outcomes": [
     {

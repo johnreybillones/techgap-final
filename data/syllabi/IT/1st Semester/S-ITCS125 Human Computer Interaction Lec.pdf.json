@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS123 and S-ITCS123LA",
   "corequisites": "ITCS125Lab",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
   "course_description": "1 The course is about understanding what it means to be a user of a computer and, therefore, how to create related products and services that work seamlessly. This course provides a comprehensive introduction and deep dive into HCI, so students can create designs that provide outstanding user experiences. This course provides a deep understanding of what it means to be a user and how to implement user-centered design for the best possible results.",
   "course_learning_outcomes": [
     {
@@ -69,11 +71,73 @@
   "learning_plan": [
     {
       "period": "Midterm",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Develop an understanding of the basic concepts about the relevance of human and computer interaction, including their abilities and limitations, and how these principles apply to using Figma effectively. ."
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze different concepts concerning effective and usable graphical computer interfaces, and apply these concepts in designing user interfaces using Figma."
+        },
+        {
+          "id": "CLO3",
+          "text": "Use different techniques and concepts of the human computer interaction in creating interface design for computer/IT applications."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe what interaction design and how it relates to human –computer interaction and other fields."
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss the use of interface metaphors and interaction types as part of a conceptual model."
+        },
+        {
+          "id": "TLO3",
+          "text": "Show the difference between classic internal cognitive frameworks and more recent external cognitive approaches that have been applied in HCI"
+        },
+        {
+          "id": "TLO4",
+          "text": "Identify the interaction design process. Discuss the different kinds of interfaces."
+        },
+        {
+          "id": "TLO5",
+          "text": "Discuss how to plan and run a successful data gathering program."
+        },
+        {
+          "id": "TLO6",
+          "text": "Explain some advantages of involving users in development."
+        },
+        {
+          "id": "TLO7",
+          "text": "Analyze data gathered from questionnaires, interviews and observations."
+        },
+        {
+          "id": "TLO8",
+          "text": "Understand the essential characteristics of good design"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss how to plan and run a successful data gathering program."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain some advantages of involving users in development."
+        },
+        {
+          "id": "TLO11",
+          "text": "Analyze data gathered from questionnaires, interviews and observations."
+        },
+        {
+          "id": "TLO12",
+          "text": "Understand the essential characteristics of good design"
+        }
+      ],
       "additional_text": [],
       "source_pages": [
-        2
+        3
       ]
     },
     {
@@ -128,9 +192,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Midterm.course_learning_outcomes",
-    "Missing or unrecognized: Midterm.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

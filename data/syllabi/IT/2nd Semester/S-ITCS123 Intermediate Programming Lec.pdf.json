@@ -40,6 +40,8 @@
   "prerequisites": "S-ITCS112/S-ITCS112LA",
   "corequisites": "S-ITCS123LA Intermediate Programming Lab",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "2nd Semester",
   "course_description": "Includes review of control structures and data types with emphasis on structured data types. Application of object-oriented programming paradigm, focusing on the definition and use of classes along with the fundamentals of object-oriented design is also part of the discussion as well as basic analysis of algorithms, searching and sorting techniques.",
   "course_learning_outcomes": [
     {
@@ -75,10 +77,123 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand programming concepts"
+        },
+        {
+          "id": "CLO2",
+          "text": "Implement file processing"
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine program functionality"
+        },
+        {
+          "id": "CLO4",
+          "text": "Develop cleaner, more efficient and more manageable programs in solving problems"
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop graphical user interfaces (GUI) for Java programs."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Review basic control structures"
+        },
+        {
+          "id": "TLO2",
+          "text": ""
+        },
+        {
+          "id": "TLO3",
+          "text": "Differentiate structured and unstructured data"
+        },
+        {
+          "id": "TLO4",
+          "text": ""
+        },
+        {
+          "id": "TLO5",
+          "text": ""
+        },
+        {
+          "id": "TLO6",
+          "text": ""
+        },
+        {
+          "id": "TLO7",
+          "text": "Read data from a file"
+        },
+        {
+          "id": "TLO8",
+          "text": "Write data to a file"
+        },
+        {
+          "id": "TLO9",
+          "text": "Perform operations on a file"
+        },
+        {
+          "id": "TLO10",
+          "text": ""
+        },
+        {
+          "id": "TLO11",
+          "text": ""
+        },
+        {
+          "id": "TLO12",
+          "text": ""
+        },
+        {
+          "id": "TLO13",
+          "text": ""
+        },
+        {
+          "id": "TLO14",
+          "text": ""
+        },
+        {
+          "id": "TLO15",
+          "text": ""
+        },
+        {
+          "id": "TLO16",
+          "text": ""
+        },
+        {
+          "id": "TLO17",
+          "text": ""
+        },
+        {
+          "id": "TLO18",
+          "text": ""
+        },
+        {
+          "id": "TLO19",
+          "text": ""
+        },
+        {
+          "id": "TLO29",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real- World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

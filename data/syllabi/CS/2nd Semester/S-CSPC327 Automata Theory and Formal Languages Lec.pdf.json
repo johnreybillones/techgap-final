@@ -36,8 +36,10 @@
   "course_type": "Lecture",
   "course_credit": "Three units",
   "prerequisites": "S-CSPC315 - Algorithm and Complexity",
-  "corequisites": null,
+  "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "Analyzes formal models in computer science, including regular expressions, finite automata, contextfree grammars, pushdown automata and Turing machine.",
   "course_learning_outcomes": [
     {
@@ -65,7 +67,7 @@
       "text": "evaluate Turing machines by identifying their components, their operations, and the languages they recognize; and"
     },
     {
-      "id": "CLO6",
+      "id": "CLO7",
       "text": "demonstrate 21st century skills in all learning activities;"
     }
   ],
@@ -123,19 +125,84 @@
     },
     {
       "period": "Final",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Design grammars and recognizers for different formal languages"
+        },
+        {
+          "id": "CLO5",
+          "text": "Explain the principles of pushdown automata (PDAs) by identifying their components, determining the languages they recognize, designing PDAs for given languages, and converting between PDAs and context-free grammars (CFGs) to model computational processes."
+        },
+        {
+          "id": "CLO6",
+          "text": "Evaluate Turing machines by identifying their components, their operations, and the languages they recognize."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Understand the concepts of context-free grammar."
+        },
+        {
+          "id": "TLO9",
+          "text": "Describe in plain English the languages of CFGs with straightforward descriptions."
+        },
+        {
+          "id": "TLO10",
+          "text": "Construct CFGs for context-free languages."
+        },
+        {
+          "id": "TLO11",
+          "text": "Argue why a language description is or is not the language of a CFG."
+        },
+        {
+          "id": "TLO12",
+          "text": "Recognize the components of a pushdown automaton particularly its use of an infinite stack."
+        },
+        {
+          "id": "TLO13",
+          "text": "Identify the languages accepted by given PDAs."
+        },
+        {
+          "id": "TLO14",
+          "text": "Design PDAs of given languages."
+        },
+        {
+          "id": "TLO15",
+          "text": "Convert between PDAs and CFGs."
+        },
+        {
+          "id": "TLO16",
+          "text": "Identify the components of Turing Machines."
+        },
+        {
+          "id": "TLO17",
+          "text": "Understand how Turing machines operate."
+        },
+        {
+          "id": "TLO18",
+          "text": "Determine the languages accepted by given Turing machines."
+        },
+        {
+          "id": "TLO19",
+          "text": "Construct Turing machines that accept regular languages, context-free languages and some non-context free languages."
+        },
+        {
+          "id": "TLO20",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)."
+        }
+      ],
       "additional_text": [],
       "source_pages": [
-        3
+        4
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: corequisites",
-    "Missing or unrecognized: Final.course_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes",
-    "Duplicate outcome identifiers: course_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

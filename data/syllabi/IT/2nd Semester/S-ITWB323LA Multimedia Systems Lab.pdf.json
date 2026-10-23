@@ -39,6 +39,8 @@
   "prerequisites": "S-ITPC311LC",
   "corequisites": "S-ITWB323",
   "track": "IT - Web Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course deals with familiarization of the concept of Multimedia System, which broadens the knowledge and understanding of multimedia technologies and applications. This also guides them to acquire confidence in their ability to expand their knowledge of multimedia in order to aid professional development. Covers the areas of multimedia analysis, design and delivery, history, images, graphics/drawing, sound and animation that will enable to use diagnostic techniques and solutions. Page | 1",
   "course_learning_outcomes": [
     {
@@ -120,17 +122,48 @@
     },
     {
       "period": "Final",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Analyzing the fundamentals of Mutltimedia Systems by developing multimedia projects."
+        },
+        {
+          "id": "CLO6",
+          "text": "Develop an appreciation of Multimedia Systems."
+        },
+        {
+          "id": "CLO7",
+          "text": "Acquire lasallian values and sensitivity in applying Multimedia Systems to a real-world scenario."
+        },
+        {
+          "id": "CLO8",
+          "text": "Formulate the optimize design learned and report on the expected output that can be achieved by developing Multimedia System Projects."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Support observation to Multimedia System Projects"
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify domain areas of Multimedia System Projects"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate Multimedia System Projects."
+        },
+        {
+          "id": "TLO8",
+          "text": "Generate and develop Multimedia System Projects using Adobe Photoshop and Adobe"
+        }
+      ],
       "additional_text": [],
       "source_pages": [
-        4
+        5
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Final.course_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

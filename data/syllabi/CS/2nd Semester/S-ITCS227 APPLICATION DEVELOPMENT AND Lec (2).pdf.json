@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations.",
   "course_learning_outcomes": [
     {
@@ -66,10 +68,67 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Interpret the difference of front end and back-development in web application."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand Web Development concept by dealing client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        },
+        {
+          "id": "CLO4",
+          "text": "Manage website using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete Web Application in live server for pilot testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Learn and differentiate different web development software and its features"
+        },
+        {
+          "id": "TLO2",
+          "text": "Obtain tools in developing Web Application Project. Students can implement objects in their codes."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design web application both front-end and back-end. Students can know and use different OOP programming techniques."
+        },
+        {
+          "id": "TLO4",
+          "text": "TLO5. Design and Implements server-side controls. Design and Implement Master page."
+        },
+        {
+          "id": "TLO6",
+          "text": "Create and Design Web application report tools."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

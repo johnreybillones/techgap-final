@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITPE002LA",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course introduces the basic concepts and core principles used to formation of modern computer operating systems. The course aims to cover the skills and explain those concepts and principles that are prospective to endure for future years. , The course introduces the concepts of processes, concurrency, synchronization, scheduling, memory management, and file systems.",
   "course_learning_outcomes": [
     {
@@ -62,10 +64,154 @@
       "text": "Apply the skills in implementing different kinds of OS, and its concept and properties."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO2",
+          "text": "Apply common scheduling algorithms and Access memory management"
+        },
+        {
+          "id": "CLO3",
+          "text": "Develop students’ skills and knowledge in operating system implementation, table structure and device input output system"
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply storage management, file, directories and solve storage management problem"
+        },
+        {
+          "id": "CLO5",
+          "text": "Developing student critical thinking through the creation of a design paper for a proposed server solution"
+        },
+        {
+          "id": "CLO6",
+          "text": "Apply the skills in in implementing different kinds of OS, and its concept and properties"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain and describe the basic organization and abstract view of computer systems"
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss the concepts in (operating) systems and OS major functions."
+        },
+        {
+          "id": "TLO3",
+          "text": "Discuss the evolution of operating system, its protection to users, to program, and its standard security."
+        },
+        {
+          "id": "TLO4",
+          "text": "Introduce CPU scheduling, the basis for multi-programmed operating system and the CPU I/O burst cycle."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain pre-emptive and non-preemptive scheduling plus some different metrics used to make scheduling Decisions."
+        },
+        {
+          "id": "TLO6",
+          "text": "Discuss how to apply several common scheduling algorithms"
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain the use of measurement and prediction for unknown scheduling parameters"
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain hardware required for memory protection and the concepts of logical and physical addresses"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss the problem of address binding, concept of segmentation and fragmentation."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain what paging is, its implementation"
+        },
+        {
+          "id": "TLO11",
+          "text": "Discuss different kinds of table structured and paging interact with segmentation."
+        },
+        {
+          "id": "TLO12",
+          "text": "Described benefits of virtual memory system."
+        },
+        {
+          "id": "TLO13",
+          "text": "Explain the concepts of demand paging, the working set model and memory replacement and allocation."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explain the general structure of the I/O subsystem and the different ways of performing I/O including polling, interruptions, and direct memory access."
+        },
+        {
+          "id": "TLO15",
+          "text": "Explain the nature of mass storage, disk storage management, concepts of files, directories and directories."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Develop students’ skills and knowledge in operating system implementation, table structure and the input output system and devices."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply storage management, file, directories and solve storage management problem"
+        },
+        {
+          "id": "CLO5",
+          "text": "Developing student critical thinking through the creation of a design paper for a proposed server solution"
+        },
+        {
+          "id": "CLO6",
+          "text": "Apply the skills in in implementing different kinds of OS, and its concept and properties"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Discuss the problem of address binding, concept of segmentation and fragmentation."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain what is paging, its implementation"
+        },
+        {
+          "id": "TLO11",
+          "text": "Discuss different kinds of table structure and paging interact with segmentation."
+        },
+        {
+          "id": "TLO12",
+          "text": "Described benefits of virtual memory system."
+        },
+        {
+          "id": "TLO13",
+          "text": "Explain the concepts of demand paging, the working set model and memory replacement and allocation."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explain the general structure of the I/O subsystem and the different ways of performing I/O including polling, interruptions, and direct memory access."
+        },
+        {
+          "id": "TLO15",
+          "text": "Explain the nature of mass storage, disk storage management, concepts of files, directories and directory"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

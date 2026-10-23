@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS123, S-ITCS123LA",
   "corequisites": "S-ITPC318",
   "track": "Common (IT & CS)",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the two courses included in the online curriculum of Junior Cybersecurity Analyst Path of the Cisco Networking Academy including Introduction to Cybersecurity and Endpoint Security. 1",
   "course_learning_outcomes": [
     {

@@ -39,6 +39,8 @@
   "prerequisites": "S-ITPC316 & S-ITPC316LA",
   "corequisites": "S-ITPC328LA",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course provides an in-depth exploration of system integration and architecture. Students will learn about the concepts and best practices for designing and integrating complex systems, including topics such as system architecture, design patterns, microservices, API design, event-driven architecture, and more. Through hands-on exercises and real-world case studies, students will have the opportunity to apply their knowledge and develop their skills in this area.",
   "course_learning_outcomes": [
     {

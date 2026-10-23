@@ -39,6 +39,8 @@
   "prerequisites": "S-CSGD323LC",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "The purpose of this course is to study fundamentals concept in programming languages and major tools and techniques to implement them. This programming languages are based in declarative and imperative that includes syntax specifications, structured, object-based, parameter passing and functions. The implementation language will be JavaScript that will provide students with deeper understanding in programming concepts and ability to learn the foundation language in Web development like Angular, React JS, Node.JS and lot more.",
   "course_learning_outcomes": [
     {
@@ -68,6 +70,45 @@
   ],
   "learning_plan": [
     {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the language features and paradigms of programming languages."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply knowledge of programming language and its approach."
+        },
+        {
+          "id": "CLO3",
+          "text": "Describe the control, data types and execution of programming languages."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Understand the use of Sublime Text. Chrome, Git bash and other Tools"
+        },
+        {
+          "id": "TLO2",
+          "text": "Remember the historical background of JavaScript"
+        },
+        {
+          "id": "TLO3",
+          "text": "Identify JavaScript terminologies, Keywords and learn the syntax, operators, and language rules JavaScript"
+        },
+        {
+          "id": "TLO4",
+          "text": "Understand the different uses of datatypes of JavaScript, different uses of control structures in JavaScript and differentiate operators from each other and use them correctly."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
       "period": "Final",
       "course_learning_outcomes": [
         {
@@ -83,16 +124,38 @@
           "text": "Engage lifelong learning with new paradigms and updates with programming language."
         }
       ],
-      "topic_learning_outcomes": [],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Learn to manage array elements, objects, and JavaScript Object Notation"
+        },
+        {
+          "id": "TLO6",
+          "text": "Familiarize themselves with error and exception handling code"
+        },
+        {
+          "id": "TLO7",
+          "text": "Implement the document object model"
+        },
+        {
+          "id": "TLO8",
+          "text": "Learn to assert a given statement defining some logic construct"
+        },
+        {
+          "id": "TLO9",
+          "text": "Implement the best practice in coding"
+        },
+        {
+          "id": "TLO10",
+          "text": "Incorporate polymorphism by overriding and overloading methods Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-World Problem Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
       "additional_text": [],
       "source_pages": [
         5
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Final.topic_learning_outcomes",
-    "Missing recognized learning-plan table for period(s): Midterm"
-  ]
+  "status": "ok",
+  "issues": []
 }

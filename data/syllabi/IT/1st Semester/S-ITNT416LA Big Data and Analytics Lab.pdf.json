@@ -40,6 +40,8 @@
   "prerequisites": "S-ITNT344LC",
   "corequisites": "S-ITNT416LC",
   "track": "IT - Network Technology",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Provides students with an overview of the current trends in information technology that drives today’s business. The course provides understanding on data management techniques that can help an organization achieve its business goals and address operational challenges. This also introduces different tools and methods used in business analytics to provide the students with opportunities to apply these techniques in simulations in a computer laboratory.",
   "course_learning_outcomes": [
     {

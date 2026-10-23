@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITPE 001",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course covers the fundamentals of object-oriented programming and applications using Python programming language. Covers a range of topics in object-oriented including information hiding, polymorphism, method overriding, method overloading, class inheritance, static and dynamic binding, and generic programming. Emphasis is also placed on object-oriented design approaches. This course provides hands-on experience using Python programming language through both individual assignment and group programming projects.",
   "course_learning_outcomes": [
     {
