@@ -37,8 +37,39 @@
   "prerequisites": "None",
   "corequisites": "S-ITNT311LA",
   "track": "IT - Network Technology",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course, the Internet of Things, IoT, describes a growing industry of digital technology being harnessed to the Internet in ways that will improve the lives of every person on this planet. It provides an overview of key concepts and challenges related to digital transformation. The course examines the evolution of the Internet and how the interconnection of people, processes, data and things is transforming every industry. The introduction to the Internet of Things course explains what the IoT is, what it does, how it is part of digital transformation, and how students can become part of this. Moreover, students will also learn about the exponential increase of intelligent devices connected to the Internet and will learn to program one of these intelligent devices. The course explains artificial intelligence and the impact of automation on our future. Lastly, students will understand the increased importance of privacy and security. 1 LEARNING PLAN: Learning Outcomes for Midterm Period",
-  "course_learning_outcomes": [],
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Explain the meaning and impact of digital transformation."
+    },
+    {
+      "id": "CLO2",
+      "text": "Apply basic programming to support IoT devices."
+    },
+    {
+      "id": "CLO3",
+      "text": "Examine how data provides value to digital business and society."
+    },
+    {
+      "id": "CLO4",
+      "text": "Explore the benefits of automation in the digitized world."
+    },
+    {
+      "id": "CLO5",
+      "text": "Distinguish the need for security in the digitized world."
+    },
+    {
+      "id": "CLO6",
+      "text": "Evaluate opportunities provided by digital transformation."
+    },
+    {
+      "id": "CLO7",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
   "learning_plan": [
     {
       "period": "Midterm",
@@ -131,10 +162,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_learning_outcomes",
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

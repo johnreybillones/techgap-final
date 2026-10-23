@@ -40,6 +40,8 @@
   "prerequisites": "Should be 3rd year level",
   "corequisites": "None",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "A project focusing on the information system plan brought about in the practicum / on-the-job training / independent research course. This course requires the fulfillment of the complete documentation and oral defense before a set of panelists.",
   "course_learning_outcomes": [
     {

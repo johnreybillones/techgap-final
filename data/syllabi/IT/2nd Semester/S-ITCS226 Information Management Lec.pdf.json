@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS123/L",
   "corequisites": "S-ITCS226LA",
   "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course focuses on data organization and architecture as well as managing the database. Topics include the basic functions of a data administrator, including database planning, analysis, design, implementation, maintenance and protection.",
   "course_learning_outcomes": [
     {

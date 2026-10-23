@@ -39,6 +39,8 @@
   "prerequisites": "S-CSGD323LC",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course provides an in-depth exploration of game development using Unity, equipping students with the skills to design, prototype, and build interactive experiences. Students will learn industry-standard software design principles, apply the software development lifecycle in a game development context, and develop structured Game Design Documents (GDDs). Through hands-on projects, they will implement game mechanics, optimize performance, and create engaging 2D and 3D prototypes. The course emphasizes iteration, teamwork, and problem-solving, preparing students to design immersive worlds while upholding ethical and professional standards. By the end of the semester, students will have developed a working game prototype that showcases their creativity and technical expertise.",
   "course_learning_outcomes": [
     {

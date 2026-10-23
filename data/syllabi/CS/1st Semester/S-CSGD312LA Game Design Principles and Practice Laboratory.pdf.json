@@ -45,6 +45,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course gives an overview of the game development process from ideas to creation. It discourses the history of game development process, exposure to the position and job responsibilities that each member of a game development team has along with the industry requirements ideas in Game Design Document (GDD).",
   "course_learning_outcomes": [
     {
@@ -66,6 +68,26 @@
     {
       "id": "CLO5",
       "text": "formulate the optimize design learned and present the expected output that can be achieved by developing game."
+    },
+    {
+      "id": "CLO6",
+      "text": "Interpret efficient game loop."
+    },
+    {
+      "id": "CLO7",
+      "text": "Evaluate mobile game application."
+    },
+    {
+      "id": "CLO8",
+      "text": "Design the needs of game programming in the industry."
+    },
+    {
+      "id": "CLO9",
+      "text": "Develop an appreciation in virtual simulation technology."
+    },
+    {
+      "id": "CLO10",
+      "text": "Value the Lasallian values and sensitivity in developing a game to real-world problems."
     }
   ],
   "learning_plan": [
@@ -172,9 +194,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

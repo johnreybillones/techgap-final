@@ -37,7 +37,9 @@
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC316",
   "track": "IT Core & Electives",
-  "course_description": null,
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course focuses on the understanding of different types of technologies available in the IT market today, and the innovative and creative integration of these technologies to form customized solutions to empower businesses and organizations. There is much emphasis on creative problem solving using IT and its skillful implementation. Looks at systems integration with focus on communication mechanisms and data standardization. Students learn how to represent structure and how to transport data using XML and XML related technologies and protocols. Standardization of XML documents for the purpose of data exchange is stressed. The course will also provide students with the opportunity to learn the fundamental to advance skills that are required in Professional Software Development using the latest Visual Studio .NET particularly C# .NET environment. It also covers graphical object-oriented programming applications and various C# .NET tools and techniques that will be used for developing systems which includes database programming. This class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {
       "id": "CLO1",
@@ -109,8 +111,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: course_description"
-  ]
+  "status": "ok",
+  "issues": []
 }

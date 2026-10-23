@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "S-ITPC227LA Application Development and Emerging",
   "track": "IT Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations. 1",
   "course_learning_outcomes": [
     {
@@ -66,10 +68,86 @@
       "text": "demonstrate 21st century skills in all learning activities."
     }
   ],
-  "learning_plan": [],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: learning_plan",
-    "Missing recognized learning-plan table for period(s): Final, Midterm"
-  ]
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Interpret the difference of front-end and back-development in web application."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand Web Development concept by dealing with client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Learn and differentiate different web development software and its features."
+        },
+        {
+          "id": "TLO2",
+          "text": "Obtain tools in developing Web Application Project. Students can implement objects in their codes."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design web application both front-end and back-end. Students can know and use different OOP programming techniques."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Manage website using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete Web Application in live server for pilot testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Discuss the principle of Model, View and Control in mobile application"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss advance android controls."
+        },
+        {
+          "id": "TLO10",
+          "text": "Introduction to Report module"
+        },
+        {
+          "id": "TLO11",
+          "text": "Implementing Report data visualization commands."
+        },
+        {
+          "id": "TLO12",
+          "text": "Deploying website to a live server. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
 }

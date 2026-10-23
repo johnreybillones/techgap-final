@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS214 and S-ITCS214/LA",
   "corequisites": "S-ITPC315LA",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "Deals with both static routing and dynamic routing protocols. By examining multiple routing protocols, you will gain a better understanding of each of the individual routing protocols and a better perspective of routing in general. Learning the configuration of routing protocols is fairly simple. Developing an understanding of the routing concepts themselves is more difficult, yet is critical for implementing, verifying, and troubleshooting routing operations",
   "course_learning_outcomes": [
     {

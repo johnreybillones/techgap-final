@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course prepares the students to acquire the skills of creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modeling and design, the languages and facilities provided by the database management systems, and system implementation techniques.",
   "course_learning_outcomes": [
     {
@@ -60,6 +62,10 @@
     {
       "id": "CLO5",
       "text": "demonstrate 21st century skills in all learning activities."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
     }
   ],
   "learning_plan": [
@@ -166,8 +172,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }

@@ -40,6 +40,8 @@
   "prerequisites": "S-CSPC212",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
   "course_description": "This course provides fundamental mathematical structure and logical principles that are important to computer science and develops a deeper understanding of the computing problems that require mapping to permutations, combinations of a set, modular arithmetic reasoning, and counting techniques. The course explains a set theory and advanced counting techniques, graphs, and complex applications to solve challenging problems related to the subject with real-world applications.",
   "course_learning_outcomes": [
     {

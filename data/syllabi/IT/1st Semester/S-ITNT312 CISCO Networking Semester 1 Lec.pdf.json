@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS214/LA",
   "corequisites": "S-ITPC312L",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "Introduction to Networks (ITN) covers the architecture, structure, functions and components of the Internet and other computer networks. Students achieve a basic understanding of how networks operate and how to build simple local area networks (LAN), perform basic configurations for routers and switches, and implement Internet Protocol (IP). COURSE LEARNING OUTCOME By the end of this course, students can: CLO1. configure switches and end devices to provide access to local and remote network resources. CLO2. explain how physical and data link layer protocols support the operation of Ethernet in a switched network. CLO3. configure routers to enable end-to-end connectivity between remote devices. CLO4. create IPv4 and IPv6 addressing schemes and verify network connectivity between devices. CLO5. explain how the upper layers of the OSI model support network applications. CLO6. use security best practices to configure a small network. CLO7. Troubleshoot connectivity in a small network. LEARNING PLAN: Learning Outcomes for Midterm Period",
   "course_learning_outcomes": [
     {

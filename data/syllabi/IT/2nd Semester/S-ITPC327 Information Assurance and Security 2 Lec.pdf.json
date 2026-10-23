@@ -39,6 +39,8 @@
   "prerequisites": "S-ITCS318, S-ITCS318LA",
   "corequisites": "S-ITPC327 Lab",
   "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course covers the integration of confidentiality, integrity and availability into an organization’s security program through the use of physical and logical security controls. Topics include data protection, telecommunications systems, application and emerging technologies. Moreover, this course will introduce you to enterprise systems and show how organizations use enterprise systems to run their operations more efficiently and effectively. The course will inspect typical Enterprise Systems modules: materials management (MM), sales and delivery, and financial accounting. Real-time enterprise system will be utilized to integrate business transactions along and between processes, leading to benefits such as efficient and error-free workflows plus accounting, management reporting and improved decision-making. By using exercises at the end of each module, students can put their knowledge into practice and gain a sustainable understanding of the underlying processes.",
   "course_learning_outcomes": [
     {
@@ -72,6 +74,10 @@
     {
       "id": "CLO8",
       "text": "demonstrate 21st century skills in all learning activities."
+    },
+    {
+      "id": "CLO9",
+      "text": "Create master records to be used in different modules of the Enterprise system including sales and deliver, materials management and finance."
     }
   ],
   "learning_plan": [
@@ -141,15 +147,15 @@
           "text": "Explain a standard financial accounting process."
         },
         {
-          "id": "TLO5",
+          "id": "TLO8",
           "text": "Describe the purchase-to-pay business process"
         },
         {
-          "id": "TLO6",
+          "id": "TLO9",
           "text": "Identify the organizational levels that support the purchase-to-pay business process."
         },
         {
-          "id": "TLO7",
+          "id": "TLO10",
           "text": "Explain the integration points of the purchase-to- pay business process"
         }
       ],
@@ -177,27 +183,27 @@
       ],
       "topic_learning_outcomes": [
         {
-          "id": "TLO5",
+          "id": "TLO1",
           "text": "Define the central organizational structures of the FI module."
         },
         {
-          "id": "TLO6",
+          "id": "TLO2",
           "text": "Summarize the master data which is most important for the FI module."
         },
         {
-          "id": "TLO7",
+          "id": "TLO3",
           "text": "Explain a standard financial accounting process."
         },
         {
-          "id": "TLO5",
+          "id": "TLO4",
           "text": "Describe the purchase-to-pay business process"
         },
         {
-          "id": "TLO6",
+          "id": "TLO5",
           "text": "Identify the organizational levels that support the purchase-to-pay business process"
         },
         {
-          "id": "TLO7",
+          "id": "TLO6",
           "text": "Explain the integration points of the purchase-to-pay business process"
         }
       ],
@@ -207,10 +213,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Final: learning-plan CLO not found in main CLO list",
-    "Duplicate outcome identifiers: Midterm.topic_learning_outcomes",
-    "Duplicate outcome identifiers: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

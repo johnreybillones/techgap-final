@@ -10,6 +10,7 @@ import json
 from pathlib import Path
 import re
 
+# pyrefly: ignore[missing-import]
 import pdfplumber
 
 

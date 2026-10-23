@@ -39,6 +39,8 @@
   "prerequisites": "S-ITPC323 & S-ITPC323LA",
   "corequisites": "S-ITWB415",
   "track": "IT - Web Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Provides introduction to mobile application development for android platform. In this course, students learn both the practical and conceptual skills that enable them to develop robust android/IOS applications. Students learn skills for creating and deploying Android/IOS applications, with particular emphasis on software development, including software architecture, software design, usability, and deployment.",
   "course_learning_outcomes": [
     {

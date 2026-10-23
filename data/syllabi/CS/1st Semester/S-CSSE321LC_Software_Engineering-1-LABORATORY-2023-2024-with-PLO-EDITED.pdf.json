@@ -48,6 +48,8 @@
   "prerequisites": "S-ITCS226LA",
   "corequisites": "None",
   "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course deals with equipping the students with the skills in developing quality software which covers topics such as concepts of software engineering, use of software engineering paradigms as applied to software development, planning, and managing software projects, software development life cycle and various software processing models. Various case studies will be given, and students are expected to develop quality software. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

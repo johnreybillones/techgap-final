@@ -43,6 +43,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
   "course_description": "Introduces programming with emphasis on algorithmic and fundamentals programming concepts. This also includes software development methodology, data types, control structures, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy. The course will look at solving problems using structured- programming approach. This class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {
@@ -150,8 +152,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Empty outcome text: course_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

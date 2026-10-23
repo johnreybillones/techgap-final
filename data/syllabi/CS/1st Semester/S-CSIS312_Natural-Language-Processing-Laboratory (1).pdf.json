@@ -47,6 +47,8 @@
   "prerequisites": "Should be 3rd year Level",
   "corequisites": "None",
   "track": "CS - Intelligent Systems",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course is intended to present a fairly broad introduction to Natural Language Processing (NLP), the study of computing systems that can process, understand, or communicate in human language, The primary focus of the course is on understanding various NLP tasks, algorithm for effectively solving these problems, and method for evaluating their performance. There is also a focus on statistical and neural network learning algorithms that train on (annotated) text corpora to automatically acquire the knowledge needed to perform the task. Student can attend seminars, workshops, and training in relevant disciplines onsite or online. 3",
   "course_learning_outcomes": [
     {
@@ -96,17 +98,48 @@
     },
     {
       "period": "Final",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Evaluate and formulate exploratory data analysis in NLP using computational tools to manipulate natural languages."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the algorithm to a real-world problem and other domain areas."
+        },
+        {
+          "id": "CLO5",
+          "text": "Design, Modify and Develop how algorithm works relevant in research paper"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Support observation to best fitting the data"
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify domain areas of machine learning"
+        },
+        {
+          "id": "TLO7",
+          "text": "Exhibits and demonstrate data observation."
+        },
+        {
+          "id": "TLO8",
+          "text": "Generate and evaluate data observation using python."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration, individual assessment to design and create a research paper project."
+        }
+      ],
       "additional_text": [],
       "source_pages": [
-        5
+        6
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Final.course_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

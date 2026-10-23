@@ -39,6 +39,8 @@
   "prerequisites": "None",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
   "course_description": "This course provides an in-depth exploration of game development using Unity, equipping students with the skills to design, prototype, and build interactive experiences. Students will learn industry-standard software design principles, apply the software development lifecycle in a game development context, and develop structured Game Design Documents (GDDs). Through hands-on projects, they will implement game mechanics, optimize performance, and create engaging 2D and 3D prototypes. The course emphasizes iteration, teamwork, and problem-solving, preparing students to design immersive worlds while upholding ethical and professional standards. By the end of the semester, students will have developed a working game prototype that showcases their creativity and technical expertise.",
   "course_learning_outcomes": [
     {
@@ -120,17 +122,48 @@
     },
     {
       "period": "Final",
-      "course_learning_outcomes": [],
-      "topic_learning_outcomes": [],
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Assess and interpret how games can address social and environmental issues, evaluating existing games and creating new games that impact on culture, inclusivity, and ethical considerations."
+        },
+        {
+          "id": "CLO6",
+          "text": "Design, develop, and synthesize all learned concepts into a fully functional game prototype."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Incorporate good storytelling, immersive world building or deep game design elements to highlight social, environmental and economic concerns while presenting different perspectives and takes."
+        },
+        {
+          "id": "TLO8",
+          "text": "Demonstrate collaboration, teamwork and camaraderie by supporting and evaluating each other's works, providing a sense of unity and fulfillment among peers."
+        },
+        {
+          "id": "TLO9",
+          "text": "Create a reflective, retrospective analysis of the entire game design and development process for further learning."
+        },
+        {
+          "id": "TLO10",
+          "text": "Develop a solid understanding of how to navigate and use the Unity Editor, as well as how to import and export objects, prefabs and components."
+        },
+        {
+          "id": "TLO11",
+          "text": "Create and design a working prototype/model of the game loop as well as the mechanics to incorporate."
+        },
+        {
+          "id": "TLO12",
+          "text": "Design and Export the working game prototype for feedback and analysis"
+        }
+      ],
       "additional_text": [],
       "source_pages": [
-        4
+        5
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Missing or unrecognized: Final.course_learning_outcomes",
-    "Missing or unrecognized: Final.topic_learning_outcomes"
-  ]
+  "status": "ok",
+  "issues": []
 }

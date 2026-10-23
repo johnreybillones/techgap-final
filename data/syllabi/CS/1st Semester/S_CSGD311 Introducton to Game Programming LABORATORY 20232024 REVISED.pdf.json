@@ -45,6 +45,8 @@
   "prerequisites": "At least 3rd year level",
   "corequisites": "None",
   "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
   "course_description": "This course teaches students effective and structured procedures used to design and develop game software. The purpose of this course is to provide students with the foundation in game design and development necessary for use in the workforce or for further study in the field of game development and creation. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication, and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disasters and pandemics. Hence, this class shall be delivered in both an online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
   "course_learning_outcomes": [
     {

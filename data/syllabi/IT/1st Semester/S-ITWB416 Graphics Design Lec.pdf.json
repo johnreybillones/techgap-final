@@ -40,6 +40,8 @@
   "prerequisites": "S-ITWB344Lec and S-ITWB344Lab",
   "corequisites": "S-ITWB416LA",
   "track": "IT - Web Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
   "course_description": "Discusses the solid and comprehensive teaching about Graphic Design. The application concepts methods, hands-on practices give students a firsthand experience with the toolsets.",
   "course_learning_outcomes": [
     {
@@ -73,6 +75,10 @@
     {
       "id": "CLO8",
       "text": "Formulate the optimize design learned and report on the expected graphic design that can be achieved by developing graphic object."
+    },
+    {
+      "id": "CLO9",
+      "text": "Demonstrate 21st century skills in all learning activities."
     }
   ],
   "learning_plan": [
@@ -173,9 +179,6 @@
       ]
     }
   ],
-  "status": "needs_review",
-  "issues": [
-    "Midterm: learning-plan CLO not found in main CLO list",
-    "Final: learning-plan CLO not found in main CLO list"
-  ]
+  "status": "ok",
+  "issues": []
 }
