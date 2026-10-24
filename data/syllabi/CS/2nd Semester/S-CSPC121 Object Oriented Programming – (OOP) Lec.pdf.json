@@ -1,0 +1,143 @@
+{
+  "source": {
+    "filename": "S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf",
+    "sha256": "83c07c8ba686c9fe838e911f41e2dda73cb901f64f3f3811e002af90024acbb8",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPC121",
+  "course_title": "Object Oriented Programming – (OOP)",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITCS 112 and S-ITCS 112LA",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "1st Year",
+  "semester": "2nd Semester",
+  "course_description": "This course covers a range of topics in object-oriented programming, including information hiding, polymorphism, method overriding and overloading, class inheritance, static and dynamic binding and generic programming. The course provides hands-on experience using a modern object oriented programming language through both individual assignments and group programming projects.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explore the programming language integrated development environment (IDE) ;"
+    },
+    {
+      "id": "CLO2",
+      "text": "remember the fundamental concepts of programming;"
+    },
+    {
+      "id": "CLO3",
+      "text": "understand object-oriented programming concepts;"
+    },
+    {
+      "id": "CLO4",
+      "text": "examine program functionality ; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop an application using object-oriented programing approach."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "explore the programming language integrated development environment (IDE) ;"
+        },
+        {
+          "id": "CLO2",
+          "text": "remember the fundamental concepts of programming;"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Install and explore the features of using an IDE"
+        },
+        {
+          "id": "TLO2",
+          "text": "Study basic I/O statements."
+        },
+        {
+          "id": "TLO3",
+          "text": "Review basic control structures of the language"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "understand object-oriented programming concepts;"
+        },
+        {
+          "id": "CLO4",
+          "text": "examine program functionality ; and"
+        },
+        {
+          "id": "CLO5",
+          "text": "develop an application using object-oriented programing approach."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Differentiate class and object"
+        },
+        {
+          "id": "TLO6",
+          "text": "Differentiate access levels of class members"
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain how polymorphism works"
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain the importance of inheriting classes TLO9 TLO10"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4,
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

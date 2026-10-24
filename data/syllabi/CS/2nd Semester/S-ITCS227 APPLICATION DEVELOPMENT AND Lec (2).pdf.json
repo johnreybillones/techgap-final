@@ -1,0 +1,134 @@
+{
+  "source": {
+    "filename": "S-ITCS227 APPLICATION DEVELOPMENT AND Lec (2).pdf",
+    "sha256": "48edad737c9290e5c7fdf04d92eb84b57d3f255b59545a3ef6adfca785ba126e",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 13,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS227",
+  "course_title": "APPLICATION DEVELOPMENT AND",
+  "course_type": "Lecture",
+  "course_credit": "Two units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "interpret the difference of front-end and back-development in web application;"
+    },
+    {
+      "id": "CLO2",
+      "text": "understand Web Development concept by dealing client-based case study;"
+    },
+    {
+      "id": "CLO3",
+      "text": "implement Object Oriented way of programming;"
+    },
+    {
+      "id": "CLO4",
+      "text": "manage website using Model, View and Control;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop and deploy complete Web Application in live server for pilot testing; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Interpret the difference of front end and back-development in web application."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand Web Development concept by dealing client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        },
+        {
+          "id": "CLO4",
+          "text": "Manage website using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete Web Application in live server for pilot testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Learn and differentiate different web development software and its features"
+        },
+        {
+          "id": "TLO2",
+          "text": "Obtain tools in developing Web Application Project. Students can implement objects in their codes."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design web application both front-end and back-end. Students can know and use different OOP programming techniques."
+        },
+        {
+          "id": "TLO4",
+          "text": "TLO5. Design and Implements server-side controls. Design and Implement Master page."
+        },
+        {
+          "id": "TLO6",
+          "text": "Create and Design Web application report tools."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

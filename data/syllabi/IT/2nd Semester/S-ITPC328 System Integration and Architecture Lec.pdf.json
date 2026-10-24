@@ -1,0 +1,161 @@
+{
+  "source": {
+    "filename": "S-ITPC328 System Integration and Architecture Lec.pdf",
+    "sha256": "40e48dab30f4f9bc158d1728b3c7c4ec217cb19187f7b7447f2e86f1b4af64bc",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC328",
+  "course_title": "System Integration and Architecture",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITPC316 & S-ITPC316LA",
+  "corequisites": "S-ITPC328LA",
+  "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course provides an in-depth exploration of system integration and architecture. Students will learn about the concepts and best practices for designing and integrating complex systems, including topics such as system architecture, design patterns, microservices, API design, event-driven architecture, and more. Through hands-on exercises and real-world case studies, students will have the opportunity to apply their knowledge and develop their skills in this area.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explain the fundamental concepts and principles of a system integration and architecture;"
+    },
+    {
+      "id": "CLO2",
+      "text": "choose common system integration patterns used to solve specific integration challenges;"
+    },
+    {
+      "id": "CLO3",
+      "text": "analyze the challenges and complexities associated with data integration and synchronization in heterogenous environments;"
+    },
+    {
+      "id": "CLO4",
+      "text": "implement the concepts of performance tuning and optimization in system integration to achieve efficient data processing and communication;"
+    },
+    {
+      "id": "CLO5",
+      "text": "simulate the different types od integration testing; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities. ."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the fundamental concepts and principles of system integration and architecture."
+        },
+        {
+          "id": "CLO2",
+          "text": "Choose common system integration patterns used to solve specific integration challenges"
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze the challenges and complexities associated with data integration and synchronization in Heterogenous environments."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Comprehend the definition and importance of system integration and architecture"
+        },
+        {
+          "id": "TLO2",
+          "text": "Describe the various integration technologies and protocols used in different contexts."
+        },
+        {
+          "id": "TLO3",
+          "text": "Explain the characteristics and benefits of different system integration pattern"
+        },
+        {
+          "id": "TLO4",
+          "text": "Understand the commonly used system integration patterns."
+        },
+        {
+          "id": "TLO5",
+          "text": "Assess the various data integration approaches"
+        },
+        {
+          "id": "TLO6",
+          "text": "Examine the common challenges and complexities in system integration"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Implement the concepts of performance tuning and optimization in system integration to achieve efficient data processing and communication."
+        },
+        {
+          "id": "CLO5",
+          "text": "Simulate the different types of integration testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Explain the concepts of horizontal scaling and vertical scaling and their applicability in different integration scenarios"
+        },
+        {
+          "id": "TLO8",
+          "text": "Apply the concept of performance tuning and optimization in system integration"
+        },
+        {
+          "id": "TLO9",
+          "text": "Identify security risk and vulnerabilities associated with system integration"
+        },
+        {
+          "id": "TLO10",
+          "text": "Simulate system integration, testing and validation in ensuring the proper functioning and interoperability of integrated systems Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

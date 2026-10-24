@@ -1,0 +1,118 @@
+{
+  "source": {
+    "filename": "S-CSGD323 Computer Animation and Simulation Lec.pdf",
+    "sha256": "df8cfc732a3935334218492603952ee7c4314a3ef1fa6250f260d313e1a96ba4",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSGD323",
+  "course_title": "Computer Animation and Simulation",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-CSGD311",
+  "corequisites": "None",
+  "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course introduces the essential workflows and techniques for creating 3D computer graphics, focusing on applications in architecture, product design, robotics simulations, and computer games. At the end of the course, students will identify key 3D components and workflows and gain proficiency in creating and animating 3D graphics using Autodesk Maya.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "identify key components of 3D modeling, animation, and simulation in Autodesk Maya and other industry-standard tools."
+    },
+    {
+      "id": "CLO2",
+      "text": "utilize industry-standard workflows for modeling, texturing, lighting, and rendering while applying best practices for asset optimization, file management, and interoperability across 3D software platforms."
+    },
+    {
+      "id": "CLO3",
+      "text": "examine ethical considerations, teamwork, and professional standards in 3D production."
+    },
+    {
+      "id": "CLO4",
+      "text": "develop 3D assets and animations applicable to architecture, product development, robotics, and game design."
+    },
+    {
+      "id": "CLO5",
+      "text": "assess the impact of resource-efficient modeling techniques and promote responsible use of computational and material resources; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "construct a fully animated scene utilizing self-created 3D models, demonstrating proficiency in animation principles, rigging, rendering, and editing."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Identify key components of 3D modeling, animation, and simulation in Autodesk Maya and other industry-standard tools."
+        },
+        {
+          "id": "CLO2",
+          "text": "Utilize industry-standard workflows for modeling, texturing, lighting, and rendering while applying best practices for asset optimization, file management, and interoperability across 3D software platforms."
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine ethical considerations, teamwork, and professional standards in 3D production."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define computer animation and simulation while recognizing computer graphics elements"
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss and elaborate how to navigate effectively in a 3D environment and use the software to create basic 3D shapes and modify them."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply mathematical foundations, functions and algorithms, such as extrusion, division, subdivision and sculpting, to increase or decrease polygon count."
+        },
+        {
+          "id": "TLO4",
+          "text": "Demonstrate ethical practices and professionalism in teamwork by collaborating effectively with peers and colleagues on 3D modeling projects"
+        },
+        {
+          "id": "TLO5",
+          "text": "Explore and explain the sustainable and responsible use of resources in 3D modeling, incorporating ethical practices"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

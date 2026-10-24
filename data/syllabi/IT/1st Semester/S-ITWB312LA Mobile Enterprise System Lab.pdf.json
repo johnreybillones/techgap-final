@@ -1,0 +1,169 @@
+{
+  "source": {
+    "filename": "S-ITWB312LA Mobile Enterprise System Lab.pdf",
+    "sha256": "554e5c1805fbfd65d92a5445883769814d8840dcaf91eeb8a2f1ce44a1d00f5b",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITWB312LA",
+  "course_title": "Mobile Enterprise System",
+  "course_type": "Laboratory",
+  "course_credit": "One Unit",
+  "prerequisites": "Should be at least 3rd year standing",
+  "corequisites": "S-ITWB312 Mobile Enterprise System Lecture",
+  "track": "IT - Web Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course provides introduction to mobile application development for Android Platform. Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. It also explains mobile enterprise and involves many different things, but the key feature is the use of a mobile device such as a smartphone or a tablet in performing tasks. Moreover, students will also learn about designing User Interface, user experience and deploying to actual device. Lastly, students will understand the increased importance of mobile application 1 development and includes discussions on principles, themes methodologies, and development techniques of information systems. Also discussed are security, privacy, ethical issues, tools and toolsets of information system.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explore native Android mobile application environment using latest android studio;"
+    },
+    {
+      "id": "CLO2",
+      "text": "understand mobile application concept by dealing client-based case study;"
+    },
+    {
+      "id": "CLO3",
+      "text": "implement Object Oriented way of programming;"
+    },
+    {
+      "id": "CLO4",
+      "text": "design and manage mobile application using Model, View and Control;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop and deploy complete mobile application using both emulator and real android devices for pilot testing; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explore native Android mobile application environment using latest android studio."
+        },
+        {
+          "id": "CLO2",
+          "text": "Understand mobile application concept by dealing client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Install and explore the features of Android Studio."
+        },
+        {
+          "id": "TLO2",
+          "text": "Obtain tools in developing mobile application Project."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply basic android controls."
+        },
+        {
+          "id": "TLO4",
+          "text": "Review the basic controls structures."
+        },
+        {
+          "id": "TLO5",
+          "text": "Design and deploy mobile application using emulator."
+        },
+        {
+          "id": "TLO6",
+          "text": "Test correctness of the mobile application."
+        },
+        {
+          "id": "TLO7",
+          "text": "Evaluate User Interface and User experience (UI/UX)."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Design and manage mobile applications using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete mobile application using both emulator and real android devices for pilot testing."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Discuss the principle of Model, View and Control in mobile application"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss advance android controls."
+        },
+        {
+          "id": "TLO10",
+          "text": "Introduction to SQLite"
+        },
+        {
+          "id": "TLO11",
+          "text": "Implementing SQL commands."
+        },
+        {
+          "id": "TLO12",
+          "text": "Implementing Online database in mobile application. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

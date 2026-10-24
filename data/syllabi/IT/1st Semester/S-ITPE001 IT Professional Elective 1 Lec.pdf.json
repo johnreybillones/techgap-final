@@ -1,0 +1,177 @@
+{
+  "source": {
+    "filename": "S-ITPE001 IT Professional Elective 1 Lec.pdf",
+    "sha256": "7ef9d89bf6849832990e440dee5d6761ca3cdc9321714a4ec2cf1be3033a5d78",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPE 001",
+  "course_title": "IT Professional Elective",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "None",
+  "corequisites": "S-ITPE 001LA",
+  "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course covers the fundamentals of object-oriented programming and applications using Python programming language. Covers a range of topics in object-oriented including information hiding, polymorphism, method overriding, method overloading, class inheritance, static and dynamic binding, and generic programming. Emphasis is also placed on object-oriented design approaches. This course provides hands-on experience using Python programming language through both individual assignment and group programming projects.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "explore Python programming language Integrated Development Environment (IDE);"
+    },
+    {
+      "id": "CLO2",
+      "text": "recall the basic concepts of programming."
+    },
+    {
+      "id": "CLO3",
+      "text": "examine program functionality."
+    },
+    {
+      "id": "CLO4",
+      "text": "explain the fundamental concepts of object-oriented programming."
+    },
+    {
+      "id": "CLO5",
+      "text": "design programs using object-oriented programming concepts; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explore Python programming language Integrated Development Environment (IDE)."
+        },
+        {
+          "id": "CLO2",
+          "text": "Recall the basic concepts of programming."
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine program functionality."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Install and explore the features of using an IDE."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explore available online Python compilers."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply basic I/O Statements."
+        },
+        {
+          "id": "TLO4",
+          "text": "Review the basic control structures."
+        },
+        {
+          "id": "TLO5",
+          "text": "Evaluate program execution by tracing program output."
+        },
+        {
+          "id": "TLO6",
+          "text": "Test correctness of program."
+        },
+        {
+          "id": "TLO7",
+          "text": "Validate program input."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Explain the fundamental concepts of object-oriented programming."
+        },
+        {
+          "id": "CLO5",
+          "text": "Design programs using object- oriented programming concepts."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Discuss the characteristics of Object-Oriented Programming Language."
+        },
+        {
+          "id": "TLO9",
+          "text": "Differentiate class and objects."
+        },
+        {
+          "id": "TLO10",
+          "text": "Differentiate access levels of class members. ."
+        },
+        {
+          "id": "TLO11",
+          "text": "Explain the importance of inheriting classes."
+        },
+        {
+          "id": "TLO12",
+          "text": "Devise a class that inherits from created user-defined classes."
+        },
+        {
+          "id": "TLO13",
+          "text": "Explains how polymorphism works."
+        },
+        {
+          "id": "TLO14",
+          "text": "Handle program exceptions. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

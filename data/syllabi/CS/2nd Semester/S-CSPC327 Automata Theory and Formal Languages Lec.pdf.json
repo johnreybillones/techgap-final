@@ -1,0 +1,208 @@
+{
+  "source": {
+    "filename": "S-CSPC327 Automata Theory and Formal Languages Lec.pdf",
+    "sha256": "990171db6b3ab512c33bb5627a14d12e00a5231ec6e8e3a1a526c4c32fc9d9f5",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPC327",
+  "course_title": "Automata Theory and Formal Languages",
+  "course_type": "Lecture",
+  "course_credit": "Three units",
+  "prerequisites": "S-CSPC315 - Algorithm and Complexity",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "Analyzes formal models in computer science, including regular expressions, finite automata, contextfree grammars, pushdown automata and Turing machine.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "acquire a fundamental understanding of the core concepts in automata theory and formal languages;"
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze and construct regular expressions to define regular languages, solve string-matching problems, and effectively describe their corresponding languages in natural language;"
+    },
+    {
+      "id": "CLO3",
+      "text": "classify the different computing machines by discussing the different formal models;"
+    },
+    {
+      "id": "CLO4",
+      "text": "design grammars and recognizers for different formal languages;"
+    },
+    {
+      "id": "CLO5",
+      "text": "explain the principles of pushdown automata (PDAs) by determining the languages they recognize, and designing PDAs for given languages to model computational processes;"
+    },
+    {
+      "id": "CLO6",
+      "text": "evaluate Turing machines by identifying their components, their operations, and the languages they recognize; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "demonstrate 21st century skills in all learning activities;"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Acquire a fundamental understanding of the core concepts in automata theory and formal languages."
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze and construct regular expressions to define regular languages, solve string-matching problems, and effectively describe their corresponding languages in natural language."
+        },
+        {
+          "id": "CLO3",
+          "text": "Classify the different computing machines by discussing the different formal models."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Demonstrate understanding of automata theory and apply its concepts to solve computational problems, including recognition of regular and context-free languages."
+        },
+        {
+          "id": "TLO2",
+          "text": "Understand the concepts of regular expressions and apply them to define regular languages and solve string- matching problems."
+        },
+        {
+          "id": "TLO3",
+          "text": "Describe in plain English the language of regular expressions with straightforward descriptions."
+        },
+        {
+          "id": "TLO4",
+          "text": "Write regular expressions of given regular languages."
+        },
+        {
+          "id": "TLO5",
+          "text": "Recognize and describe the components of a Deterministic Finite Automaton (DFA), including states, alphabet, transitions, start state, and accepting states."
+        },
+        {
+          "id": "TLO6",
+          "text": "Identify the languages of given DFAs."
+        },
+        {
+          "id": "TLO7",
+          "text": "Construct DFAs based from the given language."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Design grammars and recognizers for different formal languages"
+        },
+        {
+          "id": "CLO5",
+          "text": "Explain the principles of pushdown automata (PDAs) by identifying their components, determining the languages they recognize, designing PDAs for given languages, and converting between PDAs and context-free grammars (CFGs) to model computational processes."
+        },
+        {
+          "id": "CLO6",
+          "text": "Evaluate Turing machines by identifying their components, their operations, and the languages they recognize."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Understand the concepts of context-free grammar."
+        },
+        {
+          "id": "TLO9",
+          "text": "Describe in plain English the languages of CFGs with straightforward descriptions."
+        },
+        {
+          "id": "TLO10",
+          "text": "Construct CFGs for context-free languages."
+        },
+        {
+          "id": "TLO11",
+          "text": "Argue why a language description is or is not the language of a CFG."
+        },
+        {
+          "id": "TLO12",
+          "text": "Recognize the components of a pushdown automaton particularly its use of an infinite stack."
+        },
+        {
+          "id": "TLO13",
+          "text": "Identify the languages accepted by given PDAs."
+        },
+        {
+          "id": "TLO14",
+          "text": "Design PDAs of given languages."
+        },
+        {
+          "id": "TLO15",
+          "text": "Convert between PDAs and CFGs."
+        },
+        {
+          "id": "TLO16",
+          "text": "Identify the components of Turing Machines."
+        },
+        {
+          "id": "TLO17",
+          "text": "Understand how Turing machines operate."
+        },
+        {
+          "id": "TLO18",
+          "text": "Determine the languages accepted by given Turing machines."
+        },
+        {
+          "id": "TLO19",
+          "text": "Construct Turing machines that accept regular languages, context-free languages and some non-context free languages."
+        },
+        {
+          "id": "TLO20",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

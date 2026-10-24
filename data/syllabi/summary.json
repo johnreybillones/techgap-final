@@ -1,0 +1,1134 @@
+{
+  "counts": {
+    "ok": 119,
+    "needs_review": 0,
+    "failed": 0
+  },
+  "by_year": {
+    "1st Year": {
+      "total": 22,
+      "ok": 22,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "G-COMP001LA",
+        "S-ITCS111LA",
+        "S-ITCS111",
+        "S-ITCS112LA",
+        "S-ITCS112",
+        "S-ITCS125",
+        "S-ITCS125LA",
+        "S-CSPC121",
+        "S-ITCS123",
+        "S-COMP121LA",
+        "S-ITCS123LA",
+        "S-ITPC121",
+        "S-ITPC121LA"
+      ]
+    },
+    "3rd Year": {
+      "total": 51,
+      "ok": 51,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSGD312",
+        "S-CSGD312LA",
+        "S-CSIS311",
+        "S-CSIS312",
+        "S-CSPE001LC",
+        "S-CSSE321",
+        "S-CSSE321LC",
+        "S-ITCS318(CS)",
+        "S-ITCS318LA(CS)",
+        "S-CSGD311LA",
+        "S-CSGD311",
+        "S-CSPC315",
+        "S-CSPC316",
+        "S-CSGD323",
+        "S-CSGD324",
+        "S-CSGD324LA",
+        "S-CSPC327",
+        "S-CSTH321",
+        "S-ITCS329",
+        "S-ITCS318",
+        "S-ITCS318LC",
+        "S-ITNT311",
+        "S-ITNT311LA",
+        "S-ITPC312LC",
+        "S-ITPC312L",
+        "S-ITPC315LA",
+        "S-ITPC315",
+        "S-ITPC316",
+        "S-ITPC316LA",
+        "S-ITPE001",
+        "S-ITPE001LA",
+        "S-ITPE002",
+        "S-ITPE002LA",
+        "S-ITWB311",
+        "S-ITWB311LA",
+        "S-ITWB312",
+        "S-ITWB312LA",
+        "S-ITCP322",
+        "S-ITNT323",
+        "S-ITNT323LA",
+        "S-ITPC327",
+        "S-ITPC327LC",
+        "S-ITPC328",
+        "S-ITPC328LA",
+        "S-ITWB323",
+        "S-ITWB323LA"
+      ]
+    },
+    "4th Year": {
+      "total": 29,
+      "ok": 29,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSIS414",
+        "S-CSSE412",
+        "S-CSSE412LA",
+        "S-CSTH412",
+        "S-CSGD415",
+        "S-CSGD415LA",
+        "S-CSPE003LC",
+        "S-CSGD426",
+        "S-CSGD426LA",
+        "S-CSIS426",
+        "S-CSPC428",
+        "S-CSPC429",
+        "S-CSPE004",
+        "S-ITCP412",
+        "S-ITNT415LC",
+        "S-ITNT415L",
+        "S-ITNT416",
+        "S-ITNT416LA",
+        "S-ITPC419",
+        "S-ITPC419LA",
+        "S-ITPE004LA",
+        "S-ITWB415",
+        "S-ITWB415LA",
+        "S-ITWB416LC"
+      ]
+    },
+    "2nd Year": {
+      "total": 17,
+      "ok": 17,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSPC212",
+        "S-ITCS214(CS)",
+        "S-MATH200",
+        "S-CSPC223",
+        "S-CSPC224",
+        "S-ITCS226",
+        "S-ITCS227",
+        "S-ITCS214",
+        "S-ITCS214LA",
+        "S-ITCS226L",
+        "S-ITPC224",
+        "S-ITPC224LA",
+        "S-ITPC227"
+      ]
+    }
+  },
+  "by_track": {
+    "General & Foundational": {
+      "total": 4,
+      "ok": 4,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "G-COMP001LA",
+        "S-MATH200",
+        "S-COMP121LA"
+      ]
+    },
+    "CS - Game Development": {
+      "total": 11,
+      "ok": 11,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSGD312",
+        "S-CSGD312LA",
+        "S-CSGD311LA",
+        "S-CSGD311",
+        "S-CSGD415",
+        "S-CSGD415LA",
+        "S-CSGD323",
+        "S-CSGD324",
+        "S-CSGD324LA",
+        "S-CSGD426",
+        "S-CSGD426LA"
+      ]
+    },
+    "CS - Intelligent Systems": {
+      "total": 7,
+      "ok": 7,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSIS311",
+        "S-CSIS312",
+        "S-CSIS414",
+        "S-CSIS426"
+      ]
+    },
+    "CS Core & Electives": {
+      "total": 20,
+      "ok": 20,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-CSPC212",
+        "S-CSPE001LC",
+        "S-CSSE321",
+        "S-CSSE321LC",
+        "S-CSSE412",
+        "S-CSSE412LA",
+        "S-CSTH412",
+        "S-CSPC315",
+        "S-CSPC316",
+        "S-CSPE003LC",
+        "S-CSPC121",
+        "S-CSPC223",
+        "S-CSPC224",
+        "S-CSPC327",
+        "S-CSPC428",
+        "S-CSPC429",
+        "S-CSPE004",
+        "S-CSTH321"
+      ]
+    },
+    "Common (IT & CS)": {
+      "total": 32,
+      "ok": 32,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-ITCS111LA",
+        "S-ITCS111",
+        "S-ITCS112LA",
+        "S-ITCS112",
+        "S-ITCS125",
+        "S-ITCS125LA",
+        "S-ITCS214(CS)",
+        "S-ITCS318(CS)",
+        "S-ITCS318LA(CS)",
+        "S-ITCS123",
+        "S-ITCS226",
+        "S-ITCS227",
+        "S-ITCS329",
+        "S-ITCS214",
+        "S-ITCS214LA",
+        "S-ITCS318",
+        "S-ITCS318LC",
+        "S-ITCS123LA",
+        "S-ITCS226L"
+      ]
+    },
+    "IT Core & Electives": {
+      "total": 27,
+      "ok": 27,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-ITCP412",
+        "S-ITPC312LC",
+        "S-ITPC312L",
+        "S-ITPC315LA",
+        "S-ITPC315",
+        "S-ITPC316",
+        "S-ITPC316LA",
+        "S-ITPC419",
+        "S-ITPC419LA",
+        "S-ITPE001",
+        "S-ITPE001LA",
+        "S-ITPE002",
+        "S-ITPE002LA",
+        "S-ITPE004LA",
+        "S-ITCP322",
+        "S-ITPC121",
+        "S-ITPC121LA",
+        "S-ITPC224",
+        "S-ITPC224LA",
+        "S-ITPC227",
+        "S-ITPC327",
+        "S-ITPC327LC",
+        "S-ITPC328",
+        "S-ITPC328LA"
+      ]
+    },
+    "IT - Network Technology": {
+      "total": 8,
+      "ok": 8,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-ITNT311",
+        "S-ITNT311LA",
+        "S-ITNT415LC",
+        "S-ITNT415L",
+        "S-ITNT416",
+        "S-ITNT416LA",
+        "S-ITNT323",
+        "S-ITNT323LA"
+      ]
+    },
+    "IT - Web Development": {
+      "total": 10,
+      "ok": 10,
+      "needs_review": 0,
+      "failed": 0,
+      "course_codes": [
+        "S-ITWB311",
+        "S-ITWB311LA",
+        "S-ITWB312",
+        "S-ITWB312LA",
+        "S-ITWB415",
+        "S-ITWB415LA",
+        "S-ITWB416LC",
+        "S-ITWB323",
+        "S-ITWB323LA"
+      ]
+    }
+  },
+  "files": [
+    {
+      "course_code": "S--G---C-O-M-P-0-0-1-L-A-",
+      "course_title": "LIVING IN THE IT ERA",
+      "input": "CS/1st Semester/G-COMP001LA .pdf",
+      "output": "CS/1st Semester/G-COMP001LA .pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--G---C-O-M-P-0-0-1-L-A-",
+      "course_title": "LIVING IN THE IT ERA",
+      "input": "CS/1st Semester/S-COMP121LA IT APPLICATION TOOLS IN BUSINESS REVISED.pdf",
+      "output": "CS/1st Semester/S-COMP121LA IT APPLICATION TOOLS IN BUSINESS REVISED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-1-2-",
+      "course_title": "Game Design Principles and Practice",
+      "input": "CS/1st Semester/S-CSGD312 Game Design Principles and Practice Lecture.pdf",
+      "output": "CS/1st Semester/S-CSGD312 Game Design Principles and Practice Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-1-2-L-A-",
+      "course_title": "Game Design Principles and Practice",
+      "input": "CS/1st Semester/S-CSGD312LA Game Design Principles and Practice Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSGD312LA Game Design Principles and Practice Laboratory.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-3-1-1-",
+      "course_title": "Introduction to Machine Learning",
+      "input": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Laboratory.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-3-1-1-",
+      "course_title": "Introduction to Machine Learning",
+      "input": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS311_Introduction-to-Machine-Learning-Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-3-1-2-",
+      "course_title": "Natural Language Processing",
+      "input": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Laboratory (1).pdf",
+      "output": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Laboratory (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-3-1-2-",
+      "course_title": "Natural Language Processing",
+      "input": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS312_Natural-Language-Processing-Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-4-1-4-",
+      "course_title": "Machine Learning 2",
+      "input": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Laboratory.pdf",
+      "output": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Laboratory.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-4-1-4-",
+      "course_title": "Machine Learning 2",
+      "input": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Lecture.pdf",
+      "output": "CS/1st Semester/S-CSIS414_Machine-Learning-2-Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-2-1-2-",
+      "course_title": "DISCRETE STRUCTURES",
+      "input": "CS/1st Semester/S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf",
+      "output": "CS/1st Semester/S-CSPC212 - DiscreteStructures_Syllabus_2023-2024.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-E-0-0-1-L-C-",
+      "course_title": "COMPUTATIONAL SCIENCE LAB",
+      "input": "CS/1st Semester/S-CSPE001LA-Computational-Science-LAB-SY23-24-1st-revised.pdf",
+      "output": "CS/1st Semester/S-CSPE001LA-Computational-Science-LAB-SY23-24-1st-revised.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-E-0-0-1-L-C-",
+      "course_title": "COMPUTATIONAL SCIENCE LEC",
+      "input": "CS/1st Semester/S-CSPE001LC-Computational Science LEC SY23-24 1st PLO revised.pdf",
+      "output": "CS/1st Semester/S-CSPE001LC-Computational Science LEC SY23-24 1st PLO revised.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-S-E-3-2-1-",
+      "course_title": "Software Engineering 1",
+      "input": "CS/1st Semester/S-CSSE321_Software_Engineering-1-LECTURE 2023 2024 with PLO - EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE321_Software_Engineering-1-LECTURE 2023 2024 with PLO - EDITED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-S-E-3-2-1-L-C-",
+      "course_title": "Software Engineering 1",
+      "input": "CS/1st Semester/S-CSSE321LC_Software_Engineering-1-LABORATORY-2023-2024-with-PLO-EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE321LC_Software_Engineering-1-LABORATORY-2023-2024-with-PLO-EDITED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-S-E-4-1-2-",
+      "course_title": "Software Engineering 2",
+      "input": "CS/1st Semester/S-CSSE412LC_Software_Engineering 2 - LECTURE 2023 2024 with PLO - EDITED.pdf",
+      "output": "CS/1st Semester/S-CSSE412LC_Software_Engineering 2 - LECTURE 2023 2024 with PLO - EDITED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-S-E-4-1-2-L-A-",
+      "course_title": "Software Engineering 2",
+      "input": "CS/1st Semester/S-CSSE412LC_Software_Engineering-2-LABORATORY-2023-2024-with-PLO-EDITED (1).pdf",
+      "output": "CS/1st Semester/S-CSSE412LC_Software_Engineering-2-LABORATORY-2023-2024-with-PLO-EDITED (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-T-H-4-1-2-",
+      "course_title": "THESIS 2",
+      "input": "CS/1st Semester/S-CSTH412 THESIS 2.pdf",
+      "output": "CS/1st Semester/S-CSTH412 THESIS 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-1-L-A-",
+      "course_title": "INTRODUCTION TO COMPUTING",
+      "input": "CS/1st Semester/S-ITCS111LAB_Intro2Computing_Syllabus2023-2024 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS111LAB_Intro2Computing_Syllabus2023-2024 (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-1-",
+      "course_title": "INTRODUCTION TO COMPUTING",
+      "input": "CS/1st Semester/S-ITCS111LEC-IntroToComp_Syllabus2023-2023_A.pdf",
+      "output": "CS/1st Semester/S-ITCS111LEC-IntroToComp_Syllabus2023-2023_A.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-1-",
+      "course_title": "INTRODUCTION TO COMPUTING",
+      "input": "CS/1st Semester/S-ITCS111LEC_Intro2Computing_Syllabus2023-2024 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS111LEC_Intro2Computing_Syllabus2023-2024 (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-2-L-A-",
+      "course_title": "Fundamentals of Programming",
+      "input": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Laboratory.pdf",
+      "output": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Laboratory.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-2-",
+      "course_title": "Fundamentals of Programming",
+      "input": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Lecture.pdf",
+      "output": "CS/1st Semester/S-ITCS112-Fundamentals-of-Programming-Lecture.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-5-",
+      "course_title": "Human Computer Interaction",
+      "input": "CS/1st Semester/S-ITCS125_-_Human_Computer_Interaction_Lec.pdf",
+      "output": "CS/1st Semester/S-ITCS125_-_Human_Computer_Interaction_Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-5-L-A-",
+      "course_title": "Human-Computer Interaction",
+      "input": "CS/1st Semester/S-ITCS125LA_-_Human_Computer_Interaction_Lab_SIGNED.pdf",
+      "output": "CS/1st Semester/S-ITCS125LA_-_Human_Computer_Interaction_Lab_SIGNED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-1-4-(-C-S-)-",
+      "course_title": "Data Structures and Algorithms",
+      "input": "CS/1st Semester/S-ITCS214-CS-Data-Structures-and-Algorithms-LEC-Syllabus.pdf",
+      "output": "CS/1st Semester/S-ITCS214-CS-Data-Structures-and-Algorithms-LEC-Syllabus.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-1-4-(-C-S-)-",
+      "course_title": "Data Structures and Algorithms",
+      "input": "CS/1st Semester/S-ITCS214LA-Data-Structures-and-Algorithms-Syllabus.pdf",
+      "output": "CS/1st Semester/S-ITCS214LA-Data-Structures-and-Algorithms-Syllabus.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-1-8-(-C-S-)-",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY",
+      "input": "CS/1st Semester/S-ITCS318-Information-Assurance-and-Security-LEC-SY-23-241st-2.pdf",
+      "output": "CS/1st Semester/S-ITCS318-Information-Assurance-and-Security-LEC-SY-23-241st-2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-1-8-L-A-(-C-S-)-",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY",
+      "input": "CS/1st Semester/S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf",
+      "output": "CS/1st Semester/S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-1-8-(-C-S-)-",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY",
+      "input": "CS/1st Semester/S-ITCS318LC-Information-Assurance-and-Security-LEC-SY-23-241st.pdf",
+      "output": "CS/1st Semester/S-ITCS318LC-Information-Assurance-and-Security-LEC-SY-23-241st.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---M-A-T-H-2-0-0-",
+      "course_title": "N umber Theory",
+      "input": "CS/1st Semester/S-Math_200_Number_Theory_1st_Sem_SY2024-2025(2).pdf",
+      "output": "CS/1st Semester/S-Math_200_Number_Theory_1st_Sem_SY2024-2025(2).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-1-1-L-A-",
+      "course_title": "Introduction to Game Programming",
+      "input": "CS/1st Semester/S_CSGD311 Introducton to Game Programming LABORATORY 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD311 Introducton to Game Programming LABORATORY 20232024 REVISED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-1-1-",
+      "course_title": "Introduction to Game Programming",
+      "input": "CS/1st Semester/S_CSGD311 Introducton to Game Programming Lecture 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD311 Introducton to Game Programming Lecture 20232024 REVISED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-4-1-5-",
+      "course_title": "Advanced Game Programming",
+      "input": "CS/1st Semester/S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-4-1-5-L-A-",
+      "course_title": "Advanced Game Programming",
+      "input": "CS/1st Semester/S_CSGD415LAB_AdvancedGameProgramming_Lab_2022_2023 REVISED.pdf",
+      "output": "CS/1st Semester/S_CSGD415LAB_AdvancedGameProgramming_Lab_2022_2023 REVISED.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-3-1-5-",
+      "course_title": "ALGORITHMS AND COMPLEXITY",
+      "input": "CS/1st Semester/Syllabus-S-CSP315-Algorithm&ComplexitySY23-24 1st w-PLO revised.pdf",
+      "output": "CS/1st Semester/Syllabus-S-CSP315-Algorithm&ComplexitySY23-24 1st w-PLO revised.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-3-1-6-",
+      "course_title": "Architecture and Organization",
+      "input": "CS/1st Semester/WCL-S-CSPC316-Architecture and Organization (2023-2024).pdf",
+      "output": "CS/1st Semester/WCL-S-CSPC316-Architecture and Organization (2023-2024).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-E-0-0-3-L-C-",
+      "course_title": "Parallel and Distributed Computing",
+      "input": "CS/1st Semester/WCL-S-CSPE003LC-(Lab)Parallel and Distributed Computing (1).pdf",
+      "output": "CS/1st Semester/WCL-S-CSPE003LC-(Lab)Parallel and Distributed Computing (1).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-2-3-",
+      "course_title": "Computer Animation and Simulation",
+      "input": "CS/2nd Semester/S-CSGD323 Computer Animation and Simulation Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD323 Computer Animation and Simulation Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-2-4-",
+      "course_title": "Immersive Game Development",
+      "input": "CS/2nd Semester/S-CSGD324 Immersive Game Development Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD324 Immersive Game Development Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-3-2-4-L-A-",
+      "course_title": "Immersive Game Development",
+      "input": "CS/2nd Semester/S-CSGD324LA Immersive Game Development Lab.pdf",
+      "output": "CS/2nd Semester/S-CSGD324LA Immersive Game Development Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-4-2-6-",
+      "course_title": "Graphics and Animation",
+      "input": "CS/2nd Semester/S-CSGD426 Graphics and Animation Lec.pdf",
+      "output": "CS/2nd Semester/S-CSGD426 Graphics and Animation Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-G-D-4-2-6-L-A-",
+      "course_title": "Graphics and Animation",
+      "input": "CS/2nd Semester/S-CSGD426LA Graphics and Animation Lab.pdf",
+      "output": "CS/2nd Semester/S-CSGD426LA Graphics and Animation Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-I-S-4-2-6-",
+      "course_title": "Special Topics in Artificial Intelligence",
+      "input": "CS/2nd Semester/S-CSIS426 Special Topics in Artificial Intelligence Lec.pdf",
+      "output": "CS/2nd Semester/S-CSIS426 Special Topics in Artificial Intelligence Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-1-2-1-",
+      "course_title": "Object Oriented Programming – (OOP)",
+      "input": "CS/2nd Semester/S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC121 Object Oriented Programming – (OOP) Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-2-2-3-",
+      "course_title": "Programming Languages",
+      "input": "CS/2nd Semester/S-CSPC223 Programming Languages Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC223 Programming Languages Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-2-2-4-",
+      "course_title": "DISCRETE STRUCTURES 2",
+      "input": "CS/2nd Semester/S-CSPC224 DISCRETE STRUCTURES 2 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC224 DISCRETE STRUCTURES 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-3-2-7-",
+      "course_title": "Automata Theory and Formal Languages",
+      "input": "CS/2nd Semester/S-CSPC327 Automata Theory and Formal Languages Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC327 Automata Theory and Formal Languages Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-4-2-8-",
+      "course_title": "Networks and Communications",
+      "input": "CS/2nd Semester/S-CSPC428 Networks and Communications Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC428 Networks and Communications Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-C-4-2-9-",
+      "course_title": "Operating System",
+      "input": "CS/2nd Semester/S-CSPC429 Operating System Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPC429 Operating System Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-E-0-0-4-",
+      "course_title": "CS Professional Elective 3",
+      "input": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec (2).pdf",
+      "output": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec (2).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-P-E-0-0-4-",
+      "course_title": "CS Professional Elective 3",
+      "input": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSPE004 CS Professional Elective 3 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-S-T-H-3-2-1-",
+      "course_title": "THESIS 1",
+      "input": "CS/2nd Semester/S-CSTH321 THESIS 1 Lec.pdf",
+      "output": "CS/2nd Semester/S-CSTH321 THESIS 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-3-",
+      "course_title": "Intermediate Programming",
+      "input": "CS/2nd Semester/S-ITCS 123 Intermediate Programming Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS 123 Intermediate Programming Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-2-6-",
+      "course_title": "Information Management",
+      "input": "CS/2nd Semester/S-ITCS226 Information Management Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS226 Information Management Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-2-7-",
+      "course_title": "APPLICATION DEVELOPMENT AND",
+      "input": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec (2).pdf",
+      "output": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec (2).pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-2-7-",
+      "course_title": "APPLICATION DEVELOPMENT AND",
+      "input": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS227 APPLICATION DEVELOPMENT AND Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-2-9-",
+      "course_title": "Social Issues and Professional Practice",
+      "input": "CS/2nd Semester/S-ITCS329 Social Issues and Professional Practice Lec.pdf",
+      "output": "CS/2nd Semester/S-ITCS329 Social Issues and Professional Practice Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--I-T-C-P-4-1-2-",
+      "course_title": "Capstone Project 2",
+      "input": "IT/1st Semester/S-ITCP412 Capstone Project 2.pdf",
+      "output": "IT/1st Semester/S-ITCP412 Capstone Project 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-1-",
+      "course_title": "INTRODUCTION TO COMPUTING",
+      "input": "IT/1st Semester/S-ITCS111 Introduction to Computing Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS111 Introduction to Computing Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-1-L-A-",
+      "course_title": "INTRODUCTION TO COMPUTING",
+      "input": "IT/1st Semester/S-ITCS111LA Introduction to Computing Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS111LA Introduction to Computing Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-2-",
+      "course_title": "Fundamentals of Programming",
+      "input": "IT/1st Semester/S-ITCS112 Fundamentals of Programming Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS112 Fundamentals of Programming Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-1-2-L-A-",
+      "course_title": "Fundamentals of Programming Lab",
+      "input": "IT/1st Semester/S-ITCS112LA Fundamentals of Programming Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS112LA Fundamentals of Programming Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-5-",
+      "course_title": "Human Computer Interaction",
+      "input": "IT/1st Semester/S-ITCS125 Human Computer Interaction Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS125 Human Computer Interaction Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-5-L-A-",
+      "course_title": "Human-Computer Interaction",
+      "input": "IT/1st Semester/S-ITCS125LA Human Computer Interaction Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS125LA Human Computer Interaction Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-1-4-",
+      "course_title": "Data Structures and Algorithms",
+      "input": "IT/1st Semester/S-ITCS214 Data Structures and Algorithms Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS214 Data Structures and Algorithms Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-1-4-L-A-",
+      "course_title": "Data Structures and Algorithms",
+      "input": "IT/1st Semester/S-ITCS214LA Data Structures and Algorithms Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS214LA Data Structures and Algorithms Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-1-8-",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY 1",
+      "input": "IT/1st Semester/S-ITCS318 Information Assurance and Security Lec.pdf",
+      "output": "IT/1st Semester/S-ITCS318 Information Assurance and Security Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-1-8-L-C-",
+      "course_title": "INFORMATION ASSURANCE AND SECURITY",
+      "input": "IT/1st Semester/S-ITCS318LA Information Assurance and Security Lab.pdf",
+      "output": "IT/1st Semester/S-ITCS318LA Information Assurance and Security Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-3-1-1-",
+      "course_title": "Internet of Things",
+      "input": "IT/1st Semester/S-ITNT311 Internet of Things Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT311 Internet of Things Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-3-1-1-L-A-",
+      "course_title": "Internet of Things",
+      "input": "IT/1st Semester/S-ITNT311LA Internet of Things Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT311LA Internet of Things Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-2-L-C-",
+      "course_title": "Cisco Networking Semester 1",
+      "input": "IT/1st Semester/S-ITNT312 CISCO Networking Semester 1 Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT312 CISCO Networking Semester 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-2-L-",
+      "course_title": "Cisco Networking Semester 1",
+      "input": "IT/1st Semester/S-ITNT312La CISCO Networking Semester 1.pdf",
+      "output": "IT/1st Semester/S-ITNT312La CISCO Networking Semester 1.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-4-1-5-L-C-",
+      "course_title": "S-ITNT415Lc – Cisco Networking Semester 4 (DevNet)",
+      "input": "IT/1st Semester/S-ITNT415 CISCO Networking Semester 4 Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT415 CISCO Networking Semester 4 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-4-1-5-L-",
+      "course_title": "S-ITNT415L – Cisco Networking Semester 4 (DevNet)",
+      "input": "IT/1st Semester/S-ITNT415La CISCO Networking Semester 4 Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT415La CISCO Networking Semester 4 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-4-1-6-",
+      "course_title": "Big Data And Analytics",
+      "input": "IT/1st Semester/S-ITNT416 Big Data and Analytics Lec.pdf",
+      "output": "IT/1st Semester/S-ITNT416 Big Data and Analytics Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-4-1-6-L-A-",
+      "course_title": "Big Data And Analytics",
+      "input": "IT/1st Semester/S-ITNT416LA Big Data and Analytics Lab.pdf",
+      "output": "IT/1st Semester/S-ITNT416LA Big Data and Analytics Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-5-L-A-",
+      "course_title": "Networking 2",
+      "input": "IT/1st Semester/S-ITPC315 Networking 2 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC315 Networking 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-5-",
+      "course_title": "Networking 2",
+      "input": "IT/1st Semester/S-ITPC315 Networking 2 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC315 Networking 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-6-",
+      "course_title": "Integrative Programming and Technologies",
+      "input": "IT/1st Semester/S-ITPC316 Integrative Programming Technologies Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC316 Integrative Programming Technologies Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-1-6-L-A-",
+      "course_title": "Integrative Programming and Technologies",
+      "input": "IT/1st Semester/S-ITPC316LA  Integrative Programming Technologies Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC316LA  Integrative Programming Technologies Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-4-1-9-",
+      "course_title": "System Administration and Maintenance",
+      "input": "IT/1st Semester/S-ITPC419 System Administration and Maintenance Lec.pdf",
+      "output": "IT/1st Semester/S-ITPC419 System Administration and Maintenance Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-4-1-9-L-A-",
+      "course_title": "System Administration and Maintenance",
+      "input": "IT/1st Semester/S-ITPC419LA System Administration and Maintenance Lab.pdf",
+      "output": "IT/1st Semester/S-ITPC419LA System Administration and Maintenance Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-1-",
+      "course_title": "IT Professional Elective",
+      "input": "IT/1st Semester/S-ITPE001 IT Professional Elective 1 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE001 IT Professional Elective 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-1-L-A-",
+      "course_title": "IT Professional Elective",
+      "input": "IT/1st Semester/S-ITPE001LA IT Professional Elective 1 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPE001LA IT Professional Elective 1 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-2-",
+      "course_title": "IT Professional Elective 2",
+      "input": "IT/1st Semester/S-ITPE002 IT Professional Elective Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE002 IT Professional Elective Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-2-L-A-",
+      "course_title": "It Professional Elective 2",
+      "input": "IT/1st Semester/S-ITPE002LA IT Professional Elective 2.pdf",
+      "output": "IT/1st Semester/S-ITPE002LA IT Professional Elective 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-4-L-A-",
+      "course_title": "IT PROFESSIONAL ELECTIVE 4 (SYSTEM INTEGRATION",
+      "input": "IT/1st Semester/S-ITPE004 IT Professional Elective  4 Lec.pdf",
+      "output": "IT/1st Semester/S-ITPE004 IT Professional Elective  4 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-E-0-0-4-L-A-",
+      "course_title": "IT PROFESSIONAL ELECTIVE 4 (SYSTEM INTEGRATION",
+      "input": "IT/1st Semester/S-ITPE004LA  IT Professional Elective 4 Lab.pdf",
+      "output": "IT/1st Semester/S-ITPE004LA  IT Professional Elective 4 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-1-1-",
+      "course_title": null,
+      "input": "IT/1st Semester/S-ITWB311 Web Development Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB311 Web Development Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-1-1-L-A-",
+      "course_title": "Web Development",
+      "input": "IT/1st Semester/S-ITWB311LA Web Development Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB311LA Web Development Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-1-2-",
+      "course_title": "Mobile Enterprise System",
+      "input": "IT/1st Semester/S-ITWB312 Mobile Enterprise System Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB312 Mobile Enterprise System Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-1-2-L-A-",
+      "course_title": "Mobile Enterprise System",
+      "input": "IT/1st Semester/S-ITWB312LA Mobile Enterprise System Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB312LA Mobile Enterprise System Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-4-1-5-",
+      "course_title": "Internet Languages and Tools 2",
+      "input": "IT/1st Semester/S-ITWB415 Internet Languages and Tools 2 Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB415 Internet Languages and Tools 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-4-1-5-L-A-",
+      "course_title": "Internet Languages and Tools 2",
+      "input": "IT/1st Semester/S-ITWB415LA Internet Languages and Tools 2 Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB415LA Internet Languages and Tools 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-4-1-6-L-C-",
+      "course_title": "GRAPHIC DESIGN",
+      "input": "IT/1st Semester/S-ITWB416 Graphics Design Lec.pdf",
+      "output": "IT/1st Semester/S-ITWB416 Graphics Design Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-4-1-6-L-C-",
+      "course_title": "GRAPHIC DESIGN",
+      "input": "IT/1st Semester/S-ITWB416LA Graphics Design Lab.pdf",
+      "output": "IT/1st Semester/S-ITWB416LA Graphics Design Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---C-O-M-P-1-2-1-L-A-",
+      "course_title": "IT APPLICATION TOOLS IN BUSINESS",
+      "input": "IT/2nd Semester/S-COMP121LA IT Application Tools in Business.pdf",
+      "output": "IT/2nd Semester/S-COMP121LA IT Application Tools in Business.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--I-T-C-P-3-2-2-",
+      "course_title": "Capstone Project 1",
+      "input": "IT/2nd Semester/S-ITCP322 Capstone Project 1.pdf",
+      "output": "IT/2nd Semester/S-ITCP322 Capstone Project 1.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--I-T-C-P-4-1-2-",
+      "course_title": "Capstone Project 2",
+      "input": "IT/2nd Semester/S-ITCP412 Capstone Project 2.pdf",
+      "output": "IT/2nd Semester/S-ITCP412 Capstone Project 2.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-3-",
+      "course_title": "Intermediate Programming",
+      "input": "IT/2nd Semester/S-ITCS123 Intermediate Programming Lec.pdf",
+      "output": "IT/2nd Semester/S-ITCS123 Intermediate Programming Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-1-2-3-L-A-",
+      "course_title": "Intermediate Programming",
+      "input": "IT/2nd Semester/S-ITCS123LA Intermediate Programming Lab.pdf",
+      "output": "IT/2nd Semester/S-ITCS123LA Intermediate Programming Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-2-6-",
+      "course_title": "I nformation Management Lecture",
+      "input": "IT/2nd Semester/S-ITCS226 Information Management Lec.pdf",
+      "output": "IT/2nd Semester/S-ITCS226 Information Management Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-2-2-6-L-",
+      "course_title": "I nformation Management Laboratory",
+      "input": "IT/2nd Semester/S-ITCS226LA Information Management Lab.pdf",
+      "output": "IT/2nd Semester/S-ITCS226LA Information Management Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-C-S-3-2-9-",
+      "course_title": "Social Issues and Professional Practice",
+      "input": "IT/2nd Semester/S-ITCS329 Social Issues and Professional Practice.pdf",
+      "output": "IT/2nd Semester/S-ITCS329 Social Issues and Professional Practice.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-3-2-3-",
+      "course_title": "Cisco Networking Semester 2 - SRWE",
+      "input": "IT/2nd Semester/S-ITNT323 CISCO Networking Seminar 2 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITNT323 CISCO Networking Seminar 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-N-T-3-2-3-L-A-",
+      "course_title": "Cisco Networking Semester 2 - SRWE",
+      "input": "IT/2nd Semester/S-ITNT323LA CISCO Networking Semester 2 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITNT323LA CISCO Networking Semester 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-1-2-1-",
+      "course_title": "Fundamentals of Database Systems",
+      "input": "IT/2nd Semester/S-ITPC121 Fundamentals of Database Systems Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC121 Fundamentals of Database Systems Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-1-2-1-L-A-",
+      "course_title": "Fundamentals of Database Systems",
+      "input": "IT/2nd Semester/S-ITPC121LA Fundamentals of Database Systems Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC121LA Fundamentals of Database Systems Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-2-2-4-",
+      "course_title": "Networking 1",
+      "input": "IT/2nd Semester/S-ITPC224 Networking 1 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC224 Networking 1 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-2-2-4-L-A-",
+      "course_title": "Networking 1",
+      "input": "IT/2nd Semester/S-ITPC224LA Netwroking 1 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC224LA Netwroking 1 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-2-2-7-",
+      "course_title": "Application Development and Emerging Technologies",
+      "input": "IT/2nd Semester/S-ITPC227 Application Development and Emerging Technologies Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC227 Application Development and Emerging Technologies Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-2-2-7-",
+      "course_title": "Application Development and Emerging Technologies",
+      "input": "IT/2nd Semester/S-ITPC227LA Application Develipment and Emerging Technologies Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC227LA Application Develipment and Emerging Technologies Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-2-7-",
+      "course_title": "Information Assurance and Security 2",
+      "input": "IT/2nd Semester/S-ITPC327 Information Assurance and Security 2 Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC327 Information Assurance and Security 2 Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-2-7-L-C-",
+      "course_title": "Information Assurance and Security 2",
+      "input": "IT/2nd Semester/S-ITPC327LA Information Assurance and Security 2 Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC327LA Information Assurance and Security 2 Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-2-8-",
+      "course_title": "System Integration and Architecture",
+      "input": "IT/2nd Semester/S-ITPC328 System Integration and Architecture Lec.pdf",
+      "output": "IT/2nd Semester/S-ITPC328 System Integration and Architecture Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-P-C-3-2-8-L-A-",
+      "course_title": "System Integration and Architecture",
+      "input": "IT/2nd Semester/S-ITPC328LA System Integration and Architecture Lab.pdf",
+      "output": "IT/2nd Semester/S-ITPC328LA System Integration and Architecture Lab.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-2-3-",
+      "course_title": "Multimedia Systems",
+      "input": "IT/2nd Semester/S-ITWB323 Multimedia Systems Lec.pdf",
+      "output": "IT/2nd Semester/S-ITWB323 Multimedia Systems Lec.pdf.json",
+      "status": "ok"
+    },
+    {
+      "course_code": "S--S---I-T-W-B-3-2-3-L-A-",
+      "course_title": "Multimedia Systems",
+      "input": "IT/2nd Semester/S-ITWB323LA Multimedia Systems Lab.pdf",
+      "output": "IT/2nd Semester/S-ITWB323LA Multimedia Systems Lab.pdf.json",
+      "status": "ok"
+    }
+  ]
+}

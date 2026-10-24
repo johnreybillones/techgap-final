@@ -1,0 +1,165 @@
+{
+  "source": {
+    "filename": "S-ITWB323 Multimedia Systems Lec.pdf",
+    "sha256": "5060461dfa29fab54634b0285001c65dfa96a4b1a94c8ba45b952126662f6581",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITWB323",
+  "course_title": "Multimedia Systems",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITPC311 Lec and Lab",
+  "corequisites": "S-ITWB323LA",
+  "track": "IT - Web Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course deals with familiarization of the concept of Multimedia System, which broadens the knowledge and understanding of multimedia technologies and applications. This also guides them to acquire confidence in their ability to expand their knowledge of multimedia in order to aid professional development. Covers the areas of multimedia analysis, design and delivery, history, images, graphics/drawing, sound and animation that will enable to use diagnostic techniques and solutions. Page | 1",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Analyze the elements and purpose of Mutltimedia Systems."
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the nature of Mutltimedia Systems."
+    },
+    {
+      "id": "CLO3",
+      "text": "Evaluate the Mutltimedia Systems to enhance creativity and design skills."
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate the appropriate technical skills by applying basic and advance Multimedia Systems softwares."
+    },
+    {
+      "id": "CLO5",
+      "text": "Analyze the fundamentals of Mutltimedia Systems by developing multimedia projects. 3 \\"
+    },
+    {
+      "id": "CLO6",
+      "text": "Develop an appreciation of Multimedia Systems."
+    },
+    {
+      "id": "CLO7",
+      "text": "Acquire lasallian values and sensitivity in applying Multimedia Systems to a real-world scenario."
+    },
+    {
+      "id": "CLO8",
+      "text": "Formulate the optimize design learned and report on the expected output that can be achieved by developing Multimedia System Projects."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Analyze the elements and purpose of Multimedia Systems."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the nature of Mutltimedia Systems."
+        },
+        {
+          "id": "CLO3",
+          "text": "Evaluate the Multimedia Systems to enhance creativity and design skills. CLO4. Illustrate the appropriate technical skills by applying basic and advance Multimedia Systems softwares."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the basic concepts and elements of Multimedia Systems."
+        },
+        {
+          "id": "TLO2",
+          "text": "Apply key concepts of graphic design, principles and ethics."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with Multimedia System Projects"
+        },
+        {
+          "id": "TLO4",
+          "text": "Determine and create appropriate Multimedia System Projects"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Analyze the fundamentals of Multimedia Systems by developing multimedia projects."
+        },
+        {
+          "id": "CLO6",
+          "text": "Develop an appreciation of Multimedia Systems."
+        },
+        {
+          "id": "CLO7",
+          "text": "Acquire lasallian values and sensitivity in applying Multimedia Systems to a real-world scenario."
+        },
+        {
+          "id": "CLO8",
+          "text": "Formulate the optimize design learned and report on the expected output that can be achieved by developing Multimedia System Projects."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Develop Multimedia System Projects based on newest trends."
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify domain areas of Multimedia System Projects"
+        },
+        {
+          "id": "TLO7",
+          "text": "Apply Adobe Phtotoshop and Adobe Flash/Animate to develop and demonstrate Multimedia System Projects."
+        },
+        {
+          "id": "TLO8",
+          "text": "Apply Photo Editing Capabilities and develop animations for the Multimedia Projects needed in the real-world scenario."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

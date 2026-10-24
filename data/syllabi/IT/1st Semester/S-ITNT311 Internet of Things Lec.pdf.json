@@ -1,0 +1,167 @@
+{
+  "source": {
+    "filename": "S-ITNT311 Internet of Things Lec.pdf",
+    "sha256": "3892c0a6c95957dc97b25da7ff6fa8603c42189709337339e550ed9b6e71eda6",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 7,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": []
+    }
+  },
+  "course_code": "S-ITNT311",
+  "course_title": "Internet of Things",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "None",
+  "corequisites": "S-ITNT311LA",
+  "track": "IT - Network Technology",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course, the Internet of Things, IoT, describes a growing industry of digital technology being harnessed to the Internet in ways that will improve the lives of every person on this planet. It provides an overview of key concepts and challenges related to digital transformation. The course examines the evolution of the Internet and how the interconnection of people, processes, data and things is transforming every industry. The introduction to the Internet of Things course explains what the IoT is, what it does, how it is part of digital transformation, and how students can become part of this. Moreover, students will also learn about the exponential increase of intelligent devices connected to the Internet and will learn to program one of these intelligent devices. The course explains artificial intelligence and the impact of automation on our future. Lastly, students will understand the increased importance of privacy and security. 1 LEARNING PLAN: Learning Outcomes for Midterm Period",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Explain the meaning and impact of digital transformation."
+    },
+    {
+      "id": "CLO2",
+      "text": "Apply basic programming to support IoT devices."
+    },
+    {
+      "id": "CLO3",
+      "text": "Examine how data provides value to digital business and society."
+    },
+    {
+      "id": "CLO4",
+      "text": "Explore the benefits of automation in the digitized world."
+    },
+    {
+      "id": "CLO5",
+      "text": "Distinguish the need for security in the digitized world."
+    },
+    {
+      "id": "CLO6",
+      "text": "Evaluate opportunities provided by digital transformation."
+    },
+    {
+      "id": "CLO7",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Explain the meaning and impact of digital transformation."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply basic programming to support IoT devices."
+        },
+        {
+          "id": "CLO3",
+          "text": "Examine how data provides value to digital business and society."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Understand the concept of digital transformation."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify devices that connect to the IoT"
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply basic programming to support IoT devices."
+        },
+        {
+          "id": "TLO4",
+          "text": "Transforming ideas into prototypes"
+        },
+        {
+          "id": "TLO5",
+          "text": "Understanding everything about big data. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Explore the benefits of automation in the digitized world."
+        },
+        {
+          "id": "CLO5",
+          "text": "Distinguish the need for security in the digitized world."
+        },
+        {
+          "id": "CLO6",
+          "text": "Evaluate opportunities provided by digital transformation."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Identify everything that can be automated."
+        },
+        {
+          "id": "TLO7",
+          "text": "Recognize and understand the importance of security in the digitized world"
+        },
+        {
+          "id": "TLO8",
+          "text": "Recognize educational and business opportunities. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        3
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

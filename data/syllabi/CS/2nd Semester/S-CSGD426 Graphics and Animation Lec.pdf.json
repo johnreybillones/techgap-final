@@ -1,0 +1,133 @@
+{
+  "source": {
+    "filename": "S-CSGD426 Graphics and Animation Lec.pdf",
+    "sha256": "fb8eb015179dc9715d5697875d5fe724062f1c7f6330480d4c05a7c6f9df2746",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSGD426",
+  "course_title": "Graphics and Animation",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-CSGD311",
+  "corequisites": "None",
+  "track": "CS - Game Development",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
+  "course_description": "This course covers the main animation algorithms and techniques used in the implementation of interactive 3D Graphics such as in computer games, modelling tools, robotics simulations and virtual reality. Topics covered are physically based simulation, key frame animation, articulated figures, direct and inverse kinematics, path planning, behavior-based animation, scripting behaviors and other topics.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the basic principles of the computer animation and simulation;"
+    },
+    {
+      "id": "CLO2",
+      "text": "explain the different techniques in 2D and 3D graphics Animation;"
+    },
+    {
+      "id": "CLO3",
+      "text": "develop skills by applying basic and advance 2D and 3D Graphics Animation;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply design and development principles in the construction of software systems of varying complexity; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "demonstrate 21 century skills in all learning activities. st"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the basic principles of computer animation and simulation."
+        },
+        {
+          "id": "CLO2",
+          "text": "Explain the different techniques in 2D and 3D graphics Animation."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Identify and define the fundamental concepts of computer animation and simulation."
+        },
+        {
+          "id": "TLO2",
+          "text": "Apply the basic principles, key concepts, and ethical considerations of computer animation and simulation in practical scenarios."
+        },
+        {
+          "id": "TLO3",
+          "text": "Demonstrate and explain the foundational principles and techniques of 2D and 3D graphics animation through dynamic, hands-on projects."
+        },
+        {
+          "id": "TLO4",
+          "text": "Relate and critically analyze the different methods used in computer animation and simulation, emphasizing their applications in 2D and 3D graphics."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Develop skills by applying basic and advanced 2D and 3D Graphics Animation."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply design and development principles in the construction of software systems of varying complexity. presentation."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Demonstrate how various motion graphics and animation techniques, including basic and advanced 2D and 3D graphics, enhance video content and visual storytelling."
+        },
+        {
+          "id": "TLO6",
+          "text": "Design and develop a workable application program for computer animation, supported by a research paper that outlines the design process and principles, followed by a presentation of the completed project."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

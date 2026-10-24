@@ -1,0 +1,150 @@
+{
+  "source": {
+    "filename": "S-CSPE004 CS Professional Elective 3 Lec (2).pdf",
+    "sha256": "1ece9e84678c722226bd6142ed2eda25df3a4dbdd73784e4bb366db135844a38",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSPE004",
+  "course_title": "CS Professional Elective 3",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "CS Professional Elective 1, 2",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "2nd Semester",
+  "course_description": "This course provides an introduction to the field of Artificial Intelligence (AI), focusing on its application to solve real-world problems that are challenging to address using traditional algorithmic approaches. Students will explore key AI methodologies, including techniques for handling uncertainty, learning from experience, and applying nature-inspired problem-solving strategies. The course covers both the theoretical foundations and practical aspects of developing intelligent systems. Additionally, it addresses the ethical considerations in AI development, preparing students for careers in AI, data science, and related fields.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "acknowledge the foundational principles of artificial intelligence in a broad context, including exploration of selected real-world applications;"
+    },
+    {
+      "id": "CLO2",
+      "text": "demonstrate the various techniques and methods that algorithms in artificial intelligence employ within the context of Data Science;"
+    },
+    {
+      "id": "CLO3",
+      "text": "utilize expertise in intelligent systems, encompassing AI, Machine Learning, and Deep Learning;"
+    },
+    {
+      "id": "CLO4",
+      "text": "develop an application program for a designated intelligent system project using programming language tools, and subsequently compose a research paper and deliver a presentation; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "demonstrate 21 century skills in all learning activities. st"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "acknowledge the foundational principles of artificial intelligence in a broad context, including exploration of selected real-world applications."
+        },
+        {
+          "id": "CLO2",
+          "text": "demonstrate the various techniques and methods that algorithms in artificial intelligence employ within the context of Data Science."
+        },
+        {
+          "id": "CLO3",
+          "text": "utilize expertise in intelligent systems, encompassing AI, Machine Learning, and Deep Learning."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define AI and explain how it can apply in many fields of work."
+        },
+        {
+          "id": "TLO2",
+          "text": "Describe the different applications and their functionalities within the realm of artificial intelligence."
+        },
+        {
+          "id": "TLO3",
+          "text": "Identify the different categories of applications for Intelligent AI and Data Science."
+        },
+        {
+          "id": "TLO4",
+          "text": "Perform a comparative analysis and research on the different methodologies and techniques utilized in intelligence systems."
+        },
+        {
+          "id": "TLO5",
+          "text": "Demonstrate how various Artificial Intelligence algorithm work using the Spider, Collab, MATLAB and other related software."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "utilize expertise in intelligent systems, encompassing AI, Machine Learning, and Deep Learning."
+        },
+        {
+          "id": "CLO4",
+          "text": "develop an application program for a designated intelligent system project using programming language tools, and subsequently compose a research paper and deliver a presentation."
+        },
+        {
+          "id": "CLO5",
+          "text": "demonstrate 21 century skills in st all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Demonstrate how various Artificial Intelligence algorithm work using the Spider, Collab, MATLAB and other related software."
+        },
+        {
+          "id": "TLO6",
+          "text": "Develop a functional application program to be included in the research project and presentation in local and international publication."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4,
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

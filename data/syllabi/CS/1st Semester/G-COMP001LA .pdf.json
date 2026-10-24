@@ -1,0 +1,118 @@
+{
+  "source": {
+    "filename": "G-COMP001LA .pdf",
+    "sha256": "478bcffdab8d27215ed5e69f1285f45c2fa8953f8cd848fa1011f0e44ef4f218",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 14,
+    "field_pages": {
+      "course_code": [
+        4
+      ],
+      "course_title": [
+        4
+      ],
+      "course_type": [
+        4
+      ],
+      "course_credit": [
+        4
+      ],
+      "prerequisites": [
+        4
+      ],
+      "corequisites": [
+        4
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4
+      ]
+    }
+  },
+  "course_code": "G-COMP001LA",
+  "course_title": "LIVING IN THE IT ERA",
+  "course_type": "Lecture",
+  "course_credit": "3 Units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "track": "General & Foundational",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
+  "course_description": "This course provides a solid foundation in building a strong and useful knowledge of Information Technology which focuses on business productivity software applications and professional behavior in computing, including word processing, spreadsheet, presentation graphics and responsible utilization of the Internet. Students will acquire skills and proficiency in Microsoft productivity software that enables them to pass the Microsoft Certified Application Specialist Examination.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "discuss the impact and real-world use of information technology in daily life;"
+    },
+    {
+      "id": "CLO2",
+      "text": "create creative documents content in Microsoft Word;"
+    },
+    {
+      "id": "CLO3",
+      "text": "perform basic calculations and write and formulate functions for financial documents using Microsoft Excel;"
+    },
+    {
+      "id": "CLO4",
+      "text": "create visually appealing and interactive presentations using Microsoft PowerPoint;"
+    },
+    {
+      "id": "CLO5",
+      "text": "pass the Microsoft Office Specialist Certification Exam."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Discuss the impact and the real-world use of information technology in daily life."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create content creative documents in Microsoft Word."
+        },
+        {
+          "id": "CLO3",
+          "text": "Perform basic calculations and write and formulate functions for financial documents using Microsoft Excel."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Discuss the latest software applications and its impact on the way raw data is processed and presented."
+        },
+        {
+          "id": "TLO2",
+          "text": "Demonstrate and apply application softwares."
+        },
+        {
+          "id": "TLO3",
+          "text": "Make professional business letters, apply proofreading tools, format letters and reports properly and referencing information."
+        },
+        {
+          "id": "TLO4",
+          "text": "Learn to insert tables, columns and generate certificates using mail merge."
+        },
+        {
+          "id": "TLO5",
+          "text": "Discuss how Microsoft Excel helps productivity."
+        },
+        {
+          "id": "TLO6",
+          "text": "Demonstrate how formatting is done in Microsoft Excel including discussions on cells, tabs, worksheets, creating and modifying formulas and charts."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

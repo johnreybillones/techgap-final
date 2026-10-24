@@ -1,0 +1,150 @@
+{
+  "source": {
+    "filename": "S-ITPC227 Application Development and Emerging Technologies Lec.pdf",
+    "sha256": "a528b341bc80a529678e924bf25e4561e8abe9c66e4766453c227a2d4cb2376b",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC227",
+  "course_title": "Application Development and Emerging Technologies",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "None",
+  "corequisites": "S-ITPC227LA Application Development and Emerging",
+  "track": "IT Core & Electives",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course focuses on the development of applications using web, mobile and emerging technologies with emphasis on requirements management, interface, design, usability, testing and deployment, including ethical and legal considerations.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "interpret the difference of front-end and back-development in web application;"
+    },
+    {
+      "id": "CLO2",
+      "text": "design and identify web Development concept by dealing with client-based case study. ;"
+    },
+    {
+      "id": "CLO3",
+      "text": "implement Object Oriented way of programming; 1"
+    },
+    {
+      "id": "CLO4",
+      "text": "Understand how to manage website using Model, View and Control;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop and deploy complete Web Application in live server for pilot testing; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Interpret the difference of front-end and back-development in web application."
+        },
+        {
+          "id": "CLO2",
+          "text": "Design and identify web Development concept by dealing with client-based case study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Implement Object Oriented way of programming."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Demonstrate different web development software and its features."
+        },
+        {
+          "id": "TLO2",
+          "text": "Comprehend different tools in developing Web Application Project."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design web application both front- end and back-end. Students can know and use different OOP programming techniques."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Understand how to manage website using Model, View and Control."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and deploy complete Web Application in live server for pilot testing."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO8",
+          "text": "Explain the principle of Model, View and Control in mobile application"
+        },
+        {
+          "id": "TLO9",
+          "text": "Demonstrate advance asp.net controls."
+        },
+        {
+          "id": "TLO10",
+          "text": "Identity different types of report module"
+        },
+        {
+          "id": "TLO11",
+          "text": "Implementing Report data visualization commands."
+        },
+        {
+          "id": "TLO12",
+          "text": "Deploying website to a live server."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,0 +1,153 @@
+{
+  "source": {
+    "filename": "S-ITCS125LA Human Computer Interaction Lab.pdf",
+    "sha256": "783ef1a43ec72e202d00b3956a2989d1aa3cc5c374922a7d387f34cd3c933b45",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS125LA",
+  "course_title": "Human-Computer Interaction",
+  "course_type": "Laboratory",
+  "course_credit": "1.0 Unit",
+  "prerequisites": "ITCS123LA",
+  "corequisites": "S-ITCS125 LEC",
+  "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
+  "course_description": "The course is about understanding what it means to be a user of a computer and, therefore, how to create related products and services that work seamlessly. This course provides a comprehensive introduction and deep dive into HCI, so students can create designs that provide outstanding user experiences. This course provides a deep understanding of what it means to be a user and how to implement user-centered design for the best possible results.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Develop an understanding of the basic concepts about the relevance of human and computer interaction, including their abilities and limitations, and how these principles apply to using Figma effectively."
+    },
+    {
+      "id": "CLO2",
+      "text": "Analyze different concepts concerning effective and usable graphical computer interfaces, and apply these concepts in designing user interfaces using Figma."
+    },
+    {
+      "id": "CLO3",
+      "text": "Formulate different techniques and concepts of human-computer interaction in creating interface designs for computer/IT applications using Figma's prototyping tools."
+    },
+    {
+      "id": "CLO4",
+      "text": "Apply a variety of simple methods for evaluating the quality of a user interface, including collaborative review and feedback processes within Figma."
+    },
+    {
+      "id": "CLO5",
+      "text": "Evaluate the methods and techniques used in design for usability requirements, ensuring that designs created in Figma are responsive and meet diverse user needs."
+    },
+    {
+      "id": "CLO6",
+      "text": "Cultivate essential 21st-century skills such as critical thinking, creativity, collaboration, and communication through the practical application of Figma in design projects."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the basic concepts about the relevance of human and computer interaction, including their abilities and limitations."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe what interaction design and how it relates to human –computer interaction and other fields."
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss the use of interface metaphors and interaction types as part of a conceptual model."
+        },
+        {
+          "id": "TLO3",
+          "text": "Show the difference between classic internal cognitive frameworks and more recent external cognitive approaches that have been applied in HCI."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Use different techniques and concepts of the human computer interaction in creating interface design for computer/IT applications."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply a variety of simple methods for evaluating the quality of a user interface."
+        },
+        {
+          "id": "CLO5",
+          "text": "Evaluate the methods and techniques used in design for usability requirements."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Discuss how to plan and run a successful data gathering program."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain some advantages of involving users in development."
+        },
+        {
+          "id": "TLO11",
+          "text": "Analyze data gathered from questionnaires, interviews and observations."
+        },
+        {
+          "id": "TLO12",
+          "text": "Understand the essential characteristics of good design"
+        },
+        {
+          "id": "TLO13",
+          "text": "Describe prototyping and different types of prototyping activities."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explain how to do usability testing. TLO15. Explain how do heuristic evaluation and walkthroughs."
+        },
+        {
+          "id": "TLO16",
+          "text": "Evaluate design and usability techniques."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

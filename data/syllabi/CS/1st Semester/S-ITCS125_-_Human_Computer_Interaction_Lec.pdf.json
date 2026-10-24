@@ -1,0 +1,197 @@
+{
+  "source": {
+    "filename": "S-ITCS125_-_Human_Computer_Interaction_Lec.pdf",
+    "sha256": "508742a1c65deccc76f912e2b164d72715adbed34febf4daa329176d8a613b24",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 12,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS125",
+  "course_title": "Human Computer Interaction",
+  "course_type": "Lecture",
+  "course_credit": "2.0 Units",
+  "prerequisites": "S-ITCS123 and S-ITCS123LA",
+  "corequisites": "ITCS125Lab",
+  "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
+  "course_description": "1 The course is about understanding what it means to be a user of a computer and, therefore, how to create related products and services that work seamlessly. This course provides a comprehensive introduction and deep dive into HCI, so students can create designs that provide outstanding user experiences. This course provides a deep understanding of what it means to be a user and how to implement user-centered design for the best possible results.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Develop an understanding of the basic concepts about the relevance of human and computer interaction, including their abilities and limitations, and how these principles apply to using Figma effectively."
+    },
+    {
+      "id": "CLO2",
+      "text": "Analyze different concepts concerning effective and usable graphical computer interfaces, and apply these concepts in designing user interfaces using Figma."
+    },
+    {
+      "id": "CLO3",
+      "text": "Formulate different techniques and concepts of human-computer interaction in creating interface designs for computer/IT applications using Figma's prototyping tools."
+    },
+    {
+      "id": "CLO4",
+      "text": "Apply a variety of simple methods for evaluating the quality of a user interface, including collaborative review and feedback processes within Figma."
+    },
+    {
+      "id": "CLO5",
+      "text": "Evaluate the methods and techniques used in design for usability requirements, ensuring that designs created in Figma are responsive and meet diverse user needs."
+    },
+    {
+      "id": "CLO6",
+      "text": "Cultivate essential 21st-century skills such as critical thinking, creativity, collaboration, and communication through the practical application of Figma in design projects."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Develop an understanding of the basic concepts about the relevance of human and computer interaction, including their abilities and limitations, and how these principles apply to using Figma effectively. ."
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze different concepts concerning effective and usable graphical computer interfaces, and apply these concepts in designing user interfaces using Figma."
+        },
+        {
+          "id": "CLO3",
+          "text": "Use different techniques and concepts of the human computer interaction in creating interface design for computer/IT applications."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe what interaction design and how it relates to human –computer interaction and other fields."
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss the use of interface metaphors and interaction types as part of a conceptual model."
+        },
+        {
+          "id": "TLO3",
+          "text": "Show the difference between classic internal cognitive frameworks and more recent external cognitive approaches that have been applied in HCI"
+        },
+        {
+          "id": "TLO4",
+          "text": "Identify the interaction design process. Discuss the different kinds of interfaces."
+        },
+        {
+          "id": "TLO5",
+          "text": "Discuss how to plan and run a successful data gathering program."
+        },
+        {
+          "id": "TLO6",
+          "text": "Explain some advantages of involving users in development."
+        },
+        {
+          "id": "TLO7",
+          "text": "Analyze data gathered from questionnaires, interviews and observations."
+        },
+        {
+          "id": "TLO8",
+          "text": "Understand the essential characteristics of good design"
+        },
+        {
+          "id": "TLO9",
+          "text": "Discuss how to plan and run a successful data gathering program."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain some advantages of involving users in development."
+        },
+        {
+          "id": "TLO11",
+          "text": "Analyze data gathered from questionnaires, interviews and observations."
+        },
+        {
+          "id": "TLO12",
+          "text": "Understand the essential characteristics of good design"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        3
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Apply a variety of simple methods for evaluating the quality of a user interface, including collaborative review and feedback processes within Figma."
+        },
+        {
+          "id": "CLO5",
+          "text": "Evaluate the methods and techniques used in design for usability requirements, ensuring that designs created in Figma are responsive and meet diverse user needs."
+        },
+        {
+          "id": "CLO6",
+          "text": "Cultivate essential 21st- century skills such as critical thinking, creativity, collaboration, and communication through the practical application of Figma in design projects."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO13",
+          "text": "Describe prototyping and different types of prototyping activities."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explain how to do usability testing."
+        },
+        {
+          "id": "TLO15",
+          "text": "Explain how do heuristic evaluation and walkthroughs."
+        },
+        {
+          "id": "TLO16",
+          "text": "Identify key usability requirements for diverse user groups and analyze how these requirements influence design decisions."
+        },
+        {
+          "id": "TLO17",
+          "text": "Demonstrate the ability to use Figma to create responsive designs that meet specific usability requirements, ensuring accessibility and user-friendliness."
+        },
+        {
+          "id": "TLO18",
+          "text": "Evaluate design solutions for usability, gather user feedback, and iteratively improve their designs to better meet the needs of diverse users."
+        },
+        {
+          "id": "TLO19",
+          "text": "Students will develop essential 21st-century skills by using Figma in design projects, focusing on critical thinking and creativity to solve design problems and generate innovative solutions. Additionally, they will enhance their collaboration and communication abilities through effective teamwork and clear presentation of design ideas, utilizing Figma’s collaborative features to improve their overall design process."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

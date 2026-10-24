@@ -1,0 +1,170 @@
+{
+  "source": {
+    "filename": "S-ITNT416LA Big Data and Analytics Lab.pdf",
+    "sha256": "4e152bb221d6f09210204d0e70abc3aeeee8a06fa370a02dc8335b07e33c8fec",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITNT416LA",
+  "course_title": "Big Data And Analytics",
+  "course_type": "Laboratory",
+  "course_credit": "1 Unit",
+  "prerequisites": "S-ITNT344LC",
+  "corequisites": "S-ITNT416LC",
+  "track": "IT - Network Technology",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "Provides students with an overview of the current trends in information technology that drives today’s business. The course provides understanding on data management techniques that can help an organization achieve its business goals and address operational challenges. This also introduces different tools and methods used in business analytics to provide the students with opportunities to apply these techniques in simulations in a computer laboratory.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Apply data transformation techniques including standardization and encoding of categorical data using Pandas and NumPy."
+    },
+    {
+      "id": "CLO2",
+      "text": "Create data visualizations and dashboards to communicate analytical results 1 effectively."
+    },
+    {
+      "id": "CLO3",
+      "text": "Analyze datasets using machine learning algorithms and tools to extract meaningful insights."
+    },
+    {
+      "id": "CLO4",
+      "text": "Explain the purpose and activities involved in each stage of the life cycle."
+    },
+    {
+      "id": "CLO5",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Apply data transformation techniques including standardization and encoding of categorical data using Pandas and NumPy."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create data visualizations and dashboards to communicate analytical results effectively."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze datasets using machine learning algorithms and tools to extract meaningful insights."
+        },
+        {
+          "id": "CLO5",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Differentiate between various data transformation techniques such as standardization, normalization, and encoding."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the need for encoding categorical data and the different types of encoding techniques."
+        },
+        {
+          "id": "TLO3",
+          "text": "Demonstrate proficiency in using data visualization tools."
+        },
+        {
+          "id": "TLO4",
+          "text": "Design clear and informative visualizations that accurately represent data insights."
+        },
+        {
+          "id": "TLO5",
+          "text": "Preprocess datasets by cleaning, normalizing, and transforming data to be suitable for machine learning models."
+        },
+        {
+          "id": "TLO6",
+          "text": "Demonstrate the practical application of machine learning models to derive actionable insights from various datasets."
+        },
+        {
+          "id": "TLO8",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Explain the purpose and activities involved in each stage of the life cycle."
+        },
+        {
+          "id": "CLO4",
+          "text": "Demonstrate how big data analytics drives decision- making processes in different industry contexts."
+        },
+        {
+          "id": "CLO5",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Preprocess datasets by cleaning, normalizing, and transforming data to be suitable for machine learning models."
+        },
+        {
+          "id": "TLO6",
+          "text": "Demonstrate the practical application of machine learning models to derive actionable insights from various datasets."
+        },
+        {
+          "id": "TLO7",
+          "text": "Identify and describe major applications of big data across various industries such as healthcare, finance, retail, manufacturing, and telecommunications."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain how big data solutions address specific industry challenges and opportunities."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real- World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

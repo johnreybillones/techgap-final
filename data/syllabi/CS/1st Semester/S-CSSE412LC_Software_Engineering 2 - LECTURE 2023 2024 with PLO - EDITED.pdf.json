@@ -1,0 +1,269 @@
+{
+  "source": {
+    "filename": "S-CSSE412LC_Software_Engineering 2 - LECTURE 2023 2024 with PLO - EDITED.pdf",
+    "sha256": "74eb8edb33e1b3414751f0aa730c808f94326d2a54a3a1a02c0e53531febc8f9",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 17,
+    "field_pages": {
+      "course_code": [
+        3,
+        12,
+        13
+      ],
+      "course_title": [
+        3,
+        12,
+        13
+      ],
+      "course_type": [
+        3,
+        12,
+        13
+      ],
+      "course_credit": [
+        3,
+        12,
+        13
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3
+      ]
+    }
+  },
+  "course_code": "S-CSSE412",
+  "course_title": "Software Engineering 2",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "S-CSSE321LC",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "This course focuses on the examination, identification and use of designs patterns in the developments of software systems. It also focuses on the understanding of the UML process through UML extension mechanism, object constraint language, and model checking. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "evaluate software requirements and appraise the processes involved in discovering and documenting these requirements;"
+    },
+    {
+      "id": "CLO2",
+      "text": "examine different system models that may be developed as part of requirements engineering and system design processes;"
+    },
+    {
+      "id": "CLO3",
+      "text": "analyze the concepts of software architecture and architectural design;"
+    },
+    {
+      "id": "CLO4",
+      "text": "evaluate object-oriented software design using the UML and highlight important implementation concerns;"
+    },
+    {
+      "id": "CLO5",
+      "text": "identify software testing and software testing processes;"
+    },
+    {
+      "id": "CLO6",
+      "text": "explain why software evolution is such an important part of software engineering and to describe the challenges of maintaining a large base of software systems, developed over many years;"
+    },
+    {
+      "id": "CLO7",
+      "text": "discuss software project management and two important management activities, namely, risk management and people management; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Evaluate software requirements and appraise the processes involved in discovering and documenting these requirements."
+        },
+        {
+          "id": "CLO2",
+          "text": "Examine different system models that may be developed as part of requirements engineering and system design processes."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze the concepts of software architecture and architectural design."
+        },
+        {
+          "id": "CLO4",
+          "text": "Evaluate object-oriented software design using the UML and highlight important implementation concerns."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Evaluate the concepts of user and system requirements and why these requirements should be written in different ways."
+        },
+        {
+          "id": "TLO2",
+          "text": "Value the differences between functional and non- functional software requirements."
+        },
+        {
+          "id": "TLO3",
+          "text": "Appraise the main requirements engineering activities of elicitation, analysis, and validation, and the relationships between these activities."
+        },
+        {
+          "id": "TLO4",
+          "text": "Weigh why requirements management is necessary and how it supports other requirements engineering activities."
+        },
+        {
+          "id": "TLO5",
+          "text": "Relate how graphical models can be used to represent software systems and why several types of models are needed to fully represent a system."
+        },
+        {
+          "id": "TLO6",
+          "text": "Analyze the fundamental system modeling perspectives of context, interaction, structure, and behavior."
+        },
+        {
+          "id": "TLO7",
+          "text": "Distinguish the principal diagram types in the Unified Modeling Language (UML) and how these diagrams may be used in system modeling."
+        },
+        {
+          "id": "TLO8",
+          "text": "Relate to model-driven engineering, where an executable system is automatically generated from structural and behavioral models."
+        },
+        {
+          "id": "TLO9",
+          "text": "Distinguish why the architectural design of software is important."
+        },
+        {
+          "id": "TLO10",
+          "text": "Examine the decisions that must be made about the software architecture during the architectural design process."
+        },
+        {
+          "id": "TLO11",
+          "text": "Relate to the idea of Architectural patterns, well- tried ways of organizing software architectures that can be reused in system designs."
+        },
+        {
+          "id": "TLO12",
+          "text": "Distinguish how Application-Specific Architectural patterns may be used in transaction processing and language processing systems."
+        },
+        {
+          "id": "TLO13",
+          "text": "Appraise the most important activities in a general, object-oriented design process."
+        },
+        {
+          "id": "TLO14",
+          "text": "Select some of the different models that may be used to document an object-oriented design."
+        },
+        {
+          "id": "TLO15",
+          "text": "Support the idea of design patterns and how these are a way of reusing design knowledge and experience."
+        },
+        {
+          "id": "TLO16",
+          "text": "Weigh key issues that must be considered when implementing software, including software reuse and open-source development. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Comprehend software testing and software testing processes."
+        },
+        {
+          "id": "CLO6",
+          "text": "Explain why software evolution is such an important part of software engineering and to describe the challenges of maintaining a large base of software systems, developed over many years."
+        },
+        {
+          "id": "CLO7",
+          "text": "Discuss software project management and two important management activities, namely, risk management and people management."
+        },
+        {
+          "id": "CLO8",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO17",
+          "text": "Understand the stages of testing from testing during development to acceptance testing by system customers."
+        },
+        {
+          "id": "TLO18",
+          "text": "Identify techniques that help us choose test cases that are geared to discovering program defects."
+        },
+        {
+          "id": "TLO19",
+          "text": "Recognize test-first development, where you design tests before writing code and run these tests automatically."
+        },
+        {
+          "id": "TLO20",
+          "text": "Discuss the three distinct types of testing— component testing, system testing, and release testing"
+        },
+        {
+          "id": "TLO21",
+          "text": "Explain the distinctions between development testing and user testing."
+        },
+        {
+          "id": "TLO22",
+          "text": "Recognize that software systems must adapt and evolve if they are to remain useful and that software change and evolution should be considered as an integral part of software engineering."
+        },
+        {
+          "id": "TLO23",
+          "text": "Discuss what is meant by legacy systems and why these systems are important to businesses."
+        },
+        {
+          "id": "TLO24",
+          "text": "Describe how legacy systems can be assessed to decide whether they should be scrapped, maintained, reengineered, or replaced."
+        },
+        {
+          "id": "TLO25",
+          "text": "Recognize different types of software maintenance and the factors that affect the costs of making changes to legacy software systems."
+        },
+        {
+          "id": "TLO26",
+          "text": "Define the principal tasks of software project managers."
+        },
+        {
+          "id": "TLO27",
+          "text": "Explain risk management and some of the risks that can arise in software projects."
+        },
+        {
+          "id": "TLO28",
+          "text": "Discuss factors that influence personal motivation and what these might mean for software project managers."
+        },
+        {
+          "id": "TLO29",
+          "text": "Recognize key issues that influence team working, such as team composition, organization, and communication. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

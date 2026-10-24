@@ -1,0 +1,153 @@
+{
+  "source": {
+    "filename": "S-CSTH321 THESIS 1 Lec.pdf",
+    "sha256": "801d772314570ff13a4c1b9e199b463b90f0606cf22f22fa5cd2c71000acd1e7",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSTH321",
+  "course_title": "THESIS 1",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "Should be 3rd year level",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course improves your understanding of the various methods of research, some basic statistical designs and procedures, and the different parts of a thesis, including field and laboratory performance. The course output is an undergraduate thesis consisting of the defended proposal, results and discussions, and conclusion. This course includes the practical applications of Godly stewardship of nature through proper handling of different test organisms and research settings. It also includes character-building through proper experimentation and scientific paper oral presentation.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the latest concepts in systems design, software engineering and current technologies;"
+    },
+    {
+      "id": "CLO2",
+      "text": "investigate and evaluate prominent literature connected to the research topic;"
+    },
+    {
+      "id": "CLO3",
+      "text": "define the scope of the project, planning and scheduling the collaborative efforts of the team, and documenting the effort via oral and written proposals;"
+    },
+    {
+      "id": "CLO4",
+      "text": "demonstrate that they can function, communicate, collaborate and continue to learn effectively as ethically and socially responsible CS professionals;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop skills to communicate with and balance the interests of multiple stakeholders (both technical and non-technical) on a project; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "present to the assigned panelists the software for applications (Mobile apps, Game Creation, Artificial Intelligence, Internet of Things, Recommender Systems, Computer Vision, Natural Language Processing, Reinforcement Learning, Deep Learning and Machine Learning) with the necessary documentation."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the latest concepts in system design, software engineering and current technologies."
+        },
+        {
+          "id": "CLO2",
+          "text": "Investigate and evaluate prominent literature connected to the research topic."
+        },
+        {
+          "id": "CLO3",
+          "text": "Define the scope of the project, planning and scheduling the collaborative efforts of the team, and documenting the effort via oral and written proposals."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Apply concepts of computing and mathematics in different domains of computer science."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify and analyze problems and define computing requirements appropriate to their solutions."
+        },
+        {
+          "id": "TLO3",
+          "text": "Design, develop, test and evaluate various solutions using algorithms for complex computing problems that take full advantage of usability of computer resources."
+        },
+        {
+          "id": "TLO4",
+          "text": "Recognize the legal, social ethical, and professional issues involved in the utilization of computer technology and address these issues."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Demonstrate that they can function, communicate, collaborate, and continue to learn effectively as ethically and socially responsible Computer Science professionals."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop skills to communicate with and balance the interest of multiple stakeholders (both technical and non- technical) on project."
+        },
+        {
+          "id": "CLO6",
+          "text": "Present to the assigned panelists the software applications (Mobile apps, Game, Artificial Intelligence, Internet of Things, Recommender System, Computer Vision, Natural Language Processing, Reinforcement Learning, Deep Learning and Machine Learning) with the necessary documentation."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO5",
+          "text": "Document computer-based systems by writing effective reports of risk assessment impact."
+        },
+        {
+          "id": "TLO6",
+          "text": "Function effectively as a member or leader of a development team recognizing the different roles with a team to accomplish a common goal."
+        },
+        {
+          "id": "TLO7",
+          "text": "Engage in continuing professional development through performing independent or collaborative research as computer professionals."
+        },
+        {
+          "id": "TLO8",
+          "text": "Work effectively as an individual or as a member of a team during software development."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}
