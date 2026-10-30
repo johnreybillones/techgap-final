@@ -65,7 +65,7 @@ The full required scope includes curriculum and job-skill analysis, academic das
 | Information | Required content and boundary |
 | --- | --- |
 | Official academic reference | Applicable program and track; course identity and title; documented learning outcomes and technical topics/competencies, derived from official syllabi and pre-validated before analysis. Common/core courses are included where applicable. |
-| Academic constraint reference | Authoritative academic requirements sufficient to preserve mandated competencies, core-course obligations, and applicable minimum academic requirements when reviewing recommendations and simulated changes. This specification does not invent unit figures or protected course identifiers. |
+| Academic constraint reference | CHED CMO No. 25, s. 2015 minimums for the selected program: program outcomes, minimum units, common courses and required knowledge areas. A fixed reference; institutional constraints are not stored. |
 | Job-market reference | Computing-related Philippine JobStreet postings, associated career roles, technical skill requirements, and the demand information used in the analysis. Chapter 1's approximately 5,000 postings describes its study dataset, not an exact contractual minimum or maximum. |
 | Student selections | Program, applicable specialization track, year level, completed official courses selected for inclusion, and target career role. No name or student number is required for this experience. |
 | Academic-user selections | Selected curriculum track; proposed additions or enhancements when using simulation. |
@@ -83,7 +83,7 @@ Research-demographic questions do not automatically become system input requirem
 | Gap and low-demand topic report | Covered skills and possible gaps; demand-related gap priorities; low-demand curriculum topics; selected-track context; explanations for the findings. |
 | Curriculum recommendations | Proposed additions or enhancements; identified gap; related course or curriculum area; explanation connecting the proposal to the finding; preservation of academic constraints. |
 | Curriculum revision guidance | Prioritized enhancements and course-level changes; their projected effects on alignment; explanations and academic constraints; clear separation of current findings from projected improvements. This guidance may be included in the academic review report. |
-| Academic review report | Selected track; consolidated alignment findings, gap findings and priorities, and curriculum recommendations; summarized explanations suitable for academic discussion; printable presentation and a means to retain or share the generated artifact. |
+| Academic review report | Selected track; consolidated alignment findings, gap findings and priorities, and curriculum recommendations; summarized explanations suitable for academic discussion; printable, shareable by URL. |
 | Curriculum simulation | Existing curriculum baseline; proposed enhancements; projected effects on alignment; a clear distinction between current findings and projected outcomes. |
 | Career-role suggestions | Ranked roles related to selected coursework; role skill requirements that support comparison; another available role as an alternative analysis target; identification of the selected role. |
 | Personal alignment results | Selected academic context and completed-course basis; selected career role; alignment score; covered skills and gaps; future curriculum coverage; explanations consistent with those results. |
@@ -105,7 +105,7 @@ No requirement is made for a particular number of career suggestions, named dash
 | BR-06 | Logically covered skills shall be recognized through justified relationships to represented competencies rather than reported automatically as missing because of different wording. Their treatment shall have an explanation connected to the academic evidence. | CH1 §§1.3, 1.5; FQ-GO1, GO4 |
 | BR-07 | Gap priorities and low-demand findings shall be grounded in the analyzed job dataset. Findings shall not be represented as an exhaustive account of the whole job market. | FQ-GO2–GO4; CH1 §1.7 |
 | BR-08 | Low demand is a reason for academic review. It shall not automatically establish that a topic is obsolete, authorize its removal, or override mandated coverage. | FQ-GO3–GO4; CH1 §1.7 |
-| BR-09 | Curriculum recommendations and simulated enhancements shall be additive and preserve mandated competencies, core-course obligations, and applicable minimum academic requirements. | FQ-CR3; CH1 §§1.2, 1.7 |
+| BR-09 | Curriculum recommendations and simulated enhancements shall be additive and preserve mandated competencies, core-course obligations, and applicable minimum academic requirements. Each recommendation shall name the CMO 25 knowledge area it falls under. Removal of coursework shall not be recommended. | FQ-CR3; CH1 §§1.2, 1.7 |
 | BR-10 | Simulated improvements shall be presented as projected outcomes, distinct from current curriculum findings and from adopted institutional changes. | CH1 §§1.2, 1.6–1.7 |
 | BR-11 | Role selection shall determine the experience shown; it shall not be described as authenticated identity or verified academic authority. | U3 |
 | BR-12 | Relevant changes in selections shall be reflected in all related results. Previously selected context shall not be presented as if it belongs to the new analysis. | FQ-FA1, FA4; SQ-FA1, FA4; FQ/SQ-FA5 |
@@ -142,11 +142,11 @@ Retention is a requirement on selections. It does not introduce verified identit
 | FR-A03 | The system shall present an alignment summary and score alongside the industry skill requirements associated with the same selected track. | FQ-CA1, CA3, CA5; FQ-FA3 |
 | FR-A04 | The system shall present covered skills and possible missing competencies and explain the evidence supporting their classification. | FQ-GO1, GO4; CH1 §1.3 |
 | FR-A05 | The system shall present identified gaps in a priority order related to demand in the analyzed dataset. | FQ-GO2 |
-| FR-A06 | The system shall identify low-demand curriculum topics for the selected track, relate them to curriculum content, and explain why they warrant further review. | FQ-GO3–GO5 |
+| FR-A06 | The system shall identify low-demand curriculum topics for the selected track, relate them to curriculum content, and explain why they warrant further review. They shall be listed for review, and marked CHED-mandated where they fall in a required knowledge area. | FQ-GO3–GO5 |
 | FR-A07 | The system shall recommend additions or enhancements that address identified gaps, identify the related course or curriculum area, explain the relationship to the finding, and apply BR-09 and BR-13. | FQ-CR1–CR4; CH1 §§1.2, 1.7 |
 | FR-A08 | The system shall allow identified gaps and their proposed enhancements to be reviewed together. | FQ-CR5 |
-| FR-A09 | The system shall generate a consolidated academic report containing the selected track, alignment findings, gaps and priorities, curriculum recommendations, and summarized findings suitable for academic review. | FQ-GR1, GR2, GR4 |
-| FR-A10 | The system shall provide a printable academic report and allow its findings to be retained or shared as a review artifact. No particular distribution channel is required. | FQ-GR3, GR5 |
+| FR-A09 | The system shall generate a consolidated academic report containing the selected track, alignment findings, gaps and priorities, curriculum recommendations, and summarized findings suitable for academic review. The report shall state that recommendations are additive and checked against CMO 25, and that institutional constraints remain for faculty to verify. | FQ-GR1, GR2, GR4 |
+| FR-A10 | The system shall provide the academic report as a printable page that can be shared by URL and reproduces the same content for the same data release. | FQ-GR3, GR5 |
 | FR-A11 | The system shall provide curriculum revision guidance that prioritizes proposed enhancements, identifies their target courses or curriculum areas, and presents their projected alignment effects separately from current findings. This guidance may be included in the consolidated academic report. | CH1 §1.2, p. 14 |
 
 ### 5.4 Curriculum-change simulation
@@ -245,7 +245,7 @@ These are study-specific user outcomes, separate from the selected ISO-informed 
 
 ### 8.1 Academic standards
 
-Chapter 1 identifies CHED CMO No. 25, Series of 2015 as the academic standards reference for the programs. TechGap's recommendations and simulations shall preserve applicable national and institutional academic requirements, including mandated competencies, core courses, and minimum academic requirements. This is the standards obligation specified by the supplied paper; this document does not independently establish particular regulatory unit floors or protected-course lists. [CH1 §1.1, pp. 8–12; §1.2, p. 14; §1.7, p. 24]
+Chapter 1 identifies CHED CMO No. 25, Series of 2015 as the academic standards reference for the programs. TechGap's recommendations and simulations shall preserve applicable national and institutional academic requirements, including mandated competencies, core courses, and minimum academic requirements. This is the standards obligation specified by the supplied paper. [CH1 §1.1, pp. 8–12; §1.2, p. 14; §1.7, p. 24]
 
 ### 8.2 Software quality assessment
 

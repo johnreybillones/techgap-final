@@ -100,7 +100,22 @@ Report returned, billed, invalid, distinct, new, provisional relevant, sample-ch
 5. **Choose the next bounded step:** the 2026-10-23 pagination comparison is complete and remains `pagination_unverified`; Shahidirfan stays the bounded recent first-page default, and the Blackfalcon output is retained as candidate-depth evidence. Reuse saved data and diversify queries during later planning. Any future pagination run or older date-window test needs separate scope and authorization. No further run is scheduled or authorized by this completed test. If measured new assessable yield is adequate across the four tracks and shared work, plan a staged larger batch and remeasure after each batch. No single pilot establishes the 1,000/4,000 targets, representativeness or model accuracy.
 6. **Freeze a release:** preserve raw and index hashes, count denominators, query/run/date/cost evidence, missingness, unresolved access or billing limitations, and the provisional versus checked status of relevance estimates.
 
-Do not broaden the campaign, adopt a recurring schedule, switch source/actor, or count internships toward the employment goal without a new scope and measured reason. If supply is unavailable within the twelve-month boundary, report the shortfall. Faculty and student outputs must carry the observation window, distinct-posting denominator and evidence limitations from this collection.
+Do not broaden the campaign, switch source/actor, or count internships toward the employment goal without a new scope and measured reason. A recurring schedule is planned only as the yearly refresh in §8, and is not yet scheduled or authorized. If supply is unavailable within the twelve-month boundary, report the shortfall. Faculty and student outputs must carry the observation window, distinct-posting denominator and evidence limitations from this collection.
+
+## 8. Planned yearly refresh
+
+**Decided by the user, 2026-10-30:** job postings are to be re-collected **every year** so results stay current. This was not in the earlier plan, which said no recurring schedule was adopted; it supersedes that statement for the yearly refresh only.
+
+What stays unchanged: each refresh is still a new bounded collection with its own frozen saved-ID registry, query list, observation window, source-access basis, spending ceiling and run-level reconciliation (§3–§5). Past permission or a past ceiling does not authorize a later year's run. Each year's output is a new raw release, normalized by the same versioned rules, and the old releases stay as history. Downstream processing after the data arrives is covered in [planned data flow](PLANNED_DATA_FLOW.md) §7.
+
+**Decided by the user, 2026-10-30:** the yearly run starts **automatically, with no person approving each run**. This replaces the per-run approval for the yearly refresh only. The person-free start is acceptable only inside a standing authorization that exists before the first automatic run and records:
+- a fixed **yearly cost ceiling**: USD 5 per year, set by the user on 2026-10-30 (it is the actor's monthly free allowance). The per-run ceiling is the same USD 5 unless a lower one is set; the run must never exceed it;
+- the frozen query list, actor and build, observation window and result limits;
+- a standing source-access basis covering recurring yearly use. The [JobStreet terms](https://ph.jobstreet.com/terms) require prior written consent for automated extraction, and the only recorded basis covers the 2026-10 pilots. Automation cannot create that consent.
+
+The existing stop rules (§5) must then abort the run automatically, with no retry: unreconciled billing, exceeded or unenforceable cap, access or contract change, incomplete dataset, systematic missing descriptions, or an unknown paid-start outcome. An aborted run is saved with its reason for a person to read afterwards.
+
+**Open:** the cost ceiling is set (USD 5). The user will obtain JobStreet's standing written consent before the first yearly run (stated 2026-10-30); the evidence is not recorded yet, and until it is, no automatic run is authorized. The international pool's own yearly collection also still needs its own plan, source-access basis and ceiling (§1).
 
 ## Appendix: historical query inventory
 
