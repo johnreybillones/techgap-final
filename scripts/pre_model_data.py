@@ -443,7 +443,6 @@ def build_syllabi(repo_root, issues, input_hashes):
             issues.append(issue("syllabus", "malformed_json", rel, evidence=str(exc)))
             continue
         source = obj.get("source") if isinstance(obj.get("source"), dict) else {}
-        fields = {k: obj.get(k) for k in ("course_code", "track", "course_description", "course_learning_outcomes", "learning_plan", "status", "issues")}
         type_warnings = []
         for key in ("course_code", "track", "course_description", "status"):
             if key in obj and obj[key] is not None and not isinstance(obj[key], str):
@@ -969,9 +968,6 @@ def finalize(release):
     rows = load_release(release)
     documents = {x["document_id"]: x for x in rows("documents.jsonl")}
     queue = rows("annotation_queue.jsonl")
-    by_id = {x["queue_id"]: x for x in queue}
-    path_map = {x["kind"]: release / ("job_decisions.jsonl" if x["kind"] == "job" else "span_drafts.jsonl") for x in queue}
-    check_path = release / "ai_checks.jsonl"
     issues = rows("issues.jsonl")
     job_rows = rows("job_decisions.jsonl")
     span_rows = rows("span_drafts.jsonl")

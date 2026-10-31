@@ -6,20 +6,18 @@ from pathlib import Path
 
 try:  # Support both `python -m scripts.jobs.collect` and direct script execution.
     from .registry import Registry
-    from .apify_adapter import verify_execution_gate
     from .contracts import canonical_hash, validate_item, validate_config, validate_run_metadata
     from .release import freeze_raw_release, freeze_release, validate_release
-    from .acquisition_state import AcquisitionState, StateError
+    from .acquisition_state import AcquisitionState
     from .apify_adapter import (AdapterError, ApifyTransport, build_request, download_dataset, load_token,
         poll_run, preflight, run_metadata, start_run, _atomic_json, _get_retry, sanitize, _provider_id)
 except ImportError:  # pragma: no cover - exercised by the direct CLI entry point
     import sys
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from jobs.registry import Registry
-    from jobs.apify_adapter import verify_execution_gate
     from jobs.contracts import canonical_hash, validate_item, validate_config, validate_run_metadata
     from jobs.release import freeze_raw_release, freeze_release, validate_release
-    from jobs.acquisition_state import AcquisitionState, StateError
+    from jobs.acquisition_state import AcquisitionState
     from jobs.apify_adapter import (AdapterError, ApifyTransport, build_request, download_dataset, load_token,
         poll_run, preflight, run_metadata, start_run, _atomic_json, _get_retry, sanitize, _provider_id)
 
@@ -96,7 +94,6 @@ def import_run(root, input_file, *, run_id, query_id, run_metadata=None):
             continue
         created = registry.import_item(item, run_id=run_id, dataset_item_id=index, query_id=query_id)
         imported += int(created)
-        posting_key = "jobstreet:ph:" + str(item["id"])
     from datetime import datetime, timezone
     run_record = {"run_id": run_id, "dataset_id": None, "query_id": query_id,
         "actor_id": None, "build": None, "started_at": None, "finished_at": None,

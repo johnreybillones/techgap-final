@@ -1,4 +1,4 @@
-import csv, json, re, html, os
+import csv, json, re, html
 from pathlib import Path
 from collections import Counter
 

@@ -118,7 +118,6 @@ class AcquisitionState:
         if any(row.get("cap_violation") for row in self._all_requests()):
             raise StateError("prior_run_exceeded_pilot_cap")
         ledger = self._ledger()
-        reservation_ids = {r.get("request_id") for r in ledger if r.get("event") == "reservation"}
         settled = {r.get("request_id") for r in ledger if r.get("event") in {"settlement", "release"}}
         outstanding = sum((Decimal(r["amount_usd"]) for r in ledger if r.get("event") == "reservation"
                            and r.get("request_id") not in settled), Decimal("0"))

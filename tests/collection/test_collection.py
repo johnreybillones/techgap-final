@@ -1,7 +1,6 @@
 import sys
 import tempfile
 import unittest
-from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -9,7 +8,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from jobs.registry import Registry
 from jobs.admission import evaluate
-from jobs.contracts import canonical_hash, validate_item, validate_run_metadata
+from jobs.contracts import validate_item, validate_run_metadata
 from jobs.release import freeze_release, validate_release
 from jobs.collect import _terminal_charge, prepare, import_run
 from unittest.mock import patch

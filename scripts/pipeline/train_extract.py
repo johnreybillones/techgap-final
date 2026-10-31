@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from scripts.pipeline import evaluate  # noqa: E402
-from scripts.pipeline.run_extraction import (LABELS, THRESHOLDS, SEED, check_isolation, load_split, rows, run_model,  # noqa: E402
+from scripts.pipeline.run_extraction import (THRESHOLDS, SEED, check_isolation, load_split, rows, run_model,  # noqa: E402
                                              score, sha, spans_from, write_jsonl)
 
 # Bounded search from the plan: 2 encoder rates x 2 task-head rates.
