@@ -11,11 +11,15 @@ from jobs.registry import Registry
 from jobs.admission import evaluate
 from jobs.contracts import canonical_hash, validate_item, validate_run_metadata
 from jobs.release import freeze_release, validate_release
-from jobs.collect import prepare, import_run
+from jobs.collect import _terminal_charge, prepare, import_run
 from unittest.mock import patch
 
 
 class CollectionTests(unittest.TestCase):
+    def test_terminal_charge_prefers_settled_usage_total_on_every_path(self):
+        self.assertEqual(_terminal_charge({"usageTotalUsd": 1.25, "chargedUsd": 9.0}), 1.25)
+        self.assertEqual(_terminal_charge({"usageTotalUsd": None, "chargedUsd": 9.0}), 9.0)
+
     def test_import_preserves_verified_run_metadata_and_rejects_mismatches(self):
         metadata = {"run_id": "r2", "query_id": "WD01", "dataset_id": "d1", "actor_id": "a1",
                     "actor": "actor/name", "build": "0.0.36", "build_id": "b1",
@@ -53,6 +57,21 @@ class CollectionTests(unittest.TestCase):
             self.assertEqual(len(list((Path(temp) / "raw").rglob("*.json"))), 1)
             self.assertEqual(len(registry.read_jsonl("observations.jsonl")), 1)
             self.assertIsNone(registry.read_jsonl("versions.jsonl")[0]["fields"]["salary"])
+
+    def test_raw_import_does_not_depend_on_or_write_legacy_admission(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = prepare(Path(temp), "repair", "2026-10-22T00:00:00+00:00")
+            source = Path(temp) / "items.json"
+            item = {"id": "123", "url": "https://ph.jobstreet.com/job/123", "title": "Junior Developer",
+                "postedAt_iso": "2026-10-01T00:00:00Z", "location": "Manila, Philippines",
+                "description_text": "Fresh graduates welcome. Build software applications.", "workType": "Full time"}
+            source.write_text(__import__("json").dumps([item]), encoding="utf-8")
+            registry = Registry(root)
+            result = import_run(root, source, run_id="r1", query_id="WD01")
+            self.assertEqual(result["new_observations"], 1)
+            self.assertEqual(result["distinct_source_ids_observed"], 1)
+            self.assertEqual(registry.read_jsonl("admission.jsonl"), [])
+            self.assertFalse((root / "eligible_frame.jsonl").exists())
 
     def test_registry_repairs_raw_item_append_after_interrupted_observation_write(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -125,7 +144,8 @@ class CollectionTests(unittest.TestCase):
             source.write_text(json.dumps([item]), encoding="utf-8")
             result = import_run(root, source, run_id="r1", query_id="WD01")
             self.assertEqual(result["new_observations"], 1)
-            self.assertEqual(len((root / "eligible_frame.jsonl").read_text(encoding="utf-8").splitlines()), 1)
+            self.assertEqual(result["distinct_source_ids_observed"], 1)
+            self.assertFalse((root / "admission.jsonl").exists())
             self.assertTrue((root / "raw" / "r1" / "items.jsonl").is_file())
 
 

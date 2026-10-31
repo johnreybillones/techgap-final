@@ -46,8 +46,7 @@ class Registry:
         raw_hash = canonical_hash(item)
         observation_id = canonical_hash([run_id, str(dataset_item_id), raw_hash])
         observations = self.read_jsonl("observations.jsonl")
-        if any(row["observation_id"] == observation_id for row in observations):
-            return False
+        observation_exists = any(row["observation_id"] == observation_id for row in observations)
         source_id = str(item["id"])
         posting_key = "jobstreet:ph:" + source_id
         raw_path = Path("raw") / run_id / (raw_hash + ".json")
@@ -72,7 +71,8 @@ class Registry:
             self._append("versions.jsonl", {"version_id": version_id, "posting_key": posting_key,
                 "raw_hash": raw_hash, "raw_file": raw_path.as_posix(), "description_hash": description_hash,
                 "fields": item, "full_description": bool(item.get("description_text") or item.get("description_html"))})
-        self._append("observations.jsonl", {"observation_id": observation_id, "posting_key": posting_key,
-            "version_id": version_id, "run_id": run_id, "dataset_item_id": str(dataset_item_id),
-            "query_id": query_id, "raw_hash": raw_hash, "raw_file": raw_path.as_posix()})
-        return True
+        if not observation_exists:
+            self._append("observations.jsonl", {"observation_id": observation_id, "posting_key": posting_key,
+                "version_id": version_id, "run_id": run_id, "dataset_item_id": str(dataset_item_id),
+                "query_id": query_id, "raw_hash": raw_hash, "raw_file": raw_path.as_posix()})
+        return not observation_exists

@@ -90,12 +90,48 @@ def build_request(config, *, query_id, results_wanted, charge_cap_usd, campaign_
         errors.append(str(exc))
         start = end = None
     current = _dt(now or datetime.now(timezone.utc).isoformat(), "now")
+    if end is not None and (end > current or (current - end).total_seconds() > 3600):
+        errors.append("stale_window_end")
     if not isinstance(results_wanted, int) or isinstance(results_wanted, bool) or results_wanted < 1:
         errors.append("invalid_results_wanted")
     adapter = config.get("live_adapter") or {}
+    core_ids = config.get("pilot_core_query_ids")
+    optional_ids = config.get("pilot_optional_query_ids", [])
+    query_rows = {row.get("query_id"): row for row in queries if isinstance(row, dict)}
+    configured_ids = set(query_rows)
+    valid_core_list = (isinstance(queries, list) and len(query_rows) == len(queries) and
+                       isinstance(core_ids, list) and
+                       all(isinstance(qid, str) for qid in core_ids) and
+                       len(set(core_ids)) == len(core_ids) and set(core_ids) <= configured_ids)
+    if not valid_core_list:
+        errors.append("pilot_core_query_scope_invalid")
+    elif len(core_ids) == 4:
+        if optional_ids != []:
+            errors.append("pilot_four_game_mode_has_no_optional_queries")
+        core_rows = [query_rows[qid] for qid in core_ids]
+        if any(row.get("family") != "Game Development" or row.get("status", "enabled") != "enabled"
+               for row in core_rows):
+            errors.append("pilot_four_core_queries_must_be_game_development_only")
+    elif len(core_ids) == 6:
+        if [query_rows[qid].get("family") for qid in core_ids[:5]] != [
+                "Intelligent Systems", "Game Development", "Network Technology", "Web Development", "Shared/core"]:
+            errors.append("pilot_core_queries_must_cover_four_tracks_and_shared_work")
+        if any(query_rows[qid].get("status", "enabled") != "enabled" for qid in core_ids):
+            errors.append("pilot_core_queries_must_be_enabled")
+    else:
+        errors.append("pilot_requires_six_core_or_four_game_queries")
+    if (not isinstance(optional_ids, list) or len(optional_ids) > 2 or
+            any(not isinstance(qid, str) for qid in optional_ids) or
+            len(set(optional_ids)) != len(optional_ids) or not set(optional_ids) <= configured_ids or
+            isinstance(core_ids, list) and bool(set(optional_ids) & set(core_ids))):
+        errors.append("invalid_conditional_query_scope")
+    elif any(query_rows[qid].get("status", "enabled") != "enabled" for qid in optional_ids):
+        errors.append("conditional_queries_must_be_enabled")
+    if query_id not in (core_ids or []) and query_id not in (optional_ids if isinstance(optional_ids, list) else []):
+        errors.append("query_outside_pilot_scope")
     required = ("actor_id", "actor_name", "build_number", "build_id", "actor_contract_sha256", "actor_contract_verified_at",
                 "actor_contract_evidence", "allowance_verified_at", "allowance_evidence", "verified_available_usd",
-                "allowance_snapshot_basis", "allowance_reconciliation_evidence", "campaign_ceiling_usd", "baseline_spend_usd",
+                "allowance_snapshot_basis", "allowance_reconciliation_evidence", "campaign_ceiling_usd", "baseline_spend_usd", "per_run_cap_usd",
                 "source_access_basis", "authorized_collection_scope",
                 "timeout_secs", "memory_mbytes", "max_results_per_run")
     errors.extend("missing_" + key for key in required if adapter.get(key) in (None, "", {}))
@@ -143,10 +179,13 @@ def build_request(config, *, query_id, results_wanted, charge_cap_usd, campaign_
             errors.append("stale_contract_evidence")
         verified = _money(adapter.get("verified_available_usd"), "verified_available_usd")
         ceiling = _money(adapter.get("campaign_ceiling_usd"), "campaign_ceiling_usd")
+        per_run_ceiling = _money(adapter.get("per_run_cap_usd"), "per_run_cap_usd")
         baseline = Decimal(str(adapter.get("baseline_spend_usd")))
         cap = _money(charge_cap_usd, "charge_cap_usd")
         if not baseline.is_finite() or baseline < 0: errors.append("invalid_baseline_spend_usd")
-        if ceiling > min(Decimal("5.00"), verified): errors.append("campaign_ceiling_exceeds_verified_allocation")
+        if ceiling > min(Decimal("0.30"), verified): errors.append("campaign_ceiling_exceeds_pilot_limit")
+        if per_run_ceiling > Decimal("0.05"): errors.append("configured_per_run_cap_exceeds_pilot_limit")
+        if cap > per_run_ceiling: errors.append("charge_cap_exceeds_configured_per_run_cap")
         if cap > ceiling - baseline: errors.append("charge_cap_exceeds_remaining_campaign_funds")
     except (ExecutionGateError, InvalidOperation, TypeError, ValueError) as exc:
         errors.append(str(exc) or "invalid_budget")
@@ -161,16 +200,22 @@ def build_request(config, *, query_id, results_wanted, charge_cap_usd, campaign_
             not 1 <= adapter.get("max_results_per_run", 0) <= 25 or
             isinstance(results_wanted, int) and results_wanted > adapter.get("max_results_per_run", 0)):
         errors.append("results_limit_exceeded")
+    if adapter.get("timeout_secs") != 300:
+        errors.append("pilot_timeout_must_be_300_seconds")
+    if cap > Decimal("0.05"):
+        errors.append("pilot_per_run_cap_exceeds_0.05_usd")
     if errors:
         raise ExecutionGateError("Live collection blocked: " + ", ".join(dict.fromkeys(errors)))
-    age = max(0, (current - start).total_seconds())
-    posted = "24h" if age <= 86400 else "7d" if age <= 7 * 86400 else "30d" if age <= 30 * 86400 else "anytime"
+    # ponytail: actor date filters are relative; reject stale frozen windows instead of silently widening them.
+    span = (end - start).total_seconds()
+    posted = "24h" if span <= 86400 else "7d" if span <= 7 * 86400 else "30d" if span <= 30 * 86400 else "anytime"
     payload = {"keyword": query["keyword"], "location": "", "country": "ph", "posted_date": posted,
                "results_wanted": results_wanted, "proxyConfiguration": {"useApifyProxy": False}}
     return {"request_id": str(uuid.uuid4()), "campaign_id": config.get("campaign_id"), "query_id": query_id,
             "input": payload, "run_options": {"build": adapter["build_number"], "timeout": adapter["timeout_secs"],
             "memory": adapter["memory_mbytes"], "maxTotalChargeUsd": float(cap), "restartOnError": False},
             "reserved_usd": str(cap), "window_start": config["window_start"], "window_end": config["window_end"],
+            "pilot_stage": "core" if query_id in core_ids else "conditional",
             "query_registry_sha256": canonical_hash(queries), "config_sha256": canonical_hash(config),
             "actor_id": adapter["actor_id"], "actor_name": adapter["actor_name"],
             "expected_build_id": adapter["build_id"], "expected_build_number": adapter["build_number"],
@@ -228,7 +273,9 @@ class ApifyTransport:
     @staticmethod
     def _request(method, path, query, body, timeout, headers):
         from urllib.parse import urlencode
-        url = API_ORIGIN + path + (("?" + urlencode(query)) if query else "")
+        encoded_query = {key: str(value).lower() if isinstance(value, bool) else value
+                         for key, value in query.items()}
+        url = API_ORIGIN + path + (("?" + urlencode(encoded_query)) if query else "")
         data = None if body is None else json.dumps(body).encode("utf-8")
         req = Request(url, data=data, method=method, headers=headers)
         class NoRedirect(HTTPRedirectHandler):
@@ -265,7 +312,24 @@ def preflight(config, request, transport):
         raise AdapterError("contract_changed", "saved actor contract hash does not match its evidence file")
     snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
     live_input = (build.get("actorDefinition") or {}).get("input")
-    if not isinstance(live_input, dict) or canonical_hash(live_input) != canonical_hash(snapshot.get("input_schema")):
+    expected_input = snapshot.get("input_schema")
+    def contract_shape(schema):
+        if isinstance(schema, dict):
+            return {key: contract_shape(value) for key, value in schema.items()
+                    if key not in {"editor", "enumTitles"}}
+        if isinstance(schema, list):
+            return [contract_shape(value) for value in schema]
+        return schema
+    compatible_input = isinstance(live_input, dict) and isinstance(expected_input, dict)
+    if compatible_input:
+        # This is a behavioral constraint already enforced by build_request.
+        live_shape = contract_shape(live_input)
+        if (isinstance(live_shape.get("properties"), dict) and
+                live_shape["properties"].get("results_wanted", {}).get("minimum") == 1 and
+                "minimum" not in expected_input.get("properties", {}).get("results_wanted", {})):
+            live_shape["properties"]["results_wanted"].pop("minimum")
+        compatible_input = canonical_hash(live_shape) == canonical_hash(contract_shape(expected_input))
+    if not compatible_input:
         raise AdapterError("contract_changed", "pinned build input schema differs from the saved actor contract")
     pricing_rows = actor.get("pricingInfos") or []
     now = datetime.now(timezone.utc)
@@ -317,7 +381,11 @@ def start_run(request, transport, state):
         response, _ = transport.request("POST", "/v2/actors/{}/runs".format(request["actor_id"]),
                                         query=request["run_options"], body=request["input"], timeout=30)
     except Exception as exc:
-        state.update(request["request_id"], "start_outcome_unknown", last_error_category="start_outcome_unknown")
+        category = exc.category if isinstance(exc, AdapterError) else "unexpected_transport_error"
+        detail = str(exc) if isinstance(exc, AdapterError) else type(exc).__name__
+        message = sanitize(detail, transport.token)[:2000]
+        state.update(request["request_id"], "start_outcome_unknown", last_error_category=category,
+                     last_error_message=message, start_error_category=category, start_error_message=message)
         raise AdapterError("start_outcome_unknown", "start outcome is unknown; reconcile in Apify Console before resuming") from exc
     run = response.get("data") if isinstance(response, dict) and isinstance(response.get("data"), dict) else response
     if not isinstance(run, dict) or not run.get("id"):
@@ -393,6 +461,25 @@ def download_dataset(run, transport, state, request_id, *, page_size=1000, clock
     expected_total = dataset.get("itemCount")
     if not isinstance(expected_total, int) or expected_total < 0:
         raise AdapterError("invalid_dataset_metadata", "dataset item count is unavailable")
+    # A successful run can become visible before its default dataset is populated.
+    # Require three matching metadata reads before accepting an empty dataset.
+    if expected_total == 0:
+        stable_reads = 1
+        for _ in range(5):
+            if stable_reads >= 3:
+                break
+            sleep(2)
+            refreshed, _ = _get_retry(transport, "/v2/datasets/" + dataset_id, query={"limit": 0}, sleep=sleep)
+            refreshed_data = refreshed.get("data", refreshed) if isinstance(refreshed, dict) else {}
+            refreshed_total = refreshed_data.get("itemCount")
+            if not isinstance(refreshed_total, int) or refreshed_total < 0:
+                raise AdapterError("invalid_dataset_metadata", "dataset item count is unavailable")
+            if refreshed_total != expected_total:
+                expected_total = refreshed_total
+                stable_reads = 1
+            else:
+                stable_reads += 1
+            dataset = refreshed_data
     state.update(request_id, "downloading", dataset_id=dataset_id, expected_total=expected_total)
     offset = 0
     combined = []
@@ -464,5 +551,6 @@ def run_metadata(run, request, dataset_id, imported_status="downloaded"):
             "provider_status": run.get("status"), "import_status": imported_status,
             "actual_run_options": sanitize(run.get("options", {})),
             "requested_run_options": request.get("run_options"),
-            "provider_charge_usd": run.get("chargedUsd", run.get("usageTotalUsd")),
+            "provider_charge_usd": (run.get("usageTotalUsd") if run.get("usageTotalUsd") is not None
+                                     else run.get("chargedUsd")),
             "charged_event_counts": run.get("chargedEventCounts"), "pricing_info": sanitize(run.get("pricingInfo", {}))}

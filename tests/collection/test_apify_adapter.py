@@ -7,7 +7,8 @@ import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
+from urllib.parse import parse_qs, urlparse
 
 from scripts.jobs.apify_adapter import (AdapterError, ApifyTransport, ExecutionGateError, build_request,
     download_dataset, load_token, poll_run, start_run, verify_execution_gate)
@@ -16,6 +17,20 @@ from scripts.jobs.acquisition_state import AcquisitionState
 
 
 class AdapterPreviewTests(unittest.TestCase):
+    def test_transport_encodes_boolean_query_values_as_lowercase(self):
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.read.return_value = b'{"data":{}}'
+        response.headers.items.return_value = []
+        opener = MagicMock()
+        opener.open.return_value = response
+        with patch("scripts.jobs.apify_adapter.build_opener", return_value=opener):
+            ApifyTransport("sentinel").request("POST", "/v2/actors/actor/runs",
+                query={"restartOnError": False, "otherFlag": True}, body={})
+        url = opener.open.call_args.args[0].full_url
+        self.assertEqual(parse_qs(urlparse(url).query)["restartOnError"], ["false"])
+        self.assertEqual(parse_qs(urlparse(url).query)["otherFlag"], ["true"])
+
     def config(self, root):
         now = datetime.now(timezone.utc)
         end = now.isoformat()
@@ -38,11 +53,14 @@ class AdapterPreviewTests(unittest.TestCase):
                     "allowance_verified_at": (now - timedelta(hours=1)).isoformat(), "allowance_evidence": str(allowance),
                     "allowance_snapshot_basis": "pilot cost already reflected; baseline is zero",
                     "allowance_reconciliation_evidence": str(allowance),
-                    "verified_available_usd": "5.00", "campaign_ceiling_usd": "5.00", "baseline_spend_usd": "0",
+                    "verified_available_usd": "5.00", "campaign_ceiling_usd": "0.30", "baseline_spend_usd": "0",
+                    "per_run_cap_usd": "0.05",
                     "authorized_collection_scope": {"reference": "approval-1", "evidence": str(auth), "campaign_id": "c1",
                         "query_ids": ["WD01"], "window_start": (now - timedelta(days=30)).isoformat(),
                         "window_end": end, "max_charge_usd": "0.05"},
-                    "timeout_secs": 300, "memory_mbytes": 1024, "max_results_per_run": 25}}
+                    "timeout_secs": 300, "memory_mbytes": 1024, "max_results_per_run": 25},
+                "pilot_core_query_ids": ["IS04", "GD01", "NT01", "WD01", "SH01", "SH05"],
+                "pilot_optional_query_ids": [], "conditional_start_evidence": {}}
 
     def test_builds_exact_registered_preview_and_filter(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -54,6 +72,61 @@ class AdapterPreviewTests(unittest.TestCase):
             self.assertEqual(request["input"]["posted_date"], "30d")
             self.assertEqual(request["input"]["results_wanted"], 25)
             self.assertEqual(request["run_options"]["build"], "0.0.36")
+
+    def test_four_game_core_queries_are_supported_and_must_stay_game_only(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            config = self.config(root)
+            config["queries"] = [
+                {"query_id": "GD07", "keyword": "Unreal developer", "family": "Game Development", "status": "enabled"},
+                {"query_id": "GD08", "keyword": "gameplay programmer", "family": "Game Development", "status": "enabled"},
+                {"query_id": "GD03", "keyword": "game designer", "family": "Game Development", "status": "enabled"},
+                {"query_id": "GD09", "keyword": "game QA tester", "family": "Game Development", "status": "enabled"},
+            ]
+            config["pilot_core_query_ids"] = ["GD07", "GD08", "GD03", "GD09"]
+            config["pilot_optional_query_ids"] = []
+            scope = config["live_adapter"]["authorized_collection_scope"]
+            scope.update({"query_ids": config["pilot_core_query_ids"], "max_charge_usd": "0.101"})
+            config["live_adapter"].update({"per_run_cap_usd": "0.02525", "campaign_ceiling_usd": "0.101"})
+            request = build_request(config, query_id="GD08", results_wanted=25,
+                                    charge_cap_usd="0.02525", campaign_root=root,
+                                    now=config["window_end"])
+            self.assertEqual(request["input"]["keyword"], "gameplay programmer")
+            self.assertEqual(request["input"], {"keyword": "gameplay programmer", "location": "", "country": "ph",
+                              "posted_date": "30d", "results_wanted": 25,
+                              "proxyConfiguration": {"useApifyProxy": False}})
+            self.assertEqual(request["run_options"], {"build": "0.0.36", "timeout": 300,
+                              "memory": 1024, "maxTotalChargeUsd": 0.02525, "restartOnError": False})
+            self.assertEqual(request["pilot_stage"], "core")
+
+            config["queries"][1]["family"] = "Network Technology"
+            with self.assertRaisesRegex(ExecutionGateError, "pilot_four_core_queries_must_be_game_development_only"):
+                build_request(config, query_id="GD08", results_wanted=25,
+                              charge_cap_usd="0.02525", campaign_root=root,
+                              now=config["window_end"])
+
+    def test_legacy_six_core_preview_remains_supported(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            config = self.config(root)
+            request = build_request(config, query_id="WD01", results_wanted=25,
+                                    charge_cap_usd="0.05", campaign_root=root,
+                                    now=config["window_end"])
+            self.assertEqual(request["pilot_stage"], "core")
+
+    def test_30_day_filter_does_not_change_to_anytime_after_a_short_delay(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            config = self.config(root)
+            end = datetime.fromisoformat(config["window_end"])
+            request = build_request(config, query_id="WD01", results_wanted=25,
+                                    charge_cap_usd="0.05", campaign_root=root,
+                                    now=(end + timedelta(minutes=5)).isoformat())
+            self.assertEqual(request["input"]["posted_date"], "30d")
+            with self.assertRaisesRegex(ExecutionGateError, "stale_window_end"):
+                build_request(config, query_id="WD01", results_wanted=25,
+                              charge_cap_usd="0.05", campaign_root=root,
+                              now=(end + timedelta(hours=2)).isoformat())
 
     def test_disabled_execution_and_unknown_query_are_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -70,14 +143,32 @@ class AdapterPreviewTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             config = self.config(root)
-            for cap in ("NaN", "Infinity", "0", "5.01"):
+            for cap in ("NaN", "Infinity", "0", "0.06"):
                 with self.assertRaises(ExecutionGateError):
                     build_request(config, query_id="WD01", results_wanted=1, charge_cap_usd=cap,
                                   campaign_root=root, now=config["window_end"])
+            config["live_adapter"]["campaign_ceiling_usd"] = "0.31"
+            with self.assertRaisesRegex(ExecutionGateError, "campaign_ceiling_exceeds_pilot_limit"):
+                build_request(config, query_id="WD01", results_wanted=1, charge_cap_usd="0.05",
+                              campaign_root=root, now=config["window_end"])
             config["live_adapter"].pop("authorized_collection_scope")
             with self.assertRaises(ExecutionGateError):
                 build_request(config, query_id="WD01", results_wanted=1, charge_cap_usd="0.01",
                               campaign_root=root, now=config["window_end"])
+
+    def test_configured_per_run_cap_is_enforced_below_global_ceiling(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            config = self.config(root)
+            config["live_adapter"]["per_run_cap_usd"] = "0.02525"
+            with self.assertRaisesRegex(ExecutionGateError, "charge_cap_exceeds_configured_per_run_cap"):
+                build_request(config, query_id="WD01", results_wanted=25,
+                              charge_cap_usd="0.05", campaign_root=root,
+                              now=config["window_end"])
+            request = build_request(config, query_id="WD01", results_wanted=25,
+                                    charge_cap_usd="0.02525", campaign_root=root,
+                                    now=config["window_end"])
+            self.assertEqual(request["run_options"]["maxTotalChargeUsd"], 0.02525)
 
     def test_token_loader_prefers_environment_and_redacts_nested_values(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -124,6 +215,34 @@ class AdapterPreviewTests(unittest.TestCase):
             self.assertEqual(sum(method == "POST" for method, _ in calls), 1)
             self.assertEqual(run["id"], "r1")
 
+    def test_failed_start_preserves_redacted_provider_error_without_retry(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            request = build_request(self.config(root), query_id="WD01", results_wanted=2,
+                                    charge_cap_usd="0.05", campaign_root=root)
+            calls = []
+            def fake(method, path, query, body, timeout, headers):
+                calls.append(method)
+                raise AdapterError("http_400", "invalid input; token sentinel-token")
+            state = AcquisitionState(root)
+            with self.assertRaisesRegex(AdapterError, "start_outcome_unknown"):
+                start_run(request, ApifyTransport("sentinel-token", fake), state)
+            record = state.get(request["request_id"])
+            self.assertEqual(calls, ["POST"])
+            self.assertEqual(record["status"], "start_outcome_unknown")
+            self.assertEqual(record["billing_status"], "reserved")
+            self.assertEqual(record["last_error_category"], "http_400")
+            self.assertIn("invalid input", record["last_error_message"])
+            self.assertNotIn("sentinel-token", json.dumps(record))
+            evidence = root / "no-run.json"
+            evidence.write_text('{"result":"no run"}', encoding="utf-8")
+            state.reconcile_no_run(request["request_id"], evidence)
+            record = state.get(request["request_id"])
+            self.assertEqual(record["status"], "failed")
+            self.assertEqual(record["start_error_category"], "http_400")
+            self.assertIn("invalid input", record["start_error_message"])
+            self.assertNotIn("sentinel-token", json.dumps(record))
+
     def test_download_preserves_complete_multi_page_items_and_checkpoints(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
@@ -154,8 +273,12 @@ class AdapterPreviewTests(unittest.TestCase):
             def fake(method, path, query, body, timeout, headers):
                 calls.append(method)
                 if "/builds/" in path:
+                    live_schema = json.loads(json.dumps(snapshot["input_schema"]))
+                    for name, field in live_schema["properties"].items():
+                        field["editor"] = "select" if name in {"country", "posted_date"} else "textfield"
+                    live_schema["properties"]["results_wanted"]["minimum"] = 1
                     return {"data": {"id": request["expected_build_id"], "buildNumber": request["expected_build_number"],
-                                     "actorDefinition": {"input": snapshot["input_schema"]}}}, {}
+                                     "actorDefinition": {"input": live_schema}}}, {}
                 actual_events = {}
                 for index, event in enumerate(snapshot["pricing"]["events"]):
                     if "tieredPricing" in event:

@@ -7,9 +7,8 @@ from pathlib import Path
 try:  # Support both `python -m scripts.jobs.collect` and direct script execution.
     from .registry import Registry
     from .apify_adapter import verify_execution_gate
-    from .admission import evaluate
     from .contracts import canonical_hash, validate_item, validate_config, validate_run_metadata
-    from .release import freeze_release, validate_release
+    from .release import freeze_raw_release, freeze_release, validate_release
     from .acquisition_state import AcquisitionState, StateError
     from .apify_adapter import (AdapterError, ApifyTransport, build_request, download_dataset, load_token,
         poll_run, preflight, run_metadata, start_run, _atomic_json, _get_retry, sanitize, _provider_id)
@@ -18,9 +17,8 @@ except ImportError:  # pragma: no cover - exercised by the direct CLI entry poin
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from jobs.registry import Registry
     from jobs.apify_adapter import verify_execution_gate
-    from jobs.admission import evaluate
     from jobs.contracts import canonical_hash, validate_item, validate_config, validate_run_metadata
-    from jobs.release import freeze_release, validate_release
+    from jobs.release import freeze_raw_release, freeze_release, validate_release
     from jobs.acquisition_state import AcquisitionState, StateError
     from jobs.apify_adapter import (AdapterError, ApifyTransport, build_request, download_dataset, load_token,
         poll_run, preflight, run_metadata, start_run, _atomic_json, _get_retry, sanitize, _provider_id)
@@ -35,14 +33,17 @@ def prepare(root, campaign_id, window_end, target=1000, window_start=None):
         window_start = (end - timedelta(days=30)).isoformat()
     config = {"schema_version": "job-collection-v1", "campaign_id": campaign_id,
         "requested_target": target, "window_start": window_start, "window_end": window_end, "report_timezone": "Asia/Manila",
-        "admission_policy_version": "explicit-entry-junior-v1", "queries": query_registry(),
-        "live_collection_enabled": False, "live_adapter": {}}
+        "queries": query_registry(),
+        "live_collection_enabled": False, "live_adapter": {}, "pilot_core_query_ids": [],
+        "pilot_optional_query_ids": [], "conditional_start_evidence": {}}
     (root / "collection_config.json").write_text(json.dumps(config, indent=2) + "\n", encoding="utf-8")
     Registry(root)
     return root
 
 
 def import_run(root, input_file, *, run_id, query_id, run_metadata=None):
+    if (Path(root) / "manifest.json").exists():
+        raise ValueError("Frozen release is immutable; import into a writable campaign context")
     registry = Registry(root)
     config_path = Path(root) / "collection_config.json"
     config = json.loads(config_path.read_text(encoding="utf-8")) if config_path.exists() else {}
@@ -72,7 +73,6 @@ def import_run(root, input_file, *, run_id, query_id, run_metadata=None):
         raise ValueError("Saved dataset must be a JSON array")
     imported = 0
     invalid = 0
-    prior_eligible = {row.get("posting_key") for row in registry.read_jsonl("admission.jsonl") if row.get("state") == "eligible"}
     prior_posting_keys = {row.get("posting_key") for row in registry.read_jsonl("postings.jsonl")}
     for index, item in enumerate(items):
         check = validate_item(item)
@@ -97,17 +97,6 @@ def import_run(root, input_file, *, run_id, query_id, run_metadata=None):
         created = registry.import_item(item, run_id=run_id, dataset_item_id=index, query_id=query_id)
         imported += int(created)
         posting_key = "jobstreet:ph:" + str(item["id"])
-        if not any(row.get("run_id") == run_id and row.get("query_id") == query_id and row.get("posting_key") == posting_key
-                   for row in registry.read_jsonl("admission.jsonl")):
-            admission = evaluate(item, window_start=window_start, window_end=window_end)
-            registry._append("admission.jsonl", {"posting_key": posting_key,
-                "run_id": run_id, "query_id": query_id, **admission})
-            if admission["state"] == "eligible" and not any(row.get("count_unit_id") == "jobstreet:ph:" + str(item["id"]) for row in registry.read_jsonl("eligible_frame.jsonl")):
-                raw_hash = canonical_hash(item)
-                version = next(row for row in registry.read_jsonl("versions.jsonl") if row["raw_hash"] == raw_hash)
-                registry._append("eligible_frame.jsonl", {"count_unit_id": "jobstreet:ph:" + str(item["id"]),
-                    "source_id": str(item["id"]), "selected_version": version["version_id"],
-                    "window_start": window_start, "window_end": window_end, "admission": admission})
     from datetime import datetime, timezone
     run_record = {"run_id": run_id, "dataset_id": None, "query_id": query_id,
         "actor_id": None, "build": None, "started_at": None, "finished_at": None,
@@ -153,16 +142,11 @@ def import_run(root, input_file, *, run_id, query_id, run_metadata=None):
             if prior.get(key) in (None, "") and value not in (None, ""):
                 prior[key] = value
         (Path(root) / "source_runs.jsonl").write_text("".join(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n" for row in source_runs), encoding="utf-8")
-    run_admissions = [row for row in registry.read_jsonl("admission.jsonl")
-                      if row.get("run_id") == run_id and row.get("query_id") == query_id]
-    eligible_keys = {row["posting_key"] for row in run_admissions if row.get("state") == "eligible"}
+    imported_keys = {"jobstreet:ph:" + str(item["id"]) for item in items if validate_item(item)["valid"]}
     return {"returned": len(items), "new_observations": imported,
         "reused_items": sum(1 for item in items if validate_item(item)["valid"] and
                              "jobstreet:ph:" + str(item["id"]) in prior_posting_keys), "invalid_items": invalid,
-        "new_accepted_count_units": len(eligible_keys - prior_eligible),
-        "accepted_count_units_observed": len(eligible_keys),
-        "excluded": sum(row.get("state") == "excluded" for row in run_admissions),
-        "unresolved": sum(row.get("state") == "unresolved" for row in run_admissions),
+        "distinct_source_ids_observed": len(imported_keys),
         "window_start": window_start}
 
 
@@ -197,6 +181,11 @@ def _read_config(campaign):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def _terminal_charge(run):
+    """Prefer the present terminal settled total; use chargedUsd only as fallback."""
+    return run.get("usageTotalUsd") if run.get("usageTotalUsd") is not None else run.get("chargedUsd")
+
+
 def _finish_request(campaign, state, record, transport):
     request_id = record["request_id"]
     if record.get("status") == "contract_mismatch" or record.get("last_error_category") == "effective_build_mismatch":
@@ -217,7 +206,7 @@ def _finish_request(campaign, state, record, transport):
         if run.get("defaultDatasetId"):
             try: download_dataset(run, transport, state, request_id)
             except AdapterError: pass
-        charge = run.get("chargedUsd", run.get("usageTotalUsd"))
+        charge = _terminal_charge(run)
         if charge is None:
             state.update(request_id, "failed", billing_status="unknown", provider_status=run.get("status"))
         else:
@@ -239,7 +228,7 @@ def _finish_request(campaign, state, record, transport):
     state.update(request_id, "importing")
     meta = run_metadata(run, record, run.get("defaultDatasetId"), imported_status="imported")
     outcome = import_run(campaign, dataset_file, run_id=run_id, query_id=record["query_id"], run_metadata=meta)
-    charge = run.get("chargedUsd", run.get("usageTotalUsd"))
+    charge = _terminal_charge(run)
     if charge is None:
         state.update(request_id, "imported", billing_status="unknown", import_report=outcome)
     else:
@@ -269,7 +258,11 @@ def main(argv=None):
     reconcile.add_argument("--no-run-evidence", help="Local evidence file confirming no remote run was created")
     p = sub.add_parser("validate", help="Validate hashes in an existing release")
     p.add_argument("campaign")
-    p = sub.add_parser("freeze", help="Build and hash a release from imported evidence")
+    p = sub.add_parser("freeze", help="Build and hash a raw-v2 release from imported evidence")
+    p.add_argument("campaign"); p.add_argument("--release-id", required=True); p.add_argument("--phase", default="development_only")
+    p.add_argument("--target", type=int, default=1000); p.add_argument("--window-start", required=True); p.add_argument("--window-end", required=True)
+    p.add_argument("--reported-charge-usd", type=float, default=0.0)
+    p = sub.add_parser("freeze-legacy", help="Build a historical admission-based release")
     p.add_argument("campaign"); p.add_argument("--release-id", required=True); p.add_argument("--phase", default="development_only")
     p.add_argument("--target", type=int, default=1000); p.add_argument("--window-start", required=True); p.add_argument("--window-end", required=True)
     p.add_argument("--reported-charge-usd", type=float, default=0.0)
@@ -277,8 +270,12 @@ def main(argv=None):
     if args.command == "prepare":
         print(prepare(args.root, args.campaign_id, args.window_end, args.target, args.window_start))
     elif args.command == "import":
-        metadata = json.loads(Path(args.run_metadata).read_text(encoding="utf-8")) if args.run_metadata else None
-        print(json.dumps(import_run(args.campaign, args.input, run_id=args.run_id, query_id=args.query_id, run_metadata=metadata)))
+        try:
+            metadata = json.loads(Path(args.run_metadata).read_text(encoding="utf-8")) if args.run_metadata else None
+            print(json.dumps(import_run(args.campaign, args.input, run_id=args.run_id, query_id=args.query_id, run_metadata=metadata)))
+        except (ValueError, RuntimeError, OSError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 1
     elif args.command == "collect":
         try:
             config = _read_config(args.campaign)
@@ -344,13 +341,20 @@ def main(argv=None):
         print(json.dumps(result))
         if not result["valid"]:
             raise SystemExit(1)
-    elif args.command == "freeze":
-        result = freeze_release(args.campaign, release_id=args.release_id, phase=args.phase,
-            requested_target=args.target, window_start=args.window_start, window_end=args.window_end,
-            reported_charge_usd=args.reported_charge_usd)
-        print(json.dumps(result, ensure_ascii=False))
+    elif args.command in {"freeze", "freeze-legacy"}:
+        try:
+            if (Path(args.campaign) / "manifest.json").exists():
+                raise ValueError("Frozen release is immutable; freeze a writable campaign context")
+            freezer = freeze_raw_release if args.command == "freeze" else freeze_release
+            result = freezer(args.campaign, release_id=args.release_id, phase=args.phase,
+                requested_target=args.target, window_start=args.window_start, window_end=args.window_end,
+                reported_charge_usd=args.reported_charge_usd)
+            print(json.dumps(result, ensure_ascii=False))
+        except (ValueError, RuntimeError, OSError) as exc:
+            print(str(exc), file=sys.stderr)
+            return 1
     return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
