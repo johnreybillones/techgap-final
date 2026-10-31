@@ -2,7 +2,7 @@
 
 Date: 2026-10-22 (Asia/Manila).
 
-Baseline: [DATA_FLOW_ACTUAL.md](../plan/DATA_FLOW_ACTUAL.md), including P0–P10 and E1–E4.
+Baseline (updated 2026-10-31): [PLANNED_DATA_FLOW.md](../plan/PLANNED_DATA_FLOW.md) (data meanings, formulas, labeling policy) and [PREMODEL_DATA_PREPARATION_PLAN_2026-10-24.md](../plan/PREMODEL_DATA_PREPARATION_PLAN_2026-10-24.md) (release `data/pre_model/<release_id>/`, splits, GLiNER2 export). The earlier baseline `DATA_FLOW_ACTUAL.md` no longer exists. Stage labels P0–P10 and E1–E4 below came from it and are not defined in the current plans; read them as the six steps in PLANNED_DATA_FLOW §2 (preserve/deduplicate, relevance and links, extract requirements, prepare syllabus evidence, match capability, calculate/publish).
 
 Assessment sources:
 
@@ -10,6 +10,10 @@ Assessment sources:
 - Machine Learning 2 (ML2): `C:/Users/Alfierey/Downloads/Machine_Learning_2-FINAL_PROJECT(3).pdf`, particularly pp. 2–3 (data preparation, training, optimization and generalization), p. 4 (technical methodology/results), and p. 6 (task-appropriate evaluation and leakage prevention).
 
 Scope: technical changes to data, models, training, evaluation and reproducible pipeline execution. Paper preparation, literature-review deliverables, recording, submission and other non-pipeline work are excluded.
+
+**How to read this document.** **REQUIRED** marks an assignment obligation that must be met; it is not optional. Anything marked **SUGGESTION** or **OPEN** is a proposal: the implementer decides whether and how to do it, and may choose a different approach as long as the required item is still met. Where §3–§14 describe more than the required minimum, §2.1 governs.
+
+**Current data facts (release `saved-pre-model-20261031-v4`, 2026-10-31):** labels are AI-agent "silver" labels, not independent gold (PLANNED_DATA_FLOW §6). The split is a seeded split-group hash: bucket 0–69 train, 70–79 validation, 80–99 test (about 70/10/20 by group). Train has 1,600 examples, validation 176 and test 473 (about 226/24/61 job groups); the model-native export has only three entity types (`technical_task`, `technical_knowledge`, `tool_technology`). The validation set required by TC-03 now exists; the test groups are the same as in v3. Small group counts (BSCS Game has about 10 test passages) mean wide intervals and "insufficient" subgroups.
 
 ## 1. Scope and architectural decision
 
@@ -57,9 +61,9 @@ All changes below are proposals for implementation. No model results, statistica
 
 | ID | Required minimum |
 | --- | --- |
-| TC-01 | Fixed source versions; incomplete/failed extraction is withheld, never zero demand or 100% alignment. |
-| TC-02 | Independent human-checked labels for technical-span extraction and support decisions (the tasks actually scored). No model-self-labels. |
-| TC-03 | Explicit development/train/validation/test roles; group-aware split with zero source overlap; learned preprocessing fit on non-test data only; split manifest with seed and overlap check. |
+| TC-01 | Fixed source versions; incomplete/failed extraction is withheld, never zero demand or 100% alignment. Largely already done by `pre_model_data.py` (hashes, selected version, `text_status`, `requirement_set_complete`); verify and reuse rather than rebuild. |
+| TC-02 | Reference labels for the scored tasks (technical-span extraction; support decisions if scored) that are not the evaluated model's own predictions. The current AI-checked labels qualify as the reference **provided every metric computed from them is named as agreement with AI-checked reference labels** (e.g. "F1 vs. reference labels (silver)"), never as verified accuracy (PLANNED_DATA_FLOW §6). Plain results tables may still show precision/recall/F1/accuracy values. |
+| TC-03 | **Training, validation and test sets are all required** (ML2 Task 2 step 5; Task 3 steps 2–4 need validation for hyperparameters, training-vs-validation behavior and early stopping). Satisfied since release v4 (validation = buckets 70–79, carved from the old train range; see TC-03 below). Group-aware, zero source overlap, the final test untouched, learned preprocessing fit on non-test data only, split manifest with seed and overlap check. |
 | TC-04 | Stored feature records that reproduce source spans; embedding dimension/finiteness/norm checks; unsafe truncation flagged. |
 | TC-05 | At least one simple baseline (exact/alias dictionary for extraction) on the same held-out data as the main approach. |
 | TC-06 | Development-only threshold selection for GLiNER2 and NLI support; settings frozen before final test; no test-based tuning. |
@@ -74,7 +78,7 @@ All changes below are proposals for implementation. No model results, statistica
 
 - TC-01: repairing every uncertain syllabus field beyond what is needed for the evaluated cases.
 - TC-02: labels for requirement structure (AND/OR), concept normalization, full retrieval relevance sets, and end-to-end human-derived alignment/gap references.
-- TC-03: fixed 70/30 ratio; class/family/layout stratification beyond reporting actual counts.
+- TC-03 (**OPEN**, how to get the required validation set): e.g. carve a fixed group-hash bucket out of the train bucket (about 70/10/20 overall), group cross-validation, or another group-aware design; keep the 80–99 test bucket untouched. Also suggested: class/family/layout stratification beyond reporting actual counts. The earlier 70/30 proposal is superseded by the pre-model plan's split.
 - TC-04: full persisted records for every stage (offsets, concept links, expression trees, exact/alias route ranks).
 - TC-05: TF-IDF retrieval comparator; a support-decision procedure for retrieval-only baselines.
 - TC-06: retrieval shortlist sweep `k = 5, 10, 20, 40`; margin tuning; tie-break analysis.
@@ -115,6 +119,8 @@ Required evaluation targets:
 | Support | Supported, unsupported or unresolved comparison, with source/scope basis |
 | End-to-end outputs | Human-derived requirement credit, alignment and confirmed-gap references for selected complete cases |
 
+**Current labeling policy:** PLANNED_DATA_FLOW §6 uses AI-agent labels with an independent AI checker and no human labels. This satisfies "reference labels" for this change document if results are reported as agreement with those labels. **OPEN:** an independently checked test subset would allow stronger accuracy claims but is not required.
+
 Model predictions may assist annotation, but must not serve as their own correctness labels. Review disputed cases and retain unresolved references separately. Include no-match cases and difficult negatives, not only obvious positive matches.
 
 Retrieval relevance sets need sufficiently complete judgments for the declared corpus; an incomplete list of known positives must not be presented as exhaustive passage recall. Gold-unresolved support cases are not automatically unsupported cases.
@@ -123,7 +129,7 @@ Retrieval relevance sets need sufficiently complete judgments for the declared c
 
 ## 5. TC-03 — Implement explicit, leakage-resistant partitions
 
-Retain the proposed 70% development / 30% held-out starting split where feasible, subject to actual source-group and class counts.
+**REQUIRED, done in release v4 (2026-10-31):** a validation set in addition to train and test (hash buckets 70–79; the choice below was settled in favor of the hash carve-out). Earlier releases (seed `techgap-pre-model-v1`, 0–79 train, 80–99 test) had no validation split; PLANNED_DATA_FLOW/pre-model plan state it can be added back "if tuning starts", and ML2 requires tuning, so it is needed. Keep the existing split groups and the untouched test bucket. **OPEN (implementer decides):** carve validation from the train bucket by a further group-hash range, use group cross-validation, or another leakage-safe design; the earlier 70/30 proposal below is superseded.
 
 1. Group duplicate/near-duplicate advertisements and revisions before splitting. Keep revisions of an academic component together.
 2. Partition job groups and academic components before constructing support pairs. Neither held-out source set may enter setting selection.
@@ -351,7 +357,7 @@ Add a small training entry point such as proposed `scripts/pipeline/train_extrac
 
 Provide a reproducible notebook or CLI invocation path that runs data validation, the bounded training/evaluation experiment and a traceable extraction-to-analysis example. Pin dependencies and supply data/checkpoint locations, commands and expected artifact schemas. No frontend/backend deployment is required for this technical demonstration.
 
-Update baseline §1.1's “custom fine-tuning is not required initially” statement to distinguish the optional production adaptation policy from this proposed ML2 training experiment. Extend E1–E4 and `analysis_config.json` with the training partition/configuration, checkpoint and evaluation references. These are proposed baseline edits; this change document does not itself modify `DATA_FLOW_ACTUAL.md`.
+**SUGGESTION (not required):** record the training partition/configuration, checkpoint and evaluation references in the release manifest or a small run config (the earlier `analysis_config.json` / `DATA_FLOW_ACTUAL.md` §1.1 edit no longer applies; that file is gone). Use `gliner2_train.jsonl` and `gliner2_test.jsonl` from the pre-model release, plus the validation set required in TC-03; the extraction task is limited to its three entity types. PLANNED_DATA_FLOW is a separate contract; do not edit it as part of this work.
 
 **Acceptance check:** an actual training run produces saved weights/adapter, genuine training/validation histories, validation-selected settings and final held-out comparisons against the frozen/baseline variants. Data leakage, missing labels, failed training or unmeasured results remain explicit blockers to claiming this technical requirement complete. Threshold tuning alone does not pass this check.
 
