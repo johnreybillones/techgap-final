@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.pipeline.convert_esco import convert_occupations_csv
+from scripts.legacy_pipeline.convert_esco import convert_occupations_csv
 
 
 class EscoConversionTests(unittest.TestCase):

@@ -1,6 +1,6 @@
 import unittest
 
-from scripts.pipeline.admission import decide_admission, reconcile_decisions
+from scripts.legacy_pipeline.admission import decide_admission, reconcile_decisions
 
 
 class AdmissionPolicyTests(unittest.TestCase):
