@@ -1,0 +1,181 @@
+{
+  "source": {
+    "filename": "S-ITPC419LA System Administration and Maintenance Lab.pdf",
+    "sha256": "518b88d3bb0c353d5b9570c7c15647c9b1cb9e9d30a16bc4e25d8f99e8951280",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 8,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITPC419LA",
+  "course_title": "System Administration and Maintenance",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-ITPC328 & S-ITPC328LA",
+  "corequisites": "S-ITPC419",
+  "track": "IT Core & Electives",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "Focuses on administration of operating systems in a client-server technology (Windows and Linux on Virtual Machine), installation and maintenance. It prepares students to installation of Windows Server, NTFS file system and folder permissions, Domain Name System, Active Director, local and domain Group Policy, Windows Terminal Services, Internet Security and Acceleration Server, Internet Information Services, communications and networking.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand System Administration and Maintenance;"
+    },
+    {
+      "id": "CLO2",
+      "text": "Identify server Architecture and Virtualization;"
+    },
+    {
+      "id": "CLO3",
+      "text": "Install and Configure Windows Server;"
+    },
+    {
+      "id": "CLO4",
+      "text": "Describe Active Directory Domain Controller;"
+    },
+    {
+      "id": "CLO5",
+      "text": "Manage Active Directory Administration;"
+    },
+    {
+      "id": "CLO6",
+      "text": "Understand how Linux is used and the basics of the command line;"
+    },
+    {
+      "id": "CLO7",
+      "text": "Build foundational knowledge for progressively mastering Linux Commands; and"
+    },
+    {
+      "id": "CLO8",
+      "text": "Examine the roles and responsibilities of a System Administrator."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Describe Active Directory Domain Controller"
+        },
+        {
+          "id": "CLO5",
+          "text": "Manage Active Directory Administration"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define System Administration and maintenance"
+        },
+        {
+          "id": "TLO2",
+          "text": "Describe Windows Server 2019"
+        },
+        {
+          "id": "TLO3",
+          "text": "Install Window Server 2019"
+        },
+        {
+          "id": "TLO4",
+          "text": "Perform post-installation configuration of Windows Server 2019"
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain how to install domain controller"
+        },
+        {
+          "id": "TLO6",
+          "text": "Describe the purpose of Domain Controller"
+        },
+        {
+          "id": "TLO7",
+          "text": "Describe the purpose of ADDS"
+        },
+        {
+          "id": "TLO8",
+          "text": "Manage user accounts with graphical Tools"
+        },
+        {
+          "id": "TLO9",
+          "text": "Manage group and computer accounts using Windows Server tools and PowerShell"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO6",
+          "text": "Understand how Linux is used, navigate the system, and basics of the command line and its structure."
+        },
+        {
+          "id": "CLO7",
+          "text": "Build foundational knowledge for progressively mastering Linux commands"
+        },
+        {
+          "id": "CLO8",
+          "text": "Examines the roles and responsibilities of a System Administrator"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Install and configure a computer running Linux"
+        },
+        {
+          "id": "TLO11",
+          "text": "Navigation of home and system directories and listing files in various locations TLO12. Understanding and manipulating file permissions and ownership settings"
+        },
+        {
+          "id": "TLO13",
+          "text": "Create, move and delete files and directories under the home directory ITLO14. Understanding and manipulating file permissions and ownership settings"
+        },
+        {
+          "id": "TLO15",
+          "text": "Applications running on Linux"
+        },
+        {
+          "id": "TLO16",
+          "text": "TLO17. Applications running on Linux"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

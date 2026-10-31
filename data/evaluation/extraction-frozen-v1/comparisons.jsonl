@@ -1,0 +1,1 @@
+{"difference": "frozen_gliner2 - exact_dictionary", "groups": 75, "lower": -0.07350143348515842, "metric": "micro_f1", "resamples": 2000, "seed": 0, "split": "test", "status": "ok", "undefined_replicates": 0, "unit": "split_group_id", "upper": 0.01358557808327121}

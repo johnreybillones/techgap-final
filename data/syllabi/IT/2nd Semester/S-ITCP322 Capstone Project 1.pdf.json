@@ -1,0 +1,170 @@
+{
+  "source": {
+    "filename": "S-ITCP322 Capstone Project 1.pdf",
+    "sha256": "d6ee47d7dbbb1016201455330e393787ebdf277ee9f43fa1a89527b724980528",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1,
+        2
+      ]
+    }
+  },
+  "course_code": "ITCP322",
+  "course_title": "Capstone Project 1",
+  "course_type": "Lecture / Research",
+  "course_credit": "Three Units",
+  "prerequisites": "Should be 3rd year level",
+  "corequisites": "None",
+  "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "A project focusing on the information system plan brought about in the practicum / on-the-job training / independent research course. This course requires the fulfillment of the complete documentation and oral defense before a set of panelists.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand the latest concepts in systems analysis and design, software engineering and information technology."
+    },
+    {
+      "id": "CLO2",
+      "text": "Investigate and evaluate prominent literature connected to your Capstone Project. 1"
+    },
+    {
+      "id": "CLO3",
+      "text": "Understand the scope of the project, planning, scheduling the collaborative efforts of the team, and documenting the effort via oral and written proposals."
+    },
+    {
+      "id": "CLO4",
+      "text": "Illustrate that they can function, communicate, collaborate and continue to learn effectively as ethically and socially responsible IT professionals."
+    },
+    {
+      "id": "CLO5",
+      "text": "Adapt the skills to communicate with and balance the interests of multiple stakeholders (both technical and non-technical) on a project."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the latest concepts in systems analysis and design, software engineering and information technology."
+        },
+        {
+          "id": "CLO2",
+          "text": "Investigate and evaluate prominent literature connected to your Capstone Project"
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand the scope of the project, planning, scheduling the collaborative efforts of the team, and documenting the effort via oral and written proposals."
+        },
+        {
+          "id": "CLO4",
+          "text": "Illustrate that they can function, communicate, collaborate and continue to learn effectively as ethically and socially responsible IT professionals."
+        },
+        {
+          "id": "CLO5",
+          "text": "Adapt the skills to communicate with and balance the interests of multiple stakeholders (both technical and non-technical) on a project."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Identify complex problems and define the computing requirements appropriate to its solution."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify the user needs and consider them in the selection, creation, and evaluation and administration of computer-based systems."
+        },
+        {
+          "id": "TLO3",
+          "text": "Select various high level and detailed design and implementation principles for building a software system."
+        },
+        {
+          "id": "TLO4",
+          "text": "Analyze the impact of computing and engineering solutions on individuals, organizations, and society."
+        },
+        {
+          "id": "TLO5",
+          "text": "Identify software development needs and challenges that require various engineering solutions, and formulate such solutions"
+        },
+        {
+          "id": "TLO6",
+          "text": "Execute effectively as a member or leader of a development team recognizing the different roles of a team to accomplish a common goal."
+        },
+        {
+          "id": "TLO7",
+          "text": "Understand professional, ethical, legal, security and social issues and responsibilities in the utilization of information technology."
+        },
+        {
+          "id": "TLO8",
+          "text": "Communicate effectively with the computing community and with society at large about complex computing activities through logical writing, presentations, and clear instructions."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the latest concepts in systems analysis and design, software engineering and information technology."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Identify complex problems and define the computing requirements appropriate to its solution."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify the user needs and consider them in the selection, creation, and evaluation and administration of computer-based systems."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

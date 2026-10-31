@@ -1,0 +1,199 @@
+{
+  "source": {
+    "filename": "S_CSGD415 Advanced Game Programming Lecture 20232024 REVISED.pdf",
+    "sha256": "fc8b60587058e217fe86edfc9385602c36853611c9e8c9e7042a39c3238e08b1",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 16,
+    "field_pages": {
+      "course_code": [
+        4,
+        13
+      ],
+      "course_title": [
+        4,
+        13
+      ],
+      "course_type": [
+        4,
+        13
+      ],
+      "course_credit": [
+        4,
+        13
+      ],
+      "prerequisites": [
+        4,
+        13
+      ],
+      "corequisites": [
+        4,
+        13
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSGD415",
+  "course_title": "Advanced Game Programming",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "S-CSGD323",
+  "corequisites": "None",
+  "track": "CS - Game Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "This course deals with advanced game programming with a strong focus on developing good programming skills, design patterns, and practical problem-solving. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication, and feedback based on the national, regional, provincial, city, and institutional guidelines for safety amidst disasters and pandemics. Hence, this class shall be delivered in both an online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the structure of mobile game programming; C LO2. remember the basic framework for mobile game development;"
+    },
+    {
+      "id": "CLO3",
+      "text": "understand how physics affects in development of the game;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the design learned and report the expected effectiveness of the mobile game;"
+    },
+    {
+      "id": "CLO5",
+      "text": "demonstrate game programming capability;"
+    },
+    {
+      "id": "CLO6",
+      "text": "interpret efficient game loop;"
+    },
+    {
+      "id": "CLO7",
+      "text": "evaluate mobile game application;"
+    },
+    {
+      "id": "CLO8",
+      "text": "design the needs of game programming in the industry;"
+    },
+    {
+      "id": "CLO9",
+      "text": "develop an appreciation in virtual simulation technology; and"
+    },
+    {
+      "id": "CLO10",
+      "text": "value the Lasallian values and sensitivity in developing a game to real-world problems."
+    },
+    {
+      "id": "CLO2",
+      "text": "Remember the basic framework for mobile game development."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the structure of mobile game programming."
+        },
+        {
+          "id": "CLO2",
+          "text": "Remember the basic framework for mobile game development."
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand how physics affects in development of the game."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply the design learned and report the expected effectiveness of the mobile game."
+        },
+        {
+          "id": "CLO5",
+          "text": "Demonstrate game programming capability."
+        },
+        {
+          "id": "CLO6",
+          "text": "Interpret efficient game loop."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain basic mobile game in a nutshell."
+        },
+        {
+          "id": "TLO2",
+          "text": "Apply key concepts of game processes, principles and ethics."
+        },
+        {
+          "id": "TLO3",
+          "text": "Apply working with frameworks."
+        },
+        {
+          "id": "TLO4",
+          "text": "Detemine and generate mobile game programming."
+        },
+        {
+          "id": "TLO5",
+          "text": "Support observation to mobile game programming."
+        },
+        {
+          "id": "TLO6",
+          "text": "Classify the domain areas of mobile game programming."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO7",
+          "text": "Evaluate mobile game application."
+        },
+        {
+          "id": "CLO8",
+          "text": "Design the needs of game programming in the industry."
+        },
+        {
+          "id": "CLO9",
+          "text": "Develop an appreciation in virtual simulation technology."
+        },
+        {
+          "id": "CLO10",
+          "text": "Value the Lasallian values and sensitivity in developing a game to real-world problems."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Exhibit and demonstrate mobile game programming."
+        },
+        {
+          "id": "TLO8",
+          "text": "Develop games in Android mobile platform."
+        },
+        {
+          "id": "TLO9",
+          "text": "Collaboration, individual assessment to design and develop group project."
+        },
+        {
+          "id": "TLO10",
+          "text": "Collaboration and presentation of group project."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

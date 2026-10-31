@@ -1,0 +1,163 @@
+{
+  "source": {
+    "filename": "S-ITCS111LEC_Intro2Computing_Syllabus2023-2024 (1).pdf",
+    "sha256": "245cca304a5bad54d4380e226913baaa68a723dda83f398b01398c194c15bb13",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        3,
+        9
+      ],
+      "course_title": [
+        3,
+        9
+      ],
+      "course_type": [
+        3,
+        9
+      ],
+      "course_credit": [
+        3,
+        9
+      ],
+      "prerequisites": [
+        3,
+        9
+      ],
+      "corequisites": [
+        3,
+        9
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3
+      ]
+    }
+  },
+  "course_code": "S-ITCS111",
+  "course_title": "INTRODUCTION TO COMPUTING",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "None",
+  "corequisites": "S-ITCS111LA",
+  "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
+  "course_description": "This course provides an overview of the Computing Industry and Computing profession, including Research and Applications in different fields; an Appreciation of Computing in different fields such as Biology, Sociology, Environment, and Gaming; an understanding of ACM requirements; an appreciation of the history of computing; and knowledge of the icy components of computer systems (organizations and architecture), Malware, Computer Security, Internet and Internet protocols, HTML4/5 and CSS.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "evaluate the appropriate computer components to build, repair, or upgrade personal computers;"
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze basic host, data, and network security;"
+    },
+    {
+      "id": "CLO3",
+      "text": "explain the roles and responsibilities of the IT professional;"
+    },
+    {
+      "id": "CLO4",
+      "text": "apply the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct;"
+    },
+    {
+      "id": "CLO5",
+      "text": "understand and apply the concepts involving framework for website development;"
+    },
+    {
+      "id": "CLO6",
+      "text": "remember design standards in planning the layout, design, and development of a complete website;"
+    },
+    {
+      "id": "CLO7",
+      "text": "demonstrate 21st-century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Evaluate the appropriate computer components to build, repair, or upgrade personal computers"
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze basic host, data, and network security."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain how to keep personal computer components safe."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the features and functions of computer components. TLO3 Describe different types of malware."
+        },
+        {
+          "id": "TLO4",
+          "text": "Explain physical security measures."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain the six steps of the troubleshooting process for security."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        3
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Apply the fundamental ethical principles that form the basis for the ACM Code of Ethics and Professional Conduct."
+        },
+        {
+          "id": "CLO5",
+          "text": "Understand and apply the concepts involving framework for website development."
+        },
+        {
+          "id": "CLO6",
+          "text": "Remember design standards in planning the layout, design, and development of a complete website."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st-century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Understand the ACM Code of Ethics and Professional Conduct to guide the ethical conduct of all computing professionals."
+        },
+        {
+          "id": "TLO8",
+          "text": "Study the basic concepts of HTML."
+        },
+        {
+          "id": "TLO9",
+          "text": "Use HTML elements and attributes in designing Web pages."
+        },
+        {
+          "id": "TLO10",
+          "text": "Apply the various standards in the planning and design of websites using CSS. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of the topic, but integrated into assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

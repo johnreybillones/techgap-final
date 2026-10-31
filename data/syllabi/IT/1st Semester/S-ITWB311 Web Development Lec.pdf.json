@@ -1,0 +1,158 @@
+{
+  "source": {
+    "filename": "S-ITWB311 Web Development Lec.pdf",
+    "sha256": "d505bb2e9f3ac85cad84263fe4c5a4c44e4d55379a760c865a3e6eaf58abebe9",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 11,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITWB311",
+  "course_title": "Web Development",
+  "course_type": "Lecture",
+  "course_credit": "Two (2) units",
+  "prerequisites": "Should be 3rd year level",
+  "corequisites": "S-ITWB311LA",
+  "track": "IT - Web Development",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "Deals with a practical hands-on introduction in Web Development with the help of the latest version of Notepad++ editor/NetBeans IDE2008, Microsoft Internet Explorer browser, and Microsoft Visual Web Developer Express Edition Integrated Development Environment necessary to implement web-based application; and introduces program server-side web pages using PHP and MySQL.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Understand and apply the concepts involving frameworks for website development."
+    },
+    {
+      "id": "CLO2",
+      "text": "Create codes written in PHP and various web site development tools."
+    },
+    {
+      "id": "CLO3",
+      "text": "Analyze different structures and designs in creating website."
+    },
+    {
+      "id": "CLO4",
+      "text": "Evaluate design standards in planning layout, design and development of a complete website."
+    },
+    {
+      "id": "CLO5",
+      "text": "Develop and apply web development concepts that are competitive in technological areas."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand and apply the concepts involving frameworks for website development."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create codes written in PHP and various web site development tools."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze different structures and designs in creating website."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Study what is PHP, common Uses, characteristics and syntax of PHP and how to apply it for website development."
+        },
+        {
+          "id": "TLO2",
+          "text": "Learn about Types of Variables, Constants and Operator Types in PHP and its application on creating a web page."
+        },
+        {
+          "id": "TLO3",
+          "text": "Learn about Decision-Making Statements in PHP and its implementation on developing web pages. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving."
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving."
+      ],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand and apply the concepts involving frameworks for website development."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create codes written in PHP and various web site development tools."
+        },
+        {
+          "id": "CLO4",
+          "text": "Evaluate design standards in planning layout, design and development of a complete website."
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop and apply web development concepts that are competitive in technological areas."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO4",
+          "text": "Learn about the different Iterative Statements in PHP and how to use them on a web page development setup."
+        },
+        {
+          "id": "TLO5",
+          "text": "Learn the use of Arrays in PHP and its application on web page development."
+        },
+        {
+          "id": "TLO6",
+          "text": "Learn PHP Web Concepts and MySQL."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5,
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

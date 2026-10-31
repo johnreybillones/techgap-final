@@ -1,0 +1,177 @@
+{
+  "source": {
+    "filename": "S-ITCS226 Information Management Lec.pdf",
+    "sha256": "c9400dd41f45e4032da278195089355816c9df52befe24164f646a5640ca5c9b",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-ITCS226",
+  "course_title": "Information Management",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "track": "Common (IT & CS)",
+  "year_level": "2nd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course prepares the students to acquire the skills of creating, analyzing, and designing databases. This will help increase their understanding of the essentials of database modeling and design, the languages and facilities provided by the database management systems, and system implementation techniques.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand data models, schemas, instances, and their applications in the real world;"
+    },
+    {
+      "id": "CLO2",
+      "text": "design effective database schemas using Entity Relationship Diagram (ERD);"
+    },
+    {
+      "id": "CLO3",
+      "text": "convert conceptual model into a relational schema;"
+    },
+    {
+      "id": "CLO4",
+      "text": "perform effective data management procedures; and"
+    },
+    {
+      "id": "CLO5",
+      "text": "demonstrate 21st century skills in all learning activities."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand data models, schemas, instances, and their applications in the real world."
+        },
+        {
+          "id": "CLO2",
+          "text": "Design effective database schemas using Entity Relationship Diagram (ERD)."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Effectively explains the basic concepts of databases and data models."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explains the features of database management systems, the architecture of database systems, and the role of database users."
+        },
+        {
+          "id": "TLO3",
+          "text": "Defines the basics of the relational data model"
+        },
+        {
+          "id": "TLO4",
+          "text": "State reasons why many system developers believe that data modeling is the most important part of the systems development process."
+        },
+        {
+          "id": "TLO5",
+          "text": "Write good names and definitions for entities, relationships, and attributes."
+        },
+        {
+          "id": "TLO6",
+          "text": "Draw an E-R diagram to represent common business situations."
+        },
+        {
+          "id": "TLO7",
+          "text": "Recognize when to use supertype/subtype relationships in data modeling."
+        },
+        {
+          "id": "TLO8",
+          "text": "Develop a supertype/subtype hierarchy for a realistic business situation."
+        },
+        {
+          "id": "TLO9",
+          "text": "Develop an entity cluster to simplify the presentation of an E-R diagram"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Convert conceptual model into a relational schema."
+        },
+        {
+          "id": "CLO4",
+          "text": "Perform effective data management procedures."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "List properties of relations"
+        },
+        {
+          "id": "TLO11",
+          "text": "Transform an E-R (or EER) diagram into a logically equivalent set of relations 5"
+        },
+        {
+          "id": "TLO12",
+          "text": "Create relational tables that incorporate entity integrity and referential integrity constraints"
+        },
+        {
+          "id": "TLO13",
+          "text": "Demonstrate how relations can be normalized up to 3rd normal form."
+        },
+        {
+          "id": "TLO14",
+          "text": "Explains Functional Dependency and Functional Decomposition."
+        },
+        {
+          "id": "TLO15",
+          "text": "Applies various Normalization techniques for database design improvement. Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

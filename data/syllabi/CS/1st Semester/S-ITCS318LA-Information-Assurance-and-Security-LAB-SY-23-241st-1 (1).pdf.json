@@ -1,0 +1,177 @@
+{
+  "source": {
+    "filename": "S-ITCS318LA-Information-Assurance-and-Security-LAB-SY-23-241st-1 (1).pdf",
+    "sha256": "b18ec234a47ce495df1706fcbc1d0eceab3b5f0ece03e809cabb998769e77f42",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 15,
+    "field_pages": {
+      "course_code": [
+        4,
+        11
+      ],
+      "course_title": [
+        4,
+        11
+      ],
+      "course_type": [
+        4,
+        11
+      ],
+      "course_credit": [
+        4
+      ],
+      "prerequisites": [
+        4
+      ],
+      "corequisites": [
+        4
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4,
+        5
+      ]
+    }
+  },
+  "course_code": "S-ITCS318LA (CS)",
+  "course_title": "INFORMATION ASSURANCE AND SECURITY",
+  "course_type": "Laboratory",
+  "course_credit": "1 Unit",
+  "prerequisites": "S-ITCS123, S-ITCS123LA",
+  "corequisites": "None",
+  "track": "Common (IT & CS)",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course examines fundamentals of network security involved in creating and managing secure computer network environments. Both hardware and software topics are considered including authentication methods, remote access, network security architectures and devices, cryptography, forensics, and disaster recovery plans. This course adopts the online curriculum of Cybersecurity Essentials of Cisco Networking Academy Program (CNAP) @ https://www.netacad.com/. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand the players in the cybersecurity world and the motivation of cyber criminals and cybersecurity specialists."
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze security attacks, symptoms, processes, and countermeasures."
+    },
+    {
+      "id": "CLO3",
+      "text": "apply skills in security management, controls, protection, and mitigation technologies. 1"
+    },
+    {
+      "id": "CLO4",
+      "text": "explain how cybersecurity professionals use technologies, processes and procedures to defend all components of the network."
+    },
+    {
+      "id": "CLO5",
+      "text": "create a security measure plan for the different Cybersecurity domains."
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand the players in the cybersecurity world and the motivation of cyber criminals and cybersecurity specialists."
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze security attacks, symptoms, processes, and countermeasures."
+        },
+        {
+          "id": "CLO3",
+          "text": "Apply skills in security management, controls, protection, and mitigation technologies."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe the common characteristics comprising the cybersecurity world."
+        },
+        {
+          "id": "TLO2",
+          "text": "Understand the three principles of information assurance and security."
+        },
+        {
+          "id": "TLO3",
+          "text": "Differentiate the types of malwares and malicious code."
+        },
+        {
+          "id": "TLO4",
+          "text": "Compare the different methods used in social engineering."
+        },
+        {
+          "id": "TLO5",
+          "text": "Explain how encryption techniques protect confidentiality."
+        },
+        {
+          "id": "TLO6",
+          "text": "Explain processes used to ensure integrity."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain the concept of high availability. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Apply skills in security management, controls, protection, and mitigation technologies."
+        },
+        {
+          "id": "CLO4",
+          "text": "Explain how cybersecurity professionals use technologies, processes, and procedures to defend all components of the network."
+        },
+        {
+          "id": "CLO5",
+          "text": "Create a security measure plan for the different Cybersecurity domains."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO6",
+          "text": "Explain processes used to ensure integrity. TLO7. Explain the concept of high availability."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain how processes and procedures protect systems."
+        },
+        {
+          "id": "TLO9",
+          "text": "Explain how to implement security measures to protect network devices."
+        },
+        {
+          "id": "TLO10",
+          "text": "Document the security measure plan for the different Cybersecurity domains. Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,0 +1,70 @@
+{
+  "source": "CHED Memorandum Order No. 25, Series of 2015 (BSCS, BSIS, BSIT PSG). Hand-transcribed from the scanned PDF; BSIS omitted (out of scope). Page numbers are the CMO's own.",
+  "binding_minimum": "Program outcomes plus minimum units (Art. III Sec. 3, p2). Curricula in Art. V are samples; an HEI may use another route if it shows the outcomes are met (Sec. 4, p2).",
+  "min_units": {
+    "ref": "Sec. 8.1, p10",
+    "total": 146,
+    "centers_of_excellence_total": 134,
+    "BSCS": {"general_education": 54, "common_courses": 18, "professional_courses": 48, "professional_electives": 9, "additional_math": 3, "pe": 8, "nstp": 6},
+    "BSIT": {"general_education": 54, "common_courses": 18, "professional_courses": 48, "professional_electives": 12, "additional_math": 0, "pe": 8, "nstp": 6}
+  },
+  "common_courses": {
+    "ref": "Sec. 8.1, pp11-12 (3 units each)",
+    "CC100": "Introduction to Computing",
+    "CC101": "Programming 1 (Fundamentals of Programming)",
+    "CC102": "Programming 2 (Intermediate Programming)",
+    "CC103": "Data Structures and Algorithms",
+    "CC104": "Information Management",
+    "CC105": "Applications Development and Emerging Technologies"
+  },
+  "knowledge_areas": {
+    "BSCS": {
+      "ref": "Sec. 8.2-A, pp12-13 (ACM CS Curricula 2013)",
+      "ALGO": "Algorithms and Complexities",
+      "AR": "Architecture and Organization",
+      "DS": "Discrete Structures",
+      "HCI": "Human Computer Interaction (incl. Graphics and Visual Computing)",
+      "IAS": "Information Assurance and Security",
+      "NC": "Networks and Communications",
+      "OS": "Operating Systems (incl. Parallel and Distributed Computing)",
+      "PL": "Programming Languages",
+      "SDF": "Software Development Fundamentals",
+      "SE": "Software Engineering (incl. Intelligent Systems)",
+      "SIPP": "Social Issues and Professional Practice"
+    },
+    "BSIT": {
+      "ref": "Sec. 8.2-C, pp13-14 (ACM IT Curricula 2008)",
+      "ITF": "Information Technology Fundamentals",
+      "HCI": "Human Computer Interaction",
+      "IAS": "Information Assurance and Security",
+      "IM": "Information Management",
+      "IPT": "Integrative Programming and Technologies",
+      "NET": "Networking",
+      "PT": "Platform Technologies",
+      "SAM": "Systems Administration and Maintenance",
+      "SIA": "Systems Integration and Architecture",
+      "SPI": "Social and Professional Issues",
+      "WST": "Web Systems and Technologies"
+    }
+  },
+  "program_outcomes": {
+    "ref": "Sec. 6.3, pp7-9",
+    "BSCS": {
+      "CS01": "Knowledge for solving computing problems", "CS02": "Problem analysis",
+      "CS03": "Design/development of solutions", "CS04": "Design/development of solutions (information security)",
+      "CS05": "Design/development of solutions", "CS06": "Modern tool usage",
+      "CS07": "Individual and team work", "CS08": "Communication",
+      "CS09": "Computing professionalism and ethics", "CS10": "Life-long learning"
+    },
+    "BSIT": {
+      "IT01": "Knowledge for solving computing problems", "IT02": "Knowledge for solving computing problems (best practices, standards)",
+      "IT03": "Problem analysis", "IT04": "Problem analysis (user needs)",
+      "IT05": "Design/development of solutions", "IT06": "Design/development of solutions (integration)",
+      "IT07": "Modern tool usage", "IT08": "Individual and team work", "IT09": "Individual and team work (IT project plan)",
+      "IT10": "Communication", "IT11": "Computing professionalism and social responsibility",
+      "IT12": "Computing professionalism and social responsibility", "IT13": "Life-long learning"
+    }
+  },
+  "internship": {"ref": "Sec. 8.3, p14", "required": true, "min_hours": {"BSCS": 162, "BSIT": 486}, "eligible_after_units_pct": 70},
+  "final_project": {"ref": "Sec. 8.4, pp14-15", "BSCS": "Thesis", "BSIT": "Capstone project"}
+}

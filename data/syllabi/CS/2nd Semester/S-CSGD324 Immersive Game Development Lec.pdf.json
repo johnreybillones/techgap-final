@@ -1,0 +1,161 @@
+{
+  "source": {
+    "filename": "S-CSGD324 Immersive Game Development Lec.pdf",
+    "sha256": "d348fdd8669d65feac365cbc88f11d6586b744e32f294f157d132d5f0d5abc31",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 10,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        2
+      ]
+    }
+  },
+  "course_code": "S-CSGD324",
+  "course_title": "Immersive Game Development",
+  "course_type": "Lecture",
+  "course_credit": "Two Units",
+  "prerequisites": "S-CSGD323LC",
+  "corequisites": "None",
+  "track": "CS - Game Development",
+  "year_level": "3rd Year",
+  "semester": "2nd Semester",
+  "course_description": "This course provides an in-depth exploration of game development using Unity, equipping students with the skills to design, prototype, and build interactive experiences. Students will learn industry-standard software design principles, apply the software development lifecycle in a game development context, and develop structured Game Design Documents (GDDs). Through hands-on projects, they will implement game mechanics, optimize performance, and create engaging 2D and 3D prototypes. The course emphasizes iteration, teamwork, and problem-solving, preparing students to design immersive worlds while upholding ethical and professional standards. By the end of the semester, students will have developed a working game prototype that showcases their creativity and technical expertise.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "describe and identify the core principles of immersive game world design while being capable of explaining foundational game design concepts;"
+    },
+    {
+      "id": "CLO2",
+      "text": "demonstrate understanding of game logic, mechanics and gameplay design;"
+    },
+    {
+      "id": "CLO3",
+      "text": "breakdown and categorize game ideas while analyzing feasibility of mechanics, illustrate and blueprint a game prototype;"
+    },
+    {
+      "id": "CLO4",
+      "text": "determine and evaluate the use of animations, timelines and UI elements for game design;"
+    },
+    {
+      "id": "CLO5",
+      "text": "assess and interpret how games can address social and environmental issues, evaluating existing games and creating new games that impact culture, inclusivity, and ethical considerations; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "design, develop, and synthesize all learned concepts into a fully functional game prototype."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Describe and identify the core principles of immersive game world design while being capable of explaining foundational game design concepts."
+        },
+        {
+          "id": "CLO2",
+          "text": "Demonstrate understanding of game logic, mechanics and gameplay design."
+        },
+        {
+          "id": "CLO3",
+          "text": "Breakdown and categorize game ideas while analyzing feasibility of mechanics, illustrate and blueprint a game prototype"
+        },
+        {
+          "id": "CLO4",
+          "text": "Determine and evaluate the use of animations, timelines and UI elements for game design."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Define and differentiate game development and game design, while showcasing the importance of each."
+        },
+        {
+          "id": "TLO2",
+          "text": "Understand and learn the different tools, languages, approaches to game design, while providing knowledge about different game engines and platforms"
+        },
+        {
+          "id": "TLO3",
+          "text": "Write modular, efficient scripts in C# to create objects, use functions and control game mechanics."
+        },
+        {
+          "id": "TLO4",
+          "text": "Employ concepts, unique ideas and novel mechanics into clear and easily to understand documentation"
+        },
+        {
+          "id": "TLO5",
+          "text": "Improve gameplay, consider debugging and iterative, continually improving releases from conception to finish."
+        },
+        {
+          "id": "TLO6",
+          "text": "Determine how to incorporate animations, sounds, music and other elements to improve immersion and feel of games."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Assess and interpret how games can address social and environmental issues, evaluating existing games and creating new games that impact on culture, inclusivity, and ethical considerations."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Incorporate good storytelling, immersive world building or deep game design elements to highlight social, environmental and economic concerns while presenting different perspectives and takes."
+        },
+        {
+          "id": "TLO8",
+          "text": "Demonstrate collaboration, teamwork and camaraderie by supporting and evaluating each other's works, providing a sense of unity and fulfillment among peers."
+        },
+        {
+          "id": "TLO9",
+          "text": "Create a reflective, retrospective analysis of the entire game design and development process for further learning."
+        },
+        {
+          "id": "TLO10",
+          "text": "Develop a solid understanding of how to navigate and use the Unity Editor, as well as how to import and export objects, prefabs and components."
+        },
+        {
+          "id": "TLO11",
+          "text": "Create and design a working prototype/model of the game loop as well as the mechanics to incorporate."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,1 +1,23 @@
 docs/handoff
+docs/_archive/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local ML checkpoints are provisioned outside version control.
+/models/
+/data/training/
+
+.venv
+.venv-pipeline
+
+__pycache__/
+/dist/
+
+# Scraped third-party postings stay local until source-access consent is recorded.
+/data/job_collections/*
+!/data/job_collections/audit_four_track_saved_frame.py
+/data/pre_model/*/*
+!/data/pre_model/saved-pre-model-20261031-v4/manifest.json

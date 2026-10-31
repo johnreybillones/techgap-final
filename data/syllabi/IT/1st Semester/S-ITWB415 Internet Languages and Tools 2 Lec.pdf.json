@@ -1,0 +1,181 @@
+{
+  "source": {
+    "filename": "S-ITWB415 Internet Languages and Tools 2 Lec.pdf",
+    "sha256": "7f4a4aac5603ee19f08463dbc12a11ad2e03d9a4a930410d47218ea5336508a6",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 7,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1
+      ]
+    }
+  },
+  "course_code": "S-ITWB415",
+  "course_title": "Internet Languages and Tools 2",
+  "course_type": "Lecture",
+  "course_credit": "2 units",
+  "prerequisites": "S-ITPC323 & S-ITPC323LA",
+  "corequisites": "S-ITWB415LA",
+  "track": "IT - Web Development",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "Provides introduction to mobile application development for android platform. In this course, students learn both the practical and conceptual skills that enable them to develop robust android/IOS applications. Students learn skills for creating and deploying Android/IOS applications, with particular emphasis on software development, including software architecture, software design, usability, and deployment.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "Discuss the fundamental concepts of Flutter;"
+    },
+    {
+      "id": "CLO2",
+      "text": "Explain the Dart programming basics;"
+    },
+    {
+      "id": "CLO3",
+      "text": "Design a mobile / web application with various layouts and widget;"
+    },
+    {
+      "id": "CLO4",
+      "text": "Develop a mobile web application to solve real life problems."
+    },
+    {
+      "id": "CLO5",
+      "text": "Evaluate the functionality and usability of the applications."
+    },
+    {
+      "id": "CLO6",
+      "text": "Demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Discuss the fundamental concepts of TL Dart and Flutter. TL"
+        },
+        {
+          "id": "CLO2",
+          "text": "Demonstrate the Dart Programming TL basics. TL TL T"
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Explain the fundamental concepts of Flutter."
+        },
+        {
+          "id": "TLO2",
+          "text": "Explain the flutter architecture."
+        },
+        {
+          "id": "TLO3",
+          "text": "Discuss the mathematical, logical and conditional operators."
+        },
+        {
+          "id": "TLO4",
+          "text": "Differentiate list and map."
+        },
+        {
+          "id": "TLO5",
+          "text": "Demonstrate programming using functions."
+        },
+        {
+          "id": "TLO6",
+          "text": "Create programs using class and constructors."
+        },
+        {
+          "id": "TLO7",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem- Solving, Use of ICT (not part of topic, but integrated in as s essment )"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        2
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Design a mobile / web application using Flutter."
+        },
+        {
+          "id": "CLO4",
+          "text": "Develop a mobile web application to solve real life problems."
+        },
+        {
+          "id": "CLO5",
+          "text": "Evaluate the functionality and usability of the applications."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO7",
+          "text": "Create GUI interface using IDE."
+        },
+        {
+          "id": "TLO8",
+          "text": "Design the application using various widgets."
+        },
+        {
+          "id": "TLO9",
+          "text": "Build the application using layouts."
+        },
+        {
+          "id": "TLO10",
+          "text": "Design application using forms , dialog boxes and menu."
+        },
+        {
+          "id": "TLO11",
+          "text": "Develop a useful and helpful mobile / web application."
+        },
+        {
+          "id": "TLO12",
+          "text": "Present the mobile / web application project."
+        },
+        {
+          "id": "TLO13",
+          "text": "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

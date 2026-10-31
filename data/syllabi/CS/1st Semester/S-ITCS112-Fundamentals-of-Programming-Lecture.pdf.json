@@ -1,0 +1,177 @@
+{
+  "source": {
+    "filename": "S-ITCS112-Fundamentals-of-Programming-Lecture.pdf",
+    "sha256": "ba53d979e36e9ad8cce4d6056839826ede449a9c35bf3c57fd5faf558ff19906",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 17,
+    "field_pages": {
+      "course_code": [
+        3,
+        14
+      ],
+      "course_title": [
+        3,
+        14
+      ],
+      "course_type": [
+        3,
+        14
+      ],
+      "course_credit": [
+        3,
+        14
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3
+      ]
+    }
+  },
+  "course_code": "S-ITCS112",
+  "course_title": "Fundamentals of Programming",
+  "course_type": "Lecture",
+  "course_credit": "2 units",
+  "prerequisites": "None",
+  "corequisites": "None",
+  "track": "Common (IT & CS)",
+  "year_level": "1st Year",
+  "semester": "1st Semester",
+  "course_description": "Introduces programming with emphasis on algorithmic and fundamentals programming concepts. This also includes software development methodology, data types, control structures, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy. The course will look at solving problems using structured- programming approach. This class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand software methodology, algorithms, and flowchart.;"
+    },
+    {
+      "id": "CLO2",
+      "text": "create algorithms and flowcharts for solving a given problem;. understand common computer programming concepts;"
+    },
+    {
+      "id": "CLO3",
+      "text": ""
+    },
+    {
+      "id": "CLO4",
+      "text": "analyze and evaluate pre-written programs;"
+    },
+    {
+      "id": "CLO5",
+      "text": "develop programs to solve varieties of programming problems; and"
+    },
+    {
+      "id": "CLO6",
+      "text": "demonstrate 21st century skills in all learning activities. 3"
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand software methodology, algorithms, and flowchart."
+        },
+        {
+          "id": "CLO2",
+          "text": "Create algorithms and flowcharts for solving a given problem"
+        },
+        {
+          "id": "CLO3",
+          "text": "Understand common computer programming concepts."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Discuss software methodology, algorithms, and flowchart"
+        },
+        {
+          "id": "TLO2",
+          "text": "Discuss flowcharting symbols and their uses"
+        },
+        {
+          "id": "TLO3",
+          "text": "Draw flowcharts for solving problems"
+        },
+        {
+          "id": "TLO4",
+          "text": "Translate algorithms to flowcharts"
+        },
+        {
+          "id": "TLO5",
+          "text": "Write algorithms for solving given problems as part of software development process."
+        },
+        {
+          "id": "TLO6",
+          "text": "Learn syntax and semantics of Python programming language."
+        },
+        {
+          "id": "TLO7",
+          "text": "Understand identifiers, keywords, and operators in Python."
+        },
+        {
+          "id": "TLO8",
+          "text": "Explain I/O Statements"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO4",
+          "text": "Analyze and evaluate prewritten programs"
+        },
+        {
+          "id": "CLO5",
+          "text": "Develop programs to solve varieties of programming problems."
+        },
+        {
+          "id": "CLO6",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO10",
+          "text": "Debug and modify programs"
+        },
+        {
+          "id": "TLO11",
+          "text": "Trace the output of the program"
+        },
+        {
+          "id": "TLO12",
+          "text": "Write Python programs using the different Selection Structures."
+        },
+        {
+          "id": "TLO13",
+          "text": "Write programs using Python Iteration Structure."
+        },
+        {
+          "id": "TLO14",
+          "text": "Perform basic manipulation with arrays in Python Collaboration, Skilled Communication, Knowledge Construction, Self- Regulation, Real-world Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        7
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

@@ -1,0 +1,106 @@
+{
+  "source": {
+    "filename": "S-ITPE002LA IT Professional Elective 2.pdf",
+    "sha256": "05571479f9ffae21818fd7142cdd341a7dade71ecc09323f425fb12991a63785",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 9,
+    "field_pages": {
+      "course_code": [
+        1
+      ],
+      "course_title": [
+        1
+      ],
+      "course_type": [
+        1
+      ],
+      "course_credit": [
+        1
+      ],
+      "prerequisites": [
+        1
+      ],
+      "corequisites": [
+        1
+      ],
+      "course_description": [
+        1
+      ],
+      "course_learning_outcomes": [
+        1
+      ]
+    }
+  },
+  "course_code": "S-ITPE002LA",
+  "course_title": "It Professional Elective 2",
+  "course_type": "Laboratory",
+  "course_credit": "2.25 units",
+  "prerequisites": "None",
+  "corequisites": "S-ITPE002Lec",
+  "track": "IT Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course introduced the Linux and Open-Source industry and knowledge of the most popular Open-Source applications. The course aims to cover major components of the Linux operating system and explain the technical proficiency to work on the Linux command line. The course has a basic understanding of security and administration related topics server management, working on the command line and permissions.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO2",
+      "text": "Apply various types of users on a Linux system, its security and process."
+    },
+    {
+      "id": "CLO3",
+      "text": "Develop students’ skills and knowledge in operating system implementation, table structure and device input output system"
+    },
+    {
+      "id": "CLO4",
+      "text": "Apply storage management, file, directories and solve storage management problem"
+    },
+    {
+      "id": "CLO5",
+      "text": "Developing student critical thinking through the creation of a design paper for a proposed server solution"
+    },
+    {
+      "id": "CLO6",
+      "text": "Apply the skills in implementing different kinds of OS especially Linux, and its concept and properties."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO3",
+          "text": "Develop students’ skills and knowledge in operating system implementation, table structure and the input output system and devices."
+        },
+        {
+          "id": "CLO4",
+          "text": "Apply storage management, file, directories and solve storage management problem"
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO9",
+          "text": "Discuss the problem of address binding, concept of segmentation and fragmentation."
+        },
+        {
+          "id": "TLO10",
+          "text": "Explain what is paging, its implementation"
+        },
+        {
+          "id": "TLO11",
+          "text": "Discuss different kinds of table structure and paging interact with segmentation."
+        },
+        {
+          "id": "TLO12",
+          "text": "Described benefits of virtual memory system."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

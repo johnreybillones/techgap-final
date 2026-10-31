@@ -1,0 +1,227 @@
+{
+  "source": {
+    "filename": "S-CSSE321_Software_Engineering-1-LECTURE 2023 2024 with PLO - EDITED.pdf",
+    "sha256": "e87f722815e3e9b84f5337be2c2216a4c189952608e7fed6306bfb9ab5d72a9d",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 16,
+    "field_pages": {
+      "course_code": [
+        3,
+        12,
+        13
+      ],
+      "course_title": [
+        3,
+        12,
+        13
+      ],
+      "course_type": [
+        3,
+        12,
+        13
+      ],
+      "course_credit": [
+        3,
+        12,
+        13
+      ],
+      "prerequisites": [
+        3
+      ],
+      "corequisites": [
+        3
+      ],
+      "course_description": [
+        3
+      ],
+      "course_learning_outcomes": [
+        3
+      ]
+    }
+  },
+  "course_code": "S-CSSE321",
+  "course_title": "Software Engineering 1",
+  "course_type": "Lecture",
+  "course_credit": "2 Units",
+  "prerequisites": "S-ITCS226LA",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "3rd Year",
+  "semester": "1st Semester",
+  "course_description": "This course deals with equipping the students with the skills in developing quality software which covers topics such as concepts of software engineering, use of software engineering paradigms as applied to software development, planning and managing software projects, software development life cycle and various software processing models. Various case studies will be given, and students are expected to develop quality software. The course will have a special provision on modality, pacing, pedagogy, assessment type, communication and feedback based on the national, regional, provincial, city, and institutional guidelines for the safety amidst disaster and pandemic. Hence, this class shall be delivered in both online and offline/module-based approach. This course is also compliant with Outcomes-Based Education (OBE) and 21st Century Learning Design (21CLD) frameworks.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "understand software engineering concepts by identifying the characteristics, application, life cycle of software and design principles and techniques;"
+    },
+    {
+      "id": "CLO2",
+      "text": "apply the most appropriate software process model;"
+    },
+    {
+      "id": "CLO3",
+      "text": "analyze agile software development methods;"
+    },
+    {
+      "id": "CLO4",
+      "text": "evaluate software requirements and appraise the processes involved in discovering and documenting these requirements;"
+    },
+    {
+      "id": "CLO5",
+      "text": "examine different system models that may be developed as part of requirements engineering and system design processes;"
+    },
+    {
+      "id": "CLO6",
+      "text": "create research by developing quality software, applying the concepts learned, and write a technical paper about it; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "demonstrate 21st century skills in all learning activities."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Understand software engineering concepts by identifying the characteristics, application, life cycle of software and design principles and techniques."
+        },
+        {
+          "id": "CLO2",
+          "text": "Apply the most appropriate software process model."
+        },
+        {
+          "id": "CLO3",
+          "text": "Analyze agile software development methods."
+        },
+        {
+          "id": "CLO4",
+          "text": "Evaluate software requirements and appraise the processes involved in discovering and documenting these requirements."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Describe what software engineering is and why it is important."
+        },
+        {
+          "id": "TLO2",
+          "text": "Recognize that the development of different types of software system may require different software engineering techniques."
+        },
+        {
+          "id": "TLO3",
+          "text": "Identify ethical and professional issues that are important for software engineers."
+        },
+        {
+          "id": "TLO4",
+          "text": "Describe the four systems, of different types, which are used as examples throughout the book."
+        },
+        {
+          "id": "TLO5",
+          "text": "Define the concepts of software processes and software process models."
+        },
+        {
+          "id": "TLO6",
+          "text": "Discuss the three general software process models and when they might be used."
+        },
+        {
+          "id": "TLO7",
+          "text": "Explain the fundamental process activities of software requirements engineering, software development, testing, and evolution."
+        },
+        {
+          "id": "TLO8",
+          "text": "Recognize why processes should be organized to cope with changes in the software requirements and design."
+        },
+        {
+          "id": "TLO9",
+          "text": "Identify the notion of software process improvement and the factors that affect software process quality."
+        },
+        {
+          "id": "TLO10",
+          "text": "Compare the rationale for agile software development methods, the agile manifesto, and the differences between agile and plan-driven development."
+        },
+        {
+          "id": "TLO11",
+          "text": "Distinguish about important agile development practices such as user stories, refactoring, pair programming and test-first development."
+        },
+        {
+          "id": "TLO12",
+          "text": "Relate the Scrum approach to agile project management."
+        },
+        {
+          "id": "TLO13",
+          "text": "Organize the issues of scaling agile development methods and combining agile approaches with plan-driven approaches in the development of large software systems."
+        },
+        {
+          "id": "TLO14",
+          "text": "Evaluate the concepts of user and system requirements and why these requirements should be written in different ways."
+        },
+        {
+          "id": "TLO15",
+          "text": "Value the differences between functional and nonfunctional software requirements."
+        },
+        {
+          "id": "TLO16",
+          "text": "Appraise the main requirements engineering activities of elicitation, analysis, and validation, and the relationships between these activities."
+        },
+        {
+          "id": "TLO17",
+          "text": "Weigh why requirements management is necessary and how it supports other requirements engineering activities."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        4
+      ]
+    },
+    {
+      "period": "Final",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO5",
+          "text": "Examine different system models that may be developed as part of requirements engineering and system design processes."
+        },
+        {
+          "id": "CLO6",
+          "text": "Create research by developing quality software, applying the concepts learned, and write a technical paper about it."
+        },
+        {
+          "id": "CLO7",
+          "text": "Demonstrate 21st century skills in all learning activities."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO18",
+          "text": "Relate how graphical models can be used to represent software systems and why several types of model are needed to fully represent a system."
+        },
+        {
+          "id": "TLO19",
+          "text": "Analyze the fundamental system modeling perspectives of context, interaction, structure, and behavior."
+        },
+        {
+          "id": "TLO20",
+          "text": "Distinguish the principal diagram types in the Unified Modeling Language (UML) and how these diagrams may be used in system modeling."
+        },
+        {
+          "id": "TLO21",
+          "text": "Relate to model-driven engineering, where an executable system is automatically generated from structural and behavioral models."
+        },
+        {
+          "id": "TLO22",
+          "text": "Develop a fully running system as a group project, together with a documentation and defend it in class. • Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+        }
+      ],
+      "additional_text": [
+        "Collaboration, Skilled Communication, Knowledge Construction, Self-Regulation, Real-World Problem-Solving, Use of ICT (not part of topic, but integrated in assessments)"
+      ],
+      "source_pages": [
+        6
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}

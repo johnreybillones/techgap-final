@@ -1,0 +1,144 @@
+{
+  "source": {
+    "filename": "S-CSTH412 THESIS 2.pdf",
+    "sha256": "c88690d8d06fc93d889221c20bfdd1bceebd06560db234db6d7bd932666535ce",
+    "extractor_version": "dlsud-cics-v2",
+    "pdfplumber_version": "0.11.10",
+    "page_count": 20,
+    "field_pages": {
+      "course_code": [
+        4,
+        15
+      ],
+      "course_title": [
+        4,
+        15
+      ],
+      "course_type": [
+        4,
+        15
+      ],
+      "course_credit": [
+        4,
+        15
+      ],
+      "prerequisites": [
+        4,
+        15
+      ],
+      "corequisites": [
+        4,
+        15
+      ],
+      "course_description": [
+        4
+      ],
+      "course_learning_outcomes": [
+        4
+      ]
+    }
+  },
+  "course_code": "S-CSTH412",
+  "course_title": "THESIS 2",
+  "course_type": "Lecture",
+  "course_credit": "3 Units",
+  "prerequisites": "S-CSTH321",
+  "corequisites": "None",
+  "track": "CS Core & Electives",
+  "year_level": "4th Year",
+  "semester": "1st Semester",
+  "course_description": "Deals with the actual research presented in the proposal. The course output is the completed research to be defended before a panel. This course also includes the practical applications of God’s way of character building through proper handling and presentation of research data.",
+  "course_learning_outcomes": [
+    {
+      "id": "CLO1",
+      "text": "cultivate a clear and effective field appropriate undergraduate research, using algorithms to explore complex and/or ambiguous ideas and issues;"
+    },
+    {
+      "id": "CLO2",
+      "text": "analyze the requirements needed to improve the current algorithm used in the study;"
+    },
+    {
+      "id": "CLO3",
+      "text": "evaluate data to identify problems;"
+    },
+    {
+      "id": "CLO4",
+      "text": "interpret theories and give recommendations where appropriate;"
+    },
+    {
+      "id": "CLO5",
+      "text": "design and develop a model of the actual study;"
+    },
+    {
+      "id": "CLO6",
+      "text": "recommend a solution to existing problem; and"
+    },
+    {
+      "id": "CLO7",
+      "text": "acquire Lasallian values on the chosen topic and apply the knowledge, experience and skills learned in computer science."
+    }
+  ],
+  "learning_plan": [
+    {
+      "period": "Midterm",
+      "course_learning_outcomes": [
+        {
+          "id": "CLO1",
+          "text": "Cultivate a clear and effective field appropriate undergraduate research, using algorithms to explore complex and/or ambiguous ideas and issues."
+        },
+        {
+          "id": "CLO2",
+          "text": "Analyze the requirements needed to improve the current algorithm used in the study."
+        },
+        {
+          "id": "CLO3",
+          "text": "Evaluate data to identify."
+        },
+        {
+          "id": "CLO4",
+          "text": "Interpret theories and give recommendations where appropriate"
+        },
+        {
+          "id": "CLO5",
+          "text": "Design and develop a model of the actual study."
+        },
+        {
+          "id": "CLO6",
+          "text": "Recommend a solution to existing problem."
+        }
+      ],
+      "topic_learning_outcomes": [
+        {
+          "id": "TLO1",
+          "text": "Analyze complex problems, identify and define the computing requirements appropriate to its solution."
+        },
+        {
+          "id": "TLO2",
+          "text": "Identify and analyze user needs and take them into account in the selection, creation, and evaluation and administration of computer-based systems."
+        },
+        {
+          "id": "TLO3",
+          "text": "Demonstrate deeper knowledge of methods in the field of study."
+        },
+        {
+          "id": "TLO4",
+          "text": "Exhibit a capability to contribute to research and development work."
+        },
+        {
+          "id": "TLO5",
+          "text": "Show the ability to analyze various aspects of a topic, review, and hypothesis knowledge."
+        },
+        {
+          "id": "TLO6",
+          "text": "Illustrate the capability to integrate knowledge critically and systematically."
+        }
+      ],
+      "additional_text": [],
+      "source_pages": [
+        5
+      ]
+    }
+  ],
+  "status": "ok",
+  "issues": []
+}
