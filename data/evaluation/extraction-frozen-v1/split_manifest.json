@@ -1,0 +1,57 @@
+{
+  "export_splits": {
+    "test": {
+      "entity_types": {
+        "technical_knowledge": 422,
+        "technical_task": 284,
+        "tool_technology": 204
+      },
+      "examples": 473,
+      "negatives": 139,
+      "source_types": {
+        "job": 388,
+        "syllabus": 85
+      }
+    },
+    "train": {
+      "entity_types": {
+        "technical_knowledge": 1280,
+        "technical_task": 983,
+        "tool_technology": 816
+      },
+      "examples": 1600,
+      "negatives": 498,
+      "source_types": {
+        "job": 1328,
+        "syllabus": 272
+      }
+    },
+    "val": {
+      "entity_types": {
+        "technical_knowledge": 184,
+        "technical_task": 107,
+        "tool_technology": 78
+      },
+      "examples": 176,
+      "negatives": 56,
+      "source_types": {
+        "job": 130,
+        "syllabus": 46
+      }
+    }
+  },
+  "file_hashes": {
+    "gliner2_test.jsonl": "d6f01b3316abbcc266beff1a3e851c2b8f38538e22282912e2a1da2ece57a4a8",
+    "gliner2_train.jsonl": "3fff4c07125f048749138923fdbbd7858cf096739c8b8a2713228b268773b59e",
+    "gliner2_val.jsonl": "b05841cfa0a62a3f4a68290b3cc12ca84439e0cc45dc74073044ce06cca29fda",
+    "split_index.jsonl": "65af82c1f6263cb4f4a4fb8f67fdabc2e5e6e4693e6d4790259bf7db695543f9"
+  },
+  "group_overlap_check": "passed",
+  "release_id": "saved-pre-model-20261031-v4",
+  "seed": "techgap-pre-model-v1",
+  "split_buckets": {
+    "test": "80-99",
+    "train": "0-69",
+    "val": "70-79"
+  }
+}
