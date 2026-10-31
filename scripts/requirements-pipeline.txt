@@ -1,0 +1,9 @@
+# Admission-only P2A runtime. Model files and ESCO data must be provisioned
+# locally and validated separately; installing these packages does not download
+# or authorize collection data.
+gliner2
+sentence-transformers
+transformers
+torch
+
+matplotlib
