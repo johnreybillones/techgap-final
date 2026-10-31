@@ -1,0 +1,155 @@
+{
+  "actor": "shahidirfan/JobStreet-Scraper",
+  "actor_id": "f7ggUvGaOrrUuPkZQ",
+  "checked_date": "2026-10-19",
+  "input_schema": {
+    "title": "JobStreet Jobs Scraper",
+    "description": "Fast, stealthy API-based scraper for JobStreet job listings across MY, SG, PH, and ID.",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+      "startUrl": {
+        "title": "Start URL",
+        "description": "A JobStreet search URL. If provided, this will be used instead of Keyword/Location. E.g., https://my.jobstreet.com/developer-jobs/in-Malaysia",
+        "type": "string"
+      },
+      "keyword": {
+        "title": "Keyword (if not using Start URL)",
+        "description": "Job search term, e.g., 'developer'.",
+        "type": "string",
+        "default": "developer",
+        "prefill": "developer"
+      },
+      "location": {
+        "title": "Location (optional)",
+        "description": "Optional typed location filter, e.g., 'Singapore', 'Kuala Lumpur', or 'Manila'. Leave blank to search the selected country site without forcing a location.",
+        "type": "string",
+        "default": "",
+        "prefill": ""
+      },
+      "country": {
+        "title": "Country Site",
+        "description": "The JobStreet country domain to use for keyword/location searches.",
+        "type": "string",
+        "enum": [
+          "my",
+          "sg",
+          "ph",
+          "id"
+        ],
+        "default": "my",
+        "prefill": "my"
+      },
+      "posted_date": {
+        "title": "Posted Date Filter",
+        "description": "Filter jobs by how recently they were posted (only works with keyword/location search).",
+        "type": "string",
+        "enum": [
+          "anytime",
+          "24h",
+          "7d",
+          "30d"
+        ],
+        "default": "24h",
+        "prefill": "24h"
+      },
+      "results_wanted": {
+        "title": "Results Wanted",
+        "description": "Maximum number of jobs to collect.",
+        "type": "integer",
+        "default": 20,
+        "prefill": 20
+      },
+      "proxyConfiguration": {
+        "title": "Proxy configuration",
+        "description": "Optional Apify proxy configuration. Keep disabled for direct API requests, or enable it when the JobStreet API rate-limits or blocks the execution environment.",
+        "type": "object",
+        "default": {
+          "useApifyProxy": false
+        }
+      }
+    },
+    "required": [],
+    "additionalProperties": false
+  },
+  "provider_inferred_output_schema": {
+    "bulletPoints": [
+      "string"
+    ],
+    "workArrangements": [
+      "string"
+    ],
+    "isExpired": "boolean",
+    "isFeatured": "boolean",
+    "apiSectionRank": "number",
+    "companyProfileStructuredDataId": "number",
+    "advertiserId": "string",
+    "apiSearchToken": "string",
+    "apiSection": "string",
+    "brandingLogoUrl": "string",
+    "classification": "string",
+    "company": "string",
+    "description_html": "string",
+    "description_text": "string",
+    "detail_source": "string",
+    "detail_status": "string",
+    "displayType": "string",
+    "employerId": "string",
+    "id": "string",
+    "list_url": "string",
+    "location": "string",
+    "postedAt_display": "string",
+    "postedAt_iso": "string",
+    "roleId": "string",
+    "salary": "string",
+    "scrapedAt": "string",
+    "source": "string",
+    "subClassification": "string",
+    "teaser": "string",
+    "title": "string",
+    "url": "string",
+    "workType": "string"
+  },
+  "pricing": {
+    "model": "PAY_PER_EVENT",
+    "userTier": "FREE",
+    "events": [
+      {
+        "title": "result",
+        "description": "Single result in the default dataset.",
+        "tieredPricing": [
+          {
+            "tier": "FREE",
+            "priceUsd": 0.00099
+          },
+          {
+            "tier": "BRONZE",
+            "priceUsd": 0.00093
+          },
+          {
+            "tier": "SILVER",
+            "priceUsd": 0.00086
+          },
+          {
+            "tier": "GOLD",
+            "priceUsd": 0.0008
+          },
+          {
+            "tier": "PLATINUM",
+            "priceUsd": 0.0008
+          },
+          {
+            "tier": "DIAMOND",
+            "priceUsd": 0.0008
+          }
+        ]
+      },
+      {
+        "title": "Actor Start",
+        "description": "Charged when the Actor starts running. Number of events charged depends on Actor memory (one event per GB, minimum one event).",
+        "priceUsd": 0.0005
+      }
+    ]
+  },
+  "readme": "## JobStreet Jobs Scraper\n\nJobStreet Jobs Scraper is a JobStreet scraper for collecting structured job listings from Malaysia, Singapore, the Philippines, and Indonesia. It accepts a keyword/location search or a JobStreet search results URL and returns structured records including job titles and descriptions, hiring company names and branding/logo links, salary ranges or labels, published locations, employment types, industry classifications and sub-classifications, work-arrangement labels (remote/hybrid/on-site), posting dates (ISO and human-readable), unique listing identifiers and direct job URLs, listing status flags (featured/premium/expired) and collection timestamps. The Actor gathers listing summaries plus full descriptions in plain text and HTML and uses JobStreet’s public search API and GraphQL detail endpoint to retrieve listing metadata and detail content for recruitment research, market analysis, and automated monitoring of Southeast Asian job markets.\n\n## Use cases\n\n- Recruitment research and candidate sourcing across Malaysia, Singapore, the Philippines, and Indonesia  \n- Hiring intelligence and employer comparison (companies, posting cadence, featured/premium listings)  \n- Salary benchmarking using published salary ranges or labels  \n- Job board data collection and aggregation for market coverage analysis  \n- Skills analysis and classification extraction from job descriptions  \n- Recurring monitoring and trend reporting of regional employment markets (job alerts, hiring trends)"
+}
