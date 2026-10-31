@@ -1,0 +1,2 @@
+# Saved data is hash-verified byte for byte; never convert line endings.
+data/** -text
