@@ -1,0 +1,2 @@
+{"difference": "finetuned_gliner2 - exact_dictionary", "groups": 75, "lower": 0.33124598386219806, "metric": "micro_f1", "resamples": 2000, "seed": 0, "split": "test", "status": "ok", "undefined_replicates": 0, "unit": "split_group_id", "upper": 0.41806892084437763}
+{"difference": "finetuned_gliner2 - frozen_gliner2", "groups": 75, "lower": 0.36871464032767576, "metric": "micro_f1", "resamples": 2000, "seed": 0, "split": "test", "status": "ok", "undefined_replicates": 0, "unit": "split_group_id", "upper": 0.439013586773358}

@@ -3,6 +3,7 @@
 Two stages, so the test file is never read while training or selecting:
 
     python scripts/pipeline/train_extract.py train --release RELEASE --model models/gliner2-base-v1 --run-id ft-v1
+    python scripts/pipeline/train_extract.py fit --run-id ft-v1   # train/val F1 at the frozen threshold
     python scripts/pipeline/train_extract.py evaluate --run-id ft-v1 --compare-run extraction-frozen-v1
 
 `train` needs a GPU for a practical run (it also works on CPU for a smoke test with --max-train/--max-val).
@@ -154,6 +155,29 @@ def group_table(split, spans_per_example):
     return score(split, spans_per_example)[2]
 
 
+def fit_stage(args):
+    """Train and validation F1 of the selected checkpoint at the frozen threshold (never reads test)."""
+    from gliner2 import GLiNER2
+
+    run = Path(args.eval_root) / args.run_id
+    ckpt = json.loads((run / "checkpoint_manifest.json").read_text(encoding="utf-8"))
+    release = Path(args.release) if args.release else Path("data/pre_model") / ckpt["release_id"]
+    model = GLiNER2.from_pretrained(ckpt["selected_checkpoint"])
+    thr = ckpt["selected_threshold"]
+    out = []
+    for name in ("train", "val"):
+        split = load_split(release, name)
+        preds = [spans_from(r, thr) for r in run_model(model, split["inputs"], thr, args.batch_size)]
+        _, total, groups = score(split, preds)
+        out.append({"system": "finetuned_gliner2", "split": name, "scope": "micro", "threshold": thr, "examples": len(split["inputs"]),
+                    "groups": len(groups), "reference": "silver", **evaluate.micro(total)})
+        out += [{"system": "finetuned_gliner2", "split": name, "scope": "type:" + t, **m} for t, m in evaluate.per_type(total).items()]
+    write_jsonl(run / "fit_metrics.jsonl", out)
+    for m in out:
+        if m["scope"] == "micro":
+            print("%s P=%.3f R=%.3f F1=%.3f" % (m["split"], m["precision"] or 0, m["recall"] or 0, m["f1"] or 0))
+
+
 def evaluate_stage(args):
     from gliner2 import GLiNER2
 
@@ -200,12 +224,13 @@ def evaluate_stage(args):
 def main(argv=None):
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="stage", required=True)
-    for name in ("train", "evaluate"):
+    for name in ("train", "fit", "evaluate"):
         p = sub.add_parser(name)
         p.add_argument("--run-id", required=True)
         p.add_argument("--eval-root", default="data/evaluation")
         p.add_argument("--batch-size", type=int, default=8)
-    t, e = sub.choices["train"], sub.choices["evaluate"]
+    t, f, e = sub.choices["train"], sub.choices["fit"], sub.choices["evaluate"]
+    f.add_argument("--release", default=None)
     t.add_argument("--release", required=True)
     t.add_argument("--model", required=True)
     t.add_argument("--weights-root", default="data/training")
@@ -219,7 +244,7 @@ def main(argv=None):
     e.add_argument("--resamples", type=int, default=2000)
     e.add_argument("--min-groups", type=int, default=10)
     args = ap.parse_args(argv)
-    (train_stage if args.stage == "train" else evaluate_stage)(args)
+    {"train": train_stage, "fit": fit_stage, "evaluate": evaluate_stage}[args.stage](args)
 
 
 if __name__ == "__main__":

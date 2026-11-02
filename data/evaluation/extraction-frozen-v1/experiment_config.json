@@ -1,0 +1,29 @@
+{
+  "batch_size": 8,
+  "bootstrap": {
+    "min_groups": 10,
+    "resamples": 2000,
+    "seed": 0
+  },
+  "device": "cpu",
+  "labels": [
+    "technical_task",
+    "technical_knowledge",
+    "tool_technology"
+  ],
+  "model": "models/gliner2-base-v1",
+  "model_revision": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
+  "selected_threshold": 0.6,
+  "thresholds": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "torch": "2.14.1+cpu"
+}

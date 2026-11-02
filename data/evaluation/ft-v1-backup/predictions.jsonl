@@ -1,0 +1,473 @@
+{"row": 0, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 1, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 2, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 3, "spans": [["technical_knowledge", 37, 50], ["technical_knowledge", 52, 59], ["technical_knowledge", 61, 76], ["technical_task", 52, 59], ["technical_task", 61, 76], ["tool_technology", 20, 26], ["tool_technology", 28, 35]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 4, "spans": [["technical_knowledge", 104, 114], ["technical_knowledge", 169, 183], ["technical_knowledge", 188, 202], ["technical_task", 23, 51]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 5, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 6, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 7, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 8, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 9, "spans": [["tool_technology", 95, 102], ["tool_technology", 108, 113]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 10, "spans": [["technical_knowledge", 52, 70], ["technical_task", 52, 70], ["tool_technology", 35, 47]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 11, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 12, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 13, "spans": [["tool_technology", 55, 65], ["tool_technology", 66, 76], ["tool_technology", 85, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 14, "spans": [["technical_task", 20, 50], ["technical_task", 55, 102]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 15, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 16, "spans": [["technical_task", 17, 41], ["technical_task", 46, 75], ["tool_technology", 50, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 17, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 18, "spans": [["technical_knowledge", 86, 101], ["technical_knowledge", 103, 113], ["technical_knowledge", 119, 135], ["tool_technology", 119, 135]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 19, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 20, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 21, "spans": [["technical_task", 20, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 22, "spans": [["technical_knowledge", 61, 77], ["technical_knowledge", 79, 89], ["technical_knowledge", 91, 111], ["technical_knowledge", 116, 128], ["technical_task", 91, 111]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 23, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 24, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 25, "spans": [["technical_task", 78, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 26, "spans": [["tool_technology", 43, 53], ["tool_technology", 58, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 27, "spans": [["technical_task", 32, 59]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 28, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 29, "spans": [["technical_knowledge", 30, 51], ["technical_knowledge", 63, 80], ["technical_task", 56, 80]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 30, "spans": [["technical_task", 46, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 31, "spans": [["technical_task", 40, 69]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 32, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 33, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 34, "spans": [["technical_task", 40, 57], ["tool_technology", 63, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 35, "spans": [["technical_knowledge", 89, 107], ["technical_knowledge", 112, 122]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 36, "spans": [["technical_knowledge", 37, 50]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 37, "spans": [["tool_technology", 84, 92]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 38, "spans": [["technical_knowledge", 37, 59], ["technical_knowledge", 64, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 39, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 40, "spans": [["technical_knowledge", 37, 46]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 41, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 42, "spans": [["technical_knowledge", 37, 54], ["technical_knowledge", 56, 68], ["technical_knowledge", 70, 74], ["technical_knowledge", 85, 123]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 43, "spans": [["technical_knowledge", 139, 166], ["technical_knowledge", 180, 208], ["tool_technology", 101, 119], ["tool_technology", 121, 137], ["tool_technology", 139, 166]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 44, "spans": [["technical_task", 23, 47]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 45, "spans": [["technical_knowledge", 20, 46]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 46, "spans": [["technical_knowledge", 113, 146]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 47, "spans": [["technical_knowledge", 37, 58], ["technical_knowledge", 60, 79], ["technical_knowledge", 81, 101], ["technical_knowledge", 107, 127]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 48, "spans": [["technical_task", 20, 55], ["tool_technology", 76, 84]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 49, "spans": [["technical_knowledge", 60, 78]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 50, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 51, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 52, "spans": [["technical_task", 20, 57]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 53, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 54, "spans": [["technical_task", 20, 65]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 55, "spans": [["tool_technology", 27, 33], ["tool_technology", 35, 40], ["tool_technology", 45, 49], ["tool_technology", 54, 57]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 56, "spans": [["tool_technology", 36, 38], ["tool_technology", 40, 45], ["tool_technology", 47, 57], ["tool_technology", 58, 68]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 57, "spans": [["technical_task", 20, 77]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 58, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 59, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 60, "spans": [["technical_knowledge", 23, 56], ["technical_task", 64, 96]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 61, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 62, "spans": [["technical_task", 164, 193], ["technical_task", 234, 272]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 63, "spans": [["technical_task", 20, 53]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 64, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 65, "spans": [["tool_technology", 36, 54], ["tool_technology", 69, 82], ["tool_technology", 88, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 66, "spans": [["tool_technology", 51, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 67, "spans": [["technical_task", 131, 169]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 68, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 69, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 70, "spans": [["technical_knowledge", 91, 119], ["technical_task", 64, 119]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 71, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 72, "spans": [["technical_task", 89, 149], ["technical_task", 170, 189]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 73, "spans": [["technical_knowledge", 33, 59], ["tool_technology", 33, 38]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 74, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 75, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 76, "spans": [["technical_knowledge", 52, 69], ["technical_task", 17, 42]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 77, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 78, "spans": [["technical_knowledge", 39, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 79, "spans": [["technical_knowledge", 45, 54], ["technical_knowledge", 56, 79], ["technical_knowledge", 85, 99], ["technical_knowledge", 117, 135], ["technical_task", 20, 39], ["tool_technology", 106, 112], ["tool_technology", 117, 135]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 80, "spans": [["technical_knowledge", 66, 87]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 81, "spans": [["technical_knowledge", 97, 111], ["technical_task", 20, 55], ["tool_technology", 74, 84], ["tool_technology", 86, 91], ["tool_technology", 119, 124], ["tool_technology", 126, 133]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 82, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 83, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 84, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 85, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 86, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 87, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 88, "spans": [["technical_task", 80, 100]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 89, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 90, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 91, "spans": [["tool_technology", 37, 40], ["tool_technology", 42, 48], ["tool_technology", 50, 57]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 92, "spans": [["technical_knowledge", 29, 69]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 93, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 94, "spans": [["technical_knowledge", 65, 91]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 95, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 96, "spans": [["technical_knowledge", 60, 88]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 97, "spans": [["technical_knowledge", 44, 59]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 98, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 99, "spans": [["technical_knowledge", 39, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 100, "spans": [["tool_technology", 33, 39]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 101, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 102, "spans": [["technical_knowledge", 28, 54], ["technical_knowledge", 66, 78], ["technical_knowledge", 80, 95], ["technical_knowledge", 97, 106], ["technical_knowledge", 112, 131]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 103, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 104, "spans": [["technical_knowledge", 46, 57], ["technical_knowledge", 62, 80], ["technical_knowledge", 127, 134], ["technical_knowledge", 139, 153], ["tool_technology", 88, 95], ["tool_technology", 97, 101]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 105, "spans": [["technical_knowledge", 43, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 106, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 107, "spans": [["technical_task", 47, 62], ["technical_task", 64, 76], ["technical_task", 82, 98], ["tool_technology", 36, 42]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 108, "spans": [["technical_task", 156, 175]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 109, "spans": [["tool_technology", 53, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 110, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 111, "spans": [["technical_task", 26, 52]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 112, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 113, "spans": [["technical_knowledge", 39, 51], ["technical_knowledge", 53, 76], ["technical_knowledge", 90, 95], ["technical_knowledge", 97, 108], ["technical_knowledge", 113, 122]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 114, "spans": [["technical_task", 41, 70]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 115, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 116, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 117, "spans": [["technical_knowledge", 136, 159], ["technical_knowledge", 180, 190], ["technical_knowledge", 192, 209], ["technical_knowledge", 211, 229], ["technical_knowledge", 235, 253], ["technical_task", 65, 87]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 118, "spans": [["technical_knowledge", 105, 131], ["technical_task", 17, 39]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 119, "spans": [["technical_knowledge", 41, 54], ["technical_knowledge", 60, 77], ["technical_knowledge", 82, 100], ["technical_knowledge", 105, 115]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 120, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 121, "spans": [["technical_knowledge", 25, 64], ["technical_knowledge", 85, 115]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 122, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 123, "spans": [["technical_knowledge", 56, 65], ["technical_knowledge", 76, 96], ["tool_technology", 67, 70]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 124, "spans": [["tool_technology", 65, 75]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 125, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 126, "spans": [["technical_task", 38, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 127, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 128, "spans": [["technical_knowledge", 30, 39], ["technical_task", 72, 111], ["tool_technology", 44, 47]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 129, "spans": [["technical_knowledge", 51, 70]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 130, "spans": [["technical_task", 17, 62], ["tool_technology", 28, 33]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 131, "spans": [["technical_task", 20, 45]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 132, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 133, "spans": [["technical_knowledge", 450, 455]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 134, "spans": [["technical_knowledge", 44, 62]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 135, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 136, "spans": [["technical_task", 20, 58]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 137, "spans": [["technical_knowledge", 34, 66]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 138, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 139, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 140, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 141, "spans": [["technical_knowledge", 81, 91], ["technical_knowledge", 101, 110], ["technical_task", 17, 41]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 142, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 143, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 144, "spans": [["technical_knowledge", 40, 60], ["technical_task", 87, 122], ["tool_technology", 62, 72], ["tool_technology", 77, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 145, "spans": [["technical_knowledge", 20, 47], ["tool_technology", 49, 56], ["tool_technology", 58, 64], ["tool_technology", 70, 73]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 146, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 147, "spans": [["technical_knowledge", 106, 132], ["technical_task", 17, 39]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 148, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 149, "spans": [["technical_knowledge", 37, 52], ["technical_task", 17, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 150, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 151, "spans": [["technical_task", 43, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 152, "spans": [["technical_knowledge", 173, 190], ["technical_task", 194, 234]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 153, "spans": [["technical_knowledge", 49, 62], ["technical_knowledge", 64, 79], ["technical_knowledge", 85, 108], ["technical_knowledge", 112, 134]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 154, "spans": [["technical_knowledge", 117, 138]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 155, "spans": [["technical_knowledge", 46, 61], ["technical_task", 17, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 156, "spans": [["technical_knowledge", 41, 60], ["technical_knowledge", 105, 117], ["technical_knowledge", 119, 132], ["technical_knowledge", 134, 153], ["technical_knowledge", 155, 162], ["technical_knowledge", 168, 189], ["tool_technology", 79, 85], ["tool_technology", 87, 94], ["tool_technology", 98, 103], ["tool_technology", 134, 137]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 157, "spans": [["tool_technology", 41, 44], ["tool_technology", 49, 55]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 158, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 159, "spans": [["technical_knowledge", 42, 47], ["technical_knowledge", 49, 73], ["technical_knowledge", 75, 88], ["technical_knowledge", 94, 133], ["technical_task", 94, 133]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 160, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 161, "spans": [["technical_knowledge", 40, 60], ["technical_knowledge", 62, 79], ["technical_knowledge", 84, 100]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 162, "spans": [["tool_technology", 125, 131], ["tool_technology", 136, 150]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 163, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 164, "spans": [["technical_task", 20, 50]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 165, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 166, "spans": [["technical_knowledge", 24, 40]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 167, "spans": [["technical_task", 17, 86]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 168, "spans": [["technical_knowledge", 45, 54], ["technical_task", 17, 54]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 169, "spans": [["tool_technology", 55, 59], ["tool_technology", 61, 65]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 170, "spans": [["technical_knowledge", 59, 77], ["technical_knowledge", 79, 92], ["technical_knowledge", 94, 104]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 171, "spans": [["technical_knowledge", 41, 56], ["technical_knowledge", 61, 81], ["technical_knowledge", 112, 130]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 172, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 173, "spans": [["technical_task", 28, 67]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 174, "spans": [["technical_knowledge", 152, 180]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 175, "spans": [["technical_task", 20, 58], ["technical_task", 60, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 176, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 177, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 178, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 179, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 180, "spans": [["technical_knowledge", 33, 49], ["tool_technology", 33, 40]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 181, "spans": [["technical_knowledge", 48, 77]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 182, "spans": [["technical_knowledge", 40, 67]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 183, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 184, "spans": [["technical_knowledge", 51, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 185, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 186, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 187, "spans": [["technical_knowledge", 36, 41], ["technical_knowledge", 46, 52]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 188, "spans": [["technical_knowledge", 47, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 189, "spans": [["technical_task", 20, 51], ["tool_technology", 37, 41]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 190, "spans": [["technical_knowledge", 49, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 191, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 192, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 193, "spans": [["technical_task", 20, 47], ["technical_task", 49, 99], ["technical_task", 105, 164]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 194, "spans": [["technical_knowledge", 49, 72], ["technical_knowledge", 92, 136], ["tool_technology", 74, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 195, "spans": [["technical_task", 64, 94], ["technical_task", 99, 115]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 196, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 197, "spans": [["technical_knowledge", 60, 74], ["technical_knowledge", 76, 88], ["technical_knowledge", 90, 111]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 198, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 199, "spans": [["technical_knowledge", 32, 59], ["technical_knowledge", 64, 91]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 200, "spans": [["technical_task", 17, 48]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 201, "spans": [["technical_task", 149, 192], ["tool_technology", 199, 216], ["tool_technology", 218, 248], ["tool_technology", 250, 262], ["tool_technology", 264, 279], ["tool_technology", 285, 309]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 202, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 203, "spans": [["technical_knowledge", 36, 55], ["technical_knowledge", 72, 90], ["tool_technology", 57, 60], ["tool_technology", 62, 66]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 204, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 205, "spans": [["technical_task", 103, 122], ["technical_task", 128, 146]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 206, "spans": [["technical_knowledge", 86, 113], ["technical_task", 20, 74]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 207, "spans": [["technical_knowledge", 40, 67]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 208, "spans": [["technical_task", 85, 127], ["technical_task", 129, 152], ["tool_technology", 225, 230]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 209, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 210, "spans": [["technical_knowledge", 33, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 211, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 212, "spans": [["technical_knowledge", 41, 62], ["technical_knowledge", 64, 87], ["technical_knowledge", 93, 108], ["tool_technology", 20, 23]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 213, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 214, "spans": [["technical_knowledge", 73, 75], ["technical_knowledge", 80, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 215, "spans": [["technical_knowledge", 33, 42], ["technical_knowledge", 44, 48], ["technical_knowledge", 53, 73]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 216, "spans": [["technical_knowledge", 40, 58], ["technical_knowledge", 60, 89], ["technical_knowledge", 95, 130], ["technical_knowledge", 170, 187], ["technical_knowledge", 352, 375], ["technical_knowledge", 435, 454], ["technical_knowledge", 459, 470], ["technical_task", 519, 571]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 217, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 218, "spans": [["technical_knowledge", 27, 61], ["technical_task", 17, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 219, "spans": [["tool_technology", 40, 50], ["tool_technology", 67, 77], ["tool_technology", 82, 89]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 220, "spans": [["technical_knowledge", 133, 156], ["technical_knowledge", 158, 167], ["technical_knowledge", 169, 175], ["technical_knowledge", 177, 186], ["technical_knowledge", 188, 195], ["technical_knowledge", 200, 210], ["technical_knowledge", 222, 254], ["technical_task", 44, 71]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 221, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 222, "spans": [["technical_knowledge", 46, 61], ["technical_knowledge", 143, 177], ["technical_task", 88, 116]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 223, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 224, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 225, "spans": [["technical_knowledge", 28, 51]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 226, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 227, "spans": [["technical_knowledge", 51, 87], ["technical_knowledge", 93, 114], ["technical_task", 20, 49]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 228, "spans": [["technical_task", 20, 42], ["technical_task", 47, 77]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 229, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 230, "spans": [["technical_knowledge", 52, 68], ["technical_knowledge", 70, 86], ["technical_knowledge", 88, 98], ["technical_knowledge", 100, 114], ["technical_knowledge", 116, 126], ["technical_knowledge", 128, 139], ["technical_knowledge", 141, 147], ["technical_knowledge", 149, 152], ["technical_knowledge", 158, 162]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 231, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 232, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 233, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 234, "spans": [["technical_knowledge", 62, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 235, "spans": [["technical_task", 20, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 236, "spans": [["technical_task", 87, 113], ["tool_technology", 42, 44], ["tool_technology", 49, 54], ["tool_technology", 76, 82]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 237, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 238, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 239, "spans": [["technical_task", 116, 146], ["technical_task", 148, 173], ["technical_task", 175, 206], ["tool_technology", 303, 309]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 240, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 241, "spans": [["technical_task", 41, 69], ["technical_task", 74, 100]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 242, "spans": [["technical_task", 312, 342], ["technical_task", 344, 364]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 243, "spans": [["technical_task", 22, 72]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 244, "spans": [["technical_knowledge", 37, 52], ["technical_knowledge", 94, 102], ["technical_knowledge", 104, 109], ["technical_knowledge", 110, 113], ["tool_technology", 54, 66], ["tool_technology", 68, 76], ["tool_technology", 78, 88]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 245, "spans": [["tool_technology", 52, 57], ["tool_technology", 61, 68]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 246, "spans": [["technical_task", 20, 49], ["technical_task", 51, 76], ["technical_task", 82, 117]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 247, "spans": [["technical_knowledge", 53, 68], ["technical_knowledge", 99, 114], ["technical_knowledge", 126, 151], ["tool_technology", 70, 73], ["tool_technology", 75, 78], ["tool_technology", 83, 88], ["tool_technology", 91, 97]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 248, "spans": [["technical_knowledge", 270, 294], ["technical_knowledge", 296, 320], ["technical_knowledge", 322, 351], ["technical_knowledge", 353, 376], ["technical_knowledge", 381, 407]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 249, "spans": [["technical_task", 20, 46], ["technical_task", 73, 105]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 250, "spans": [["technical_knowledge", 97, 114], ["technical_task", 97, 114]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 251, "spans": [["technical_task", 20, 72]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 252, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 253, "spans": [["technical_knowledge", 21, 38]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 254, "spans": [["technical_knowledge", 36, 57], ["technical_knowledge", 62, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 255, "spans": [["technical_knowledge", 25, 37], ["tool_technology", 20, 24], ["tool_technology", 53, 57]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 256, "spans": [["technical_knowledge", 96, 104]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 257, "spans": [["technical_task", 20, 48], ["technical_task", 116, 129], ["technical_task", 131, 149], ["technical_task", 151, 161], ["technical_task", 167, 185]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 258, "spans": [["technical_knowledge", 65, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 259, "spans": [["technical_knowledge", 60, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 260, "spans": [["technical_knowledge", 36, 50], ["technical_knowledge", 52, 66], ["technical_knowledge", 71, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 261, "spans": [["technical_task", 58, 80]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 262, "spans": [["technical_knowledge", 58, 68], ["technical_knowledge", 73, 88], ["tool_technology", 41, 45]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 263, "spans": [["technical_knowledge", 76, 90], ["technical_knowledge", 92, 100], ["technical_knowledge", 102, 114], ["technical_knowledge", 120, 142], ["technical_task", 27, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 264, "spans": [["technical_task", 20, 65], ["technical_task", 70, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 265, "spans": [["technical_task", 20, 65]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 266, "spans": [["technical_task", 17, 64], ["tool_technology", 71, 86], ["tool_technology", 91, 96]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 267, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 268, "spans": [["technical_knowledge", 118, 128], ["technical_task", 28, 81]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 269, "spans": [["technical_knowledge", 86, 125], ["tool_technology", 35, 51]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 270, "spans": [["technical_knowledge", 81, 98], ["technical_task", 57, 76]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 271, "spans": [["technical_knowledge", 20, 43], ["technical_task", 45, 79], ["tool_technology", 97, 104]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 272, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 273, "spans": [["technical_knowledge", 100, 128]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 274, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 275, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 276, "spans": [["technical_knowledge", 58, 71], ["technical_knowledge", 73, 92], ["technical_knowledge", 94, 111], ["technical_knowledge", 116, 133]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 277, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 278, "spans": [["technical_knowledge", 45, 64]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 279, "spans": [["technical_task", 51, 61], ["technical_task", 67, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 280, "spans": [["technical_knowledge", 44, 55], ["technical_knowledge", 57, 59], ["technical_knowledge", 67, 74], ["technical_knowledge", 76, 84], ["tool_technology", 29, 33], ["tool_technology", 57, 59], ["tool_technology", 61, 65]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 281, "spans": [["technical_knowledge", 82, 108], ["tool_technology", 47, 53], ["tool_technology", 55, 67], ["tool_technology", 69, 76]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 282, "spans": [["technical_knowledge", 54, 69], ["technical_task", 20, 52], ["technical_task", 54, 69], ["technical_task", 75, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 283, "spans": [["technical_knowledge", 48, 61], ["technical_knowledge", 67, 88], ["tool_technology", 33, 36], ["tool_technology", 38, 46]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 284, "spans": [["technical_knowledge", 33, 74]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 285, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 286, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 287, "spans": [["tool_technology", 85, 92], ["tool_technology", 94, 102], ["tool_technology", 104, 110], ["tool_technology", 112, 120]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 288, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 289, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 290, "spans": [["technical_task", 37, 71]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 291, "spans": [["technical_task", 20, 63], ["technical_task", 82, 126], ["technical_task", 128, 167], ["technical_task", 169, 183], ["technical_task", 189, 221], ["technical_task", 251, 304], ["tool_technology", 70, 80]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 292, "spans": [["technical_task", 20, 41]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 293, "spans": [["technical_task", 31, 38], ["technical_task", 40, 61], ["technical_task", 63, 81], ["technical_task", 87, 106]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 294, "spans": [["technical_knowledge", 153, 173]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 295, "spans": [["technical_knowledge", 20, 39], ["technical_task", 157, 217], ["tool_technology", 101, 109], ["tool_technology", 111, 120], ["tool_technology", 122, 129], ["tool_technology", 131, 136], ["tool_technology", 138, 143]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 296, "spans": [["technical_knowledge", 55, 63], ["tool_technology", 65, 73], ["tool_technology", 75, 82]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 297, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 298, "spans": [["technical_knowledge", 97, 107]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 299, "spans": [["technical_knowledge", 199, 214]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 300, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 301, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 302, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 303, "spans": [["technical_task", 17, 46]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 304, "spans": [["technical_knowledge", 36, 60], ["technical_knowledge", 65, 87]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 305, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 306, "spans": [["technical_knowledge", 46, 49], ["technical_knowledge", 51, 61], ["technical_knowledge", 66, 74]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 307, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 308, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 309, "spans": [["technical_knowledge", 48, 58], ["technical_knowledge", 67, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 310, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 311, "spans": [["technical_knowledge", 61, 86], ["technical_knowledge", 88, 105]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 312, "spans": [["technical_knowledge", 61, 68], ["technical_knowledge", 70, 73], ["technical_knowledge", 75, 88], ["technical_knowledge", 90, 103], ["technical_knowledge", 105, 110], ["technical_knowledge", 116, 121], ["tool_technology", 105, 110]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 313, "spans": [["technical_task", 37, 61], ["technical_task", 87, 120]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 314, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 315, "spans": [["technical_knowledge", 320, 347], ["technical_knowledge", 363, 380], ["technical_task", 382, 425], ["tool_technology", 44, 49], ["tool_technology", 184, 189]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 316, "spans": [["technical_knowledge", 99, 103]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 317, "spans": [["technical_knowledge", 36, 59], ["tool_technology", 67, 75], ["tool_technology", 77, 83], ["tool_technology", 85, 96], ["tool_technology", 98, 110], ["tool_technology", 112, 118]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 318, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 319, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 320, "spans": [["technical_task", 22, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 321, "spans": [["technical_knowledge", 45, 68], ["technical_knowledge", 114, 139], ["technical_knowledge", 145, 160], ["technical_task", 145, 160], ["tool_technology", 105, 112], ["tool_technology", 114, 117], ["tool_technology", 120, 127]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 322, "spans": [["technical_task", 20, 46], ["technical_task", 48, 67], ["technical_task", 73, 99]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 323, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 324, "spans": [["technical_task", 38, 76]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 325, "spans": [["technical_task", 20, 53]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 326, "spans": [["technical_knowledge", 50, 69], ["technical_knowledge", 74, 97], ["technical_task", 50, 69], ["technical_task", 74, 97]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 327, "spans": [["technical_knowledge", 30, 46], ["technical_knowledge", 51, 64]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 328, "spans": [["technical_knowledge", 27, 84]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 329, "spans": [["technical_task", 20, 72], ["tool_technology", 76, 81], ["tool_technology", 97, 108]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 330, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 331, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 332, "spans": [["technical_knowledge", 34, 40]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 333, "spans": [["technical_task", 20, 59]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 334, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 335, "spans": [["technical_knowledge", 167, 178], ["technical_task", 139, 178], ["tool_technology", 87, 90], ["tool_technology", 92, 112]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 336, "spans": [["technical_knowledge", 176, 188], ["technical_knowledge", 190, 213], ["technical_knowledge", 215, 231], ["technical_knowledge", 233, 248], ["technical_knowledge", 250, 265]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 337, "spans": [["technical_task", 20, 48]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 338, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 339, "spans": [["technical_knowledge", 60, 84], ["technical_knowledge", 86, 98], ["technical_knowledge", 100, 127], ["technical_knowledge", 132, 148], ["tool_technology", 50, 58]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 340, "spans": [["technical_task", 23, 48]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 341, "spans": [["technical_knowledge", 88, 97], ["technical_knowledge", 99, 119], ["technical_knowledge", 125, 138], ["technical_task", 20, 58], ["tool_technology", 99, 119], ["tool_technology", 160, 165], ["tool_technology", 167, 174], ["tool_technology", 176, 184], ["tool_technology", 186, 195], ["tool_technology", 201, 206]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 342, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 343, "spans": [["technical_task", 93, 132]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 344, "spans": [["technical_knowledge", 47, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 345, "spans": [["technical_knowledge", 55, 67], ["technical_knowledge", 115, 137], ["technical_task", 20, 53], ["technical_task", 92, 109], ["tool_technology", 69, 79], ["tool_technology", 81, 84], ["tool_technology", 86, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 346, "spans": [["technical_knowledge", 58, 74], ["technical_knowledge", 103, 120], ["tool_technology", 40, 53], ["tool_technology", 86, 101], ["tool_technology", 103, 120], ["tool_technology", 125, 139]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 347, "spans": [["tool_technology", 36, 54], ["tool_technology", 56, 64], ["tool_technology", 66, 80], ["tool_technology", 82, 89]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 348, "spans": [["technical_task", 125, 162]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 349, "spans": [["technical_knowledge", 73, 90], ["technical_knowledge", 92, 100], ["technical_knowledge", 102, 110], ["technical_knowledge", 116, 136], ["technical_task", 20, 62]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 350, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 351, "spans": [["technical_knowledge", 116, 136]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 352, "spans": [["technical_knowledge", 36, 59], ["tool_technology", 67, 70]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 353, "spans": [["tool_technology", 51, 54], ["tool_technology", 56, 62], ["tool_technology", 86, 91], ["tool_technology", 93, 99], ["tool_technology", 101, 113]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 354, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 355, "spans": [["technical_task", 20, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 356, "spans": [["technical_knowledge", 32, 50], ["technical_knowledge", 81, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 357, "spans": [["tool_technology", 20, 26], ["tool_technology", 28, 31]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 358, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 359, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 360, "spans": [["technical_knowledge", 133, 156], ["technical_knowledge", 158, 167], ["technical_knowledge", 169, 175], ["technical_knowledge", 177, 186], ["technical_knowledge", 188, 195], ["technical_knowledge", 200, 210], ["technical_knowledge", 222, 254], ["technical_task", 44, 71]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 361, "spans": [["tool_technology", 35, 39], ["tool_technology", 41, 44], ["tool_technology", 50, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 362, "spans": [["technical_knowledge", 108, 123]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 363, "spans": [["technical_task", 20, 72]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 364, "spans": [["technical_knowledge", 20, 52], ["technical_task", 54, 92]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 365, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 366, "spans": [["technical_knowledge", 81, 84]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 367, "spans": [["technical_task", 28, 47], ["technical_task", 78, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 368, "spans": [["technical_knowledge", 34, 60], ["technical_knowledge", 62, 75], ["technical_knowledge", 77, 91], ["technical_knowledge", 97, 111]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 369, "spans": [["technical_knowledge", 62, 69], ["technical_knowledge", 71, 75], ["technical_knowledge", 77, 86], ["technical_knowledge", 100, 121], ["technical_task", 20, 53], ["tool_technology", 55, 60], ["tool_technology", 71, 75]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 370, "spans": [["technical_knowledge", 26, 50]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 371, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 372, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 373, "spans": [["technical_knowledge", 96, 110], ["technical_knowledge", 115, 139]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 374, "spans": [["technical_knowledge", 100, 123], ["technical_knowledge", 128, 140]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 375, "spans": [["technical_task", 28, 60]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 376, "spans": [["technical_knowledge", 58, 72], ["technical_knowledge", 74, 104], ["technical_knowledge", 110, 135]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 377, "spans": [["technical_task", 20, 59], ["technical_task", 71, 88], ["technical_task", 90, 109], ["technical_task", 115, 133]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 378, "spans": [["technical_knowledge", 32, 53], ["technical_task", 32, 53]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 379, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 380, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 381, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 382, "spans": [["technical_knowledge", 46, 76]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 383, "spans": [["tool_technology", 51, 54], ["tool_technology", 56, 58], ["tool_technology", 65, 72], ["tool_technology", 89, 91], ["tool_technology", 93, 96]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 384, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 385, "spans": [["technical_knowledge", 74, 84], ["technical_knowledge", 86, 95], ["technical_knowledge", 97, 105], ["technical_knowledge", 111, 137], ["technical_task", 20, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 386, "spans": [["technical_task", 54, 72]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 387, "spans": [["technical_task", 64, 103]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 388, "spans": [["technical_knowledge", 42, 66], ["tool_technology", 20, 32], ["tool_technology", 34, 37]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 389, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 390, "spans": [["technical_task", 20, 67], ["tool_technology", 76, 83]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 391, "spans": [["technical_knowledge", 135, 155]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 392, "spans": [["technical_knowledge", 39, 57]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 393, "spans": [["technical_knowledge", 47, 66]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 394, "spans": [["technical_knowledge", 107, 119], ["technical_knowledge", 121, 144], ["technical_knowledge", 146, 162], ["technical_knowledge", 164, 179], ["technical_knowledge", 181, 196]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 395, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 396, "spans": [["technical_knowledge", 43, 55], ["technical_knowledge", 57, 70], ["technical_knowledge", 72, 90], ["technical_task", 72, 90], ["tool_technology", 20, 26], ["tool_technology", 28, 41]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 397, "spans": [["technical_knowledge", 77, 95], ["technical_knowledge", 100, 110], ["technical_knowledge", 146, 164]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 398, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 399, "spans": [["technical_task", 20, 46], ["tool_technology", 53, 56], ["tool_technology", 58, 65]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 400, "spans": [["technical_knowledge", 167, 188], ["technical_task", 38, 82], ["technical_task", 199, 231]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 401, "spans": [["technical_knowledge", 43, 63]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 402, "spans": [["technical_knowledge", 55, 60], ["technical_knowledge", 61, 66]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 403, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 404, "spans": [["technical_knowledge", 44, 59], ["technical_knowledge", 64, 70], ["technical_knowledge", 85, 97]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 405, "spans": [["technical_task", 54, 85], ["tool_technology", 92, 104], ["tool_technology", 109, 113]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 406, "spans": [["technical_task", 17, 49], ["technical_task", 56, 85], ["technical_task", 126, 147], ["tool_technology", 31, 37], ["tool_technology", 67, 72], ["tool_technology", 94, 99]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 407, "spans": [["technical_knowledge", 36, 56], ["technical_knowledge", 61, 81], ["technical_knowledge", 87, 104]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 408, "spans": [["tool_technology", 36, 46]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 409, "spans": [["technical_knowledge", 48, 95], ["technical_knowledge", 100, 110], ["technical_knowledge", 144, 153], ["tool_technology", 37, 47]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 410, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 411, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 412, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 413, "spans": [["technical_knowledge", 37, 71], ["tool_technology", 80, 86], ["tool_technology", 88, 98], ["tool_technology", 103, 107]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 414, "spans": [["tool_technology", 53, 70], ["tool_technology", 93, 106], ["tool_technology", 131, 138], ["tool_technology", 140, 144], ["tool_technology", 146, 151], ["tool_technology", 157, 162]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 415, "spans": [["technical_knowledge", 155, 170], ["technical_knowledge", 263, 294], ["technical_knowledge", 418, 436], ["technical_knowledge", 438, 457], ["technical_knowledge", 459, 476], ["technical_task", 569, 621]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 416, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 417, "spans": [["technical_knowledge", 128, 141], ["technical_knowledge", 143, 148], ["technical_knowledge", 153, 181], ["tool_technology", 33, 39]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 418, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 419, "spans": [["technical_task", 33, 60], ["technical_task", 65, 90]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 420, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 421, "spans": [["technical_knowledge", 82, 92], ["technical_knowledge", 97, 114]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 422, "spans": [["technical_knowledge", 57, 84], ["technical_knowledge", 230, 240], ["technical_knowledge", 242, 265], ["technical_knowledge", 267, 272], ["technical_knowledge", 275, 289], ["technical_knowledge", 291, 302], ["technical_knowledge", 304, 335], ["technical_knowledge", 337, 356], ["technical_knowledge", 359, 373], ["technical_knowledge", 375, 395], ["technical_knowledge", 397, 415], ["technical_knowledge", 417, 441], ["technical_knowledge", 444, 467], ["technical_knowledge", 469, 482], ["technical_knowledge", 506, 524]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 423, "spans": [["technical_knowledge", 79, 110]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 424, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 425, "spans": [["technical_knowledge", 42, 60], ["technical_knowledge", 72, 86]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 426, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 427, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 428, "spans": [["technical_knowledge", 102, 105], ["technical_knowledge", 107, 125], ["technical_knowledge", 127, 149], ["technical_knowledge", 154, 177], ["technical_task", 154, 177], ["tool_technology", 42, 58], ["tool_technology", 63, 78], ["tool_technology", 102, 105]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 429, "spans": [["technical_task", 153, 172], ["tool_technology", 61, 67]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 430, "spans": [["technical_knowledge", 47, 65], ["technical_knowledge", 71, 85], ["technical_task", 20, 45], ["technical_task", 47, 65], ["technical_task", 71, 85]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 431, "spans": [["technical_knowledge", 42, 84]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 432, "spans": [["technical_knowledge", 20, 27], ["tool_technology", 29, 32], ["tool_technology", 34, 41]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 433, "spans": [["technical_knowledge", 71, 74], ["technical_knowledge", 76, 80], ["technical_knowledge", 82, 101], ["technical_knowledge", 103, 131], ["technical_task", 20, 45]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 434, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 435, "spans": [["technical_knowledge", 74, 91], ["technical_knowledge", 348, 367], ["technical_knowledge", 369, 388], ["technical_knowledge", 390, 397], ["technical_knowledge", 399, 405], ["technical_knowledge", 407, 423], ["technical_knowledge", 425, 444]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 436, "spans": [["technical_knowledge", 41, 81]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 437, "spans": [["technical_task", 30, 49], ["technical_task", 54, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 438, "spans": [["technical_task", 31, 69]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 439, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 440, "spans": [["technical_knowledge", 61, 77], ["technical_knowledge", 102, 123], ["technical_knowledge", 147, 164], ["technical_knowledge", 170, 186], ["technical_task", 61, 77], ["technical_task", 79, 100], ["technical_task", 102, 123], ["technical_task", 125, 145], ["technical_task", 147, 164], ["technical_task", 170, 186]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 441, "spans": [["technical_task", 20, 51]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 442, "spans": [["tool_technology", 33, 49], ["tool_technology", 60, 78], ["tool_technology", 84, 98]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 443, "spans": [["technical_knowledge", 74, 86], ["technical_knowledge", 92, 115], ["tool_technology", 48, 64], ["tool_technology", 67, 72], ["tool_technology", 74, 86], ["tool_technology", 92, 115]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 444, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 445, "spans": [["technical_task", 17, 49]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 446, "spans": [["technical_knowledge", 47, 63], ["technical_knowledge", 68, 92]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 447, "spans": [["technical_knowledge", 70, 74], ["technical_knowledge", 76, 80], ["technical_knowledge", 86, 121]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 448, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 449, "spans": [["technical_knowledge", 26, 52]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 450, "spans": [["technical_knowledge", 27, 37], ["technical_knowledge", 79, 88], ["technical_knowledge", 90, 110], ["technical_knowledge", 116, 145], ["tool_technology", 60, 66], ["tool_technology", 68, 71], ["tool_technology", 73, 77], ["tool_technology", 79, 88]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 451, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 452, "spans": [["technical_task", 143, 184]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 453, "spans": [["technical_knowledge", 92, 101], ["technical_knowledge", 103, 120], ["technical_knowledge", 126, 147], ["technical_task", 38, 75], ["tool_technology", 77, 90], ["tool_technology", 92, 101], ["tool_technology", 126, 147]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 454, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 455, "spans": [["technical_knowledge", 71, 85], ["technical_knowledge", 106, 128], ["technical_task", 20, 61]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 456, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 457, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 458, "spans": [["technical_knowledge", 37, 46], ["technical_knowledge", 64, 91], ["tool_technology", 37, 46], ["tool_technology", 48, 52], ["tool_technology", 54, 58]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 459, "spans": [["technical_knowledge", 56, 79], ["technical_task", 35, 79]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 460, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 461, "spans": [["technical_task", 47, 109], ["tool_technology", 121, 133], ["tool_technology", 134, 140], ["tool_technology", 142, 147], ["tool_technology", 153, 158]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 462, "spans": [["technical_knowledge", 39, 53]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 463, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 464, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 465, "spans": [["technical_knowledge", 26, 42], ["technical_knowledge", 47, 64]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 466, "spans": [["technical_task", 61, 75], ["technical_task", 77, 94], ["technical_task", 100, 124]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 467, "spans": [["technical_knowledge", 33, 46], ["technical_knowledge", 51, 66]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 468, "spans": [], "split": "test", "system": "finetuned_gliner2"}
+{"row": 469, "spans": [["technical_knowledge", 37, 54], ["technical_knowledge", 59, 80]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 470, "spans": [["technical_knowledge", 36, 59], ["technical_knowledge", 93, 128], ["tool_technology", 68, 71]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 471, "spans": [["technical_knowledge", 62, 71], ["technical_knowledge", 73, 77], ["technical_knowledge", 83, 93]], "split": "test", "system": "finetuned_gliner2"}
+{"row": 472, "spans": [], "split": "test", "system": "finetuned_gliner2"}

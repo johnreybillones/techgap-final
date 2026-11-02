@@ -1,0 +1,10 @@
+{
+  "config_sha256": "3a9842a6166f78e2a0f3107da926e5cedd5dd60d77e7be412a7a479eb3cb8fe4",
+  "created_utc": "2026-10-31T09:03:07.135150+00:00",
+  "metrics_sha256": "ad76d797f4f62d597976e63fd63f5032298a31d01c5ee99682c78d7dba57f089",
+  "note": "labels are AI-checked silver; metrics are agreement with them, not verified accuracy",
+  "predictions_sha256": "e87fa55ce95aa6dac0b8fc7960d9fddd0b0a32201124a9250648698ce88d97b1",
+  "release_id": "saved-pre-model-20261031-v4",
+  "run_id": "extraction-frozen-v1",
+  "tuning_sha256": "c20ed38408e2e49d314b19ee9da51113e06c00888807c57f13b9199a306db2c2"
+}

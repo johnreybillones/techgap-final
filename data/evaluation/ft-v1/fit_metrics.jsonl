@@ -1,0 +1,8 @@
+{"examples": 1600, "f1": 0.7367167733293645, "fn": 604, "fp": 1165, "groups": 272, "precision": 0.679945054945055, "recall": 0.8038324131211432, "reference": "silver", "scope": "micro", "split": "train", "system": "finetuned_gliner2", "threshold": 0.4, "tp": 2475}
+{"f1": 0.7566355140186916, "fn": 268, "fp": 383, "precision": 0.7254480286738352, "recall": 0.790625, "scope": "type:technical_knowledge", "split": "train", "system": "finetuned_gliner2", "tp": 1012}
+{"f1": 0.6108156028368794, "fn": 294, "fp": 584, "precision": 0.5412411626080126, "recall": 0.7009155645981688, "scope": "type:technical_task", "split": "train", "system": "finetuned_gliner2", "tp": 689}
+{"f1": 0.8657718120805369, "fn": 42, "fp": 198, "precision": 0.7962962962962963, "recall": 0.9485294117647058, "scope": "type:tool_technology", "split": "train", "system": "finetuned_gliner2", "tp": 774}
+{"examples": 176, "f1": 0.6448362720403022, "fn": 113, "fp": 169, "groups": 32, "precision": 0.6023529411764705, "recall": 0.6937669376693767, "reference": "silver", "scope": "micro", "split": "val", "system": "finetuned_gliner2", "threshold": 0.4, "tp": 256}
+{"f1": 0.6614583333333334, "fn": 57, "fp": 73, "precision": 0.635, "recall": 0.6902173913043478, "scope": "type:technical_knowledge", "split": "val", "system": "finetuned_gliner2", "tp": 127}
+{"f1": 0.5228215767634855, "fn": 44, "fp": 71, "precision": 0.4701492537313433, "recall": 0.5887850467289719, "scope": "type:technical_task", "split": "val", "system": "finetuned_gliner2", "tp": 63}
+{"f1": 0.7810650887573964, "fn": 12, "fp": 25, "precision": 0.7252747252747253, "recall": 0.8461538461538461, "scope": "type:tool_technology", "split": "val", "system": "finetuned_gliner2", "tp": 66}

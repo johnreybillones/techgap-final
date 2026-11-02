@@ -1,0 +1,10 @@
+{"f1": 0.26825633383010433, "fn": 189, "fp": 793, "precision": 0.18499486125385406, "recall": 0.4878048780487805, "split": "val", "system": "frozen_gliner2", "threshold": 0.1, "tp": 180}
+{"f1": 0.2777777777777778, "fn": 204, "fp": 654, "precision": 0.20146520146520147, "recall": 0.44715447154471544, "split": "val", "system": "frozen_gliner2", "threshold": 0.2, "tp": 165}
+{"f1": 0.2880583409298086, "fn": 211, "fp": 570, "precision": 0.21703296703296704, "recall": 0.4281842818428184, "split": "val", "system": "frozen_gliner2", "threshold": 0.3, "tp": 158}
+{"f1": 0.29774730656219395, "fn": 217, "fp": 500, "precision": 0.2331288343558282, "recall": 0.41192411924119243, "split": "val", "system": "frozen_gliner2", "threshold": 0.4, "tp": 152}
+{"f1": 0.30303030303030304, "fn": 224, "fp": 443, "precision": 0.2465986394557823, "recall": 0.39295392953929537, "split": "val", "system": "frozen_gliner2", "threshold": 0.5, "tp": 145}
+{"f1": 0.30405405405405406, "fn": 234, "fp": 384, "precision": 0.26011560693641617, "recall": 0.36585365853658536, "split": "val", "system": "frozen_gliner2", "threshold": 0.6, "tp": 135}
+{"f1": 0.2966507177033493, "fn": 245, "fp": 343, "precision": 0.26552462526766596, "recall": 0.33604336043360433, "split": "val", "system": "frozen_gliner2", "threshold": 0.7, "tp": 124}
+{"f1": 0.30247718383311606, "fn": 253, "fp": 282, "precision": 0.2914572864321608, "recall": 0.3143631436314363, "split": "val", "system": "frozen_gliner2", "threshold": 0.8, "tp": 116}
+{"f1": 0.26409495548961426, "fn": 280, "fp": 216, "precision": 0.29180327868852457, "recall": 0.24119241192411925, "split": "val", "system": "frozen_gliner2", "threshold": 0.9, "tp": 89}
+{"rule": "max val micro F1, precision tie-break", "selected_threshold": 0.6, "system": "frozen_gliner2"}

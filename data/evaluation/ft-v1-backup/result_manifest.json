@@ -1,0 +1,12 @@
+{
+  "checkpoint_sha256": "fcc8c0bac23d2e67a4c9465eb5d9890e13000b01b1064c05e2515c2413a17a2c",
+  "compared_with": "extraction-frozen-v1",
+  "created_utc": "2026-11-01T15:26:47.995288+00:00",
+  "metrics_sha256": "85ec179159bf0ec727a6b24571c9ee36878dfc970508fcb84a56e767fe472b51",
+  "note": "labels are AI-checked silver; metrics are agreement with them, not verified accuracy",
+  "predictions_sha256": "8271be8cef98aba8bc3a0e8a2edb1159f4740dd750550455fd1d12a753d9ccac",
+  "release_id": "saved-pre-model-20261031-v4",
+  "run_id": "ft-v1",
+  "threshold": 0.5,
+  "tuning_sha256": "711029ef8739acbbf910255458d7c26bf4bfb90cd2beedd08d7a2c3bf15389cf"
+}

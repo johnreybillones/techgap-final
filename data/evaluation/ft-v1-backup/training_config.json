@@ -1,0 +1,92 @@
+{
+  "grid": [
+    {
+      "batch_size": 8,
+      "config": 0,
+      "early_stopping_patience": 2,
+      "encoder_lr": 5e-06,
+      "max_grad_norm": 1.0,
+      "num_epochs": 5,
+      "precision": "bf16",
+      "scheduler_type": "linear",
+      "seed": 42,
+      "task_lr": 0.00025,
+      "warmup_ratio": 0.1,
+      "weight_decay": 0.01
+    },
+    {
+      "batch_size": 8,
+      "config": 1,
+      "early_stopping_patience": 2,
+      "encoder_lr": 5e-06,
+      "max_grad_norm": 1.0,
+      "num_epochs": 5,
+      "precision": "bf16",
+      "scheduler_type": "linear",
+      "seed": 42,
+      "task_lr": 0.0005,
+      "warmup_ratio": 0.1,
+      "weight_decay": 0.01
+    },
+    {
+      "batch_size": 8,
+      "config": 2,
+      "early_stopping_patience": 2,
+      "encoder_lr": 1e-05,
+      "max_grad_norm": 1.0,
+      "num_epochs": 5,
+      "precision": "bf16",
+      "scheduler_type": "linear",
+      "seed": 42,
+      "task_lr": 0.00025,
+      "warmup_ratio": 0.1,
+      "weight_decay": 0.01
+    },
+    {
+      "batch_size": 8,
+      "config": 3,
+      "early_stopping_patience": 2,
+      "encoder_lr": 1e-05,
+      "max_grad_norm": 1.0,
+      "num_epochs": 5,
+      "precision": "bf16",
+      "scheduler_type": "linear",
+      "seed": 42,
+      "task_lr": 0.0005,
+      "warmup_ratio": 0.1,
+      "weight_decay": 0.01
+    }
+  ],
+  "outcomes": [
+    {
+      "best_eval_loss": 57.14895577864213,
+      "config": 0,
+      "epochs_run": 5,
+      "seconds": 1226.9394648075104,
+      "status": "ok"
+    },
+    {
+      "config": 1,
+      "error": "RuntimeError('CUDA error: out of memory\\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\\n')",
+      "status": "failed"
+    },
+    {
+      "config": 2,
+      "error": "RuntimeError('CUDA error: out of memory\\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\\n')",
+      "status": "failed"
+    },
+    {
+      "config": 3,
+      "error": "RuntimeError('CUDA error: out of memory\\nCUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.\\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1\\nCompile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.\\n')",
+      "status": "failed"
+    }
+  ],
+  "selected": {
+    "best_eval_loss": 57.14895577864213,
+    "config": 0,
+    "epochs_run": 5,
+    "seconds": 1226.9394648075104,
+    "status": "ok"
+  },
+  "selection_rule": "lowest validation eval_loss over all configurations"
+}
