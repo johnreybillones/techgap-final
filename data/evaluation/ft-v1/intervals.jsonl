@@ -1,0 +1,1 @@
+{"groups": 75, "lower": 0.6310502283105023, "metric": "micro_f1", "resamples": 2000, "seed": 0, "split": "test", "status": "ok", "system": "finetuned_gliner2", "undefined_replicates": 0, "unit": "split_group_id", "upper": 0.6961382113821138}

@@ -1,0 +1,21 @@
+{
+  "base_model": "fastino/gliner2-base-v1",
+  "base_revision": "f9634218e53580c56edf0de97ca1a7d3f1c2354e",
+  "config": 0,
+  "created_utc": "2026-11-01T17:04:13.249153+00:00",
+  "device": "cuda",
+  "lora": false,
+  "precision": "bf16",
+  "python": "3.13.2",
+  "regularization": [
+    "weight_decay=0.01",
+    "early_stopping(patience=2, on eval_loss)"
+  ],
+  "release_id": "saved-pre-model-20261031-v4",
+  "selected_checkpoint": "data\\training\\ft-v1\\cfg0\\best",
+  "selected_threshold": 0.4,
+  "torch": "2.6.0+cu124",
+  "train_examples": 1600,
+  "val_examples": 176,
+  "weights_sha256": "ded5fa1b194419ef936af3dd988064a58727359421cf7a6dcc9dc45fbd0b32a2"
+}

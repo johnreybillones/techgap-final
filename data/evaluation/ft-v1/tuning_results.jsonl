@@ -1,0 +1,10 @@
+{"f1": 0.5853658536585366, "fn": 81, "fp": 327, "precision": 0.4682926829268293, "recall": 0.7804878048780488, "split": "val", "threshold": 0.1, "tp": 288}
+{"f1": 0.6230248306997742, "fn": 93, "fp": 241, "precision": 0.5338491295938105, "recall": 0.7479674796747967, "split": "val", "threshold": 0.2, "tp": 276}
+{"f1": 0.6427718040621266, "fn": 100, "fp": 199, "precision": 0.5747863247863247, "recall": 0.7289972899728997, "split": "val", "threshold": 0.3, "tp": 269}
+{"f1": 0.6448362720403022, "fn": 113, "fp": 169, "precision": 0.6023529411764705, "recall": 0.6937669376693767, "split": "val", "threshold": 0.4, "tp": 256}
+{"f1": 0.6421052631578947, "fn": 125, "fp": 147, "precision": 0.6240409207161125, "recall": 0.6612466124661247, "split": "val", "threshold": 0.5, "tp": 244}
+{"f1": 0.6410958904109589, "fn": 135, "fp": 127, "precision": 0.6481994459833795, "recall": 0.6341463414634146, "split": "val", "threshold": 0.6, "tp": 234}
+{"f1": 0.6351931330472103, "fn": 147, "fp": 108, "precision": 0.6727272727272727, "recall": 0.6016260162601627, "split": "val", "threshold": 0.7, "tp": 222}
+{"f1": 0.6177847113884556, "fn": 171, "fp": 74, "precision": 0.7279411764705882, "recall": 0.5365853658536586, "split": "val", "threshold": 0.8, "tp": 198}
+{"f1": 0.5693950177935944, "fn": 209, "fp": 33, "precision": 0.8290155440414507, "recall": 0.43360433604336046, "split": "val", "threshold": 0.9, "tp": 160}
+{"config": 0, "rule": "max val micro F1, precision tie-break", "selected_threshold": 0.4, "system": "finetuned_gliner2"}
