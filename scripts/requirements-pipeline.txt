@@ -3,6 +3,7 @@
 # or authorize collection data.
 gliner2
 sentence-transformers
+scikit-learn
 transformers
 torch
 

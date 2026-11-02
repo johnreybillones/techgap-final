@@ -1,0 +1,289 @@
+{
+  "batches": {
+    "batch_chars": [
+      34849,
+      37107,
+      53329,
+      50098,
+      56681,
+      37290,
+      53493,
+      44181,
+      42986,
+      34002,
+      47608,
+      43297,
+      35522,
+      36361,
+      62056,
+      60151,
+      54550,
+      56251,
+      70509,
+      40677,
+      29667,
+      41413,
+      44487,
+      34858,
+      46561,
+      54366,
+      41016,
+      20537
+    ],
+    "batches": 28,
+    "labels": [
+      "supports",
+      "does_not_support",
+      "unresolved"
+    ],
+    "pairs_per_batch": 200
+  },
+  "batches-b": {
+    "batch_chars": [
+      30354,
+      28812,
+      22968,
+      43151,
+      46013,
+      39631,
+      24819,
+      33606,
+      33945,
+      39954,
+      35408,
+      31353,
+      27532,
+      33246,
+      34151,
+      29978,
+      28053,
+      23513,
+      20317,
+      46149,
+      49592,
+      41597,
+      39419,
+      41562,
+      57363,
+      34737,
+      33775,
+      26109,
+      25832,
+      19139,
+      28237,
+      37988,
+      31926,
+      27755,
+      29725,
+      34716,
+      30941,
+      20537
+    ],
+    "batches": 38,
+    "labels": [
+      "supports",
+      "does_not_support",
+      "unresolved"
+    ],
+    "pairs_per_batch": 150
+  },
+  "compare": {
+    "adjudication_batches": 5,
+    "agreement": 0.8991902834008098,
+    "cohen_kappa": 0.5859708870948878,
+    "confusion_first|second": {
+      "does_not_support|does_not_support": 4041,
+      "does_not_support|supports": 163,
+      "does_not_support|unresolved": 98,
+      "supports|does_not_support": 135,
+      "supports|supports": 375,
+      "supports|unresolved": 57,
+      "unresolved|does_not_support": 41,
+      "unresolved|supports": 4,
+      "unresolved|unresolved": 26
+    },
+    "disagreements": 498,
+    "pairs": 4940
+  },
+  "merge": {
+    "counts": {
+      "labels": {
+        "does_not_support": 4303,
+        "supports": 575,
+        "unresolved": 62
+      },
+      "pairs_by_label": {
+        "test/bscs_game": {
+          "does_not_support": 360,
+          "supports": 47,
+          "unresolved": 2
+        },
+        "test/bscs_is": {
+          "does_not_support": 470,
+          "supports": 90,
+          "unresolved": 12
+        },
+        "test/bsit_network": {
+          "does_not_support": 722,
+          "supports": 107,
+          "unresolved": 6
+        },
+        "test/bsit_web": {
+          "does_not_support": 593,
+          "supports": 76,
+          "unresolved": 12
+        },
+        "test/general": {
+          "does_not_support": 783,
+          "supports": 41,
+          "unresolved": 10
+        },
+        "val/bscs_game": {
+          "does_not_support": 79,
+          "supports": 14
+        },
+        "val/bscs_is": {
+          "does_not_support": 312,
+          "supports": 31,
+          "unresolved": 3
+        },
+        "val/bsit_network": {
+          "does_not_support": 317,
+          "supports": 59,
+          "unresolved": 3
+        },
+        "val/bsit_web": {
+          "does_not_support": 200,
+          "supports": 51,
+          "unresolved": 9
+        },
+        "val/general": {
+          "does_not_support": 467,
+          "supports": 59,
+          "unresolved": 5
+        }
+      },
+      "queries": {
+        "test/bscs_game": 12,
+        "test/bscs_is": 22,
+        "test/bsit_network": 22,
+        "test/bsit_web": 22,
+        "test/general": 22,
+        "val/bscs_game": 2,
+        "val/bscs_is": 13,
+        "val/bsit_network": 13,
+        "val/bsit_web": 9,
+        "val/general": 13
+      },
+      "queries_with_support": {
+        "test/bscs_game": 7,
+        "test/bscs_is": 9,
+        "test/bsit_network": 10,
+        "test/bsit_web": 7,
+        "test/general": 11,
+        "val/bscs_game": 1,
+        "val/bscs_is": 4,
+        "val/bsit_network": 6,
+        "val/bsit_web": 6,
+        "val/general": 6
+      },
+      "sources": {
+        "adjudicated": 498,
+        "agreed": 4442
+      }
+    },
+    "judgments_sha256": "ea6e78051c44d1b60068e3feb37e01683d8662d90ce4cf401bb0aaa2abf1d751",
+    "note": "AI-agent silver labels; agreement between agents is not accuracy",
+    "pairs": 4940
+  },
+  "pool": {
+    "corpus_passages": 1209,
+    "corpus_sha256": "2bc1c6da337af5c561a4c4010bf5e1b044810562b4a46430e10a0759ec222bc2",
+    "depth": 20,
+    "device": "cuda",
+    "exact": "distinct query-term share, full phrase first; aliases not used",
+    "methods": [
+      "exact",
+      "tfidf",
+      "sbert"
+    ],
+    "pairs": 4940,
+    "pool_sha256": "84d7fd1844765bf75a37208064a1ae2ed93002e57b8ff12b5f62d5a482a833cf",
+    "pool_size": {
+      "max": 57,
+      "median": 34,
+      "min": 20
+    },
+    "sbert": {
+      "id": "sentence-transformers/all-mpnet-base-v2",
+      "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    },
+    "sbert_dimension": 768,
+    "tfidf": "fitted on all prepared syllabus passages (declared), sublinear tf",
+    "versions": {
+      "numpy": "2.3.1",
+      "sentence_transformers": "6.2.0",
+      "sklearn": "1.9.1"
+    }
+  },
+  "sample": {
+    "counts": {
+      "available": {
+        "test/bscs_game": 22,
+        "test/bscs_is": 155,
+        "test/bsit_network": 95,
+        "test/bsit_web": 75,
+        "test/general": 233,
+        "val/bscs_game": 2,
+        "val/bscs_is": 78,
+        "val/bsit_network": 55,
+        "val/bsit_web": 10,
+        "val/general": 65
+      },
+      "selected": {
+        "test/bscs_game": 12,
+        "test/bscs_is": 22,
+        "test/bsit_network": 22,
+        "test/bsit_web": 22,
+        "test/general": 22,
+        "val/bscs_game": 2,
+        "val/bscs_is": 13,
+        "val/bsit_network": 13,
+        "val/bsit_web": 9,
+        "val/general": 13
+      },
+      "selected_by_type": {
+        "test/technical_knowledge": 34,
+        "test/technical_task": 46,
+        "test/tool_technology": 20,
+        "val/technical_knowledge": 23,
+        "val/technical_task": 21,
+        "val/tool_technology": 6
+      },
+      "selected_groups": {
+        "test": 41,
+        "val": 21
+      },
+      "selected_postings": {
+        "test/bscs_game": 3,
+        "test/bscs_is": 10,
+        "test/bsit_network": 9,
+        "test/bsit_web": 9,
+        "test/general": 14,
+        "val/bscs_game": 1,
+        "val/bscs_is": 6,
+        "val/bsit_network": 6,
+        "val/bsit_web": 2,
+        "val/general": 8
+      }
+    },
+    "per_posting_cap": 6,
+    "queries_sha256": "e9deac2edf088ed9d82cc2ab2d2bec0d22839de0976b6bd1fc914ea2aecf3744",
+    "release_id": "saved-pre-model-20261031-v4",
+    "seed": 20261102,
+    "targets": {
+      "test": 100,
+      "val": 50
+    }
+  }
+}

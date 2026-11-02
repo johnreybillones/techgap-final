@@ -2,6 +2,7 @@ docs/handoff
 docs/_archive/
 data/training/
 data/pre_model/*/*.jsonl
+data/reference/**/*.jsonl
 models/
 dist/
 __pycache__/

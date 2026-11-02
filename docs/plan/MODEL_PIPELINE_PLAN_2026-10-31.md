@@ -151,6 +151,49 @@ Needed because TC-07 requires Recall@k and support P/R/F1 and the pre-model rele
 - **Cost guard.** Agent labeling follows the pre-model practice (Haiku-low first pass where the instruction is obvious, Sonnet checker); estimate tokens before launching and ask first.
 - **Groups for intervals.** Resample by query's job group. Pairs share syllabus passages, which makes them dependent, so the interval design is stated in the report as conditional on the fixed syllabus corpus (an ordinary independent-pair bootstrap is not used).
 
+### 5.1 Built set `support-v1` (2026-11-02)
+
+Code: `scripts/pipeline/build_reference_set.py` (`sample`, `pool`, `batches`, `merge`). Output `data/reference/support-v1/`; its JSONL files hold job text and are git-ignored like the release, `manifest.json` (counts and hashes) is tracked.
+
+- **Eligible queries.** Distinct (posting, lower-cased span text) over accepted or corrected job span annotations with modality `required`, from postings whose checked decision is `relevant`, in validation and test groups: 790 (test 580, validation 210). Stratum: a posting's rarest track (BSCS Game first, then IS, Network, Web), or `general` when it has no track.
+- **Sample (open decision 4: 150).** Seed 20261102; 100 test and 50 validation queries; equal share per stratum, at most 6 queries per posting, leftovers moved to strata that still have queries. Selected: test Game 12 / IS 22 / Network 22 / Web 22 / general 22 (41 job groups); validation Game 2 / IS 13 / Network 13 / Web 9 / general 13 (21 groups). Types: 57 knowledge, 67 task, 26 tool. BSCS Game has 4 postings in total and is reported as `insufficient`.
+- **Corpus.** All 1,209 prepared syllabus passages (outcomes, topic outcomes, descriptions), restricted per query to courses applicable to the posting's tracks; all four for `general`.
+- **Pool.** Union of depth 20 from: exact terms (share of distinct non-stopword query terms in the passage, full-phrase match first; no aliases, since none are defined yet), TF-IDF cosine (fitted on the syllabus corpus, declared), and SBERT cosine (`all-mpnet-base-v2`, pinned revision, 768 dimensions, finiteness checked). 4,940 pairs; pool size 20 to 57, median 34.
+- **Batches.** 28 files of at most 200 pairs, whole queries only. Agents see `query_id`, requirement text, type, its source clause, and passages as `n | course code | field | text`; they answer by `n`, which maps back through `pool.jsonl` order.
+
+**First-pass prompt (`support-v1`, Haiku, low effort).** "For each requirement, read each numbered syllabus passage and decide whether the passage itself supports the *same* technical capability at the stated scope. `supports`: the passage explicitly teaches or assesses that task, knowledge or tool, at least as specifically as the requirement asks. `does_not_support`: it does not, including when it is only on a related or broader topic (a passage on 'networking fundamentals' does not support 'configure Cisco routers'), only shares words, or only names a soft skill. `unresolved`: the passage is too short, truncated or ambiguous to decide. Use only the passage text and the requirement's clause; course codes, titles and outside knowledge are not evidence. Return one JSON line per pair: `{\"query_id\", \"n\", \"label\", \"reason\"}`, reason at most 15 words."
+
+**Deviation: the accept/correct checker was replaced by a blind second label.** The planned checker (`support-check-v1`, Sonnet, medium: "read the first label, output accepted / corrected / unresolved") was run on batches 000 to 013 and failed. Several checkers generated their file with a script, hardcoded `accepted` and used one generic reason (batches 001, 002, 006, 008, 009 had 2 to 6 distinct reasons over 169 to 195 lines); the rest accepted 97 to 99% of first labels, which is consistent with anchoring on the label shown. None of that output is used; the files remain in `labels/*.check.jsonl` as the record. Replacement (approved 2026-11-02):
+
+1. **Blind second pass (`support-v1`, Sonnet, medium).** The same prompt and pairs as the first pass, re-batched at most 150 pairs per file (38 files, `batches-b/`), without the first labels. Added instructions: no scripts, Write tool only, and a reason specific to each passage.
+2. **Gate in `check_rows`.** A file is rejected (batch rerun) unless it covers every pair once, every label is known, every row has a reason, and distinct reasons are at least 50% of rows. All first-pass files had at least 58%; the stamped checks had at most 3%. All 66 label files passed without a rerun.
+3. **`compare`.** Agreement between the two blind passes; every disagreement goes to adjudication.
+4. **Adjudication (`support-adjudicate-v1`, Sonnet, medium).** For each disagreement the adjudicator sees the source and both labels with reasons, marked only A and B, and decides from the source; it may choose a label neither gave, and uses `unresolved` only when the source cannot settle it.
+5. **`merge`.** Agreed pairs keep the shared label; disagreements take the adjudicated label. `unresolved` stays separate and is never a negative.
+
+**Agreement between the two blind passes** (4,940 pairs): **0.899 raw, Cohen's kappa 0.586** (moderate). Confusion (first | second): both does_not_support 4,041, both supports 375, both unresolved 26; does_not_support | supports 163, supports | does_not_support 135, unresolved disputes 200. These describe agreement between AI agents, not label accuracy.
+
+**Adjudication** (498 pairs). Of the 298 supports-vs-does_not_support disputes, the adjudicator agreed with the second (Sonnet) pass in 232 and with the first (Haiku) pass in 62. The first pass was the more conservative labeler (it missed supports that both Sonnet agents found). The adjudicator is the same model family as the second pass, so a same-model preference cannot be ruled out; the label source (`agreed` or `adjudicated`) is kept per pair so results can be reported on the agreed subset as a check.
+
+**Stop point for step 3: met.** Final labels (`judgments.jsonl`): 575 supports, 4,303 does_not_support, 62 unresolved; 4,442 agreed, 498 adjudicated.
+
+| Split / stratum | Queries | Queries with at least one support | Pairs supports / not / unresolved |
+| --- | --- | --- | --- |
+| test / BSCS Game | 12 | 7 | 47 / 360 / 2 |
+| test / BSCS IS | 22 | 9 | 90 / 470 / 12 |
+| test / BSIT Network | 22 | 10 | 107 / 722 / 6 |
+| test / BSIT Web | 22 | 7 | 76 / 593 / 12 |
+| test / general | 22 | 11 | 41 / 783 / 10 |
+| val / BSCS Game | 2 | 1 | 14 / 79 / 0 |
+| val / BSCS IS | 13 | 4 | 31 / 312 / 3 |
+| val / BSIT Network | 13 | 6 | 59 / 317 / 3 |
+| val / BSIT Web | 9 | 6 | 51 / 200 / 9 |
+| val / general | 13 | 6 | 59 / 467 / 5 |
+
+**What this means for step 4.** Only 67 of 150 queries (test 44, validation 23) have at least one supporting passage in the pool. Recall@k is undefined for a query with no relevant passage, so retrieval metrics use those 67 queries, from 27 test and 14 validation job groups (above the default minimum of 10). The other 83 queries still count for support precision and false-support rates. Per-track Recall@k cuts mostly fall below 10 groups and will be `insufficient_groups`; BSCS Game (4 postings) is reported as insufficient throughout.
+
+**Token use (actual, from agent reports, approximate).** First pass 28 Haiku agents, about 2.3M; failed checkers 14 Sonnet agents, about 1.2M (discarded); blind second pass 38 Sonnet agents, about 2.7M; adjudication 5 Sonnet agents, about 0.45M. Total about **6.7M**, against the 3.6M approved before launch; the overrun is the failed check pass plus per-agent overhead (about 50k tokens per agent regardless of batch size) that the estimate left out.
+
 ## 6. Retrieval and support stages (short)
 
 - **Feature records (TC-04).** For each query and passage store: source ID, exact offsets, tokenizer name, token count and overlength flag, embedding dimension, finiteness, L2 norm, cosine and rank. Checks fail the run on wrong dimension, non-finite values or unsafe truncation. Cosine and confidence are never turned into coverage.
@@ -188,6 +231,6 @@ Steps 1 and 2 satisfy TC-05, TC-07 (extraction), TC-08, TC-11 (partial) and TC-1
 1. ~~CPU or GPU~~ decided: GPU, scripts device-agnostic.
 2. ~~Epoch cap and the number of search configurations~~ used in `ft-v1`: cap 10, early stopping ended every configuration by epoch 5; 4 configurations, one failed on memory (section 3.2).
 3. Minimum group count for an interval (default 10).
-4. Number of queries in the support set (default about 150) and the labeling budget in tokens.
+4. ~~Number of queries in the support set and the labeling budget~~ used in `support-v1`: 150 queries, about 6.7M tokens (section 5.1).
 5. Whether the relevance and track classifier for new postings ([PLANNED_DATA_FLOW §7](PLANNED_DATA_FLOW.md)) is built in this plan. It is not required by either assignment, so it is **not** included; it can follow once step 2 is done.
 6. The drift and retraining cadence in data-flow §7 is still an unapproved proposal and is not part of this plan.
